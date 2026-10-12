@@ -11,7 +11,7 @@
 import { readdir } from "node:fs/promises";
 import { join } from "node:path";
 import { eq } from "drizzle-orm";
-import { createDb } from "../db/client.ts";
+import { createDb } from "../db/client.js";
 import {
   citations,
   education,
@@ -22,9 +22,9 @@ import {
   ryanTags,
   sources,
   tags,
-} from "../db/schema.ts";
-import { jsonString, slugify, tagLabel } from "../db/serialize.ts";
-import { parseRyanMarkdown, type ParsedRyan } from "./parse-ryan-md.ts";
+} from "../db/schema.js";
+import { jsonString, slugify, tagLabel } from "../db/serialize.js";
+import { parseRyanMarkdown, type ParsedRyan } from "./parse-ryan-md.js";
 
 function hasFlag(flag: string): boolean {
   return process.argv.includes(flag);

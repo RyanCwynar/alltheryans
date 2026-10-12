@@ -3,7 +3,7 @@
  */
 import { Hono } from "hono";
 import { cors } from "hono/cors";
-import { createDb, type LibsqlEnv } from "../db/client.ts";
+import { createDb, type LibsqlEnv } from "../db/client.js";
 import {
   getPublishedRyanBySlug,
   getRyanWeb,
@@ -11,7 +11,7 @@ import {
   listPublishedRyans,
   listTags,
   type SortKey,
-} from "../db/queries.ts";
+} from "../db/queries.js";
 
 export type AppEnv = {
   Bindings: LibsqlEnv;

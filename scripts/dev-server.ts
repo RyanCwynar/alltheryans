@@ -5,7 +5,7 @@
  */
 import { mkdirSync } from "node:fs";
 import { join } from "node:path";
-import { createApp } from "../api/app.ts";
+import { createApp } from "../api/app.js";
 
 const root = join(import.meta.dir, "..");
 const port = Number(process.env.PORT || 4173);

@@ -4,7 +4,7 @@ import YAML from "yaml";
 import {
   DIRECTED_RELATIONSHIP_TYPES,
   type RelationshipType,
-} from "../db/schema.ts";
+} from "../db/schema.js";
 
 export type ParsedSource = {
   n: number | null;

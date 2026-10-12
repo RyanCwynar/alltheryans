@@ -3,7 +3,7 @@
  * Only status='published' rows are exposed.
  */
 import { and, asc, desc, eq, sql, inArray } from "drizzle-orm";
-import type { Db } from "./client.ts";
+import type { Db } from "./client.js";
 import {
   education,
   organizations,
@@ -14,8 +14,8 @@ import {
   sources,
   citations,
   tags,
-} from "./schema.ts";
-import { jsonParse } from "./serialize.ts";
+} from "./schema.js";
+import { jsonParse } from "./serialize.js";
 
 export type SortKey = "name" | "number" | "birth" | "connections";
 

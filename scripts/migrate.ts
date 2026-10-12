@@ -5,7 +5,7 @@
  */
 import { readdir, readFile } from "node:fs/promises";
 import { join } from "node:path";
-import { createDb } from "../db/client.ts";
+import { createDb } from "../db/client.js";
 
 async function main() {
   const { client } = createDb();
