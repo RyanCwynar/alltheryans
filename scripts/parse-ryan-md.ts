@@ -15,6 +15,8 @@ export type ParsedSource = {
   url: string;
   access: string | null;
   archiveUrl: string | null;
+  /** ISO date the source was checked (maps to sources.checked_at) */
+  checkedAt: string | null;
 };
 
 export type ParsedRelationship = {
@@ -136,6 +138,7 @@ function parseSources(raw: unknown): ParsedSource[] {
           url: item.trim(),
           access: "read",
           archiveUrl: null,
+          checkedAt: null,
         },
       ];
     }
@@ -143,6 +146,7 @@ function parseSources(raw: unknown): ParsedSource[] {
       const s = item as Record<string, unknown>;
       const url = asString(s.url);
       if (!url) return [];
+      const checkedRaw = s.checked_at ?? s.checkedAt ?? s.accessed ?? s.accessed_at;
       return [
         {
           n: s.n == null ? idx + 1 : Number(s.n),
@@ -153,6 +157,7 @@ function parseSources(raw: unknown): ParsedSource[] {
           url,
           access: s.access == null ? null : asString(s.access),
           archiveUrl: s.archive_url == null ? null : asString(s.archive_url),
+          checkedAt: checkedRaw == null || checkedRaw === "" ? null : asString(checkedRaw),
         },
       ];
     }

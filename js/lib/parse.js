@@ -133,6 +133,8 @@ export function normalizeSources(sources) {
           url: item.url,
           n: item.n ?? null,
           publisher: item.publisher || "",
+          date: item.date || "",
+          checked_at: item.checked_at || item.checkedAt || item.accessed || "",
         };
       }
       return null;

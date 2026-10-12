@@ -226,6 +226,7 @@ export async function getPublishedRyanBySlug(db: Db, slug: string) {
       url: sources.url,
       access: sources.access,
       archive_url: sources.archiveUrl,
+      checked_at: sources.checkedAt,
     })
     .from(citations)
     .innerJoin(sources, eq(citations.sourceId, sources.id))
@@ -266,6 +267,7 @@ export async function getPublishedRyanBySlug(db: Db, slug: string) {
       url: c.url,
       access: c.access || "",
       archive_url: c.archive_url || "",
+      checked_at: c.checked_at || "",
     })),
   };
 }

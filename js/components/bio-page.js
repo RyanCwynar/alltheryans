@@ -177,6 +177,10 @@ export class BioPage extends LitElement {
                       (s) => html`<li id=${s.n != null ? `cite-${s.n}` : undefined}>
                         <a href=${s.url} rel="noopener noreferrer">${s.title}</a>${s.publisher
                           ? html` — ${s.publisher}`
+                          : null}${s.date
+                          ? html`<span class="source-meta"> (${s.date})</span>`
+                          : null}${s.checked_at
+                          ? html`<span class="source-meta"> · accessed ${s.checked_at}</span>`
                           : null}
                       </li>`,
                     )}
