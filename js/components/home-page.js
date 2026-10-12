@@ -1,5 +1,5 @@
 import { LitElement, html } from "lit";
-import { loadIndex, pickRyanOfDay } from "../lib/data.js";
+import { loadPublishedRyans, pickRyanOfDay } from "../lib/data.js";
 import { cardShort, initials } from "../lib/parse.js";
 import "./ryan-card.js";
 
@@ -28,7 +28,7 @@ export class HomePage extends LitElement {
 
   async #load() {
     try {
-      const ryans = await loadIndex();
+      const ryans = await loadPublishedRyans();
       this.ryans = [...ryans].sort((a, b) => a.name.localeCompare(b.name));
       this.featured = pickRyanOfDay(ryans);
       this.status = "ready";
@@ -43,7 +43,7 @@ export class HomePage extends LitElement {
       return html`<div class="loading wrap">Loading Ryans…</div>`;
     }
     if (this.status === "error" || !this.featured) {
-      return html`<div class="error wrap">Could not load the Ryan directory.</div>`;
+      return html`<div class="error wrap">Could not load the Ryan directory. Is the API up?</div>`;
     }
 
     const ryan = this.featured;
@@ -71,12 +71,13 @@ export class HomePage extends LitElement {
       <section class="section">
         <div class="wrap">
           <h2>More Ryans</h2>
-          <p class="lede">A growing catalog of Ryans worth knowing — actors, founders, athletes, and the occasional internet kid.</p>
+          <p class="lede">Published profiles from libSQL. Drafts stay off the public API.</p>
           <div class="ryan-grid">
             ${preview.map((item) => html`<ryan-card .ryan=${item}></ryan-card>`)}
           </div>
-          <p style="margin-top:1.75rem">
+          <p style="margin-top:1.75rem;display:flex;flex-wrap:wrap;gap:0.75rem">
             <a class="btn btn-primary" href="/archive/" style="background:var(--sea);color:#fff">See all ${this.ryans.length}</a>
+            <a class="btn btn-ghost" href="/web/" style="color:var(--ink);box-shadow:inset 0 0 0 1.5px var(--line)">Ryan web</a>
           </p>
         </div>
       </section>

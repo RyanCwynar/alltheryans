@@ -497,3 +497,39 @@ a:hover {
     transition: none !important;
   }
 }
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.25rem;
+  align-items: end;
+  margin-bottom: 1.75rem;
+  font-family: var(--font-ui);
+}
+.toolbar label {
+  display: grid;
+  gap: 0.3rem;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+.toolbar select {
+  font: inherit;
+  color: var(--ink);
+  background: rgba(255,255,255,0.7);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 0.45rem 0.6rem;
+  min-width: 11rem;
+}
+.text-link {
+  font-family: var(--font-ui);
+  font-weight: 700;
+  align-self: center;
+}
+.web-canvas {
+  width: 100%;
+  min-height: 480px;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,0.45);
+}
+.eyebrow a { color: inherit; }

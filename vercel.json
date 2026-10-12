@@ -1,12 +1,22 @@
 {
   "rewrites": [
-    { "source": "/ryan/:slug", "destination": "/index.html" }
+    {
+      "source": "/ryan/:slug",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/tag/:slug",
+      "destination": "/tag/index.html"
+    }
   ],
   "headers": [
     {
-      "source": "/ryans/(.*)",
+      "source": "/api/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=60, stale-while-revalidate=300" }
+        {
+          "key": "Cache-Control",
+          "value": "public, s-maxage=60, stale-while-revalidate=300"
+        }
       ]
     }
   ]

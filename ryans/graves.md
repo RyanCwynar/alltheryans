@@ -6,6 +6,8 @@ title: "First CEO of Uber & Founder of Saltwater"
 photo: "/images/ryans/ryan-graves.jpg"
 photo_credit: ""
 photo_license: ""
+relationships:
+  - { target: smith, type: thematic-link, note: "Tech operators turned owners/investors", cite: [1], verified: true }
 sources: ["https://en.wikipedia.org/wiki/Ryan_Graves_(businessman)", "https://x.com/rfrfrfrf"]
 featured_on: null
 why_cool: "Landed one of the most legendary jobs in tech history with a cheeky tweet. Turned that into billions. Now lives in Kauai with his family. Absolute legend move."

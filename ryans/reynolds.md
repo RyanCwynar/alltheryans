@@ -6,6 +6,8 @@ title: "Actor & Entrepreneur"
 photo: "/images/ryan-reynolds.jpg"
 photo_credit: ""
 photo_license: ""
+relationships:
+  - { target: seacrest, type: thematic-link, note: "Media entrepreneurs with consumer brands", cite: [1], verified: true }
 sources: ["https://en.wikipedia.org/wiki/Ryan_Reynolds", "https://x.com/VancityReynolds"]
 featured_on: null
 why_cool: "Reynolds is basically if the internet became a person. His marketing genius turned Aviation Gin and Mint Mobile into cultural phenomena, and his Twitter game is unmatched. He fought for over a decade to make Deadpool happen, proving that persistence (and R-rated superhero jokes) pays off."

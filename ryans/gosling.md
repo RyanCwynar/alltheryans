@@ -6,6 +6,8 @@ title: "Actor & Musician"
 photo: "/images/ryan-gosling.jpg"
 photo_credit: ""
 photo_license: ""
+relationships:
+  - { target: phillippe, type: thematic-link, note: "Actors from late-90s/2000s film", cite: [1], verified: true }
 sources: ["https://en.wikipedia.org/wiki/Ryan_Gosling"]
 featured_on: null
 why_cool: "Gosling is the rare actor who can do romantic leads, intense dramas, and comedic roles with equal mastery. From making women swoon in The Notebook to becoming a meme legend with 'Hey Girl,' he's got range. Plus, he learned piano for La La Land and did his own singing. The man commits."
