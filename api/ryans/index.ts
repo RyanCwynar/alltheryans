@@ -1,12 +1,11 @@
-import { createDb } from "../../db/client.js";
+import { createDb } from "../../db/client-web.js";
 import { listPublishedRyans } from "../../db/queries.js";
 import { handleGet, json, parseSort } from "../_lib/http.js";
-import { asVercelHandler, nodeConfig } from "../_lib/vercel.js";
 
-export const config = nodeConfig;
+export const config = { runtime: "edge" };
 
-export default asVercelHandler((request) =>
-  handleGet(request, async (url) => {
+export default async function handler(request: Request): Promise<Response> {
+  return handleGet(request, async (url) => {
     const { db } = createDb();
     const ryans = await listPublishedRyans(db, {
       tag: url.searchParams.get("tag") || undefined,
@@ -14,5 +13,5 @@ export default asVercelHandler((request) =>
       q: url.searchParams.get("q") || undefined,
     });
     return json({ count: ryans.length, ryans });
-  }),
-);
+  });
+}
