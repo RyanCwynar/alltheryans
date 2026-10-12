@@ -18,6 +18,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Install PyYAML
+        run: pip install pyyaml
+
       - name: Generate ryans/index.json
         run: python3 scripts/generate-ryans-index.py
 

@@ -3,10 +3,10 @@ import { unsafeHTML } from "lit/directives/unsafe-html.js";
 import { loadRyanMarkdown } from "../lib/data.js";
 import {
   renderMarkdown,
-  initials,
   normalizeSources,
-  photoCreditLine,
+  relationshipLabel,
 } from "../lib/parse.js";
+import "./ryan-infobox.js";
 
 export class BioPage extends LitElement {
   static properties = {
@@ -44,12 +44,13 @@ export class BioPage extends LitElement {
       const ryan = await loadRyanMarkdown(this.slug);
       this.ryan = ryan;
       this.status = "ready";
-      document.title = `${ryan.name} · All The Ryans`;
+      const num = ryan.number != null ? `Ryan #${ryan.number} · ` : "";
+      document.title = `${ryan.name} · ${num}All The Ryans`;
       const desc = document.querySelector('meta[name="description"]');
       if (desc) {
         desc.setAttribute(
           "content",
-          (ryan.title || ryan.short || `Bio of ${ryan.name}`).toString(),
+          (ryan.title || ryan.short || `Encyclopedia entry for ${ryan.name}`).toString(),
         );
       }
     } catch (err) {
@@ -65,39 +66,62 @@ export class BioPage extends LitElement {
     if (this.status === "error" || !this.ryan) {
       return html`
         <div class="error wrap">
-          <p>That Ryan isn’t in the directory.</p>
+          <p>That Ryan isn’t published in the directory.</p>
           <p><a href="/archive/">Back to the archive</a></p>
         </div>
       `;
     }
 
     const ryan = this.ryan;
-    const credit = photoCreditLine(ryan);
     const sources = normalizeSources(ryan.sources);
-    const body = renderMarkdown(ryan.bioMarkdown || "");
+    // Strip trailing ## References section from body if present; we render from frontmatter
+    let bodyMd = ryan.bioMarkdown || "";
+    bodyMd = bodyMd.replace(/\n## References[\s\S]*$/i, "\n");
+    const body = renderMarkdown(bodyMd);
+    const rels = ryan.relationships || [];
 
     return html`
-      <article class="wrap bio-layout">
-        <aside class="bio-photo">
-          ${ryan.photo
-            ? html`<img src=${ryan.photo} alt=${`Photo of ${ryan.name}`} width="720" height="900" />`
-            : html`<div class="initials" aria-hidden="true">${initials(ryan.name)}</div>`}
-          ${credit ? html`<p class="photo-credit">${credit}</p>` : null}
-        </aside>
-        <div class="bio-copy">
-          <p class="eyebrow">Ryan profile</p>
+      <article class="wrap wiki-layout">
+        <ryan-infobox .ryan=${ryan}></ryan-infobox>
+        <div class="wiki-copy">
+          ${ryan.number != null
+            ? html`<p class="eyebrow">Ryan #${ryan.number}</p>`
+            : html`<p class="eyebrow">Ryan profile</p>`}
           <h1>${ryan.name}</h1>
           ${ryan.title ? html`<p class="title">${ryan.title}</p>` : null}
-          <div class="bio-body">${unsafeHTML(body)}</div>
-          ${sources.length
+          <div class="bio-body wiki-body">${unsafeHTML(body)}</div>
+
+          ${rels.length
             ? html`
-                <section class="sources" aria-label="Sources">
-                  <h2>Sources</h2>
+                <section class="sources" aria-label="Relationships">
+                  <h2>Ryan web</h2>
                   <ul>
-                    ${sources.map(
-                      (s) => html`<li><a href=${s.url} rel="noopener noreferrer">${s.title}</a></li>`,
+                    ${rels.map(
+                      (r) => html`<li>
+                        <span class="rel-type">${relationshipLabel(r.type)}</span>
+                        <a href="/ryan/${r.target}">${r.target}</a>
+                        ${r.note ? html` — ${r.note}` : null}
+                      </li>`,
                     )}
                   </ul>
+                </section>
+              `
+            : null}
+
+          ${sources.length
+            ? html`
+                <section class="sources" aria-label="References">
+                  <h2>References</h2>
+                  <ol class="cite-list">
+                    ${sources.map(
+                      (s) => html`<li id=${`cite-${s.n}`}>
+                        ${s.publisher ? html`<em>${s.publisher}</em>. ` : null}
+                        <a href=${s.url} rel="noopener noreferrer">${s.title || s.url}</a>
+                        ${s.date ? html` (${s.date})` : null}
+                        ${s.access ? html` <span class="access">[${s.access}]</span>` : null}
+                      </li>`,
+                    )}
+                  </ol>
                 </section>
               `
             : null}

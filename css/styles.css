@@ -497,3 +497,229 @@ a:hover {
     transition: none !important;
   }
 }
+
+/* Encyclopedia layout */
+.wiki-layout {
+  display: grid;
+  gap: 1.75rem;
+  padding: 2rem 0 4rem;
+}
+
+@media (min-width: 960px) {
+  .wiki-layout {
+    grid-template-columns: minmax(240px, 300px) minmax(0, 1fr);
+    gap: 2.5rem;
+    align-items: start;
+  }
+}
+
+.infobox {
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.55);
+  padding: 0.85rem;
+  font-family: var(--font-ui);
+  font-size: 0.88rem;
+}
+
+.infobox-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 0.65rem;
+  letter-spacing: -0.02em;
+}
+
+.infobox-photo img,
+.infobox-photo .initials {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  background: var(--paper-deep);
+}
+
+.infobox-photo .initials {
+  display: grid;
+  place-items: center;
+  font-family: var(--font-display);
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: rgba(16, 32, 39, 0.25);
+}
+
+.infobox table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.75rem;
+}
+
+.infobox th,
+.infobox td {
+  vertical-align: top;
+  padding: 0.4rem 0.25rem;
+  border-top: 1px solid var(--line);
+  text-align: left;
+}
+
+.infobox th {
+  width: 38%;
+  color: var(--ink-soft);
+  font-weight: 600;
+}
+
+.infobox-list {
+  margin: 0;
+  padding-left: 1rem;
+}
+
+.infobox-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.tag-chip {
+  display: inline-block;
+  padding: 0.15rem 0.45rem;
+  background: rgba(15, 110, 106, 0.1);
+  color: var(--sea);
+  text-decoration: none;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.tag-chip:hover {
+  background: rgba(15, 110, 106, 0.18);
+}
+
+.wiki-copy .eyebrow {
+  font-family: var(--font-ui);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.75rem;
+  color: var(--sea);
+  margin: 0 0 0.6rem;
+}
+
+.wiki-copy h1 {
+  font-family: var(--font-display);
+  font-size: clamp(2.2rem, 5vw, 3.4rem);
+  letter-spacing: -0.04em;
+  line-height: 1;
+  margin: 0 0 0.5rem;
+}
+
+.wiki-copy .title {
+  font-family: var(--font-ui);
+  font-size: 1.1rem;
+  color: var(--ink-soft);
+  margin: 0 0 1.5rem;
+}
+
+.wiki-body h2 {
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  letter-spacing: -0.02em;
+  margin: 2rem 0 0.75rem;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 0.35rem;
+}
+
+.wiki-body h3 {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  margin: 1.4rem 0 0.5rem;
+}
+
+.wiki-body p,
+.wiki-body li {
+  font-size: 1.05rem;
+}
+
+sup.cite a {
+  text-decoration: none;
+  font-family: var(--font-ui);
+  font-weight: 700;
+  color: var(--sea);
+}
+
+.cite-list {
+  padding-left: 1.25rem;
+}
+
+.cite-list li {
+  margin-bottom: 0.55rem;
+}
+
+.cite-list .access {
+  color: var(--ink-soft);
+  font-size: 0.85em;
+}
+
+.rel-type {
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+  margin-right: 0.35rem;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.25rem;
+  align-items: end;
+  margin-bottom: 1.75rem;
+  font-family: var(--font-ui);
+}
+
+.toolbar label {
+  display: grid;
+  gap: 0.3rem;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.toolbar select {
+  font: inherit;
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 0.45rem 0.6rem;
+  min-width: 11rem;
+}
+
+.text-link {
+  font-family: var(--font-ui);
+  font-weight: 700;
+  align-self: center;
+}
+
+.web-canvas {
+  width: 100%;
+  min-height: 480px;
+  border: 1px solid var(--line);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.35)),
+    radial-gradient(circle at 30% 20%, rgba(26, 163, 154, 0.08), transparent 45%);
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.1rem;
+  margin: 0 0 1rem;
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.legend i {
+  display: inline-block;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  margin-right: 0.35rem;
+  vertical-align: middle;
+}

@@ -1,8 +1,9 @@
 import { marked } from "marked";
 import DOMPurify from "dompurify";
+import jsyaml from "js-yaml";
 
 /**
- * Minimal YAML-ish frontmatter parser for our Ryan markdown files.
+ * Parse YAML frontmatter + body from a Ryan markdown file.
  */
 export function parseFrontmatter(text) {
   if (!text.startsWith("---")) {
@@ -14,84 +15,40 @@ export function parseFrontmatter(text) {
   }
   const raw = text.slice(4, end);
   const content = text.slice(end + 4).replace(/^\n/, "");
-  const data = {};
-
-  for (const line of raw.split("\n")) {
-    if (!line.trim() || line.trim().startsWith("#") || !line.includes(":")) continue;
-    const idx = line.indexOf(":");
-    const key = line.slice(0, idx).trim();
-    let value = line.slice(idx + 1).trim();
-
-    if (value.startsWith("[") && value.endsWith("]")) {
-      const inner = value.slice(1, -1).trim();
-      if (!inner) {
-        data[key] = [];
-        continue;
-      }
-      const items = [];
-      let current = "";
-      let inQuote = false;
-      let quoteChar = "";
-      for (const ch of inner) {
-        if ((ch === '"' || ch === "'") && !inQuote) {
-          inQuote = true;
-          quoteChar = ch;
-          current += ch;
-        } else if (inQuote && ch === quoteChar) {
-          inQuote = false;
-          current += ch;
-        } else if (ch === "," && !inQuote) {
-          items.push(current.trim());
-          current = "";
-        } else {
-          current += ch;
-        }
-      }
-      if (current.trim()) items.push(current.trim());
-      data[key] = items.map((item) => {
-        item = item.trim();
-        if (
-          item.length >= 2 &&
-          item[0] === item[item.length - 1] &&
-          (item[0] === '"' || item[0] === "'")
-        ) {
-          return item.slice(1, -1);
-        }
-        return item;
-      });
-      continue;
-    }
-
-    if (
-      value.length >= 2 &&
-      value[0] === value[value.length - 1] &&
-      (value[0] === '"' || value[0] === "'")
-    ) {
-      data[key] = value.slice(1, -1);
-      continue;
-    }
-
-    if (value === "null" || value === "Null" || value === "~" || value === "") {
-      data[key] = null;
-    } else if (value === "true" || value === "True") {
-      data[key] = true;
-    } else if (value === "false" || value === "False") {
-      data[key] = false;
-    } else if (/^-?\d+(\.\d+)?$/.test(value)) {
-      data[key] = Number(value);
-    } else {
-      data[key] = value;
-    }
+  let data = {};
+  try {
+    data = jsyaml.load(raw) || {};
+  } catch (err) {
+    console.warn("Frontmatter YAML parse failed", err);
+    data = {};
   }
-
+  if (typeof data !== "object" || Array.isArray(data)) data = {};
   return { data, content };
 }
 
-export function renderMarkdown(md) {
-  const html = marked.parse(md || "", { async: false });
-  return DOMPurify.sanitize(html, {
+/** Turn [1] / [1][4] citation markers into footnote anchors. */
+export function linkCitations(md) {
+  return String(md || "").replace(/\[(\d+)\]/g, (_m, n) => `[↗${n}](#cite-${n})`);
+}
+
+export function renderMarkdown(md, { citations = true } = {}) {
+  const prepared = citations ? linkCitations(md) : md || "";
+  const html = marked.parse(prepared, { async: false });
+  let clean = DOMPurify.sanitize(html, {
     USE_PROFILES: { html: true },
+    ADD_ATTR: ["id"],
   });
+  // Local see-also links ./slug or ./ryan-x -> /ryan/slug
+  clean = clean.replace(
+    /href="\.\/([a-z0-9-]+)"/gi,
+    (_m, slug) => `href="/ryan/${slug}"`,
+  );
+  // Upgrade citation placeholder links to superscripts
+  clean = clean.replace(
+    /<a href="#cite-(\d+)">↗\1<\/a>/g,
+    '<sup class="cite"><a href="#cite-$1">[$1]</a></sup>',
+  );
+  return clean;
 }
 
 export function cardShort(ryan) {
@@ -112,22 +69,37 @@ export function initials(name = "") {
 export function normalizeSources(sources) {
   if (!Array.isArray(sources)) return [];
   return sources
-    .map((item) => {
+    .map((item, idx) => {
       if (!item) return null;
       if (typeof item === "string") {
         try {
           const url = new URL(item);
-          return { title: url.hostname.replace(/^www\./, ""), url: item };
+          return {
+            n: idx + 1,
+            title: url.hostname.replace(/^www\./, ""),
+            publisher: "",
+            date: "",
+            url: item,
+            access: "",
+          };
         } catch {
-          return { title: item, url: item };
+          return { n: idx + 1, title: item, publisher: "", date: "", url: item, access: "" };
         }
       }
       if (typeof item === "object" && item.url) {
-        return { title: item.title || item.url, url: item.url };
+        return {
+          n: item.n ?? idx + 1,
+          title: item.title || item.publisher || item.url,
+          publisher: item.publisher || "",
+          date: item.date || "",
+          url: item.url,
+          access: item.access || "",
+        };
       }
       return null;
     })
-    .filter(Boolean);
+    .filter(Boolean)
+    .sort((a, b) => Number(a.n) - Number(b.n));
 }
 
 export function photoCreditLine(ryan) {
@@ -137,4 +109,16 @@ export function photoCreditLine(ryan) {
   if (credit && license) return `Photo: ${credit} / ${license}`;
   if (credit) return `Photo: ${credit}`;
   return `Photo license: ${license}`;
+}
+
+export function formatBirth(birth) {
+  if (!birth || typeof birth !== "object") return "";
+  const date = birth.date || "";
+  const place = birth.place || "";
+  if (date && place) return `${date}, ${place}`;
+  return date || place || "";
+}
+
+export function relationshipLabel(type) {
+  return String(type || "").replace(/-/g, " ");
 }

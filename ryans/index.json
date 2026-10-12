@@ -1,384 +1,2014 @@
 {
-  "generated_at": "2026-10-12T17:37:26Z",
-  "count": 27,
-  "ryans": [
+  "generated_at": "2026-10-12T17:50:42Z",
+  "count": 26,
+  "draft_count": 1,
+  "tags": [
     {
-      "slug": "anderson",
-      "name": "Ryan Anderson",
-      "short": "",
-      "title": "Co-founder & CEO, Filevine",
-      "photo": "",
-      "photo_credit": "",
-      "photo_license": "",
-      "sources": [
-        "https://x.com/ryandersonlaw"
-      ],
-      "featured_on": null,
-      "file": "ryans/anderson.md"
+      "slug": "founder",
+      "label": "Founder Ryans",
+      "kind": "cluster",
+      "count": 11
     },
+    {
+      "slug": "tech",
+      "label": "Tech Ryans",
+      "kind": "cluster",
+      "count": 10
+    },
+    {
+      "slug": "athlete",
+      "label": "Athlete Ryans",
+      "kind": "cluster",
+      "count": 4
+    },
+    {
+      "slug": "creator",
+      "label": "Creator Ryans",
+      "kind": "cluster",
+      "count": 4
+    },
+    {
+      "slug": "film",
+      "label": "Film Ryans",
+      "kind": "cluster",
+      "count": 4
+    },
+    {
+      "slug": "investor",
+      "label": "Investor Ryans",
+      "kind": "cluster",
+      "count": 4
+    },
+    {
+      "slug": "actor",
+      "label": "Actor Ryans",
+      "kind": "cluster",
+      "count": 3
+    },
+    {
+      "slug": "business",
+      "label": "Business Ryans",
+      "kind": "cluster",
+      "count": 3
+    },
+    {
+      "slug": "musician",
+      "label": "Musician Ryans",
+      "kind": "cluster",
+      "count": 3
+    },
+    {
+      "slug": "youtube",
+      "label": "YouTube Ryans",
+      "kind": "cluster",
+      "count": 3
+    },
+    {
+      "slug": "sports-owner",
+      "label": "Sports-owner Ryans",
+      "kind": "cluster",
+      "count": 2
+    },
+    {
+      "slug": "baseball",
+      "label": "Baseball Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "boxer",
+      "label": "Boxer Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "broadcaster",
+      "label": "Broadcaster Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "comedian",
+      "label": "Comedian Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "director",
+      "label": "Director Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "education",
+      "label": "Education Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "engineer",
+      "label": "Engineer Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "executive",
+      "label": "Executive Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "historical",
+      "label": "Historical Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "media",
+      "label": "Media Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "open-source",
+      "label": "Open-source Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "producer",
+      "label": "Producer Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "songwriter",
+      "label": "Songwriter Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "tv-host",
+      "label": "TV Host Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "writer",
+      "label": "Writer Ryans",
+      "kind": "cluster",
+      "count": 1
+    }
+  ],
+  "ryans": [
     {
       "slug": "breslow",
       "name": "Ryan Breslow",
+      "number": null,
       "short": "Tech Entrepreneur",
       "title": "Tech Entrepreneur",
       "photo": "/images/ryans/ryan-breslow.jpg",
       "photo_credit": "",
       "photo_license": "",
-      "sources": [],
+      "status": "published",
       "featured_on": null,
-      "file": "ryans/breslow.md"
-    },
-    {
-      "slug": "carson",
-      "name": "Ryan Carson",
-      "short": "Serial Founder & CEO",
-      "title": "Serial Founder & CEO",
-      "photo": "",
-      "photo_credit": "",
-      "photo_license": "",
-      "sources": [
-        "https://x.com/ryancarson"
+      "birth": {
+        "date": "1995",
+        "date_precision": "year",
+        "place": null,
+        "cite": []
+      },
+      "birth_year_min": 1995,
+      "birth_year_max": 1995,
+      "death": null,
+      "occupations": [
+        "Tech Entrepreneur"
       ],
-      "featured_on": null,
-      "file": "ryans/carson.md"
+      "clusters": [
+        "founder",
+        "tech"
+      ],
+      "organizations": [],
+      "education": [],
+      "website": "",
+      "social": [],
+      "known_for": [
+        "Bolt",
+        "Stanford Dropout",
+        "Y Combinator Drama"
+      ],
+      "relationships": [],
+      "sources": [],
+      "file": "ryans/breslow.md",
+      "connection_count": 0
     },
     {
       "slug": "castro",
       "name": "Ryan Castro",
+      "number": null,
       "short": "Reggaeton Artist",
       "title": "Reggaeton Artist",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Foto_ryan_agosto_%28cropped%29.jpg/330px-Foto_ryan_agosto_%28cropped%29.jpg",
       "photo_credit": "",
       "photo_license": "",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Ryan_Castro"
-      ],
+      "status": "published",
       "featured_on": null,
-      "file": "ryans/castro.md"
+      "birth": {
+        "date": "1999",
+        "date_precision": "year",
+        "place": null,
+        "cite": []
+      },
+      "birth_year_min": 1999,
+      "birth_year_max": 1999,
+      "death": null,
+      "occupations": [
+        "Reggaeton Artist"
+      ],
+      "clusters": [
+        "musician"
+      ],
+      "organizations": [],
+      "education": [],
+      "website": "",
+      "social": [],
+      "known_for": [
+        "El Cantante del Ghetto",
+        "SEND\u00c9",
+        "Reggaetonera EP",
+        "Peso Pluma collab"
+      ],
+      "relationships": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "",
+          "publisher": "",
+          "date": "",
+          "url": "https://en.wikipedia.org/wiki/Ryan_Castro",
+          "access": "read"
+        }
+      ],
+      "file": "ryans/castro.md",
+      "connection_count": 0
     },
     {
       "slug": "cohen",
       "name": "Ryan Cohen",
+      "number": null,
       "short": "Entrepreneur & Investor",
       "title": "Entrepreneur & Investor",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Ryan_Cohen_2019_%28cropped%29.jpg/330px-Ryan_Cohen_2019_%28cropped%29.jpg",
       "photo_credit": "",
       "photo_license": "",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Ryan_Cohen",
-        "https://x.com/ryancohen"
-      ],
+      "status": "published",
       "featured_on": null,
-      "file": "ryans/cohen.md"
-    },
-    {
-      "slug": "coogler",
-      "name": "Ryan Coogler",
-      "short": "Film Director & Producer",
-      "title": "Film Director & Producer",
-      "photo": "/images/ryans/ryan-coogler.jpg",
-      "photo_credit": "",
-      "photo_license": "",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Ryan_Coogler"
+      "birth": {
+        "date": "1985",
+        "date_precision": "year",
+        "place": null,
+        "cite": []
+      },
+      "birth_year_min": 1985,
+      "birth_year_max": 1985,
+      "death": null,
+      "occupations": [
+        "Entrepreneur & Investor"
       ],
-      "featured_on": null,
-      "file": "ryans/coogler.md"
+      "clusters": [
+        "founder",
+        "investor",
+        "business"
+      ],
+      "organizations": [],
+      "education": [],
+      "website": "",
+      "social": [
+        {
+          "platform": "x",
+          "handle": "ryancohen",
+          "url": "https://x.com/ryancohen"
+        }
+      ],
+      "known_for": [
+        "Chewy",
+        "GameStop Chairman",
+        "Meme Stocks",
+        "RC Ventures"
+      ],
+      "relationships": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "",
+          "publisher": "",
+          "date": "",
+          "url": "https://en.wikipedia.org/wiki/Ryan_Cohen",
+          "access": "read"
+        },
+        {
+          "n": 2,
+          "title": "",
+          "publisher": "",
+          "date": "",
+          "url": "https://x.com/ryancohen",
+          "access": "read"
+        }
+      ],
+      "file": "ryans/cohen.md",
+      "connection_count": 0
     },
     {
       "slug": "cwynar",
       "name": "Ryan Cwynar",
+      "number": null,
       "short": "Creator of All The Ryans",
       "title": "Creator of All The Ryans",
       "photo": "/images/ryan-cwynar.jpg",
       "photo_credit": "",
       "photo_license": "",
+      "status": "published",
+      "featured_on": null,
+      "birth": null,
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "death": null,
+      "occupations": [
+        "Creator of All The Ryans"
+      ],
+      "clusters": [
+        "tech",
+        "founder"
+      ],
+      "organizations": [],
+      "education": [],
+      "website": "",
+      "social": [],
+      "known_for": [
+        "All The Ryans",
+        "Byldr",
+        "Software Engineering"
+      ],
+      "relationships": [],
       "sources": [],
-      "featured_on": null,
-      "file": "ryans/cwynar.md"
-    },
-    {
-      "slug": "dahl",
-      "name": "Ryan Dahl",
-      "short": "Creator of Node.js & Deno",
-      "title": "Creator of Node.js & Deno",
-      "photo": "/images/ryans/ryan-dahl.jpg",
-      "photo_credit": "",
-      "photo_license": "",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Ryan_Dahl",
-        "https://x.com/rough__sea"
-      ],
-      "featured_on": null,
-      "file": "ryans/dahl.md"
-    },
-    {
-      "slug": "garcia",
-      "name": "Ryan Garcia",
-      "short": "Professional Boxer",
-      "title": "Professional Boxer",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/RYAN_GARCIA.jpg/330px-RYAN_GARCIA.jpg",
-      "photo_credit": "",
-      "photo_license": "",
-      "sources": [
-        "https://x.com/RyanGarcia"
-      ],
-      "featured_on": null,
-      "file": "ryans/garcia.md"
+      "file": "ryans/cwynar.md",
+      "connection_count": 0
     },
     {
       "slug": "giggs",
       "name": "Ryan Giggs",
+      "number": null,
       "short": "Football Legend",
       "title": "Football Legend",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/1/13/Ryan_Giggs_2015_%28cropped%29.jpg",
       "photo_credit": "",
       "photo_license": "",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Ryan_Giggs",
-        "https://x.com/RyanGiggs"
-      ],
+      "status": "published",
       "featured_on": null,
-      "file": "ryans/giggs.md"
-    },
-    {
-      "slug": "gosling",
-      "name": "Ryan Gosling",
-      "short": "Actor & Musician",
-      "title": "Actor & Musician",
-      "photo": "/images/ryan-gosling.jpg",
-      "photo_credit": "",
-      "photo_license": "",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Ryan_Gosling"
+      "birth": {
+        "date": "1973",
+        "date_precision": "year",
+        "place": null,
+        "cite": []
+      },
+      "birth_year_min": 1973,
+      "birth_year_max": 1973,
+      "death": null,
+      "occupations": [
+        "Football Legend"
       ],
-      "featured_on": null,
-      "file": "ryans/gosling.md"
-    },
-    {
-      "slug": "graves",
-      "name": "Ryan Graves",
-      "short": "",
-      "title": "First CEO of Uber & Founder of Saltwater",
-      "photo": "/images/ryans/ryan-graves.jpg",
-      "photo_credit": "",
-      "photo_license": "",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Ryan_Graves_(businessman)",
-        "https://x.com/rfrfrfrf"
+      "clusters": [
+        "athlete"
       ],
-      "featured_on": null,
-      "file": "ryans/graves.md"
+      "organizations": [],
+      "education": [],
+      "website": "",
+      "social": [
+        {
+          "platform": "x",
+          "handle": "RyanGiggs",
+          "url": "https://x.com/RyanGiggs"
+        }
+      ],
+      "known_for": [
+        "Manchester United",
+        "13 Premier League Titles",
+        "Wales Manager",
+        "Class of 92"
+      ],
+      "relationships": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "",
+          "publisher": "",
+          "date": "",
+          "url": "https://en.wikipedia.org/wiki/Ryan_Giggs",
+          "access": "read"
+        },
+        {
+          "n": 2,
+          "title": "",
+          "publisher": "",
+          "date": "",
+          "url": "https://x.com/RyanGiggs",
+          "access": "read"
+        }
+      ],
+      "file": "ryans/giggs.md",
+      "connection_count": 0
     },
     {
       "slug": "higa",
       "name": "Ryan Higa",
+      "number": null,
       "short": "",
       "title": "YouTube Pioneer & Comedian",
       "photo": "/images/ryans/ryan-higa.jpg",
       "photo_credit": "",
       "photo_license": "",
-      "sources": [],
+      "status": "published",
       "featured_on": null,
-      "file": "ryans/higa.md"
+      "birth": {
+        "date": "1990",
+        "date_precision": "year",
+        "place": null,
+        "cite": []
+      },
+      "birth_year_min": 1990,
+      "birth_year_max": 1990,
+      "death": null,
+      "occupations": [
+        "YouTube Pioneer & Comedian"
+      ],
+      "clusters": [
+        "creator",
+        "youtube",
+        "comedian"
+      ],
+      "organizations": [],
+      "education": [],
+      "website": "",
+      "social": [],
+      "known_for": [
+        "nigahiga",
+        "How to be Ninja",
+        "Nice Guys"
+      ],
+      "relationships": [],
+      "sources": [],
+      "file": "ryans/higa.md",
+      "connection_count": 0
     },
     {
       "slug": "holmes",
       "name": "Ryan Holmes",
+      "number": null,
       "short": "Founder of Hootsuite",
       "title": "Founder of Hootsuite",
       "photo": "/images/ryans/ryan-holmes.jpg",
       "photo_credit": "",
       "photo_license": "",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Ryan_Holmes",
-        "https://x.com/invoker"
-      ],
+      "status": "published",
       "featured_on": null,
-      "file": "ryans/holmes.md"
-    },
-    {
-      "slug": "hoover",
-      "name": "Ryan Hoover",
-      "short": "",
-      "title": "Founder of Product Hunt & Weekend Fund",
-      "photo": "/images/ryans/ryan-hoover.jpg",
-      "photo_credit": "",
-      "photo_license": "",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Product_Hunt",
-        "https://x.com/rrhoover"
+      "birth": {
+        "date": "1974",
+        "date_precision": "year",
+        "place": null,
+        "cite": []
+      },
+      "birth_year_min": 1974,
+      "birth_year_max": 1974,
+      "death": null,
+      "occupations": [
+        "Founder of Hootsuite"
       ],
-      "featured_on": null,
-      "file": "ryans/hoover.md"
+      "clusters": [
+        "founder",
+        "tech"
+      ],
+      "organizations": [],
+      "education": [],
+      "website": "",
+      "social": [
+        {
+          "platform": "x",
+          "handle": "invoker",
+          "url": "https://x.com/invoker"
+        }
+      ],
+      "known_for": [
+        "Hootsuite",
+        "Social Media Management"
+      ],
+      "relationships": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "",
+          "publisher": "",
+          "date": "",
+          "url": "https://en.wikipedia.org/wiki/Ryan_Holmes",
+          "access": "read"
+        },
+        {
+          "n": 2,
+          "title": "",
+          "publisher": "",
+          "date": "",
+          "url": "https://x.com/invoker",
+          "access": "read"
+        }
+      ],
+      "file": "ryans/holmes.md",
+      "connection_count": 0
     },
     {
       "slug": "humphries",
       "name": "Ryan Humphries",
+      "number": null,
       "short": "",
       "title": "Sales Director & Entrepreneur",
       "photo": "/images/ryan-humphries.jpg",
       "photo_credit": "",
       "photo_license": "",
-      "sources": [],
+      "status": "published",
       "featured_on": null,
-      "file": "ryans/humphries.md"
-    },
-    {
-      "slug": "kaji",
-      "name": "Ryan Kaji",
-      "short": "",
-      "title": "YouTube Star & Child Entertainer",
-      "photo": "",
-      "photo_credit": "",
-      "photo_license": "",
+      "birth": null,
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "death": null,
+      "occupations": [
+        "Sales Director & Entrepreneur"
+      ],
+      "clusters": [
+        "business"
+      ],
+      "organizations": [],
+      "education": [],
+      "website": "",
+      "social": [],
+      "known_for": [
+        "Curv Group",
+        "Zen Growth",
+        "reserv",
+        "Sales Leadership"
+      ],
+      "relationships": [],
       "sources": [],
-      "featured_on": null,
-      "file": "ryans/kaji.md"
+      "file": "ryans/humphries.md",
+      "connection_count": 0
     },
     {
       "slug": "matt",
       "name": "Matt Ryan",
+      "number": null,
       "short": "NFL Quarterback",
       "title": "NFL Quarterback",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Washington_Football_Team_at_Atlanta_Falcons_%283_October_2021%29_DSC_4628_%2851555290664%29_%28cropped%29.jpg/330px-Washington_Football_Team_at_Atlanta_Falcons_%283_October_2021%29_DSC_4628_%2851555290664%29_%28cropped%29.jpg",
       "photo_credit": "",
       "photo_license": "",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Matt_Ryan_(American_football)",
-        "https://x.com/M_Ryan02"
-      ],
+      "status": "published",
       "featured_on": null,
-      "file": "ryans/matt.md"
+      "birth": {
+        "date": "1985",
+        "date_precision": "year",
+        "place": null,
+        "cite": []
+      },
+      "birth_year_min": 1985,
+      "birth_year_max": 1985,
+      "death": null,
+      "occupations": [
+        "NFL Quarterback"
+      ],
+      "clusters": [
+        "athlete"
+      ],
+      "organizations": [],
+      "education": [],
+      "website": "",
+      "social": [
+        {
+          "platform": "x",
+          "handle": "M_Ryan02",
+          "url": "https://x.com/M_Ryan02"
+        }
+      ],
+      "known_for": [
+        "2016 NFL MVP",
+        "Super Bowl LI",
+        "Atlanta Falcons",
+        "Matty Ice"
+      ],
+      "relationships": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "",
+          "publisher": "",
+          "date": "",
+          "url": "https://en.wikipedia.org/wiki/Matt_Ryan_(American_football)",
+          "access": "read"
+        },
+        {
+          "n": 2,
+          "title": "",
+          "publisher": "",
+          "date": "",
+          "url": "https://x.com/M_Ryan02",
+          "access": "read"
+        }
+      ],
+      "file": "ryans/matt.md",
+      "connection_count": 0
     },
     {
-      "slug": "nolan",
+      "slug": "nolan-ryan",
       "name": "Nolan Ryan",
+      "number": 5,
       "short": "Baseball Legend",
       "title": "Baseball Legend",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Nolan_Ryan_Tiger_Stadium_1990_CROP.jpg/330px-Nolan_Ryan_Tiger_Stadium_1990_CROP.jpg",
       "photo_credit": "",
       "photo_license": "",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Nolan_Ryan"
-      ],
+      "status": "published",
       "featured_on": null,
-      "file": "ryans/nolan.md"
+      "birth": {
+        "date": "1947",
+        "date_precision": "year",
+        "place": null,
+        "cite": []
+      },
+      "birth_year_min": 1947,
+      "birth_year_max": 1947,
+      "death": null,
+      "occupations": [
+        "baseball player"
+      ],
+      "clusters": [
+        "athlete",
+        "baseball",
+        "historical"
+      ],
+      "organizations": [],
+      "education": [],
+      "website": "",
+      "social": [],
+      "known_for": [
+        "MLB Strikeout Record",
+        "7 No-Hitters",
+        "Texas Rangers",
+        "Houston Astros",
+        "The Ryan Express"
+      ],
+      "relationships": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "",
+          "publisher": "",
+          "date": "",
+          "url": "https://en.wikipedia.org/wiki/Nolan_Ryan",
+          "access": "read"
+        }
+      ],
+      "file": "ryans/nolan-ryan.md",
+      "connection_count": 0
     },
     {
-      "slug": "petersen",
-      "name": "Ryan Petersen",
-      "short": "Founder & CEO of Flexport",
-      "title": "Founder & CEO of Flexport",
-      "photo": "/images/ryans/ryan-petersen.jpg",
+      "slug": "ryan-anderson",
+      "name": "Ryan Anderson",
+      "number": null,
+      "short": "",
+      "title": "Co-founder & CEO, Filevine",
+      "photo": "",
       "photo_credit": "",
       "photo_license": "",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Ryan_Petersen_(businessman)",
-        "https://x.com/typesfast"
-      ],
+      "status": "published",
       "featured_on": null,
-      "file": "ryans/petersen.md"
+      "birth": null,
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "death": null,
+      "occupations": [
+        "Co-founder & CEO, Filevine"
+      ],
+      "clusters": [
+        "founder",
+        "tech"
+      ],
+      "organizations": [],
+      "education": [],
+      "website": "",
+      "social": [
+        {
+          "platform": "x",
+          "handle": "ryandersonlaw",
+          "url": "https://x.com/ryandersonlaw"
+        }
+      ],
+      "known_for": [
+        "Filevine",
+        "Legal Tech Unicorn",
+        "$400M Financing Round"
+      ],
+      "relationships": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "",
+          "publisher": "",
+          "date": "",
+          "url": "https://x.com/ryandersonlaw",
+          "access": "read"
+        }
+      ],
+      "file": "ryans/ryan-anderson.md",
+      "connection_count": 0
     },
     {
-      "slug": "phillippe",
+      "slug": "ryan-carson",
+      "name": "Ryan Carson",
+      "number": 17,
+      "short": "Serial Founder & CEO",
+      "title": "Serial Founder & CEO",
+      "photo": "",
+      "photo_credit": "",
+      "photo_license": "",
+      "status": "published",
+      "featured_on": null,
+      "birth": null,
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "death": null,
+      "occupations": [
+        "entrepreneur"
+      ],
+      "clusters": [
+        "founder",
+        "tech",
+        "education"
+      ],
+      "organizations": [],
+      "education": [],
+      "website": "",
+      "social": [
+        {
+          "platform": "x",
+          "handle": "ryancarson",
+          "url": "https://x.com/ryancarson"
+        }
+      ],
+      "known_for": [
+        "Treehouse",
+        "DropSend",
+        "Carsonified",
+        "EY Entrepreneur of the Year 2015"
+      ],
+      "relationships": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "",
+          "publisher": "",
+          "date": "",
+          "url": "https://x.com/ryancarson",
+          "access": "read"
+        }
+      ],
+      "file": "ryans/ryan-carson.md",
+      "connection_count": 0
+    },
+    {
+      "slug": "ryan-coogler",
+      "name": "Ryan Coogler",
+      "number": 8,
+      "short": "Film Director & Producer",
+      "title": "Film Director & Producer",
+      "photo": "/images/ryans/ryan-coogler.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "status": "published",
+      "featured_on": null,
+      "birth": {
+        "date": "1986",
+        "date_precision": "year",
+        "place": null,
+        "cite": []
+      },
+      "birth_year_min": 1986,
+      "birth_year_max": 1986,
+      "death": null,
+      "occupations": [
+        "film director",
+        "producer",
+        "screenwriter"
+      ],
+      "clusters": [
+        "director",
+        "film",
+        "writer"
+      ],
+      "organizations": [],
+      "education": [],
+      "website": "",
+      "social": [],
+      "known_for": [
+        "Black Panther",
+        "Creed",
+        "Fruitvale Station"
+      ],
+      "relationships": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "",
+          "publisher": "",
+          "date": "",
+          "url": "https://en.wikipedia.org/wiki/Ryan_Coogler",
+          "access": "read"
+        }
+      ],
+      "file": "ryans/ryan-coogler.md",
+      "connection_count": 0
+    },
+    {
+      "slug": "ryan-dahl",
+      "name": "Ryan Dahl",
+      "number": 15,
+      "short": "Creator of Node.js & Deno",
+      "title": "Creator of Node.js & Deno",
+      "photo": "/images/ryans/ryan-dahl.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "status": "published",
+      "featured_on": null,
+      "birth": {
+        "date": "1981",
+        "date_precision": "year",
+        "place": null,
+        "cite": []
+      },
+      "birth_year_min": 1981,
+      "birth_year_max": 1981,
+      "death": null,
+      "occupations": [
+        "software engineer"
+      ],
+      "clusters": [
+        "engineer",
+        "tech",
+        "founder",
+        "open-source"
+      ],
+      "organizations": [],
+      "education": [],
+      "website": "",
+      "social": [
+        {
+          "platform": "x",
+          "handle": "rough__sea",
+          "url": "https://x.com/rough__sea"
+        }
+      ],
+      "known_for": [
+        "Node.js",
+        "Deno",
+        "JSR",
+        "V8 JavaScript Engine contributions"
+      ],
+      "relationships": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "",
+          "publisher": "",
+          "date": "",
+          "url": "https://en.wikipedia.org/wiki/Ryan_Dahl",
+          "access": "read"
+        },
+        {
+          "n": 2,
+          "title": "",
+          "publisher": "",
+          "date": "",
+          "url": "https://x.com/rough__sea",
+          "access": "read"
+        }
+      ],
+      "file": "ryans/ryan-dahl.md",
+      "connection_count": 1
+    },
+    {
+      "slug": "ryan-garcia",
+      "name": "Ryan Garcia",
+      "number": 25,
+      "short": "Professional Boxer",
+      "title": "Professional Boxer",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/RYAN_GARCIA.jpg/330px-RYAN_GARCIA.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "status": "published",
+      "featured_on": null,
+      "birth": {
+        "date": "1998",
+        "date_precision": "year",
+        "place": null,
+        "cite": []
+      },
+      "birth_year_min": 1998,
+      "birth_year_max": 1998,
+      "death": null,
+      "occupations": [
+        "boxer"
+      ],
+      "clusters": [
+        "athlete",
+        "boxer",
+        "creator"
+      ],
+      "organizations": [],
+      "education": [],
+      "website": "",
+      "social": [
+        {
+          "platform": "x",
+          "handle": "RyanGarcia",
+          "url": "https://x.com/RyanGarcia"
+        }
+      ],
+      "known_for": [
+        "WBC Lightweight",
+        "KingRy",
+        "Haney KO",
+        "Social Media Boxing"
+      ],
+      "relationships": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "",
+          "publisher": "",
+          "date": "",
+          "url": "https://x.com/RyanGarcia",
+          "access": "read"
+        }
+      ],
+      "file": "ryans/ryan-garcia.md",
+      "connection_count": 0
+    },
+    {
+      "slug": "ryan-gosling",
+      "name": "Ryan Gosling",
+      "number": 3,
+      "short": "Actor & Musician",
+      "title": "Actor & Musician",
+      "photo": "/images/ryan-gosling.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "status": "published",
+      "featured_on": null,
+      "birth": {
+        "date": "1980",
+        "date_precision": "year",
+        "place": null,
+        "cite": []
+      },
+      "birth_year_min": 1980,
+      "birth_year_max": 1980,
+      "death": null,
+      "occupations": [
+        "actor",
+        "musician"
+      ],
+      "clusters": [
+        "actor",
+        "film",
+        "musician"
+      ],
+      "organizations": [],
+      "education": [],
+      "website": "",
+      "social": [],
+      "known_for": [
+        "The Notebook",
+        "Drive",
+        "La La Land",
+        "Barbie",
+        "Blade Runner 2049"
+      ],
+      "relationships": [
+        {
+          "target": "ryan-phillippe",
+          "type": "thematic-link",
+          "note": "Actors who rose through late-90s / 2000s film.",
+          "cite": [
+            1
+          ],
+          "directed": false,
+          "verified": true
+        }
+      ],
+      "sources": [
+        {
+          "n": 1,
+          "title": "",
+          "publisher": "",
+          "date": "",
+          "url": "https://en.wikipedia.org/wiki/Ryan_Gosling",
+          "access": "read"
+        }
+      ],
+      "file": "ryans/ryan-gosling.md",
+      "connection_count": 2
+    },
+    {
+      "slug": "ryan-graves",
+      "name": "Ryan Graves",
+      "number": 10,
+      "short": "",
+      "title": "First CEO of Uber & Founder of Saltwater",
+      "photo": "/images/ryans/ryan-graves.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "status": "published",
+      "featured_on": null,
+      "birth": {
+        "date": "1983",
+        "date_precision": "year",
+        "place": null,
+        "cite": []
+      },
+      "birth_year_min": 1983,
+      "birth_year_max": 1983,
+      "death": null,
+      "occupations": [
+        "businessman",
+        "investor"
+      ],
+      "clusters": [
+        "tech",
+        "executive",
+        "investor"
+      ],
+      "organizations": [],
+      "education": [],
+      "website": "",
+      "social": [
+        {
+          "platform": "x",
+          "handle": "rfrfrfrf",
+          "url": "https://x.com/rfrfrfrf"
+        }
+      ],
+      "known_for": [
+        "Uber",
+        "Saltwater Capital",
+        "Charity: Water board"
+      ],
+      "relationships": [
+        {
+          "target": "ryan-smith-qualtrics",
+          "type": "thematic-link",
+          "note": "Tech operators who moved from startup leadership into ownership / investing.",
+          "cite": [
+            1
+          ],
+          "directed": false,
+          "verified": true
+        }
+      ],
+      "sources": [
+        {
+          "n": 1,
+          "title": "",
+          "publisher": "",
+          "date": "",
+          "url": "https://en.wikipedia.org/wiki/Ryan_Graves_(businessman)",
+          "access": "read"
+        },
+        {
+          "n": 2,
+          "title": "",
+          "publisher": "",
+          "date": "",
+          "url": "https://x.com/rfrfrfrf",
+          "access": "read"
+        }
+      ],
+      "file": "ryans/ryan-graves.md",
+      "connection_count": 1
+    },
+    {
+      "slug": "ryan-hoover",
+      "name": "Ryan Hoover",
+      "number": 6,
+      "short": "",
+      "title": "Founder of Product Hunt & Weekend Fund",
+      "photo": "/images/ryans/ryan-hoover.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "status": "published",
+      "featured_on": null,
+      "birth": null,
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "death": null,
+      "occupations": [
+        "entrepreneur",
+        "investor"
+      ],
+      "clusters": [
+        "founder",
+        "tech",
+        "investor"
+      ],
+      "organizations": [],
+      "education": [],
+      "website": "",
+      "social": [
+        {
+          "platform": "x",
+          "handle": "rrhoover",
+          "url": "https://x.com/rrhoover"
+        }
+      ],
+      "known_for": [
+        "Product Hunt",
+        "Weekend Fund",
+        "AngelList"
+      ],
+      "relationships": [
+        {
+          "target": "ryan-dahl",
+          "type": "thematic-link",
+          "note": "Product Hunt and Node/Deno as pillars of modern builder culture.",
+          "cite": [
+            1
+          ],
+          "directed": false,
+          "verified": true
+        }
+      ],
+      "sources": [
+        {
+          "n": 1,
+          "title": "",
+          "publisher": "",
+          "date": "",
+          "url": "https://en.wikipedia.org/wiki/Product_Hunt",
+          "access": "read"
+        },
+        {
+          "n": 2,
+          "title": "",
+          "publisher": "",
+          "date": "",
+          "url": "https://x.com/rrhoover",
+          "access": "read"
+        }
+      ],
+      "file": "ryans/ryan-hoover.md",
+      "connection_count": 1
+    },
+    {
+      "slug": "ryan-kaji",
+      "name": "Ryan Kaji",
+      "number": 24,
+      "short": "",
+      "title": "YouTube Star & Child Entertainer",
+      "photo": "",
+      "photo_credit": "",
+      "photo_license": "",
+      "status": "published",
+      "featured_on": null,
+      "birth": {
+        "date": "2011",
+        "date_precision": "year",
+        "place": null,
+        "cite": []
+      },
+      "birth_year_min": 2011,
+      "birth_year_max": 2011,
+      "death": null,
+      "occupations": [
+        "youtuber",
+        "entertainer"
+      ],
+      "clusters": [
+        "creator",
+        "youtube",
+        "business"
+      ],
+      "organizations": [],
+      "education": [],
+      "website": "",
+      "social": [],
+      "known_for": [
+        "Ryans World",
+        "Toy Reviews",
+        "Nickelodeon Show"
+      ],
+      "relationships": [],
+      "sources": [],
+      "file": "ryans/ryan-kaji.md",
+      "connection_count": 0
+    },
+    {
+      "slug": "ryan-phillippe",
       "name": "Ryan Phillippe",
+      "number": 19,
       "short": "Actor",
       "title": "Actor",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Ryan_Phillippe_2011_Shankbone.JPG/330px-Ryan_Phillippe_2011_Shankbone.JPG",
       "photo_credit": "",
       "photo_license": "",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Ryan_Phillippe",
-        "https://x.com/RyanPhillippe"
-      ],
+      "status": "published",
       "featured_on": null,
-      "file": "ryans/phillippe.md"
+      "birth": {
+        "date": "1974",
+        "date_precision": "year",
+        "place": null,
+        "cite": []
+      },
+      "birth_year_min": 1974,
+      "birth_year_max": 1974,
+      "death": null,
+      "occupations": [
+        "actor"
+      ],
+      "clusters": [
+        "actor",
+        "film"
+      ],
+      "organizations": [],
+      "education": [],
+      "website": "",
+      "social": [
+        {
+          "platform": "x",
+          "handle": "RyanPhillippe",
+          "url": "https://x.com/RyanPhillippe"
+        }
+      ],
+      "known_for": [
+        "Cruel Intentions",
+        "Crash",
+        "Flags of Our Fathers",
+        "54"
+      ],
+      "relationships": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "",
+          "publisher": "",
+          "date": "",
+          "url": "https://en.wikipedia.org/wiki/Ryan_Phillippe",
+          "access": "read"
+        },
+        {
+          "n": 2,
+          "title": "",
+          "publisher": "",
+          "date": "",
+          "url": "https://x.com/RyanPhillippe",
+          "access": "read"
+        }
+      ],
+      "file": "ryans/ryan-phillippe.md",
+      "connection_count": 1
     },
     {
-      "slug": "reynolds",
+      "slug": "ryan-reynolds",
       "name": "Ryan Reynolds",
+      "number": 2,
       "short": "Actor & Entrepreneur",
       "title": "Actor & Entrepreneur",
       "photo": "/images/ryan-reynolds.jpg",
       "photo_credit": "",
       "photo_license": "",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Ryan_Reynolds",
-        "https://x.com/VancityReynolds"
-      ],
+      "status": "published",
       "featured_on": null,
-      "file": "ryans/reynolds.md"
+      "birth": {
+        "date": "1976",
+        "date_precision": "year",
+        "place": null,
+        "cite": []
+      },
+      "birth_year_min": 1976,
+      "birth_year_max": 1976,
+      "death": null,
+      "occupations": [
+        "actor",
+        "entrepreneur"
+      ],
+      "clusters": [
+        "actor",
+        "film",
+        "founder",
+        "sports-owner"
+      ],
+      "organizations": [],
+      "education": [],
+      "website": "",
+      "social": [
+        {
+          "platform": "x",
+          "handle": "VancityReynolds",
+          "url": "https://x.com/VancityReynolds"
+        }
+      ],
+      "known_for": [
+        "Deadpool",
+        "Free Guy",
+        "The Proposal",
+        "Aviation Gin",
+        "Mint Mobile",
+        "Wrexham AFC"
+      ],
+      "relationships": [
+        {
+          "target": "ryan-seacrest",
+          "type": "thematic-link",
+          "note": "High-profile media entrepreneurs with large consumer brands.",
+          "cite": [
+            1
+          ],
+          "directed": false,
+          "verified": true
+        }
+      ],
+      "sources": [
+        {
+          "n": 1,
+          "title": "",
+          "publisher": "",
+          "date": "",
+          "url": "https://en.wikipedia.org/wiki/Ryan_Reynolds",
+          "access": "read"
+        },
+        {
+          "n": 2,
+          "title": "",
+          "publisher": "",
+          "date": "",
+          "url": "https://x.com/VancityReynolds",
+          "access": "read"
+        }
+      ],
+      "file": "ryans/ryan-reynolds.md",
+      "connection_count": 1
     },
     {
-      "slug": "seacrest",
+      "slug": "ryan-seacrest",
       "name": "Ryan Seacrest",
+      "number": 7,
       "short": "TV & Radio Host",
       "title": "TV & Radio Host",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Ryan_Seacrest_%282019%29.jpg/330px-Ryan_Seacrest_%282019%29.jpg",
       "photo_credit": "",
       "photo_license": "",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Ryan_Seacrest",
-        "https://x.com/RyanSeacrest"
-      ],
+      "status": "published",
       "featured_on": null,
-      "file": "ryans/seacrest.md"
+      "birth": {
+        "date": "1974",
+        "date_precision": "year",
+        "place": null,
+        "cite": []
+      },
+      "birth_year_min": 1974,
+      "birth_year_max": 1974,
+      "death": null,
+      "occupations": [
+        "television host",
+        "radio host",
+        "producer"
+      ],
+      "clusters": [
+        "tv-host",
+        "media",
+        "broadcaster"
+      ],
+      "organizations": [],
+      "education": [],
+      "website": "",
+      "social": [
+        {
+          "platform": "x",
+          "handle": "RyanSeacrest",
+          "url": "https://x.com/RyanSeacrest"
+        }
+      ],
+      "known_for": [
+        "American Idol",
+        "Live with Kelly and Ryan",
+        "E! News",
+        "New Year's Rockin' Eve"
+      ],
+      "relationships": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "",
+          "publisher": "",
+          "date": "",
+          "url": "https://en.wikipedia.org/wiki/Ryan_Seacrest",
+          "access": "read"
+        },
+        {
+          "n": 2,
+          "title": "",
+          "publisher": "",
+          "date": "",
+          "url": "https://x.com/RyanSeacrest",
+          "access": "read"
+        }
+      ],
+      "file": "ryans/ryan-seacrest.md",
+      "connection_count": 1
     },
     {
-      "slug": "selkis",
-      "name": "Ryan Selkis",
-      "short": "",
-      "title": "Crypto Entrepreneur & Founder",
-      "photo": "/images/ryan-selkis.jpg",
-      "photo_credit": "",
-      "photo_license": "",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Ryan_Selkis",
-        "https://x.com/taborasaurus"
-      ],
-      "featured_on": null,
-      "file": "ryans/selkis.md"
-    },
-    {
-      "slug": "smith",
+      "slug": "ryan-smith-qualtrics",
       "name": "Ryan Smith",
+      "number": 11,
       "short": "",
       "title": "Co-founder of Qualtrics & Owner of Utah Jazz",
       "photo": "/images/ryans/ryan-smith.jpg",
       "photo_credit": "",
       "photo_license": "",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Ryan_Smith_(businessman)"
-      ],
+      "status": "published",
       "featured_on": null,
-      "file": "ryans/smith.md"
+      "birth": {
+        "date": "1978",
+        "date_precision": "year",
+        "place": null,
+        "cite": []
+      },
+      "birth_year_min": 1978,
+      "birth_year_max": 1978,
+      "death": null,
+      "occupations": [
+        "businessman",
+        "sports owner"
+      ],
+      "clusters": [
+        "founder",
+        "tech",
+        "sports-owner"
+      ],
+      "organizations": [],
+      "education": [],
+      "website": "",
+      "social": [],
+      "known_for": [
+        "Qualtrics",
+        "Utah Jazz",
+        "Smith Entertainment Group"
+      ],
+      "relationships": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "",
+          "publisher": "",
+          "date": "",
+          "url": "https://en.wikipedia.org/wiki/Ryan_Smith_(businessman)",
+          "access": "read"
+        }
+      ],
+      "file": "ryans/ryan-smith-qualtrics.md",
+      "connection_count": 1
     },
     {
-      "slug": "tedder",
+      "slug": "ryan-tedder",
       "name": "Ryan Tedder",
+      "number": 4,
       "short": "",
       "title": "Singer, Songwriter & Producer",
       "photo": "/images/ryans/ryan-tedder.jpg",
       "photo_credit": "",
       "photo_license": "",
-      "sources": [],
+      "status": "published",
       "featured_on": null,
-      "file": "ryans/tedder.md"
+      "birth": {
+        "date": "1979",
+        "date_precision": "year",
+        "place": null,
+        "cite": []
+      },
+      "birth_year_min": 1979,
+      "birth_year_max": 1979,
+      "death": null,
+      "occupations": [
+        "singer",
+        "songwriter",
+        "producer"
+      ],
+      "clusters": [
+        "musician",
+        "songwriter",
+        "producer"
+      ],
+      "organizations": [],
+      "education": [],
+      "website": "",
+      "social": [],
+      "known_for": [
+        "OneRepublic",
+        "Halo",
+        "Bleeding Love"
+      ],
+      "relationships": [
+        {
+          "target": "ryan-gosling",
+          "type": "thematic-link",
+          "note": "Musician and actor-musician crossover in pop culture.",
+          "cite": [
+            1
+          ],
+          "directed": false,
+          "verified": true
+        }
+      ],
+      "sources": [
+        {
+          "n": 1,
+          "title": "Pending primary citation",
+          "publisher": "",
+          "date": "",
+          "url": "https://alltheryans.com/",
+          "access": "unverified"
+        }
+      ],
+      "file": "ryans/ryan-tedder.md",
+      "connection_count": 1
+    },
+    {
+      "slug": "selkis",
+      "name": "Ryan Selkis",
+      "number": null,
+      "short": "",
+      "title": "Crypto Entrepreneur & Founder",
+      "photo": "/images/ryan-selkis.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "status": "published",
+      "featured_on": null,
+      "birth": {
+        "date": "1985",
+        "date_precision": "year",
+        "place": null,
+        "cite": []
+      },
+      "birth_year_min": 1985,
+      "birth_year_max": 1985,
+      "death": null,
+      "occupations": [
+        "Crypto Entrepreneur & Founder"
+      ],
+      "clusters": [
+        "tech",
+        "founder",
+        "investor"
+      ],
+      "organizations": [],
+      "education": [],
+      "website": "",
+      "social": [
+        {
+          "platform": "x",
+          "handle": "taborasaurus",
+          "url": "https://x.com/taborasaurus"
+        }
+      ],
+      "known_for": [
+        "Messari",
+        "Digital Currency Group",
+        "CoinDesk",
+        "Consensus Conference",
+        "Crypto Twitter"
+      ],
+      "relationships": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "",
+          "publisher": "",
+          "date": "",
+          "url": "https://en.wikipedia.org/wiki/Ryan_Selkis",
+          "access": "read"
+        },
+        {
+          "n": 2,
+          "title": "",
+          "publisher": "",
+          "date": "",
+          "url": "https://x.com/taborasaurus",
+          "access": "read"
+        }
+      ],
+      "file": "ryans/selkis.md",
+      "connection_count": 0
     },
     {
       "slug": "trahan",
       "name": "Ryan Trahan",
+      "number": null,
       "short": "YouTuber & Creator",
       "title": "YouTuber & Creator",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/RyanTrahan_Interview.png/330px-RyanTrahan_Interview.png",
       "photo_credit": "",
       "photo_license": "",
-      "sources": [
-        "https://x.com/RyanTrahan"
-      ],
+      "status": "published",
       "featured_on": null,
-      "file": "ryans/trahan.md"
+      "birth": {
+        "date": "1998",
+        "date_precision": "year",
+        "place": null,
+        "cite": []
+      },
+      "birth_year_min": 1998,
+      "birth_year_max": 1998,
+      "death": null,
+      "occupations": [
+        "YouTuber & Creator"
+      ],
+      "clusters": [
+        "creator",
+        "youtube"
+      ],
+      "organizations": [],
+      "education": [],
+      "website": "",
+      "social": [
+        {
+          "platform": "x",
+          "handle": "RyanTrahan",
+          "url": "https://x.com/RyanTrahan"
+        }
+      ],
+      "known_for": [
+        "Penny Challenge",
+        "15M Subscribers",
+        "Charity Fundraising",
+        "Creative Challenges"
+      ],
+      "relationships": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "",
+          "publisher": "",
+          "date": "",
+          "url": "https://x.com/RyanTrahan",
+          "access": "read"
+        }
+      ],
+      "file": "ryans/trahan.md",
+      "connection_count": 0
     }
-  ]
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "id": "breslow",
+        "slug": "breslow",
+        "name": "Ryan Breslow",
+        "number": null,
+        "clusters": [
+          "founder",
+          "tech"
+        ],
+        "photo": "/images/ryans/ryan-breslow.jpg"
+      },
+      {
+        "id": "castro",
+        "slug": "castro",
+        "name": "Ryan Castro",
+        "number": null,
+        "clusters": [
+          "musician"
+        ],
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Foto_ryan_agosto_%28cropped%29.jpg/330px-Foto_ryan_agosto_%28cropped%29.jpg"
+      },
+      {
+        "id": "cohen",
+        "slug": "cohen",
+        "name": "Ryan Cohen",
+        "number": null,
+        "clusters": [
+          "founder",
+          "investor",
+          "business"
+        ],
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Ryan_Cohen_2019_%28cropped%29.jpg/330px-Ryan_Cohen_2019_%28cropped%29.jpg"
+      },
+      {
+        "id": "cwynar",
+        "slug": "cwynar",
+        "name": "Ryan Cwynar",
+        "number": null,
+        "clusters": [
+          "tech",
+          "founder"
+        ],
+        "photo": "/images/ryan-cwynar.jpg"
+      },
+      {
+        "id": "giggs",
+        "slug": "giggs",
+        "name": "Ryan Giggs",
+        "number": null,
+        "clusters": [
+          "athlete"
+        ],
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/1/13/Ryan_Giggs_2015_%28cropped%29.jpg"
+      },
+      {
+        "id": "higa",
+        "slug": "higa",
+        "name": "Ryan Higa",
+        "number": null,
+        "clusters": [
+          "creator",
+          "youtube",
+          "comedian"
+        ],
+        "photo": "/images/ryans/ryan-higa.jpg"
+      },
+      {
+        "id": "holmes",
+        "slug": "holmes",
+        "name": "Ryan Holmes",
+        "number": null,
+        "clusters": [
+          "founder",
+          "tech"
+        ],
+        "photo": "/images/ryans/ryan-holmes.jpg"
+      },
+      {
+        "id": "humphries",
+        "slug": "humphries",
+        "name": "Ryan Humphries",
+        "number": null,
+        "clusters": [
+          "business"
+        ],
+        "photo": "/images/ryan-humphries.jpg"
+      },
+      {
+        "id": "matt",
+        "slug": "matt",
+        "name": "Matt Ryan",
+        "number": null,
+        "clusters": [
+          "athlete"
+        ],
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Washington_Football_Team_at_Atlanta_Falcons_%283_October_2021%29_DSC_4628_%2851555290664%29_%28cropped%29.jpg/330px-Washington_Football_Team_at_Atlanta_Falcons_%283_October_2021%29_DSC_4628_%2851555290664%29_%28cropped%29.jpg"
+      },
+      {
+        "id": "nolan-ryan",
+        "slug": "nolan-ryan",
+        "name": "Nolan Ryan",
+        "number": 5,
+        "clusters": [
+          "athlete",
+          "baseball",
+          "historical"
+        ],
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Nolan_Ryan_Tiger_Stadium_1990_CROP.jpg/330px-Nolan_Ryan_Tiger_Stadium_1990_CROP.jpg"
+      },
+      {
+        "id": "ryan-anderson",
+        "slug": "ryan-anderson",
+        "name": "Ryan Anderson",
+        "number": null,
+        "clusters": [
+          "founder",
+          "tech"
+        ],
+        "photo": ""
+      },
+      {
+        "id": "ryan-carson",
+        "slug": "ryan-carson",
+        "name": "Ryan Carson",
+        "number": 17,
+        "clusters": [
+          "founder",
+          "tech",
+          "education"
+        ],
+        "photo": ""
+      },
+      {
+        "id": "ryan-coogler",
+        "slug": "ryan-coogler",
+        "name": "Ryan Coogler",
+        "number": 8,
+        "clusters": [
+          "director",
+          "film",
+          "writer"
+        ],
+        "photo": "/images/ryans/ryan-coogler.jpg"
+      },
+      {
+        "id": "ryan-dahl",
+        "slug": "ryan-dahl",
+        "name": "Ryan Dahl",
+        "number": 15,
+        "clusters": [
+          "engineer",
+          "tech",
+          "founder",
+          "open-source"
+        ],
+        "photo": "/images/ryans/ryan-dahl.jpg"
+      },
+      {
+        "id": "ryan-garcia",
+        "slug": "ryan-garcia",
+        "name": "Ryan Garcia",
+        "number": 25,
+        "clusters": [
+          "athlete",
+          "boxer",
+          "creator"
+        ],
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/RYAN_GARCIA.jpg/330px-RYAN_GARCIA.jpg"
+      },
+      {
+        "id": "ryan-gosling",
+        "slug": "ryan-gosling",
+        "name": "Ryan Gosling",
+        "number": 3,
+        "clusters": [
+          "actor",
+          "film",
+          "musician"
+        ],
+        "photo": "/images/ryan-gosling.jpg"
+      },
+      {
+        "id": "ryan-graves",
+        "slug": "ryan-graves",
+        "name": "Ryan Graves",
+        "number": 10,
+        "clusters": [
+          "tech",
+          "executive",
+          "investor"
+        ],
+        "photo": "/images/ryans/ryan-graves.jpg"
+      },
+      {
+        "id": "ryan-hoover",
+        "slug": "ryan-hoover",
+        "name": "Ryan Hoover",
+        "number": 6,
+        "clusters": [
+          "founder",
+          "tech",
+          "investor"
+        ],
+        "photo": "/images/ryans/ryan-hoover.jpg"
+      },
+      {
+        "id": "ryan-kaji",
+        "slug": "ryan-kaji",
+        "name": "Ryan Kaji",
+        "number": 24,
+        "clusters": [
+          "creator",
+          "youtube",
+          "business"
+        ],
+        "photo": ""
+      },
+      {
+        "id": "ryan-phillippe",
+        "slug": "ryan-phillippe",
+        "name": "Ryan Phillippe",
+        "number": 19,
+        "clusters": [
+          "actor",
+          "film"
+        ],
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Ryan_Phillippe_2011_Shankbone.JPG/330px-Ryan_Phillippe_2011_Shankbone.JPG"
+      },
+      {
+        "id": "ryan-reynolds",
+        "slug": "ryan-reynolds",
+        "name": "Ryan Reynolds",
+        "number": 2,
+        "clusters": [
+          "actor",
+          "film",
+          "founder",
+          "sports-owner"
+        ],
+        "photo": "/images/ryan-reynolds.jpg"
+      },
+      {
+        "id": "ryan-seacrest",
+        "slug": "ryan-seacrest",
+        "name": "Ryan Seacrest",
+        "number": 7,
+        "clusters": [
+          "tv-host",
+          "media",
+          "broadcaster"
+        ],
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Ryan_Seacrest_%282019%29.jpg/330px-Ryan_Seacrest_%282019%29.jpg"
+      },
+      {
+        "id": "ryan-smith-qualtrics",
+        "slug": "ryan-smith-qualtrics",
+        "name": "Ryan Smith",
+        "number": 11,
+        "clusters": [
+          "founder",
+          "tech",
+          "sports-owner"
+        ],
+        "photo": "/images/ryans/ryan-smith.jpg"
+      },
+      {
+        "id": "ryan-tedder",
+        "slug": "ryan-tedder",
+        "name": "Ryan Tedder",
+        "number": 4,
+        "clusters": [
+          "musician",
+          "songwriter",
+          "producer"
+        ],
+        "photo": "/images/ryans/ryan-tedder.jpg"
+      },
+      {
+        "id": "selkis",
+        "slug": "selkis",
+        "name": "Ryan Selkis",
+        "number": null,
+        "clusters": [
+          "tech",
+          "founder",
+          "investor"
+        ],
+        "photo": "/images/ryan-selkis.jpg"
+      },
+      {
+        "id": "trahan",
+        "slug": "trahan",
+        "name": "Ryan Trahan",
+        "number": null,
+        "clusters": [
+          "creator",
+          "youtube"
+        ],
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/RyanTrahan_Interview.png/330px-RyanTrahan_Interview.png"
+      }
+    ],
+    "links": [
+      {
+        "source": "ryan-gosling",
+        "target": "ryan-phillippe",
+        "type": "thematic-link",
+        "directed": false,
+        "note": "Actors who rose through late-90s / 2000s film."
+      },
+      {
+        "source": "ryan-graves",
+        "target": "ryan-smith-qualtrics",
+        "type": "thematic-link",
+        "directed": false,
+        "note": "Tech operators who moved from startup leadership into ownership / investing."
+      },
+      {
+        "source": "ryan-dahl",
+        "target": "ryan-hoover",
+        "type": "thematic-link",
+        "directed": false,
+        "note": "Product Hunt and Node/Deno as pillars of modern builder culture."
+      },
+      {
+        "source": "ryan-reynolds",
+        "target": "ryan-seacrest",
+        "type": "thematic-link",
+        "directed": false,
+        "note": "High-profile media entrepreneurs with large consumer brands."
+      },
+      {
+        "source": "ryan-gosling",
+        "target": "ryan-tedder",
+        "type": "thematic-link",
+        "directed": false,
+        "note": "Musician and actor-musician crossover in pop culture."
+      }
+    ]
+  }
 }

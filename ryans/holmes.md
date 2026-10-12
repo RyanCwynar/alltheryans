@@ -1,22 +1,48 @@
 ---
-slug: "holmes"
-name: "Ryan Holmes"
-short: "Founder of Hootsuite"
-title: "Founder of Hootsuite"
-photo: "/images/ryans/ryan-holmes.jpg"
-photo_credit: ""
-photo_license: ""
-sources: ["https://en.wikipedia.org/wiki/Ryan_Holmes", "https://x.com/invoker"]
+slug: holmes
+name: Ryan Holmes
+status: published
+short: Founder of Hootsuite
+title: Founder of Hootsuite
+photo: /images/ryans/ryan-holmes.jpg
+photo_credit: ''
+photo_license: ''
+birth:
+  date: '1974'
+  date_precision: year
+  place: null
+  cite: []
+death: null
+education: []
+occupations:
+- Founder of Hootsuite
+clusters:
+- founder
+- tech
+organizations: []
+website: ''
+social:
+- platform: x
+  handle: invoker
+  url: https://x.com/invoker
+known_for:
+- Hootsuite
+- Social Media Management
+relationships: []
 featured_on: null
-why_cool: "Serial founder who kept at it until he hit a massive winner. Hootsuite became the verb for managing social media. Fifth time was the charm."
-known_for: ["Hootsuite", "Social Media Management"]
-birth_year: 1974.0
-twitter: "invoker"
-wikipedia: "https://en.wikipedia.org/wiki/Ryan_Holmes"
-verified: true
-votes: 0
-convex_id: "rd7bs1nmspvpfgpvv0q78assjd80rq71"
-created_at: "2026-02-08T01:51:42.457000Z"
+sources:
+- n: 1
+  title: ''
+  publisher: ''
+  date: null
+  url: https://en.wikipedia.org/wiki/Ryan_Holmes
+  access: read
+- n: 2
+  title: ''
+  publisher: ''
+  date: null
+  url: https://x.com/invoker
+  access: read
 ---
 
 Canadian entrepreneur who started his first business in high school. Founded Hootsuite in 2008, grew it to 18+ million users and the dominant social media management platform. His fifth startup.

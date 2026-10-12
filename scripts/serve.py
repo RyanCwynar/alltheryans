@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Local static server with /ryan/<slug> -> index.html (mirrors vercel.json)."""
+"""Local static server with SPA rewrites matching vercel.json."""
 
 from __future__ import annotations
 
@@ -14,6 +14,8 @@ class Handler(SimpleHTTPRequestHandler):
         path = self.path.split("?", 1)[0].split("#", 1)[0]
         if path.startswith("/ryan/") and path.count("/") == 2:
             self.path = "/index.html"
+        elif path.startswith("/tag/") and path.count("/") == 2:
+            self.path = "/tag/index.html"
         return super().send_head()
 
 
