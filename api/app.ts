@@ -1,5 +1,6 @@
 /**
- * Public read-only Hono API. All writes go through the CLI (single writer).
+ * Local Bun dev API (scripts/dev-server.ts). Production uses individual
+ * Vercel functions under api/*.ts — keep route behavior in sync.
  */
 import { Hono } from "hono";
 import { cors } from "hono/cors";
@@ -18,9 +19,11 @@ export type AppEnv = {
 };
 
 function dbFromEnv(env: LibsqlEnv) {
+  // Prefer explicit bindings, else process.env (never trust unrelated c.env shapes).
   return createDb({
-    LIBSQL_URL: env.LIBSQL_URL ?? process.env.LIBSQL_URL,
-    LIBSQL_AUTH_TOKEN: env.LIBSQL_AUTH_TOKEN ?? process.env.LIBSQL_AUTH_TOKEN,
+    LIBSQL_URL: typeof env.LIBSQL_URL === "string" ? env.LIBSQL_URL : process.env.LIBSQL_URL,
+    LIBSQL_AUTH_TOKEN:
+      typeof env.LIBSQL_AUTH_TOKEN === "string" ? env.LIBSQL_AUTH_TOKEN : process.env.LIBSQL_AUTH_TOKEN,
   }).db;
 }
 
@@ -29,6 +32,16 @@ function parseSort(value: string | undefined): SortKey {
     return value;
   }
   return "name";
+}
+
+function cacheHeaders(): Record<string, string> {
+  return {
+    "Cache-Control": "public, s-maxage=60, stale-while-revalidate=300",
+  };
+}
+
+function noStore(): Record<string, string> {
+  return { "Cache-Control": "no-store" };
 }
 
 export function createApp() {
@@ -41,66 +54,80 @@ export function createApp() {
   );
 
   app.get("/api/ryans", async (c) => {
-    const db = dbFromEnv(c.env ?? {});
-    const tag = c.req.query("tag") || undefined;
-    const sort = parseSort(c.req.query("sort") || undefined);
-    const q = c.req.query("q") || undefined;
-    const ryans = await listPublishedRyans(db, { tag, sort, q });
-    return c.json(
-      { count: ryans.length, ryans },
-      200,
-      cacheHeaders(),
-    );
+    try {
+      const db = dbFromEnv(c.env ?? {});
+      const tag = c.req.query("tag") || undefined;
+      const sort = parseSort(c.req.query("sort") || undefined);
+      const q = c.req.query("q") || undefined;
+      const ryans = await listPublishedRyans(db, { tag, sort, q });
+      return c.json({ count: ryans.length, ryans }, 200, cacheHeaders());
+    } catch (err) {
+      console.error(err);
+      return c.json({ error: "internal" }, 500, noStore());
+    }
   });
 
   app.get("/api/ryans/:slug", async (c) => {
-    const db = dbFromEnv(c.env ?? {});
-    const ryan = await getPublishedRyanBySlug(db, c.req.param("slug"));
-    if (!ryan) return c.json({ error: "not_found" }, 404);
-    return c.json({ ryan }, 200, cacheHeaders());
+    try {
+      const db = dbFromEnv(c.env ?? {});
+      const ryan = await getPublishedRyanBySlug(db, c.req.param("slug"));
+      if (!ryan) return c.json({ error: "not_found" }, 404, noStore());
+      return c.json({ ryan }, 200, cacheHeaders());
+    } catch (err) {
+      console.error(err);
+      return c.json({ error: "internal" }, 500, noStore());
+    }
   });
 
   app.get("/api/tags", async (c) => {
-    const db = dbFromEnv(c.env ?? {});
-    const tags = await listTags(db);
-    return c.json({ tags }, 200, cacheHeaders());
+    try {
+      const db = dbFromEnv(c.env ?? {});
+      const tags = await listTags(db);
+      return c.json({ tags }, 200, cacheHeaders());
+    } catch (err) {
+      console.error(err);
+      return c.json({ error: "internal" }, 500, noStore());
+    }
   });
 
   app.get("/api/tags/:tag", async (c) => {
-    const db = dbFromEnv(c.env ?? {});
-    const sort = parseSort(c.req.query("sort") || "number");
-    const page = await getTagPage(db, c.req.param("tag"), sort);
-    if (!page) return c.json({ error: "not_found" }, 404);
-    return c.json(page, 200, cacheHeaders());
+    try {
+      const db = dbFromEnv(c.env ?? {});
+      const sort = parseSort(c.req.query("sort") || "number");
+      const page = await getTagPage(db, c.req.param("tag"), sort);
+      if (!page) return c.json({ error: "not_found" }, 404, noStore());
+      return c.json(page, 200, cacheHeaders());
+    } catch (err) {
+      console.error(err);
+      return c.json({ error: "internal" }, 500, noStore());
+    }
   });
 
   app.get("/api/ryan-web", async (c) => {
-    const db = dbFromEnv(c.env ?? {});
-    const graph = await getRyanWeb(db);
-    return c.json(graph, 200, cacheHeaders());
+    try {
+      const db = dbFromEnv(c.env ?? {});
+      const graph = await getRyanWeb(db);
+      return c.json(graph, 200, cacheHeaders());
+    } catch (err) {
+      console.error(err);
+      return c.json({ error: "internal" }, 500, noStore());
+    }
   });
 
-  // Explicitly reject writes on the public API
   app.post("/api/*", (c) =>
-    c.json({ error: "read_only", message: "Use the seed CLI (single writer)." }, 405),
+    c.json({ error: "read_only", message: "Use the seed CLI (single writer)." }, 405, noStore()),
   );
   app.put("/api/*", (c) =>
-    c.json({ error: "read_only", message: "Use the seed CLI (single writer)." }, 405),
+    c.json({ error: "read_only", message: "Use the seed CLI (single writer)." }, 405, noStore()),
   );
   app.patch("/api/*", (c) =>
-    c.json({ error: "read_only", message: "Use the seed CLI (single writer)." }, 405),
+    c.json({ error: "read_only", message: "Use the seed CLI (single writer)." }, 405, noStore()),
   );
   app.delete("/api/*", (c) =>
-    c.json({ error: "read_only", message: "Use the seed CLI (single writer)." }, 405),
+    c.json({ error: "read_only", message: "Use the seed CLI (single writer)." }, 405, noStore()),
   );
 
   return app;
-}
-
-function cacheHeaders(): Record<string, string> {
-  return {
-    "Cache-Control": "public, s-maxage=60, stale-while-revalidate=300",
-  };
 }
 
 export default createApp();
