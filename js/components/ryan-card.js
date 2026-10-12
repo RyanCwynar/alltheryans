@@ -1,11 +1,11 @@
 import { LitElement, html } from "lit";
 import { cardShort } from "../lib/parse.js";
+import { seriesLabel } from "../lib/data.js";
 import "./ryan-photo.js";
 
 export class RyanCard extends LitElement {
   static properties = {
     ryan: { type: Object },
-    no: { type: String },
   };
 
   createRenderRoot() {
@@ -15,11 +15,12 @@ export class RyanCard extends LitElement {
   render() {
     const ryan = this.ryan || {};
     const short = cardShort(ryan);
+    const no = seriesLabel(ryan);
     return html`
       <a class="ryan-card" href="/ryan/${ryan.slug}">
         <div class="thumb">
           <ryan-photo .ryan=${ryan}></ryan-photo>
-          ${this.no ? html`<span class="no">No. ${this.no}</span>` : null}
+          ${no ? html`<span class="no">${no}</span>` : null}
         </div>
         <div class="meta">
           <h3 class="name">${ryan.name}</h3>

@@ -1,10 +1,10 @@
 import { LitElement, html } from "lit";
 import {
-  loadIndex,
+  loadPublishedRyans,
   loadRyanMarkdown,
   pickRyanOfDay,
   sortByName,
-  rollNumber,
+  seriesLabel,
   todayLabel,
 } from "../lib/data.js";
 import { cardShort } from "../lib/parse.js";
@@ -40,11 +40,11 @@ export class HomePage extends LitElement {
 
   async #load() {
     try {
-      const ryans = await loadIndex();
+      const ryans = await loadPublishedRyans();
       this.ryans = sortByName(ryans);
       this.featured = pickRyanOfDay(ryans);
       this.status = "ready";
-      // Pull the full profile (why_cool, known_for) for the spotlight card.
+      // Pull the full profile for the spotlight card.
       if (this.featured) {
         const full = await loadRyanMarkdown(this.featured.slug).catch(() => null);
         if (full) this.featured = full;
@@ -68,15 +68,16 @@ export class HomePage extends LitElement {
       return html`<div class="loading wrap">Loading Ryans…</div>`;
     }
     if (this.status === "error" || !this.featured) {
-      return html`<div class="error wrap">Could not load the Ryan directory.</div>`;
+      return html`<div class="error wrap">Could not load the Ryan directory. Is the API up?</div>`;
     }
 
     const ryan = this.featured;
     const role = ryan.title || cardShort(ryan);
-    const blurb = ryan.why_cool || ryan.bioMarkdown || "";
+    const blurb = ryan.lead_summary || "";
     const knownFor = Array.isArray(ryan.known_for) ? ryan.known_for.slice(0, 3) : [];
     const surnames = this.ryans.map((r) => r.name.split(/\s+/).pop());
     const total = this.ryans.length;
+    const no = seriesLabel(ryan);
 
     return html`
       <main>
@@ -90,7 +91,7 @@ export class HomePage extends LitElement {
             </p>
             <div class="cta-row">
               <a class="btn btn-dark" href="/archive/">Browse all ${total} Ryans ${arrowIcon}</a>
-              <a class="btn btn-outline" href=${ADD_RYAN_URL} rel="noopener">Suggest a Ryan</a>
+              <a class="btn btn-outline" href="/web/">Explore the Ryan web</a>
             </div>
           </div>
 
@@ -100,7 +101,7 @@ export class HomePage extends LitElement {
               <span class="badge">Ryan of the day</span>
             </div>
             <div class="rotd-body">
-              <p class="eyebrow">${todayLabel()} · No. ${rollNumber(this.ryans, ryan.slug)}</p>
+              <p class="eyebrow">${todayLabel()}${no ? ` · ${no}` : ""}</p>
               <h2 class="display">${ryan.name}</h2>
               ${role ? html`<p class="role">${role}</p>` : null}
               ${blurb ? html`<p class="blurb">${blurb}</p>` : null}
@@ -114,11 +115,13 @@ export class HomePage extends LitElement {
           </article>
         </section>
 
-        <div class="marquee" aria-hidden="true">
-          <div class="marquee-track">
-            ${[...surnames, ...surnames].map((s) => html`<span>${s}</span>`)}
-          </div>
-        </div>
+        ${surnames.length > 1
+          ? html`<div class="marquee" aria-hidden="true">
+              <div class="marquee-track">
+                ${[...surnames, ...surnames].map((s) => html`<span>${s}</span>`)}
+              </div>
+            </div>`
+          : null}
 
         <section class="section">
           <div class="wrap">
@@ -130,10 +133,7 @@ export class HomePage extends LitElement {
               <a class="more" href="/archive/">See all ${total} →</a>
             </div>
             <div class="ryan-grid">
-              ${this.#preview().map(
-                (item) =>
-                  html`<ryan-card .ryan=${item} no=${rollNumber(this.ryans, item.slug)}></ryan-card>`,
-              )}
+              ${this.#preview().map((item) => html`<ryan-card .ryan=${item}></ryan-card>`)}
             </div>
           </div>
         </section>
@@ -142,8 +142,8 @@ export class HomePage extends LitElement {
           <div>
             <h2 class="display">Know a Ryan we’re missing?</h2>
             <p>
-              Profiles are Markdown files in the repo. Add one with a sourced bio and a properly
-              licensed photo, and it joins the roll call on the next push.
+              Profiles are sourced Markdown files in the repo. Add one with citations and a
+              properly licensed photo, and it joins the roll call once it’s published.
             </p>
           </div>
           <a class="btn btn-light" href=${ADD_RYAN_URL} rel="noopener">Add a Ryan on GitHub</a>

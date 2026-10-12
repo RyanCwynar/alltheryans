@@ -21,6 +21,7 @@ export class SiteHeader extends LitElement {
           <nav class="nav-links" aria-label="Primary">
             <a href="/" aria-current=${current === "home" ? "page" : undefined}>Today</a>
             <a href="/archive/" aria-current=${current === "archive" ? "page" : undefined}>Archive</a>
+            <a href="/web/" aria-current=${current === "web" ? "page" : undefined}>Web</a>
             <a href="/about/" aria-current=${current === "about" ? "page" : undefined}>About</a>
           </nav>
         </div>

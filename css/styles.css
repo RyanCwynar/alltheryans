@@ -1109,3 +1109,87 @@ a:hover {
     font-size: 3rem;
   }
 }
+
+/* Archive filters */
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 1rem 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.toolbar label {
+  display: grid;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.toolbar select {
+  min-width: 11rem;
+  height: 44px;
+  padding: 0 2.25rem 0 1rem;
+  border: 1.5px solid var(--line);
+  border-radius: var(--pill);
+  background: #fff
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none' stroke='%23141414' stroke-width='2'%3E%3Cpath d='M1 1l5 5 5-5'/%3E%3C/svg%3E")
+    no-repeat right 1rem center;
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.95rem;
+  appearance: none;
+  cursor: pointer;
+}
+
+.toolbar select:hover {
+  border-color: var(--ink);
+}
+
+.toolbar .result-count {
+  margin: 0 0 0.7rem;
+}
+
+.text-link {
+  margin: 0 0 0.7rem auto;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.chip-link {
+  display: inline-block;
+  color: var(--ink);
+  text-decoration: none;
+  transition: background 160ms ease, color 160ms ease;
+}
+
+.chip-link:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+.bio-body > h1:first-child {
+  display: none;
+}
+
+/* Ryan web */
+
+.web-canvas {
+  width: 100%;
+  min-height: 480px;
+  border-radius: 28px;
+  background: #fff;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.web-canvas svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.eyebrow a {
+  color: inherit;
+}

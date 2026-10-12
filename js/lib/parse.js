@@ -124,7 +124,16 @@ export function normalizeSources(sources) {
         }
       }
       if (typeof item === "object" && item.url) {
-        return { title: item.title || item.url, url: item.url };
+        let fallback = item.url;
+        try {
+          fallback = sourceLabel(new URL(item.url));
+        } catch {}
+        return {
+          title: item.title || fallback,
+          url: item.url,
+          n: item.n ?? null,
+          publisher: item.publisher || "",
+        };
       }
       return null;
     })

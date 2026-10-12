@@ -1,11 +1,13 @@
 import { LitElement, html } from "lit";
 import { unsafeHTML } from "lit/directives/unsafe-html.js";
 import {
-  loadIndex,
+  loadPublishedRyans,
   loadRyanMarkdown,
   pickRyanOfDay,
   sortByName,
-  rollNumber,
+  seriesLabel,
+  xHandle,
+  birthLabel,
 } from "../lib/data.js";
 import { renderMarkdown, normalizeSources, photoCreditLine } from "../lib/parse.js";
 import "./ryan-photo.js";
@@ -46,16 +48,19 @@ export class BioPage extends LitElement {
     if (!this.slug) return;
     this.status = "loading";
     try {
-      const [ryan, index] = await Promise.all([loadRyanMarkdown(this.slug), loadIndex()]);
+      const [ryan, list] = await Promise.all([
+        loadRyanMarkdown(this.slug),
+        loadPublishedRyans().catch(() => []),
+      ]);
       this.ryan = ryan;
-      this.ryans = sortByName(index);
+      this.ryans = sortByName(list);
       this.status = "ready";
       document.title = `${ryan.name} · All The Ryans`;
       const desc = document.querySelector('meta[name="description"]');
       if (desc) {
         desc.setAttribute(
           "content",
-          (ryan.title || ryan.short || `Bio of ${ryan.name}`).toString(),
+          (ryan.title || ryan.short || ryan.lead_summary || `Bio of ${ryan.name}`).toString(),
         );
       }
     } catch (err) {
@@ -78,7 +83,7 @@ export class BioPage extends LitElement {
     if (this.status === "error" || !this.ryan) {
       return html`
         <div class="error wrap">
-          <p>That Ryan isn’t in the directory.</p>
+          <p>That Ryan isn’t published.</p>
           <p><a href="/archive/">Back to the archive</a></p>
         </div>
       `;
@@ -89,8 +94,12 @@ export class BioPage extends LitElement {
     const sources = normalizeSources(ryan.sources);
     const body = renderMarkdown(ryan.bioMarkdown || "");
     const knownFor = Array.isArray(ryan.known_for) ? ryan.known_for : [];
-    const isToday = pickRyanOfDay(this.ryans)?.slug === ryan.slug;
-    const no = rollNumber(this.ryans, ryan.slug);
+    const clusters = ryan.clusters || [];
+    const isToday = this.ryans.length && pickRyanOfDay(this.ryans)?.slug === ryan.slug;
+    const no = seriesLabel(ryan);
+    const born = birthLabel(ryan);
+    const place = ryan.birth?.place || ryan.birth_place || "";
+    const x = xHandle(ryan);
     const [prev, next] = this.#neighbors();
 
     return html`
@@ -106,24 +115,29 @@ export class BioPage extends LitElement {
               <name-tag size="small"></name-tag>
             </div>
             ${credit ? html`<p class="photo-credit">${credit}</p>` : null}
-            <dl class="facts">
-              ${ryan.birth_year
-                ? html`<div><dt>Born</dt><dd>${ryan.birth_year}</dd></div>`
-                : null}
-              ${ryan.twitter
-                ? html`<div>
-                    <dt>On X</dt>
-                    <dd>
-                      <a href="https://x.com/${ryan.twitter}" rel="noopener noreferrer"
-                        >@${ryan.twitter}</a
-                      >
-                    </dd>
-                  </div>`
-                : null}
-              ${no
-                ? html`<div><dt>Roll call</dt><dd>No. ${no} of ${this.ryans.length}</dd></div>`
-                : null}
-            </dl>
+            ${born || place || x || no || ryan.website
+              ? html`<dl class="facts">
+                  ${born ? html`<div><dt>Born</dt><dd>${born}</dd></div>` : null}
+                  ${place ? html`<div><dt>From</dt><dd>${place}</dd></div>` : null}
+                  ${x
+                    ? html`<div>
+                        <dt>On X</dt>
+                        <dd><a href=${x.url} rel="noopener noreferrer">@${x.handle}</a></dd>
+                      </div>`
+                    : null}
+                  ${ryan.website
+                    ? html`<div>
+                        <dt>Website</dt>
+                        <dd>
+                          <a href=${ryan.website} rel="noopener noreferrer"
+                            >${ryan.website.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "")}</a
+                          >
+                        </dd>
+                      </div>`
+                    : null}
+                  ${no ? html`<div><dt>Series</dt><dd>${no}</dd></div>` : null}
+                </dl>`
+              : null}
           </aside>
 
           <div class="bio-main">
@@ -135,13 +149,6 @@ export class BioPage extends LitElement {
 
             <div class="bio-body">${unsafeHTML(body)}</div>
 
-            ${ryan.why_cool
-              ? html`<figure class="why">
-                  <figcaption>Why this Ryan is cool</figcaption>
-                  <blockquote>${ryan.why_cool}</blockquote>
-                </figure>`
-              : null}
-
             ${knownFor.length
               ? html`<section class="bio-section" aria-label="Known for">
                   <h2>Known for</h2>
@@ -151,15 +158,29 @@ export class BioPage extends LitElement {
                 </section>`
               : null}
 
+            ${clusters.length
+              ? html`<section class="bio-section" aria-label="Clusters">
+                  <h2>Clusters</h2>
+                  <ul class="chips">
+                    ${clusters.map(
+                      (c) => html`<li><a class="chip chip-link" href="/tag/${c}">${c}</a></li>`,
+                    )}
+                  </ul>
+                </section>`
+              : null}
+
             ${sources.length
               ? html`<section class="bio-section sources" aria-label="Sources">
                   <h2>Sources</h2>
-                  <ul>
+                  <ol>
                     ${sources.map(
-                      (s) =>
-                        html`<li><a href=${s.url} rel="noopener noreferrer">${s.title}</a></li>`,
+                      (s) => html`<li id=${s.n != null ? `cite-${s.n}` : undefined}>
+                        <a href=${s.url} rel="noopener noreferrer">${s.title}</a>${s.publisher
+                          ? html` — ${s.publisher}`
+                          : null}
+                      </li>`,
                     )}
-                  </ul>
+                  </ol>
                 </section>`
               : null}
 
