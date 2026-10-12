@@ -16,7 +16,7 @@ function mount() {
     const page = document.createElement("bio-page");
     page.slug = slug;
     const header = document.createElement("site-header");
-    header.current = "";
+    header.current = "archive";
     root.append(header, page, document.createElement("site-footer"));
     return;
   }

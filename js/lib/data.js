@@ -62,3 +62,23 @@ export function pickRyanOfDay(ryans, dateStr = todaySaoPaulo()) {
   if (!sorted.length) return null;
   return sorted[hashDate(dateStr) % sorted.length];
 }
+
+export function sortByName(ryans) {
+  return [...ryans].sort((a, b) => a.name.localeCompare(b.name));
+}
+
+/** Two-digit roll-call number: position in the alphabetical directory. */
+export function rollNumber(sorted, slug) {
+  const i = sorted.findIndex((r) => r.slug === slug);
+  return i === -1 ? "" : String(i + 1).padStart(2, "0");
+}
+
+/** e.g. "Monday, October 12" in America/Sao_Paulo */
+export function todayLabel(date = new Date()) {
+  return new Intl.DateTimeFormat("en-US", {
+    timeZone: "America/Sao_Paulo",
+    weekday: "long",
+    month: "long",
+    day: "numeric",
+  }).format(date);
+}

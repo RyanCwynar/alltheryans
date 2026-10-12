@@ -1,7 +1,19 @@
 import { LitElement, html } from "lit";
-import { loadIndex, pickRyanOfDay } from "../lib/data.js";
-import { cardShort, initials } from "../lib/parse.js";
+import {
+  loadIndex,
+  loadRyanMarkdown,
+  pickRyanOfDay,
+  sortByName,
+  rollNumber,
+  todayLabel,
+} from "../lib/data.js";
+import { cardShort } from "../lib/parse.js";
+import { arrowIcon, ADD_RYAN_URL } from "./icons.js";
 import "./ryan-card.js";
+import "./ryan-photo.js";
+import "./name-tag.js";
+
+const PREVIEW_COUNT = 8;
 
 export class HomePage extends LitElement {
   static properties = {
@@ -29,13 +41,26 @@ export class HomePage extends LitElement {
   async #load() {
     try {
       const ryans = await loadIndex();
-      this.ryans = [...ryans].sort((a, b) => a.name.localeCompare(b.name));
+      this.ryans = sortByName(ryans);
       this.featured = pickRyanOfDay(ryans);
       this.status = "ready";
+      // Pull the full profile (why_cool, known_for) for the spotlight card.
+      if (this.featured) {
+        const full = await loadRyanMarkdown(this.featured.slug).catch(() => null);
+        if (full) this.featured = full;
+      }
     } catch (err) {
       console.error(err);
       this.status = "error";
     }
+  }
+
+  #preview() {
+    // Prefer Ryans with photos for the preview grid, skipping today's pick.
+    const others = this.ryans.filter((r) => r.slug !== this.featured?.slug);
+    const withPhoto = others.filter((r) => r.photo);
+    const rest = others.filter((r) => !r.photo);
+    return [...withPhoto, ...rest].slice(0, PREVIEW_COUNT);
   }
 
   render() {
@@ -47,39 +72,83 @@ export class HomePage extends LitElement {
     }
 
     const ryan = this.featured;
-    const short = cardShort(ryan);
-    const preview = this.ryans.slice(0, 6);
+    const role = ryan.title || cardShort(ryan);
+    const blurb = ryan.why_cool || ryan.bioMarkdown || "";
+    const knownFor = Array.isArray(ryan.known_for) ? ryan.known_for.slice(0, 3) : [];
+    const surnames = this.ryans.map((r) => r.name.split(/\s+/).pop());
+    const total = this.ryans.length;
 
     return html`
-      <section class="hero" aria-label="Ryan of the day">
-        <div class="hero-media">
-          ${ryan.photo
-            ? html`<img src=${ryan.photo} alt="" width="1600" height="1000" />`
-            : html`<div class="initials" aria-hidden="true">${initials(ryan.name)}</div>`}
-        </div>
-        <div class="hero-inner">
-          <p class="hero-brand">All The Ryans</p>
-          <h1>${ryan.name}</h1>
-          <p>${short || ryan.title || "Today’s Ryan, picked for the São Paulo calendar."}</p>
-          <div class="cta-row">
-            <a class="btn btn-primary" href="/ryan/${ryan.slug}">Read the bio</a>
-            <a class="btn btn-ghost" href="/archive/">Browse the archive</a>
+      <main>
+        <section class="wrap hero" aria-label="Ryan of the day">
+          <div class="hero-copy">
+            <name-tag></name-tag>
+            <h1 class="display">Every Ryan worth knowing.</h1>
+            <p class="lede">
+              A curated directory of notable people named Ryan — builders, athletes, artists,
+              and a few internet legends. A new one in the spotlight every day.
+            </p>
+            <div class="cta-row">
+              <a class="btn btn-dark" href="/archive/">Browse all ${total} Ryans ${arrowIcon}</a>
+              <a class="btn btn-outline" href=${ADD_RYAN_URL} rel="noopener">Suggest a Ryan</a>
+            </div>
           </div>
-        </div>
-      </section>
 
-      <section class="section">
-        <div class="wrap">
-          <h2>More Ryans</h2>
-          <p class="lede">A growing catalog of Ryans worth knowing — actors, founders, athletes, and the occasional internet kid.</p>
-          <div class="ryan-grid">
-            ${preview.map((item) => html`<ryan-card .ryan=${item}></ryan-card>`)}
+          <article class="rotd">
+            <div class="rotd-media">
+              <ryan-photo .ryan=${ryan} alt=${`Portrait of ${ryan.name}`} eager></ryan-photo>
+              <span class="badge">Ryan of the day</span>
+            </div>
+            <div class="rotd-body">
+              <p class="eyebrow">${todayLabel()} · No. ${rollNumber(this.ryans, ryan.slug)}</p>
+              <h2 class="display">${ryan.name}</h2>
+              ${role ? html`<p class="role">${role}</p>` : null}
+              ${blurb ? html`<p class="blurb">${blurb}</p>` : null}
+              ${knownFor.length
+                ? html`<ul class="chips" aria-label="Known for">
+                    ${knownFor.map((k) => html`<li class="chip">${k}</li>`)}
+                  </ul>`
+                : null}
+              <a class="btn btn-accent" href="/ryan/${ryan.slug}">Read the bio ${arrowIcon}</a>
+            </div>
+          </article>
+        </section>
+
+        <div class="marquee" aria-hidden="true">
+          <div class="marquee-track">
+            ${[...surnames, ...surnames].map((s) => html`<span>${s}</span>`)}
           </div>
-          <p style="margin-top:1.75rem">
-            <a class="btn btn-primary" href="/archive/" style="background:var(--sea);color:#fff">See all ${this.ryans.length}</a>
-          </p>
         </div>
-      </section>
+
+        <section class="section">
+          <div class="wrap">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">The roll call</p>
+                <h2 class="display">More Ryans</h2>
+              </div>
+              <a class="more" href="/archive/">See all ${total} →</a>
+            </div>
+            <div class="ryan-grid">
+              ${this.#preview().map(
+                (item) =>
+                  html`<ryan-card .ryan=${item} no=${rollNumber(this.ryans, item.slug)}></ryan-card>`,
+              )}
+            </div>
+          </div>
+        </section>
+
+        <section class="wrap callout" aria-label="Add a Ryan">
+          <div>
+            <h2 class="display">Know a Ryan we’re missing?</h2>
+            <p>
+              Profiles are Markdown files in the repo. Add one with a sourced bio and a properly
+              licensed photo, and it joins the roll call on the next push.
+            </p>
+          </div>
+          <a class="btn btn-light" href=${ADD_RYAN_URL} rel="noopener">Add a Ryan on GitHub</a>
+        </section>
+      </main>
     `;
   }
 }

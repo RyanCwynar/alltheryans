@@ -10,7 +10,7 @@ export class SiteFooter extends LitElement {
       <footer class="site-footer">
         <div class="wrap">
           <p>All The Ryans — a curated directory of notable people named Ryan.</p>
-          <p><a href="/about/">About & corrections</a></p>
+          <p><a href="/about/">About &amp; corrections</a></p>
         </div>
       </footer>
     `;
