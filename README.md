@@ -52,6 +52,20 @@ bun run db:seed -- --apply
 
 Wallet-signature allowlist can wrap the same upserts later; not required while Markdown + CLI is the intake.
 
+## Photos
+
+Photos are self-hosted: files live in `images/ryans/` and Vercel serves them as static assets. Don't hotlink.
+
+To pull in a new photo, put its URL in the profile's `photo:` field (a Wikimedia Commons URL is best), then:
+
+```bash
+bun run photos:fetch            # dry-run: lists remote photos
+bun run photos:fetch -- --apply # download to images/ryans/, rewrite photo/credit/license
+bun run db:seed -- --apply      # push the new paths to the DB
+```
+
+For Commons files the script fills `photo_credit` and `photo_license` from the file's metadata.
+
 ## Migrations
 
 Checked in under `drizzle/`. Apply with `bun run db:migrate` against the target `LIBSQL_URL`. Do not run migrate/seed against prod from unattended agents unless Ryan asks.
