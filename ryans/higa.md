@@ -1,22 +1,50 @@
 ---
-slug: "higa"
-name: "Ryan Higa"
-short: ""
-title: "YouTube Pioneer & Comedian"
+status: published
+slug: higa
+name: Ryan Higa
+short: "YouTube pioneer"
+title: "American YouTuber and comedian"
 photo: "/images/ryans/ryan-higa.jpg"
 photo_credit: ""
 photo_license: ""
-sources: []
-featured_on: null
-why_cool: "Helped define what YouTube could be before it was mainstream. A true pioneer of the creator economy."
-known_for: ["nigahiga", "How to be Ninja", "Nice Guys"]
-birth_year: 1990.0
-twitter: null
-wikipedia: null
-verified: true
-votes: 0
-convex_id: "rd7d5dxbb37eademe1z0v10yf580bh7g"
-created_at: "2026-02-01T17:20:29.203000Z"
+birth: { date: "1990", place: "Hilo, Hawaii, U.S." }
+occupations: [youtuber, comedian, actor]
+clusters: [creator, youtube]
+organizations: []
+website: ""
+social: []
+known_for:
+  - "nigahiga YouTube channel"
+  - "How to Be a Ninja"
+  - "Early YouTube subscriber milestones"
+relationships: []
+sources:
+  - { n: 1, title: "YouTube Star Ryan Higa Maintains Independence With DIY Studio", publisher: Variety, date: 2019-04-10, url: "https://variety.com/2019/artisans/production/youtube-star-ryan-higa-1203183732/", access: read, checked_at: 2026-10-12 }
+  - { n: 2, title: "Ryan Higa Hits 3 Million Subscribers", publisher: "YouTube Trends (Google)", date: 2010-12-22, url: "https://youtube-trends.blogspot.com/2010/12/ryan-higa-hits-3-million-subscribers.html", access: read, checked_at: 2026-10-12 }
+  - { n: 3, title: "Nigahiga Topples Fred on YouTube", publisher: "The Wall Street Journal", date: 2009-08-24, url: "https://www.wsj.com/articles/BL-DGB-5930", access: search-snippet, checked_at: 2026-10-12 }
 ---
 
-Creator of nigahiga, one of the original YouTube stars. First person ever to hit 2M and 3M subscribers. Held most subscribed for 675 days.
+# Ryan Higa
+
+**Ryan Higa** (born 1990) is an American comedian and former full-time YouTuber best known for the channel nigahiga [1]. Variety described him as a pioneering influencer who began posting when YouTube launched in 2006 and whose channel held the most subscriptions on YouTube from 2009 to 2011 [1].
+
+## Career
+Higa grew up in Hilo, Hawaii, and began shooting lip-synched musical parodies on VHS while still in high school [1]. Variety reported that he moved to Las Vegas in 2008 intending to attend college, then chose full-time YouTube work as the channel grew [1]. Early sketches such as “How to Be a Ninja” (posted July 2007) became signature clips; Google’s YouTube Trends blog noted that video had more than 25 million views by late 2010 [2].
+
+In August 2009 the *Wall Street Journal* reported that nigahiga had overtaken Fred Figglehorn as YouTube’s most-subscribed channel, with more than 1.4 million subscribers [3]. On December 22, 2010, YouTube Trends wrote that Higa had become “the first YouTube creator to hit 3 million subscribers on the site” [2]. Variety later summarized that from 2009–11 nigahiga garnered the most subscriptions on YouTube and that by 2019 Higa ran two channels, NigaHiga and Higa TV [1].
+
+Higa has kept a do-it-yourself production model, writing his own comedy and working with a small crew rather than a traditional studio [1]. Variety detailed his path from Windows Movie Maker and consumer camcorders to a Canon DSLR setup and a house studio in which he hired contractors for ambitious sketches such as “Nintendoe Paper” [1]. The same profile noted his move into podcasting alongside weekly videos to avoid burnout, and that he had declined to trade control of his content for a conventional Hollywood path [1].
+
+Claims that he was the first channel to reach 2 million subscribers are widely repeated online but were not independently confirmed in the sources read for this page; the 3-million milestone is attributed to Google’s YouTube Trends blog [2]. Current subscriber totals are omitted here because no dated primary count was verified for October 2026.
+
+## References
+1. Katz, S.D. "YouTube Star Ryan Higa Maintains Independence With DIY Studio." *Variety*, Apr 10, 2019. https://variety.com/2019/artisans/production/youtube-star-ryan-higa-1203183732/
+2. "Ryan Higa Hits 3 Million Subscribers." *YouTube Trends* (Google), Dec 22, 2010. https://youtube-trends.blogspot.com/2010/12/ryan-higa-hits-3-million-subscribers.html
+3. LaVallee, Andrew. "Nigahiga Topples Fred on YouTube." *The Wall Street Journal*, Aug 24, 2009. https://www.wsj.com/articles/BL-DGB-5930
+
+<!-- VERIFICATION LOG (2026-10-12)
+READ in full: 1, 2. SEARCH SNIPPET: 3 (WSJ; fetch timeout).
+CUT: Exact birth date June 6, 1990 (Wikipedia-only this pass); "first to 2M" (unsourced in outlets read); current subscriber totals (no dated primary count verified today); "675 days most subscribed" (not found in [1][2][3]).
+KEPT: first to 3M per YouTube Trends [2]; most-subscribed stretch 2009–11 per Variety [1]; overtook Fred per WSJ [3].
+Birth place Hilo per Variety Hawaii high-school framing [1] — year from contemporaneous age in Variety (28 in Apr 2019).
+-->
