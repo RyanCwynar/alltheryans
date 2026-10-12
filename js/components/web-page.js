@@ -57,11 +57,11 @@ export class WebPage extends LitElement {
       .attr("aria-label", "Ryan web");
 
     const color = (clusters) => {
-      if ((clusters || []).includes("actor")) return "#c45c26";
-      if ((clusters || []).includes("founder")) return "#0f6e6a";
-      if ((clusters || []).includes("athlete")) return "#1d4e89";
-      if ((clusters || []).includes("musician")) return "#7a3e6c";
-      return "#3a5159";
+      if ((clusters || []).includes("actor")) return "#E5381E";
+      if ((clusters || []).includes("founder")) return "#2340E8";
+      if ((clusters || []).includes("athlete")) return "#0B7A55";
+      if ((clusters || []).includes("musician")) return "#8A2BE2";
+      return "#5C5C56";
     };
 
     const sim = d3
@@ -77,7 +77,7 @@ export class WebPage extends LitElement {
 
     const link = svg
       .append("g")
-      .attr("stroke", "#9aafb4")
+      .attr("stroke", "#D3D1C8")
       .selectAll("line")
       .data(links)
       .join("line")
@@ -115,18 +115,25 @@ export class WebPage extends LitElement {
       .append("circle")
       .attr("r", 9)
       .attr("fill", (d) => color(d.clusters))
-      .attr("stroke", "#eef4f2")
+      .attr("stroke", "#FFFFFF")
       .attr("stroke-width", 2);
     node
       .append("text")
       .text((d) => d.name.replace(/^Ryan\s+/, ""))
       .attr("x", 12)
       .attr("y", 4)
-      .attr("fill", "#102027")
-      .attr("font-size", 12)
-      .attr("font-family", "Manrope, sans-serif");
+      .attr("fill", "#141414")
+      .attr("font-size", 13)
+      .attr("font-weight", 600)
+      .attr("font-family", "'Instrument Sans', sans-serif");
 
+    const pad = 24;
     sim.on("tick", () => {
+      // Keep nodes (and their labels) inside the frame.
+      for (const n of nodes) {
+        n.x = Math.max(pad, Math.min(width - pad * 4, n.x));
+        n.y = Math.max(pad, Math.min(height - pad, n.y));
+      }
       link
         .attr("x1", (d) => d.source.x)
         .attr("y1", (d) => d.source.y)
@@ -144,16 +151,20 @@ export class WebPage extends LitElement {
       return html`<div class="error wrap">Could not load the graph.</div>`;
     }
     return html`
-      <section class="section">
+      <main class="section">
         <div class="wrap">
-          <h2>The Ryan web</h2>
-          <p class="lede">
-            ${this.graph.nodes.length} published nodes,
-            ${this.graph.links.length} verified edges from libSQL.
-          </p>
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Who knows whom</p>
+              <h1 class="display big">The Ryan web</h1>
+            </div>
+            <p class="result-count">
+              ${this.graph.nodes.length} published Ryans · ${this.graph.links.length} verified connections
+            </p>
+          </div>
           <div id="ryan-web-canvas" class="web-canvas"></div>
         </div>
-      </section>
+      </main>
     `;
   }
 }

@@ -1,5 +1,6 @@
 import { LitElement, html } from "lit";
 import { loadPublishedRyans, loadTags } from "../lib/data.js";
+import { searchIcon, ADD_RYAN_URL } from "./icons.js";
 import "./ryan-card.js";
 
 export class ArchivePage extends LitElement {
@@ -9,6 +10,7 @@ export class ArchivePage extends LitElement {
     tags: { state: true },
     sortKey: { state: true },
     cluster: { state: true },
+    query: { state: true },
   };
 
   constructor() {
@@ -18,6 +20,7 @@ export class ArchivePage extends LitElement {
     this.tags = [];
     this.sortKey = "name";
     this.cluster = "";
+    this.query = "";
   }
 
   createRenderRoot() {
@@ -29,6 +32,7 @@ export class ArchivePage extends LitElement {
     const params = new URLSearchParams(location.search);
     this.sortKey = params.get("sort") || "name";
     this.cluster = params.get("tag") || "";
+    this.query = params.get("q") || "";
     this.#load();
   }
 
@@ -47,24 +51,38 @@ export class ArchivePage extends LitElement {
     }
   }
 
-  #updateQuery() {
+  #syncUrl() {
     const url = new URL(location.href);
-    if (this.cluster) url.searchParams.set("tag", this.cluster);
-    else url.searchParams.delete("tag");
-    if (this.sortKey && this.sortKey !== "name") url.searchParams.set("sort", this.sortKey);
-    else url.searchParams.delete("sort");
+    const set = (k, v) => (v ? url.searchParams.set(k, v) : url.searchParams.delete(k));
+    set("tag", this.cluster);
+    set("sort", this.sortKey !== "name" ? this.sortKey : "");
+    set("q", this.query.trim());
     history.replaceState({}, "", url);
-    this.#load();
   }
 
   #onSort(e) {
     this.sortKey = e.target.value;
-    this.#updateQuery();
+    this.#syncUrl();
+    this.#load();
   }
 
   #onCluster(e) {
     this.cluster = e.target.value;
-    this.#updateQuery();
+    this.#syncUrl();
+    this.#load();
+  }
+
+  #onQuery(e) {
+    this.query = e.target.value;
+    this.#syncUrl();
+  }
+
+  #matches() {
+    const q = this.query.trim().toLowerCase();
+    if (!q) return this.ryans;
+    return this.ryans.filter((r) =>
+      [r.name, r.short, r.title, r.lead_summary].join(" ").toLowerCase().includes(q),
+    );
   }
 
   render() {
@@ -75,13 +93,35 @@ export class ArchivePage extends LitElement {
       return html`<div class="error wrap">Could not load the archive. Is the API up?</div>`;
     }
 
+    const total = this.ryans.length;
+    const shown = this.#matches();
+    const q = this.query.trim();
+    const tag = this.tags.find((t) => t.slug === this.cluster);
+
     return html`
-      <section class="section">
+      <main class="section">
         <div class="wrap">
-          <h2>All the Ryans</h2>
-          <p class="lede">
-            ${this.ryans.length} published profile${this.ryans.length === 1 ? "" : "s"} from libSQL.
-          </p>
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">The roll call${tag ? ` · ${tag.label}` : ""}</p>
+              <h1 class="display big">All ${total} Ryan${total === 1 ? "" : "s"}</h1>
+            </div>
+            <div class="search">
+              <label for="ryan-search">Find a Ryan</label>
+              <div class="search-field">
+                ${searchIcon}
+                <input
+                  id="ryan-search"
+                  type="search"
+                  placeholder="Name or what they do"
+                  autocomplete="off"
+                  .value=${this.query}
+                  @input=${this.#onQuery}
+                />
+              </div>
+            </div>
+          </div>
+
           <div class="toolbar">
             <label>
               <span>Cluster</span>
@@ -103,13 +143,22 @@ export class ArchivePage extends LitElement {
                 <option value="connections" ?selected=${this.sortKey === "connections"}>Connections</option>
               </select>
             </label>
-            <a class="text-link" href="/web/">Ryan web</a>
+            <p class="result-count" aria-live="polite">
+              ${q ? `${shown.length} of ${total} match “${q}”` : `${total} published profiles`}
+            </p>
+            <a class="text-link" href="/web/">See the Ryan web →</a>
           </div>
-          <div class="ryan-grid">
-            ${this.ryans.map((ryan) => html`<ryan-card .ryan=${ryan}></ryan-card>`)}
-          </div>
+
+          ${shown.length
+            ? html`<div class="ryan-grid">
+                ${shown.map((ryan) => html`<ryan-card .ryan=${ryan}></ryan-card>`)}
+              </div>`
+            : html`<div class="empty">
+                <p class="title">No Ryan by that name — yet.</p>
+                <p>Know one we’re missing? <a href=${ADD_RYAN_URL} rel="noopener">Add a Ryan</a>.</p>
+              </div>`}
         </div>
-      </section>
+      </main>
     `;
   }
 }

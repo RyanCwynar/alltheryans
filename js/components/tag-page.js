@@ -51,16 +51,23 @@ export class TagPage extends LitElement {
       return html`<div class="error wrap">Could not load this cluster.</div>`;
     }
     return html`
-      <section class="section">
+      <main class="section">
         <div class="wrap">
-          <p class="eyebrow"><a href="/archive/">Archive</a> / cluster</p>
-          <h2>${this.tag.label}</h2>
-          <p class="lede">${this.ryans.length} published Ryan${this.ryans.length === 1 ? "" : "s"}.</p>
+          <div class="section-head">
+            <div>
+              <p class="eyebrow"><a href="/archive/">Archive</a> / Cluster</p>
+              <h1 class="display big">${this.tag.label}</h1>
+            </div>
+            <a class="more" href="/archive/?tag=${this.tag.slug}">Filter in the archive →</a>
+          </div>
+          <p class="result-count">
+            ${this.ryans.length} published Ryan${this.ryans.length === 1 ? "" : "s"}
+          </p>
           <div class="ryan-grid">
             ${this.ryans.map((ryan) => html`<ryan-card .ryan=${ryan}></ryan-card>`)}
           </div>
         </div>
-      </section>
+      </main>
     `;
   }
 }

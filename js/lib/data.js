@@ -125,3 +125,36 @@ export function filterByCluster(ryans, cluster) {
   if (!cluster) return ryans;
   return ryans.filter((r) => (r.clusters || []).includes(cluster));
 }
+
+export function sortByName(ryans) {
+  return sortRyans(ryans, "name");
+}
+
+/** e.g. "Monday, October 12" in America/Sao_Paulo */
+export function todayLabel(date = new Date()) {
+  return new Intl.DateTimeFormat("en-US", {
+    timeZone: "America/Sao_Paulo",
+    weekday: "long",
+    month: "long",
+    day: "numeric",
+  }).format(date);
+}
+
+/** "Ryan #7" style series label, or "" when unnumbered. */
+export function seriesLabel(ryan) {
+  return ryan?.number != null ? `No. ${String(ryan.number).padStart(2, "0")}` : "";
+}
+
+/** X handle from the social list, if any. */
+export function xHandle(ryan) {
+  const x = (ryan?.social || []).find((s) => s.platform === "x" || s.platform === "twitter");
+  return x ? { handle: x.handle, url: x.url || `https://x.com/${x.handle}` } : null;
+}
+
+/** "1981", "1980–1981", or "" */
+export function birthLabel(ryan) {
+  const min = ryan?.birth?.year_min ?? ryan?.birth_year_min;
+  const max = ryan?.birth?.year_max ?? ryan?.birth_year_max;
+  if (min == null) return "";
+  return max != null && max !== min ? `${min}–${max}` : String(min);
+}

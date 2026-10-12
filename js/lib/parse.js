@@ -67,7 +67,8 @@ export function parseFrontmatter(text) {
       value[0] === value[value.length - 1] &&
       (value[0] === '"' || value[0] === "'")
     ) {
-      data[key] = value.slice(1, -1);
+      const inner = value.slice(1, -1);
+      data[key] = value[0] === '"' ? inner.replace(/\\(["\\])/g, "$1") : inner;
       continue;
     }
 
@@ -117,13 +118,22 @@ export function normalizeSources(sources) {
       if (typeof item === "string") {
         try {
           const url = new URL(item);
-          return { title: url.hostname.replace(/^www\./, ""), url: item };
+          return { title: sourceLabel(url), url: item };
         } catch {
           return { title: item, url: item };
         }
       }
       if (typeof item === "object" && item.url) {
-        return { title: item.title || item.url, url: item.url };
+        let fallback = item.url;
+        try {
+          fallback = sourceLabel(new URL(item.url));
+        } catch {}
+        return {
+          title: item.title || fallback,
+          url: item.url,
+          n: item.n ?? null,
+          publisher: item.publisher || "",
+        };
       }
       return null;
     })
@@ -137,4 +147,12 @@ export function photoCreditLine(ryan) {
   if (credit && license) return `Photo: ${credit} / ${license}`;
   if (credit) return `Photo: ${credit}`;
   return `Photo license: ${license}`;
+}
+
+function sourceLabel(url) {
+  const host = url.hostname.replace(/^www\./, "");
+  const handle = url.pathname.split("/").filter(Boolean)[0];
+  if (host.endsWith("wikipedia.org")) return "Wikipedia";
+  if ((host === "x.com" || host === "twitter.com") && handle) return `@${handle} on X`;
+  return host;
 }
