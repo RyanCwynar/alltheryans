@@ -1,22 +1,48 @@
 ---
-slug: "trahan"
-name: "Ryan Trahan"
-short: "YouTuber & Creator"
-title: "YouTuber & Creator"
+status: published
+slug: trahan
+name: Ryan Trahan
+short: "YouTuber"
+title: "American YouTuber and creator"
 photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/RyanTrahan_Interview.png/330px-RyanTrahan_Interview.png"
 photo_credit: ""
 photo_license: ""
-sources: ["https://x.com/RyanTrahan"]
-featured_on: null
-why_cool: "Trahan proved you can make wholesome content that still gets millions of views. His penny-to-LA series raised $1.4M for charity while being genuinely entertaining. He makes YouTube feel personal again."
-known_for: ["Penny Challenge", "15M Subscribers", "Charity Fundraising", "Creative Challenges"]
-birth_year: 1998.0
-twitter: "RyanTrahan"
-wikipedia: null
-verified: true
-votes: 0
-convex_id: "rd72y29zwvas4n0r17dy47pqn9805y00"
-created_at: "2026-01-29T13:16:29.129000Z"
+birth: { date: "1998", place: "Texas, U.S." }
+occupations: [youtuber, entrepreneur]
+clusters: [creator, youtube]
+organizations: []
+website: ""
+social:
+  - { platform: x, handle: RyanTrahan, url: "https://x.com/RyanTrahan" }
+known_for:
+  - "Penny Series"
+  - "Charity challenge vlogs"
+relationships: []
+sources:
+  - { n: 1, title: "Ryan Trahan's Shopify Creator Journey", publisher: Shopify, date: 2022-03-24, url: "https://www.shopify.com/uk/blog/ryan-trahan", access: read, checked_at: 2026-10-12 }
+  - { n: 2, title: "Ryan Trahan's 30-day journey to MrBeast got more than 190 million views and raised $1.38 million for charity", publisher: Tubefilter, date: 2022-06-30, url: "https://www.tubefilter.com/2022/06/30/ryan-trahan-charity-vlog-series-views-raises-mrbeast/", access: read, checked_at: 2026-10-12 }
+  - { n: 3, title: "Ryan Trahan's latest penny challenge raised $400,000 for Water.org", publisher: Tubefilter, date: 2023-07-07, url: "https://www.tubefilter.com/2023/07/07/ryan-trahan-penny-challenge-international-water-org/", access: read, checked_at: 2026-10-12 }
 ---
 
-American YouTuber with 15M+ subscribers known for creative challenge videos. His "Penny Challenge" series went massively viral in 2022.
+# Ryan Trahan
+
+**Ryan Trahan** (born 1998) is an American YouTuber and entrepreneur known for challenge and travel vlogs, especially his recurring “penny” series [1][2][3]. He left Texas A&M University in 2017 after NCAA rules restricted how he could promote his businesses while competing as a student-athlete, and he pursued YouTube full time [1].
+
+## Career
+Shopify’s 2022 profile said Trahan began on YouTube with running content, later shifting to commentary and large-scale challenges, and that he had built brands including Neptune water bottles while still in school [1]. Administrators at Texas A&M told him he could not both compete as an NCAA athlete and use his channel to promote his business under then-current name, image, and likeness rules; he chose the creator path and left school with about 30,000 subscribers [1]. Shopify placed his audience at over 5.6 million YouTube subscribers as of March 2022 and described earlier series such as trading a penny up to a house [1].
+
+### Penny Series
+In June 2022 Trahan filmed a 30-day cross-country series starting in Los Angeles with one penny, aiming to reach Greenville, North Carolina, to deliver the penny to fellow creator Jimmy “MrBeast” Donaldson while raising money for Feeding America [2]. Tubefilter reported that the series drew more than 192 million views across 30 vlogs, that Trahan added about two million subscribers during the challenge, and that the fundraiser raised more than $1.3 million (about $1.38 million including a penny-per-new-subscriber pledge), far above a $100,000 goal [2].
+
+In July 2023 Tubefilter covered another penny challenge in which Trahan had one week and one penny to return to the United States from Paris; the piece said he raised more than $400,000 for Water.org and, at press time, listed his channel at 13 million subscribers [3]. Because subscriber counts change continuously, this encyclopedia entry does not assert a current total as of October 2026 beyond those dated reports [1][3].
+
+## References
+1. Adegbuyi, Fadeke. "Ryan Trahan’s Shopify Creator Journey." Shopify, Mar 24, 2022. https://www.shopify.com/uk/blog/ryan-trahan
+2. Gutelle, Sam. "Ryan Trahan's 30-day journey to MrBeast got more than 190 million views and raised $1.38 million for charity." *Tubefilter*, Jun 30, 2022. https://www.tubefilter.com/2022/06/30/ryan-trahan-charity-vlog-series-views-raises-mrbeast/
+3. Hale, James. "Ryan Trahan's latest penny challenge raised $400,000 for Water.org." *Tubefilter*, Jul 7, 2023. https://www.tubefilter.com/2023/07/07/ryan-trahan-penny-challenge-international-water-org/
+
+<!-- VERIFICATION LOG (2026-10-12)
+READ in full: 1, 2, 3.
+CUT: Present-tense "15M+ subscribers" (stale vs [3]'s Jul 2023 "13 million"); exact birth date Oct 7, 1998 / Sugar Land (Wikipedia-only this pass); unsourced 2025 St. Jude series totals not verified here.
+KEPT: Penny Series charity figures from Tubefilter [2][3]; college drop-out / NCAA context from Shopify [1].
+-->

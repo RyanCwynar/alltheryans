@@ -88,6 +88,7 @@ async function upsertSource(
         publishedOn: src.date || existing[0].publishedOn,
         access: src.access || existing[0].access,
         archiveUrl: src.archiveUrl || existing[0].archiveUrl,
+        checkedAt: src.checkedAt || existing[0].checkedAt,
       })
       .where(eq(sources.id, existing[0].id));
     return existing[0].id;
@@ -102,6 +103,7 @@ async function upsertSource(
       publishedOn: src.date,
       access: src.access,
       archiveUrl: src.archiveUrl,
+      checkedAt: src.checkedAt,
     })
     .returning({ id: sources.id });
   return inserted[0]!.id;

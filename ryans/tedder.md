@@ -1,22 +1,80 @@
 ---
-slug: "tedder"
-name: "Ryan Tedder"
-short: ""
-title: "Singer, Songwriter & Producer"
+status: published
+slug: tedder
+name: Ryan Tedder
+short: "OneRepublic frontman"
+title: "Singer, songwriter, producer"
 photo: "/images/ryans/ryan-tedder.jpg"
 photo_credit: ""
 photo_license: ""
-sources: []
-featured_on: null
-why_cool: "Half of the biggest pop songs have his fingerprints. Invisible hitmaker behind Beyonce, Adele, Taylor Swift."
-known_for: ["OneRepublic", "Halo", "Bleeding Love"]
-birth_year: 1979.0
-twitter: null
-wikipedia: null
-verified: true
-votes: 0
-convex_id: "rd7433n13w42spp6557g5jb97d80bc69"
-created_at: "2026-02-01T17:20:28.329000Z"
+birth:
+  date: "1979-06-26"
+  place: "Tulsa, Oklahoma, U.S."
+occupations: [singer, songwriter, record-producer]
+clusters: [entertainment, music]
+organizations:
+  - { name: "OneRepublic", role: "Co-founder; lead vocalist", start: 2003, end: null }
+website: ""
+social: []
+known_for:
+  - "OneRepublic"
+  - "Apologize"
+  - "Halo"
+  - "Bleeding Love"
+relationships: []
+sources:
+  - { n: 1, title: "Ryan Tedder", publisher: "Recording Academy / GRAMMY.com", date: null, url: "https://www.grammy.com/artists/ryan-tedder/16130", access: read, checked_at: 2026-10-12 }
+  - { n: 2, title: "Behind Ryan Tedder's Hits: Stories From The Studio With OneRepublic, Beyoncé, Taylor Swift & More", publisher: "GRAMMY.com", date: 2024-07-15, url: "https://www.grammy.com/news/ryan-tedder-songs-interview-onerepublic-new-album-artificial-paradise/", access: read, checked_at: 2026-10-12 }
+  - { n: 3, title: "Ryan Tedder's Billboard Cover: 5 Things We Learned About the Undercover King of Pop", publisher: "Billboard", date: 2014-03-14, url: "https://www.billboard.com/music/music-news/ryan-tedder-billboard-cover-5-things-we-learned-5937505/", access: read, checked_at: 2026-10-12 }
+  - { n: 4, title: "Ryan Tedder Can't Stop: Working With U2, Elton John…", publisher: "Billboard", date: 2014-03-17, url: "https://www.billboard.com/music/pop/ryan-tedder-billboard-cover-story-onerepublic-5937587/", access: read, checked_at: 2026-10-12 }
+  - { n: 5, title: "Tedder, Ryan", publisher: "Library of Congress", date: null, url: "https://id.loc.gov/authorities/names/no2006094739.html", access: read, checked_at: 2026-10-12 }
+  - { n: 6, title: "Ryan Tedder", publisher: "TravelOK (Oklahoma Tourism)", date: null, url: "https://www.travelok.com/music-trail/artist/ryan-tedder", access: read, checked_at: 2026-10-12 }
 ---
 
-Lead singer of OneRepublic and one of the most successful songwriters in pop music. 3x Grammy winner for Album of the Year.
+# Ryan Tedder
+
+**Ryan Benjamin Tedder** (born June 26, 1979) is an American singer, songwriter, and record producer. He is the co-founder and frontman of OneRepublic and a prolific writer-producer for other artists [2][5][6].
+
+## Early life and education
+
+Tedder was born in Tulsa, Oklahoma [5][6]. He grew up singing in church and studying piano, later attending Oral Roberts University in Tulsa [6]. Oklahoma’s official tourism site and Billboard both place his formative years in Tulsa before he worked as a songwriter in Nashville and Los Angeles [4][6].
+
+## Career
+
+### OneRepublic
+
+Tedder formed OneRepublic with high-school friend Zach Filkins in 2003 [4][6]. The band broke through when Timbaland remixed “Apologize” from their debut album *Dreaming Out Loud* (2007); Tedder has said he refused large offers to give the song away so he could sing it himself [2][6]. Later OneRepublic hits include “Good Life,” “Counting Stars,” and “I Ain’t Worried,” the last of which accompanied a major sequence in *Top Gun: Maverick* and delayed the band’s album *Artificial Paradise* (released July 12, 2024) [2].
+
+### Songwriting and production for others
+
+Tedder’s first major outside hit was Leona Lewis’s “Bleeding Love”; he also co-wrote and produced Beyoncé’s “Halo,” and has written or produced for Adele, Taylor Swift, and many others [2][3][4]. In March 2014 Billboard put him on its cover as the “Undercover King of Pop” [3][4].
+
+### Grammy Awards
+
+The Recording Academy’s artist page lists Tedder with **3 wins and 12 nominations** [1]. His three wins are all in **Album of the Year**, as a credited contributor on Adele’s *21* (54th Grammys), Taylor Swift’s *1989* (58th), and Adele’s *25* (59th) [1]. He has also been nominated for Record of the Year for “Bleeding Love” and “Halo,” for Producer of the Year, Non-Classical, and for other Album of the Year credits [1]. These Album of the Year wins are for work on other artists’ albums, not for OneRepublic albums as Album of the Year winners.
+
+## Notable work
+
+- OneRepublic: “Apologize,” “Counting Stars,” “I Ain’t Worried,” album *Artificial Paradise* (2024) [2]
+- Outside writing/production: “Bleeding Love” (Leona Lewis), “Halo” (Beyoncé), Adele and Taylor Swift album credits [1][2]
+
+## See also
+
+- [Ryan Castro](./castro) — contemporary hitmaker in Latin music
+- [Ryan Seacrest](./seacrest) — longtime host of music-competition television
+
+## References
+
+1. "Ryan Tedder." Recording Academy / GRAMMY.com artist page. https://www.grammy.com/artists/ryan-tedder/16130
+2. Weatherby, Taylor. "Behind Ryan Tedder’s Hits…" GRAMMY.com, Jul 15, 2024. https://www.grammy.com/news/ryan-tedder-songs-interview-onerepublic-new-album-artificial-paradise/
+3. "Ryan Tedder’s Billboard Cover: 5 Things We Learned About the Undercover King of Pop." *Billboard*, Mar 14, 2014. https://www.billboard.com/music/music-news/ryan-tedder-billboard-cover-5-things-we-learned-5937505/
+4. "Ryan Tedder Can’t Stop…" *Billboard*, Mar 17, 2014. https://www.billboard.com/music/pop/ryan-tedder-billboard-cover-story-onerepublic-5937587/
+5. "Tedder, Ryan." Library of Congress Name Authority File. https://id.loc.gov/authorities/names/no2006094739.html
+6. "Ryan Tedder." TravelOK / Oklahoma Music Trail. https://www.travelok.com/music-trail/artist/ryan-tedder
+
+<!-- VERIFICATION LOG (2026-10-12)
+READ: Official GRAMMY.com artist page [1] (Wins: 3; AOTY for 21, 1989, 25 listed as Winner); GRAMMY.com interview [2]; Billboard cover teaser [3] and cover story [4]; LOC [5]; TravelOK [6].
+GRAMMY CLAIM: Prior stub said "3x Grammy winner for Album of the Year" — VERIFIED as true on Recording Academy page, but clarified these are credited-contributor wins on Adele/Swift albums, not OneRepublic AOTY wins. Do not invent additional personal competitive wins beyond the official page.
+CUT: Unverified "450 million units" RIAA figure (appeared on Wikipedia-derived blurbs; not confirmed on pages read); Songland co-producer credit not expanded; Tate McRae "Greedy" detail kept out of lead for length (discussed in [2]).
+PRESERVED: /images/ryans/ryan-tedder.jpg; empty short was filled.
+-->

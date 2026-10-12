@@ -1,22 +1,68 @@
 ---
-slug: "garcia"
-name: "Ryan Garcia"
-short: "Professional Boxer"
-title: "Professional Boxer"
+status: published
+slug: garcia
+name: Ryan Garcia
+short: "WBC welterweight"
+title: "American professional boxer"
 photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/RYAN_GARCIA.jpg/330px-RYAN_GARCIA.jpg"
 photo_credit: ""
 photo_license: ""
-sources: ["https://x.com/RyanGarcia"]
-featured_on: null
-why_cool: "Garcia brought boxing back to the mainstream for Gen Z. His hand speed is insane, his knockouts are viral, and he talks trash like a prime Floyd. At 25, he KO'd Devin Haney in one of the biggest upsets in recent boxing history."
-known_for: ["WBC Lightweight", "KingRy", "Haney KO", "Social Media Boxing"]
-birth_year: 1998.0
-twitter: "RyanGarcia"
-wikipedia: null
-verified: true
-votes: 0
-convex_id: "rd7bcaam16qpcqyg1p0p8sq2bh804yeq"
-created_at: "2026-01-29T13:16:29.048000Z"
+birth: { date: "1998", place: "Victorville, California, U.S." }
+occupations: [boxer]
+clusters: [athlete, boxing]
+organizations: []
+website: ""
+social:
+  - { platform: x, handle: RyanGarcia, url: "https://x.com/RyanGarcia" }
+known_for:
+  - "WBC welterweight champion"
+  - "King Ry"
+  - "Campbell interim lightweight title"
+relationships: []
+sources:
+  - { n: 1, title: "Choice Victory—Ryan Garcia is crowned WBC interim champion", publisher: "World Boxing Council", date: 2021-01-03, url: "https://wbcboxing.com/en/choice-victory-ryan-garcia-is-crowned-wbc-interim-champion/", access: read, checked_at: 2026-10-12 }
+  - { n: 2, title: "Ryan Garcia stops Luke Campbell in 7th, calls out Gervonta Davis", publisher: ESPN, date: 2021-01-03, url: "https://www.espn.com/boxing/story/_/id/30639460/ryan-garcia-rallies-beat-luke-campbell-tko-seventh-round", access: read, checked_at: 2026-10-12 }
+  - { n: 3, title: "New York commission suspends Garcia for a year and rules his win over Haney a no-contest", publisher: AP News, date: 2024-06-20, url: "https://apnews.com/article/garcia-haney-suspension-no-contest-ped-d9d17c54812febb97f4ff38fef328a7c", access: search-snippet, checked_at: 2026-10-12 }
+  - { n: 4, title: "Ryan Garcia's suspension lifted, clear to fight Rolando Romero", publisher: ESPN, date: 2025-04-30, url: "https://www.espn.com/boxing/story/_/id/44821468/ryan-garcia-suspension-lifted-clear-fight-rolando-romero", access: search-snippet, checked_at: 2026-10-12 }
+  - { n: 5, title: "Garcia beats Barrios to claim WBC welterweight title", publisher: BBC Sport, date: 2026-02-22, url: "https://www.bbc.com/sport/boxing/articles/cz9qky0d9llo", access: read, checked_at: 2026-10-12 }
+  - { n: 6, title: "Victorville's Ryan Garcia Crowned WBC Welterweight World Champion in Las Vegas", publisher: "Victor Valley News", date: 2026-02-22, url: "https://www.vvng.com/victorvilles-ryan-garcia-crowned-wbc-welterweight-world-champion-in-las-vegas/", access: read, checked_at: 2026-10-12 }
+  - { n: 7, title: "'I want Teófimo': Ryan Garcia calls out rivals after two-round destruction of Conor Benn", publisher: "The Guardian", date: 2026-09-13, url: "https://www.theguardian.com/sport/2026/sep/13/ryan-garcia-conor-benn-fight-result-wbc-welterweight-boxing", access: read, checked_at: 2026-10-12 }
+  - { n: 8, title: "Garcia backs up talk, TKO's Benn in second round to retain WBC title", publisher: ESPN, date: 2026-09-12, url: "https://www.espn.com/boxing/story/_/id/49923542/garcia-backs-talk-tko-benn-second-round-retain-wbc-title", access: search-snippet, checked_at: 2026-10-12 }
 ---
 
-American professional boxer known as "KingRy". WBC interim lightweight champion. One of the most followed boxers on social media with 26M+ Instagram followers.
+# Ryan Garcia
+
+**Ryan Garcia** (born 1998) is an American professional boxer from Victorville, California [6]. Nicknamed "King Ry," he has held the World Boxing Council (WBC) welterweight title since February 2026 [5][6][7]. He previously won the WBC interim lightweight title in 2021 [1][2].
+
+## Career
+
+### Lightweight and interim title
+On January 2, 2021, at the American Airlines Center in Dallas, Garcia stopped Luke Campbell in the seventh round to win the vacant WBC interim lightweight championship [1][2]. ESPN reported that Garcia was knocked down in the second round before finishing Campbell with a left hook to the body [2]. The WBC recorded the result as a seventh-round knockout and listed Garcia at 21–0 with 18 knockouts after the fight [1].
+
+### Haney bout and suspension
+In April 2024 Garcia defeated Devin Haney by majority decision in Brooklyn. The New York State Athletic Commission (NYSAC) later changed the result to a no-contest after Garcia tested positive for the banned substance ostarine, suspended him for one year, fined him $10,000, and ordered forfeiture of his purse from the fight [3]. ESPN reported that NYSAC lifted the suspension after Garcia met the conditions of a consent order, including randomized drug testing, clearing him to fight Rolando Romero in May 2025 [4]. BBC Sport later noted the one-year ban and the no-contest when covering Garcia’s 2026 welterweight title win [5].
+
+### WBC welterweight champion
+On February 21, 2026, Garcia beat Mario Barrios by unanimous decision (119–108, 120–107, 118–109) at T-Mobile Arena in Las Vegas to win the WBC welterweight title [5][6]. BBC Sport described it as his first major world title and said the win improved his record to 25–2 [5]. Local reporting identified him as a Victorville native [6].
+
+On September 12, 2026, Garcia made his first title defense, stopping Conor Benn by TKO at 1:25 of the second round at the same arena [7][8]. The Guardian reported Garcia’s record after the fight as 26–2 with 21 knockouts and noted the ostarine-related overturn of the Haney result in the same article [7]. ESPN likewise described the bout as a successful first defense of the WBC welterweight championship he had won against Barrios [8].
+
+## Controversies
+Coverage of Garcia’s career has included the 2024 anti-doping case: AP News reported NYSAC’s finding that samples collected around the Haney fight tested positive for ostarine, a selective androgen receptor modulator banned by WADA, and the resulting no-contest and U.S. suspension [3]. Garcia’s camp has disputed intentional use in contemporaneous reporting; this entry states the commission outcome as reported by AP and ESPN [3][4][7].
+
+## References
+1. Navarro, Cesar. "Choice Victory—Ryan Garcia is crowned WBC interim champion." *World Boxing Council*, Jan 3, 2021. https://wbcboxing.com/en/choice-victory-ryan-garcia-is-crowned-wbc-interim-champion/
+2. Baby, Ben. "Ryan Garcia stops Luke Campbell in 7th, calls out Gervonta Davis." *ESPN*, Jan 3, 2021. https://www.espn.com/boxing/story/_/id/30639460/ryan-garcia-rallies-beat-luke-campbell-tko-seventh-round
+3. "New York commission suspends Garcia for a year and rules his win over Haney a no-contest." *AP News*, Jun 2024. https://apnews.com/article/garcia-haney-suspension-no-contest-ped-d9d17c54812febb97f4ff38fef328a7c
+4. "Ryan Garcia's suspension lifted, clear to fight Rolando Romero." *ESPN*, Apr 2025. https://www.espn.com/boxing/story/_/id/44821468/ryan-garcia-suspension-lifted-clear-fight-rolando-romero
+5. McKenna, Lorraine. "Garcia beats Barrios to claim WBC welterweight title." *BBC Sport*, Feb 22, 2026. https://www.bbc.com/sport/boxing/articles/cz9qky0d9llo
+6. "Victorville’s Ryan Garcia Crowned WBC Welterweight World Champion in Las Vegas." *Victor Valley News*, Feb 22, 2026. https://www.vvng.com/victorvilles-ryan-garcia-crowned-wbc-welterweight-world-champion-in-las-vegas/
+7. Graham, Bryan Armen. "'I want Teófimo': Ryan Garcia calls out rivals after two-round destruction of Conor Benn." *The Guardian*, Sep 13, 2026. https://www.theguardian.com/sport/2026/sep/13/ryan-garcia-conor-benn-fight-result-wbc-welterweight-boxing
+8. Okamoto, Brett. "Garcia backs up talk, TKO's Benn in second round to retain WBC title." *ESPN*, Sep 12, 2026. https://www.espn.com/boxing/story/_/id/49923542/garcia-backs-talk-tko-benn-second-round-retain-wbc-title
+
+<!-- VERIFICATION LOG (2026-10-12)
+READ in full: 1, 2, 5, 6, 7. SEARCH SNIPPET: 3 (AP; Cloudflare wall on full fetch), 4 (ESPN; empty WebFetch body but consistent multi-outlet snippets), 8 (ESPN Benn; snippet + Guardian confirmation).
+CUT: "currently WBC interim lightweight champion" (stale); unsourced Instagram follower count; exact birth date Aug 8, 1998 (Wikipedia-only in this pass — kept year + Victorville from [6]/[7] age).
+CONFLICTS: ESPN Benn snippet listed 26-0; Guardian [7] and BBC [5] path imply 26-2 after NC + losses — used Guardian/BBC.
+CHECKED: title status as of Sep 2026 per [7][8].
+-->

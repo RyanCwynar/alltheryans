@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 slug: ryan-petersen
 name: Ryan Petersen
 short: Flexport founder
@@ -30,27 +30,27 @@ social:
   - { platform: x, handle: typesfast, url: "https://x.com/typesfast", cite: [19] }
 known_for: ["Founding Flexport", "Co-founding ImportGenius", "2021 Port of Long Beach Twitter thread"]
 relationships:
-  - { target: graves, type: thematic-link, note: "Bloomberg pitched Flexport as an 'Uber of the Oceans'; Ryan Graves was Uber's first employee (Graves side needs a citation when his page is written)", cite: [1] }
+  - { target: graves, type: thematic-link, note: "Bloomberg pitched Flexport as an 'Uber of the Oceans'; Ryan Graves was Uber's first hired employee (see graves.md)", cite: [1] }
 sources:
-  - { n: 1, publisher: Bloomberg, date: 2015-05-11, title: "Flexport Wants to Be Uber of the Oceans", url: "https://web.archive.org/web/20150513222900/https://www.bloomberg.com/news/articles/2015-05-11/flexport-wants-to-be-uber-of-the-oceans", access: archived }
-  - { n: 2, publisher: Forbes, date: 2022-02-07, title: "Flexport Is Silicon Valley's Solution To The Supply Chain Mess", url: "https://web.archive.org/web/20240926164156/https://www.forbes.com/sites/alexkonrad/2022/02/07/flexport-is-silicon-valleys-solution-to-the-supply-chain-mess-why-do-insiders-hope-it-sinks/", access: archived }
-  - { n: 3, publisher: Forbes, date: 2023-07-10, title: "Flexport Founder Ryan Petersen Joins VC Firm Founders Fund", url: "https://www.forbes.com/sites/alexkonrad/2023/07/10/flexport-founder-ryan-petersen-joins-founders-fund/", access: read }
-  - { n: 4, publisher: CNBC, date: 2022-02-07, title: "Flexport raises nearly $1 billion", url: "https://www.cnbc.com/2022/02/07/flexport-raises-nearly-1-billion-as-shopify-michael-dell-invest.html", access: read }
-  - { n: 5, publisher: CNBC, date: 2022-06-08, title: "Amazon consumer chief Dave Clark to join Flexport as its new CEO", url: "https://www.cnbc.com/2022/06/08/amazon-consumer-chief-dave-clark-joins-flexport-as-its-new-ceo.html", access: read }
-  - { n: 6, publisher: CNBC, date: 2023-01-11, title: "Flexport to lay off 20% of its global workforce", url: "https://www.cnbc.com/2023/01/11/flexport-to-lay-off-20percent-of-its-global-workforce.html", access: read }
-  - { n: 7, publisher: Forbes, date: 2017-09-26, title: "Freight Startup Flexport Raises $110 Million And Turns Down A $1 Billion Valuation", url: "https://www.forbes.com/sites/susanadams/2017/09/26/freight-startup-flexport-raises-110-million-and-turns-down-a-1-billion-valuation", access: archived }
-  - { n: 8, publisher: Shopify, date: 2023-06-06, title: "Shopify Completes Sale of Shopify Logistics to Flexport", url: "https://www.shopify.com/news/shopify-completes-sale-of-shopify-logistics-to-flexport", access: read }
-  - { n: 9, publisher: Reuters, date: 2023-05-04, title: "Shopify divests logistics arm to Flexport in strategic reversal", url: "https://www.reuters.com/markets/deals/shopify-divests-logistics-arm-flexport-strategic-reversal-2023-05-04/", access: search-snippet }
-  - { n: 10, publisher: CNBC, date: 2023-09-06, title: "Flexport CEO Dave Clark resigns", url: "https://www.cnbc.com/2023/09/06/flexport-ceo-dave-clark-resigns-from-logistics-startup-after-one-year-in-the-role.html", access: read }
-  - { n: 11, publisher: CNN, date: 2023-09-08, title: "Logistics startup rescinds dozens of job offers amid messy executive drama", url: "https://www.cnn.com/2023/09/08/business/flexport-jobs-rescinded/index.html", access: read }
-  - { n: 12, publisher: TechCrunch, date: 2023-11-01, title: "Flexport acquires technology of former digital freight unicorn Convoy", url: "https://techcrunch.com/2023/11/01/flexport-acquires-technology-of-former-digital-freight-unicorn-convoy/", access: read }
-  - { n: 13, publisher: NPR, date: 2021-11-03, title: "A tech CEO's ideas to solve Port of Los Angeles backlog problems go viral", url: "https://www.npr.org/2021/11/03/1051773672/a-look-at-whats-causing-shipping-bottlenecks-from-the-entrenched-to-the-absurd", access: read }
-  - { n: 14, publisher: "Los Angeles Times", date: 2021-10-28, title: "The real story behind a tech founder's 'tweetstorm that saves Christmas'", url: "https://www.latimes.com/business/technology/story/2021-10-28/the-real-story-behind-a-tech-founders-tweetstorm-that-saved-christmas", access: read }
-  - { n: 15, publisher: TechCrunch, date: 2019-02-21, title: "Flexport just raised a SoftBank-led round at a $3.2 billion valuation", url: "https://techcrunch.com/2019/02/21/logistics-startup-flexport-just-raised-a-softbank-led-round-at-a-whopping-3-2-billion-valuation/", access: read }
-  - { n: 16, publisher: Flexport, date: 2026, title: "Fulfillment & Warehouse Network", url: "https://www.flexport.com/products/warehouse-network/", access: read }
-  - { n: 17, publisher: "American Journal of Transportation", date: 2026-09-30, title: "Flexport launches technology to let AI agents book, track and optimize global freight", url: "https://www.ajot.com/news/flexport-launches-technology-to-let-ai-agents-book-track-and-optimize-global-freight", access: read }
-  - { n: 18, publisher: Flexport, date: 2023-01-11, title: "Flexport Co-CEOs' Note to Employees", url: "https://www.flexport.com/blog/flexport-co-ceos-note-to-employees/", access: search-snippet }
-  - { n: 19, publisher: "X (@typesfast)", date: 2026-10-12, title: "Warehouse robots are here!", url: "https://x.com/typesfast/status/2109686029703934197", access: read-via-fxtwitter }
+  - { n: 1, publisher: Bloomberg, date: 2015-05-11, title: "Flexport Wants to Be Uber of the Oceans", url: "https://web.archive.org/web/20150513222900/https://www.bloomberg.com/news/articles/2015-05-11/flexport-wants-to-be-uber-of-the-oceans", access: archived, checked_at: 2026-10-12 }
+  - { n: 2, publisher: Forbes, date: 2022-02-07, title: "Flexport Is Silicon Valley's Solution To The Supply Chain Mess", url: "https://web.archive.org/web/20240926164156/https://www.forbes.com/sites/alexkonrad/2022/02/07/flexport-is-silicon-valleys-solution-to-the-supply-chain-mess-why-do-insiders-hope-it-sinks/", access: archived, checked_at: 2026-10-12 }
+  - { n: 3, publisher: Forbes, date: 2023-07-10, title: "Flexport Founder Ryan Petersen Joins VC Firm Founders Fund", url: "https://www.forbes.com/sites/alexkonrad/2023/07/10/flexport-founder-ryan-petersen-joins-founders-fund/", access: read, checked_at: 2026-10-12 }
+  - { n: 4, publisher: CNBC, date: 2022-02-07, title: "Flexport raises nearly $1 billion", url: "https://www.cnbc.com/2022/02/07/flexport-raises-nearly-1-billion-as-shopify-michael-dell-invest.html", access: read, checked_at: 2026-10-12 }
+  - { n: 5, publisher: CNBC, date: 2022-06-08, title: "Amazon consumer chief Dave Clark to join Flexport as its new CEO", url: "https://www.cnbc.com/2022/06/08/amazon-consumer-chief-dave-clark-joins-flexport-as-its-new-ceo.html", access: read, checked_at: 2026-10-12 }
+  - { n: 6, publisher: CNBC, date: 2023-01-11, title: "Flexport to lay off 20% of its global workforce", url: "https://www.cnbc.com/2023/01/11/flexport-to-lay-off-20percent-of-its-global-workforce.html", access: read, checked_at: 2026-10-12 }
+  - { n: 7, publisher: Forbes, date: 2017-09-26, title: "Freight Startup Flexport Raises $110 Million And Turns Down A $1 Billion Valuation", url: "https://www.forbes.com/sites/susanadams/2017/09/26/freight-startup-flexport-raises-110-million-and-turns-down-a-1-billion-valuation", access: archived, checked_at: 2026-10-12 }
+  - { n: 8, publisher: Shopify, date: 2023-06-06, title: "Shopify Completes Sale of Shopify Logistics to Flexport", url: "https://www.shopify.com/news/shopify-completes-sale-of-shopify-logistics-to-flexport", access: read, checked_at: 2026-10-12 }
+  - { n: 9, publisher: Reuters, date: 2023-05-04, title: "Shopify divests logistics arm to Flexport in strategic reversal", url: "https://www.reuters.com/markets/deals/shopify-divests-logistics-arm-flexport-strategic-reversal-2023-05-04/", access: search-snippet, checked_at: 2026-10-12 }
+  - { n: 10, publisher: CNBC, date: 2023-09-06, title: "Flexport CEO Dave Clark resigns", url: "https://www.cnbc.com/2023/09/06/flexport-ceo-dave-clark-resigns-from-logistics-startup-after-one-year-in-the-role.html", access: read, checked_at: 2026-10-12 }
+  - { n: 11, publisher: CNN, date: 2023-09-08, title: "Logistics startup rescinds dozens of job offers amid messy executive drama", url: "https://www.cnn.com/2023/09/08/business/flexport-jobs-rescinded/index.html", access: read, checked_at: 2026-10-12 }
+  - { n: 12, publisher: TechCrunch, date: 2023-11-01, title: "Flexport acquires technology of former digital freight unicorn Convoy", url: "https://techcrunch.com/2023/11/01/flexport-acquires-technology-of-former-digital-freight-unicorn-convoy/", access: read, checked_at: 2026-10-12 }
+  - { n: 13, publisher: NPR, date: 2021-11-03, title: "A tech CEO's ideas to solve Port of Los Angeles backlog problems go viral", url: "https://www.npr.org/2021/11/03/1051773672/a-look-at-whats-causing-shipping-bottlenecks-from-the-entrenched-to-the-absurd", access: read, checked_at: 2026-10-12 }
+  - { n: 14, publisher: "Los Angeles Times", date: 2021-10-28, title: "The real story behind a tech founder's 'tweetstorm that saves Christmas'", url: "https://www.latimes.com/business/technology/story/2021-10-28/the-real-story-behind-a-tech-founders-tweetstorm-that-saved-christmas", access: read, checked_at: 2026-10-12 }
+  - { n: 15, publisher: TechCrunch, date: 2019-02-21, title: "Flexport just raised a SoftBank-led round at a $3.2 billion valuation", url: "https://techcrunch.com/2019/02/21/logistics-startup-flexport-just-raised-a-softbank-led-round-at-a-whopping-3-2-billion-valuation/", access: read, checked_at: 2026-10-12 }
+  - { n: 16, publisher: Flexport, date: 2026, title: "Fulfillment & Warehouse Network", url: "https://www.flexport.com/products/warehouse-network/", access: read, checked_at: 2026-10-12 }
+  - { n: 17, publisher: "American Journal of Transportation", date: 2026-09-30, title: "Flexport launches technology to let AI agents book, track and optimize global freight", url: "https://www.ajot.com/news/flexport-launches-technology-to-let-ai-agents-book-track-and-optimize-global-freight", access: read, checked_at: 2026-10-12 }
+  - { n: 18, publisher: Flexport, date: 2023-01-11, title: "Flexport Co-CEOs' Note to Employees", url: "https://www.flexport.com/blog/flexport-co-ceos-note-to-employees/", access: search-snippet, checked_at: 2026-10-12 }
+  - { n: 19, publisher: "X (@typesfast)", date: 2026-10-12, title: "Warehouse robots are here!", url: "https://x.com/typesfast/status/2109686029703934197", access: read-via-fxtwitter, checked_at: 2026-10-12 }
 ---
 
 # Ryan Petersen
