@@ -1,14 +1,13 @@
-import { createDb } from "../db/client.js";
+import { createDb } from "../db/client-web.js";
 import { getRyanWeb } from "../db/queries.js";
 import { handleGet, json } from "./_lib/http.js";
-import { asVercelHandler, nodeConfig } from "./_lib/vercel.js";
 
-export const config = nodeConfig;
+export const config = { runtime: "edge" };
 
-export default asVercelHandler((request) =>
-  handleGet(request, async () => {
+export default async function handler(request: Request): Promise<Response> {
+  return handleGet(request, async () => {
     const { db } = createDb();
     const graph = await getRyanWeb(db);
     return json(graph);
-  }),
-);
+  });
+}
