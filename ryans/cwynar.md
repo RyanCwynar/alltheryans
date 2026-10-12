@@ -36,7 +36,7 @@ The site byldr.dev presents Byldr as a service that builds and runs self-hosted 
 On byldr.dev, Cwynar lists a résumé of public claims: USAF captain (2008–2016), founder of the development agency Fueled On Bacon (sold; 2014–2021), CTO at PAR1 (2021–2023), and principal engineer at Telcoin working on banking and crypto rails (2023–present) [1]. Those roles are presented here as self-published biography from his commercial site; independent press confirmation was not located for this rewrite [1]. Contact email published on the site is ryan@byldr.dev [1][2].
 
 ## All The Ryans
-All The Ryans is a public directory of notable people named Ryan. The project’s own documentation describes a Lit frontend, libSQL database, and Hono API, with seed data authored as Markdown under `ryans/` [3]. The live site is published at alltheryans.com [3]. A related GitHub profile for RyanCwynar links personal projects and Byldr [4].
+All The Ryans is a public directory of notable people named Ryan. The project’s own documentation describes a Lit frontend (no bundler), a self-hosted libSQL database, Drizzle ORM, and a read-only Hono API on Vercel Functions, with seed data authored as Markdown under `ryans/` [3]. Publishing is gated by `status: published` in frontmatter [3]. The live site is at alltheryans.com; the README also points the database host at `alltheryans-db.byldr.co`, linking the encyclopedia to Byldr infrastructure [3]. A related GitHub profile for RyanCwynar links personal projects and Byldr [4].
 
 No third-party biographical feature article about Cwynar was found for citation. This page therefore sticks to what he publishes on byldr.dev, the All The Ryans project, and public GitHub identity [1][2][3][4].
 
