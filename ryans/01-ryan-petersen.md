@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 slug: ryan-petersen
 name: Ryan Petersen
 short: Flexport founder
@@ -30,7 +30,7 @@ social:
   - { platform: x, handle: typesfast, url: "https://x.com/typesfast", cite: [19] }
 known_for: ["Founding Flexport", "Co-founding ImportGenius", "2021 Port of Long Beach Twitter thread"]
 relationships:
-  - { target: graves, type: thematic-link, note: "Bloomberg pitched Flexport as an 'Uber of the Oceans'; Ryan Graves was Uber's first employee (Graves side needs a citation when his page is written)", cite: [1] }
+  - { target: graves, type: thematic-link, note: "Bloomberg pitched Flexport as an 'Uber of the Oceans'; Ryan Graves was Uber's first hired employee (see graves.md)", cite: [1] }
 sources:
   - { n: 1, publisher: Bloomberg, date: 2015-05-11, title: "Flexport Wants to Be Uber of the Oceans", url: "https://web.archive.org/web/20150513222900/https://www.bloomberg.com/news/articles/2015-05-11/flexport-wants-to-be-uber-of-the-oceans", access: archived }
   - { n: 2, publisher: Forbes, date: 2022-02-07, title: "Flexport Is Silicon Valley's Solution To The Supply Chain Mess", url: "https://web.archive.org/web/20240926164156/https://www.forbes.com/sites/alexkonrad/2022/02/07/flexport-is-silicon-valleys-solution-to-the-supply-chain-mess-why-do-insiders-hope-it-sinks/", access: archived }
