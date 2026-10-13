@@ -109,6 +109,17 @@
       "photo": "/images/ryans/ryan-dahl.jpg"
     },
     {
+      "id": "fleury",
+      "slug": "fleury",
+      "name": "Ryan Fleury",
+      "number": null,
+      "clusters": [
+        "tech",
+        "open-source"
+      ],
+      "photo": ""
+    },
+    {
       "id": "garcia",
       "slug": "garcia",
       "name": "Ryan Garcia",

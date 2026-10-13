@@ -3,7 +3,7 @@
     "slug": "open-source",
     "label": "Open Source Ryans",
     "kind": "cluster",
-    "count": 1
+    "count": 2
   },
   "ryans": [
     {
@@ -41,6 +41,49 @@
       "status": "published",
       "clusters": [
         "founder",
+        "tech",
+        "open-source"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 10,
+      "slug": "fleury",
+      "name": "Ryan Fleury",
+      "number": null,
+      "short": "RAD Debugger",
+      "title": "Systems programmer; RAD Debugger developer",
+      "photo": "",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": "",
+      "website": "https://www.dgtlgrove.com/",
+      "lead_summary": "**Ryan Fleury** is an American software engineer who works on development tools in the games industry and writes at **Digital Grove** (dgtlgrove.com) [1][6][7]. He is a Senior Engine Programmer at Epic Games associated with RAD Game Tools and is the lead developer of the open-source **RAD Debugger** [6][7].",
+      "occupations": [
+        "software-engineer"
+      ],
+      "known_for": [
+        "RAD Debugger",
+        "Digital Grove writing",
+        "Better Software Conference 2025 debugger talk"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "rfleury",
+          "url": "https://x.com/rfleury"
+        },
+        {
+          "platform": "github",
+          "handle": "ryanfleury",
+          "url": "https://github.com/ryanfleury"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
         "tech",
         "open-source"
       ],
