@@ -4,8 +4,8 @@ slug: fleury
 name: Ryan Fleury
 short: "RAD Debugger"
 title: "Systems programmer; RAD Debugger developer"
-photo: ""
-photo_credit: ""
+photo: "/images/ryans/ryan-fleury.jpg"
+photo_credit: "Ryan Fleury via GitHub"
 photo_license: ""
 birth:
   date: ""
@@ -66,7 +66,7 @@ His SPLASH 2026 profile states that he studied undergraduate computer science at
 
 ## Public profile
 
-Fleury posts on X as @rfleury and maintains the GitHub account ryanfleury [6][7][11]. Digital Grove’s Substack author page is @rfleury [11]. No properly licensed portrait suitable for this encyclopedia was located; this entry uses the site’s photo fallback.
+Fleury posts on X as @rfleury and maintains the GitHub account ryanfleury [6][7][11]. Digital Grove’s Substack author page is @rfleury [11].
 
 ## Notable work
 
@@ -94,6 +94,6 @@ READ in full: 1,2,3,4 (YouTube page + auto transcript), 5 (README), 6,7,8,9,10,1
 CUT: Exact birth year inferred from BSC aside ("2013… when I was like 15"); Dion Systems / Melodist / personal hobbies from Handmade Seattle timestamp titles without full quoted claims; LinkedIn-only phrasing not used beyond what SPLASH/GitHub already state; Wikimedia/CC portrait (none found for this Ryan Fleury).
 ATTRIBUTED as self-published conference bio: Senior Engine Programmer / lead developer / CU undergrad CS from [7].
 X HANDLE: used @rfleury per SPLASH [7] and Substack [11] (and user request). BSC YouTube description still lists x.com/ryanjfleury — treated as older/alternate listing, not used as primary.
-PHOTO: empty → site initials fallback.
+PHOTO: /images/ryans/ryan-fleury.jpg — public GitHub avatar (ryanfleury.png); credit "Ryan Fleury via GitHub"; license empty to match other self-published avatar photos in-repo.
 NO PROD DB: build:data only; did not run db:seed --apply against remote.
 -->
