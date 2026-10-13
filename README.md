@@ -44,7 +44,7 @@ bun run dev                # static + /api on :4173
 - `GET /api/ryan-web` → `{ nodes, links }`
 
 Successful GETs send `Cache-Control: public, s-maxage=3600, stale-while-revalidate=86400`.
-5xx responses are `no-store`. Functions run in **iad1** (near the Boston Hostinger VPS / libSQL).
+5xx responses are `no-store`. Functions run on Edge pinned to **iad1** (near the Boston Hostinger VPS / libSQL); `vercel.json` also sets `regions: ["iad1"]`.
 
 ## Write path (Head of Content)
 
