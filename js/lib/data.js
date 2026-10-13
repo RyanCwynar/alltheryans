@@ -1,9 +1,19 @@
+import { API_CACHE_VERSION } from "./cache-version.js";
+
 let ryansPromise;
 let tagsPromise;
+let directoryPromise;
 let graphPromise;
 
+function withCacheVersion(path) {
+  const url = new URL(path, "https://alltheryans.local");
+  url.searchParams.set("v", API_CACHE_VERSION);
+  return `${url.pathname}${url.search}`;
+}
+
 async function api(path) {
-  const res = await fetch(path, { cache: "no-cache" });
+  // Allow CDN / browser cache (API sends s-maxage). Bust via API_CACHE_VERSION after seed.
+  const res = await fetch(withCacheVersion(path));
   if (!res.ok) {
     const body = await res.json().catch(() => ({}));
     throw new Error(body.error || `API ${res.status} for ${path}`);
@@ -25,6 +35,34 @@ export function loadPublishedRyans(params = {}) {
     return ryansPromise;
   }
   return api(path).then((data) => data.ryans || []);
+}
+
+/** One request: published list + tags (archive / home). */
+export function loadDirectory(params = {}) {
+  const qs = new URLSearchParams();
+  if (params.tag) qs.set("tag", params.tag);
+  if (params.sort) qs.set("sort", params.sort);
+  if (params.q) qs.set("q", params.q);
+  const key = qs.toString();
+  const path = `/api/directory${key ? `?${key}` : ""}`;
+  if (!params.tag && !params.sort && !params.q) {
+    if (!directoryPromise) {
+      directoryPromise = api(path).then((data) => ({
+        ryans: data.ryans || [],
+        tags: data.tags || [],
+      }));
+      // Warm the individual caches from the same payload.
+      directoryPromise.then((d) => {
+        if (!ryansPromise) ryansPromise = Promise.resolve(d.ryans);
+        if (!tagsPromise) tagsPromise = Promise.resolve(d.tags);
+      });
+    }
+    return directoryPromise;
+  }
+  return api(path).then((data) => ({
+    ryans: data.ryans || [],
+    tags: data.tags || [],
+  }));
 }
 
 /** @deprecated use loadPublishedRyans */

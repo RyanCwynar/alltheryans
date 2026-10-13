@@ -1,6 +1,7 @@
 import { createClient as createNodeClient, type Client } from "@libsql/client";
 import { createClient as createWebClient } from "@libsql/client/web";
 import { drizzle, type LibSQLDatabase } from "drizzle-orm/libsql";
+import { instrumentClient } from "./instrument-client.js";
 import { schema } from "./schema.js";
 
 export type Db = LibSQLDatabase<typeof schema>;
@@ -27,9 +28,10 @@ export function createDb(env: LibsqlEnv = {}): { db: Db; client: Client } {
   if (!url.startsWith("file:") && !authToken) {
     throw new Error("LIBSQL_AUTH_TOKEN is required for remote LIBSQL_URL");
   }
-  const client = url.startsWith("file:")
+  const raw = url.startsWith("file:")
     ? createNodeClient({ url, authToken })
     : createWebClient({ url, authToken });
+  const client = instrumentClient(raw);
   const db = drizzle(client, { schema });
   return { db, client };
 }

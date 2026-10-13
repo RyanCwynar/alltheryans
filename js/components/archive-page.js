@@ -1,5 +1,5 @@
 import { LitElement, html } from "lit";
-import { loadPublishedRyans, loadTags } from "../lib/data.js";
+import { loadDirectory } from "../lib/data.js";
 import { searchIcon, ADD_RYAN_URL } from "./icons.js";
 import "./ryan-card.js";
 
@@ -38,10 +38,10 @@ export class ArchivePage extends LitElement {
 
   async #load() {
     try {
-      const [ryans, tags] = await Promise.all([
-        loadPublishedRyans({ tag: this.cluster || undefined, sort: this.sortKey }),
-        loadTags(),
-      ]);
+      const { ryans, tags } = await loadDirectory({
+        tag: this.cluster || undefined,
+        sort: this.sortKey,
+      });
       this.ryans = ryans;
       this.tags = tags;
       this.status = "ready";
@@ -85,9 +85,25 @@ export class ArchivePage extends LitElement {
     );
   }
 
+  #skeleton() {
+    return html`
+      <main class="section" aria-busy="true" aria-live="polite">
+        <div class="wrap">
+          <div class="skel skel-title"></div>
+          <div class="skel skel-line short"></div>
+          <div class="ryan-grid" style="margin-top: 2rem">
+            ${[0, 1, 2, 3, 4, 5].map(
+              () => html`<div class="skel skel-card" aria-hidden="true"></div>`,
+            )}
+          </div>
+        </div>
+      </main>
+    `;
+  }
+
   render() {
     if (this.status === "loading") {
-      return html`<div class="loading wrap">Loading archive…</div>`;
+      return this.#skeleton();
     }
     if (this.status === "error") {
       return html`<div class="error wrap">Could not load the archive. Is the API up?</div>`;

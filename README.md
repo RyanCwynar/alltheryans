@@ -40,7 +40,11 @@ bun run dev                # static + /api on :4173
 - `GET /api/ryans/:slug`
 - `GET /api/tags`
 - `GET /api/tags/:tag`
+- `GET /api/directory` → `{ count, ryans, tags }` (one round-trip for archive)
 - `GET /api/ryan-web` → `{ nodes, links }`
+
+Successful GETs send `Cache-Control: public, s-maxage=3600, stale-while-revalidate=86400`.
+5xx responses are `no-store`. Functions run in **iad1** (near the Boston Hostinger VPS / libSQL).
 
 ## Write path (Head of Content)
 
@@ -49,6 +53,8 @@ bun run dev                # static + /api on :4173
 ```bash
 bun run db:seed -- --apply
 ```
+
+After `--apply`, the seed script tries a Vercel CDN purge when `VERCEL_TOKEN` + `VERCEL_PROJECT_ID` are set. Otherwise bump `API_CACHE_VERSION` in `js/lib/cache-version.js` and redeploy, or run `vercel cache purge --yes`.
 
 Wallet-signature allowlist can wrap the same upserts later; not required while Markdown + CLI is the intake.
 
