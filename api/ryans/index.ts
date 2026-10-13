@@ -2,8 +2,8 @@ import { createDb } from "../../db/client-web.js";
 import { listPublishedRyans } from "../../db/queries.js";
 import { handleGet, json, parseSort } from "../_lib/http.js";
 
-// Node serverless so vercel.json `regions: ["iad1"]` pins near the Boston VPS DB.
-export const config = { runtime: "nodejs" };
+// Edge + regions pins near the Boston VPS DB (vercel.json regions kept for Node fallbacks).
+export const config = { runtime: "edge", regions: ["iad1"] };
 
 export default async function handler(request: Request): Promise<Response> {
   return handleGet(request, "GET /api/ryans", async (url) => {

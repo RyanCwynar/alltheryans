@@ -3,7 +3,7 @@ import { getDirectory } from "../db/queries.js";
 import { handleGet, json, parseSort } from "./_lib/http.js";
 
 /** Combined list + tags so the archive can do one fetch. */
-export const config = { runtime: "nodejs" };
+export const config = { runtime: "edge", regions: ["iad1"] };
 
 export default async function handler(request: Request): Promise<Response> {
   return handleGet(request, "GET /api/directory", async (url) => {
