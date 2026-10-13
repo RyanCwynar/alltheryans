@@ -1,7 +1,6 @@
 import { LitElement, html } from "lit";
 import {
   loadPublishedRyans,
-  loadRyanMarkdown,
   pickRyanOfDay,
   sortByName,
   seriesLabel,
@@ -40,15 +39,11 @@ export class HomePage extends LitElement {
 
   async #load() {
     try {
+      // List payload already has spotlight fields — skip a second bio fetch.
       const ryans = await loadPublishedRyans();
       this.ryans = sortByName(ryans);
       this.featured = pickRyanOfDay(ryans);
       this.status = "ready";
-      // Pull the full profile for the spotlight card.
-      if (this.featured) {
-        const full = await loadRyanMarkdown(this.featured.slug).catch(() => null);
-        if (full) this.featured = full;
-      }
     } catch (err) {
       console.error(err);
       this.status = "error";
@@ -63,9 +58,46 @@ export class HomePage extends LitElement {
     return [...withPhoto, ...rest].slice(0, PREVIEW_COUNT);
   }
 
+  #skeleton() {
+    return html`
+      <main aria-busy="true" aria-live="polite">
+        <section class="wrap hero" aria-label="Loading">
+          <div class="hero-copy">
+            <name-tag></name-tag>
+            <div class="skel skel-title"></div>
+            <div class="skel skel-line"></div>
+            <div class="skel skel-line short"></div>
+            <div class="cta-row">
+              <div class="skel skel-btn"></div>
+              <div class="skel skel-btn"></div>
+            </div>
+          </div>
+          <article class="rotd skel-rotd">
+            <div class="skel skel-photo"></div>
+            <div class="rotd-body">
+              <div class="skel skel-line thin"></div>
+              <div class="skel skel-title sm"></div>
+              <div class="skel skel-line"></div>
+              <div class="skel skel-line short"></div>
+            </div>
+          </article>
+        </section>
+        <section class="section">
+          <div class="wrap">
+            <div class="ryan-grid">
+              ${[0, 1, 2, 3].map(
+                () => html`<div class="skel skel-card" aria-hidden="true"></div>`,
+              )}
+            </div>
+          </div>
+        </section>
+      </main>
+    `;
+  }
+
   render() {
     if (this.status === "loading") {
-      return html`<div class="loading wrap">Loading Ryans…</div>`;
+      return this.#skeleton();
     }
     if (this.status === "error" || !this.featured) {
       return html`<div class="error wrap">Could not load the Ryan directory. Is the API up?</div>`;

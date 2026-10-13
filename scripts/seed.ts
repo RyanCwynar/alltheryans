@@ -346,6 +346,57 @@ async function main() {
   await importRelationships(db, parsedList, slugToId, true);
 
   console.log(`Applied ${parsedList.length} Ryans to ${process.env.LIBSQL_URL}`);
+  await invalidateCdnCache();
+}
+
+/**
+ * After seed, CDN still serves stale API JSON for up to s-maxage / SWR.
+ * Prefer Vercel tag invalidate when creds are present; otherwise bump the
+ * frontend cache-version query param (no env var changes).
+ *
+ * API responses set `Vercel-Cache-Tag: alltheryans-api`.
+ */
+async function invalidateCdnCache() {
+  const token = process.env.VERCEL_TOKEN?.trim();
+  const projectId = process.env.VERCEL_PROJECT_ID?.trim();
+  const teamId = process.env.VERCEL_TEAM_ID?.trim();
+  const tag = "alltheryans-api";
+
+  console.log("");
+  console.log("CDN cache after seed:");
+
+  if (token && projectId) {
+    const purgeUrl = new URL(
+      `https://api.vercel.com/v1/edge-cache/invalidate-by-tag`,
+    );
+    purgeUrl.searchParams.set("projectId", projectId);
+    if (teamId) purgeUrl.searchParams.set("teamId", teamId);
+
+    try {
+      const res = await fetch(purgeUrl, {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${token}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ tags: [tag] }),
+      });
+      if (res.ok) {
+        console.log(`  Invalidated Vercel CDN tag "${tag}" (HTTP ${res.status}).`);
+        return;
+      }
+      const body = await res.text();
+      console.log(`  Vercel invalidate returned HTTP ${res.status}: ${body.slice(0, 200)}`);
+      console.log("  Falling back to manual cache-bust instructions.");
+    } catch (err) {
+      console.log(`  Vercel invalidate failed: ${(err as Error).message}`);
+    }
+  } else {
+    console.log("  No VERCEL_TOKEN + VERCEL_PROJECT_ID — skip automatic purge.");
+  }
+
+  console.log(`  Or: vercel cache invalidate --tag ${tag}`);
+  console.log("  Or bump API_CACHE_VERSION in js/lib/cache-version.js and redeploy.");
 }
 
 main().catch((err) => {

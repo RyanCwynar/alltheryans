@@ -1,8 +1,10 @@
 /**
  * Read-only query helpers shared by the public API.
  * Only status='published' rows are exposed.
+ *
+ * Keep round-trips low: one query per concern, parallelize independent reads.
  */
-import { and, asc, desc, eq, sql, inArray } from "drizzle-orm";
+import { and, asc, desc, eq, sql, inArray, or } from "drizzle-orm";
 import type { Db } from "./client.js";
 import {
   education,
@@ -63,6 +65,7 @@ function mapRyanListItem(
   };
 }
 
+/** One round-trip: all cluster slugs for the given Ryan ids. */
 async function clustersByRyanIds(db: Db, ids: number[]) {
   const map = new Map<number, string[]>();
   if (!ids.length) return map;
@@ -82,19 +85,29 @@ async function clustersByRyanIds(db: Db, ids: number[]) {
   return map;
 }
 
-async function connectionCounts(db: Db) {
-  const rows = await db
+/**
+ * One round-trip: load verified edges and tally in memory (no correlated subquery).
+ * Dataset is small (dozens of edges); avoids N per-row SQL.
+ */
+async function connectionCounts(db: Db, ids?: number[]) {
+  const edges = await db
     .select({
-      id: ryans.id,
-      count: sql<number>`(
-        select count(*) from relationships r
-        where (r.source_id = ${ryans.id} or r.target_id = ${ryans.id})
-          and r.verified = 1
-      )`.mapWith(Number),
+      sourceId: relationships.sourceId,
+      targetId: relationships.targetId,
     })
-    .from(ryans)
-    .where(eq(ryans.status, "published"));
-  return new Map(rows.map((r) => [r.id, r.count || 0]));
+    .from(relationships)
+    .where(eq(relationships.verified, true));
+
+  const map = new Map<number, number>();
+  const bump = (id: number) => {
+    if (ids && !ids.includes(id)) return;
+    map.set(id, (map.get(id) || 0) + 1);
+  };
+  for (const e of edges) {
+    bump(e.sourceId);
+    bump(e.targetId);
+  }
+  return map;
 }
 
 export async function listPublishedRyans(
@@ -114,7 +127,7 @@ export async function listPublishedRyans(
     if (!idFilter.length) return [];
   }
 
-  let rows = await db
+  const rows = await db
     .select()
     .from(ryans)
     .where(
@@ -123,21 +136,22 @@ export async function listPublishedRyans(
         : eq(ryans.status, "published"),
     );
 
+  let filtered = rows;
   if (opts.q) {
     const needle = opts.q.toLowerCase();
-    rows = rows.filter((r) => {
+    filtered = rows.filter((r) => {
       const hay = `${r.name} ${r.short || ""} ${r.title || ""} ${r.leadSummary || ""}`.toLowerCase();
       return hay.includes(needle);
     });
   }
 
-  const clusters = await clustersByRyanIds(
-    db,
-    rows.map((r) => r.id),
-  );
-  const connections = await connectionCounts(db);
+  const ids = filtered.map((r) => r.id);
+  const [clusters, connections] = await Promise.all([
+    clustersByRyanIds(db, ids),
+    connectionCounts(db, ids),
+  ]);
 
-  const mapped = rows.map((row) =>
+  const mapped = filtered.map((row) =>
     mapRyanListItem(row, {
       clusters: clusters.get(row.id) || [],
       connection_count: connections.get(row.id) || 0,
@@ -181,57 +195,58 @@ export async function getPublishedRyanBySlug(db: Db, slug: string) {
   const row = rows[0];
   if (!row) return null;
 
-  const clusterMap = await clustersByRyanIds(db, [row.id]);
+  // Detail joins in parallel after the primary row (2 round-trip waves total).
+  const [clusterMap, edu, orgs, relRows, citeRows] = await Promise.all([
+    clustersByRyanIds(db, [row.id]),
+    db.select().from(education).where(eq(education.ryanId, row.id)),
+    db
+      .select({
+        name: organizations.name,
+        url: organizations.url,
+        role: ryanOrganizations.role,
+        start: ryanOrganizations.startYear,
+        end: ryanOrganizations.endYear,
+        note: ryanOrganizations.note,
+      })
+      .from(ryanOrganizations)
+      .innerJoin(
+        organizations,
+        eq(ryanOrganizations.organizationId, organizations.id),
+      )
+      .where(eq(ryanOrganizations.ryanId, row.id)),
+    db
+      .select({
+        type: relationships.type,
+        note: relationships.note,
+        directed: relationships.directed,
+        verified: relationships.verified,
+        sourceSlug: sql<string>`(select slug from ryans where id = ${relationships.sourceId})`,
+        targetSlug: sql<string>`(select slug from ryans where id = ${relationships.targetId})`,
+      })
+      .from(relationships)
+      .where(
+        or(eq(relationships.sourceId, row.id), eq(relationships.targetId, row.id)),
+      ),
+    db
+      .select({
+        n: citations.footnoteN,
+        field: citations.field,
+        title: sources.title,
+        publisher: sources.publisher,
+        author: sources.author,
+        date: sources.publishedOn,
+        url: sources.url,
+        access: sources.access,
+        archive_url: sources.archiveUrl,
+        checked_at: sources.checkedAt,
+      })
+      .from(citations)
+      .innerJoin(sources, eq(citations.sourceId, sources.id))
+      .where(eq(citations.ryanId, row.id))
+      .orderBy(asc(citations.footnoteN)),
+  ]);
+
   const base = mapRyanListItem(row, { clusters: clusterMap.get(row.id) || [] });
-
-  const edu = await db.select().from(education).where(eq(education.ryanId, row.id));
-  const orgs = await db
-    .select({
-      name: organizations.name,
-      url: organizations.url,
-      role: ryanOrganizations.role,
-      start: ryanOrganizations.startYear,
-      end: ryanOrganizations.endYear,
-      note: ryanOrganizations.note,
-    })
-    .from(ryanOrganizations)
-    .innerJoin(
-      organizations,
-      eq(ryanOrganizations.organizationId, organizations.id),
-    )
-    .where(eq(ryanOrganizations.ryanId, row.id));
-
-  const relRows = await db
-    .select({
-      type: relationships.type,
-      note: relationships.note,
-      directed: relationships.directed,
-      verified: relationships.verified,
-      sourceSlug: sql<string>`(select slug from ryans where id = ${relationships.sourceId})`,
-      targetSlug: sql<string>`(select slug from ryans where id = ${relationships.targetId})`,
-    })
-    .from(relationships)
-    .where(
-      sql`(${relationships.sourceId} = ${row.id} or ${relationships.targetId} = ${row.id})`,
-    );
-
-  const citeRows = await db
-    .select({
-      n: citations.footnoteN,
-      field: citations.field,
-      title: sources.title,
-      publisher: sources.publisher,
-      author: sources.author,
-      date: sources.publishedOn,
-      url: sources.url,
-      access: sources.access,
-      archive_url: sources.archiveUrl,
-      checked_at: sources.checkedAt,
-    })
-    .from(citations)
-    .innerJoin(sources, eq(citations.sourceId, sources.id))
-    .where(eq(citations.ryanId, row.id))
-    .orderBy(asc(citations.footnoteN));
 
   return {
     ...base,
@@ -278,7 +293,7 @@ export async function listTags(db: Db) {
       slug: tags.slug,
       label: tags.label,
       kind: tags.kind,
-      count: sql<number>`count(${ryanTags.ryanId})`.mapWith(Number),
+      count: sql<number>`count(${ryans.id})`.mapWith(Number),
     })
     .from(tags)
     .leftJoin(ryanTags, eq(tags.id, ryanTags.tagId))
@@ -296,6 +311,22 @@ export async function listTags(db: Db) {
     }));
 }
 
+/** Directory payload: ryans + tags in parallel (one function, fewer client round-trips). */
+export async function getDirectory(
+  db: Db,
+  opts: { tag?: string; sort?: SortKey; q?: string } = {},
+) {
+  const [ryansList, tagList] = await Promise.all([
+    listPublishedRyans(db, opts),
+    listTags(db),
+  ]);
+  return {
+    count: ryansList.length,
+    ryans: ryansList,
+    tags: tagList,
+  };
+}
+
 export async function getTagPage(db: Db, tagSlug: string, sort: SortKey = "number") {
   const tagRows = await db.select().from(tags).where(eq(tags.slug, tagSlug)).limit(1);
   const tag = tagRows[0];
@@ -308,10 +339,11 @@ export async function getTagPage(db: Db, tagSlug: string, sort: SortKey = "numbe
 }
 
 export async function getRyanWeb(db: Db) {
-  const published = await db
-    .select()
-    .from(ryans)
-    .where(eq(ryans.status, "published"));
+  const [published, edgeRows] = await Promise.all([
+    db.select().from(ryans).where(eq(ryans.status, "published")),
+    db.select().from(relationships).where(eq(relationships.verified, true)),
+  ]);
+
   const clusterMap = await clustersByRyanIds(
     db,
     published.map((r) => r.id),
@@ -327,10 +359,6 @@ export async function getRyanWeb(db: Db) {
   }));
 
   const idToSlug = new Map(published.map((r) => [r.id, r.slug]));
-  const edgeRows = await db
-    .select()
-    .from(relationships)
-    .where(eq(relationships.verified, true));
 
   const links = [];
   const seen = new Set<string>();
