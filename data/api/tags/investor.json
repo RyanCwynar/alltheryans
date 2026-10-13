@@ -1,0 +1,175 @@
+{
+  "tag": {
+    "slug": "investor",
+    "label": "Investor Ryans",
+    "kind": "cluster",
+    "count": 4
+  },
+  "ryans": [
+    {
+      "id": 1,
+      "slug": "ryan-petersen",
+      "name": "Ryan Petersen",
+      "number": 1,
+      "short": "Flexport founder",
+      "title": "Founder and CEO of Flexport",
+      "photo": "/images/ryans/ryan-petersen.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1980,
+      "birth_year_max": 1981,
+      "birth_place": "Bethesda, Maryland, U.S.",
+      "website": "https://www.flexport.com",
+      "lead_summary": "**Ryan Petersen** (born 1980 or 1981) is an American businessman and venture capitalist. He founded and runs **Flexport**, a technology-focused freight forwarder and customs broker based in San Francisco [1][4]. Earlier in his career he worked in his family's import-export business, and in 2007 he co-founded the shipping-data company **ImportGenius** [1]. Since 2023 he has also been a partner at the venture capital firm Founders Fund [3].",
+      "occupations": [
+        "businessman",
+        "entrepreneur",
+        "venture-capitalist"
+      ],
+      "known_for": [
+        "Founding Flexport",
+        "Co-founding ImportGenius",
+        "2021 Port of Long Beach Twitter thread"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "typesfast",
+          "url": "https://x.com/typesfast"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "tech",
+        "logistics",
+        "investor"
+      ],
+      "connection_count": 1
+    },
+    {
+      "id": 6,
+      "slug": "cohen",
+      "name": "Ryan Cohen",
+      "number": null,
+      "short": "Chewy / GameStop",
+      "title": "Chewy co-founder; GameStop chairman and CEO",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Ryan_Cohen_2019_%28cropped%29.jpg/330px-Ryan_Cohen_2019_%28cropped%29.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1985,
+      "birth_year_max": 1985,
+      "birth_place": "",
+      "website": "",
+      "lead_summary": "**Ryan Cohen** is a Canadian-born entrepreneur and investor best known as co-founder of online pet retailer **Chewy** and as chairman and CEO of **GameStop** [1][5][6].",
+      "occupations": [
+        "entrepreneur",
+        "investor",
+        "executive"
+      ],
+      "known_for": [
+        "Co-founding Chewy",
+        "PetSmart's $3.35B Chewy acquisition",
+        "GameStop chairman and CEO; 2021 meme-stock era"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "ryancohen",
+          "url": "https://x.com/ryancohen"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "tech",
+        "investor",
+        "retail"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 13,
+      "slug": "graves",
+      "name": "Ryan Graves",
+      "number": null,
+      "short": "Uber / Saltwater",
+      "title": "Early Uber leader; founder of Saltwater",
+      "photo": "/images/ryans/ryan-graves.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1983,
+      "birth_year_max": 1983,
+      "birth_place": "San Diego, California, U.S.",
+      "website": "",
+      "lead_summary": "**Ryan Graves** (born 1983) is an American businessman and investor. He was the first employee hired at **Uber**, briefly held the CEO title in the company’s early months, later ran global operations, and now leads the investment firm **Saltwater** [1][2][5].",
+      "occupations": [
+        "businessman",
+        "investor"
+      ],
+      "known_for": [
+        "Uber's first hired employee",
+        "Brief early Uber CEO tenure",
+        "Saltwater investment firm"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "rfrfrfrf",
+          "url": "https://x.com/rfrfrfrf"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "tech",
+        "logistics",
+        "investor"
+      ],
+      "connection_count": 1
+    },
+    {
+      "id": 16,
+      "slug": "hoover",
+      "name": "Ryan Hoover",
+      "number": null,
+      "short": "Product Hunt founder",
+      "title": "Founder of Product Hunt and Weekend Fund",
+      "photo": "/images/ryans/ryan-hoover.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": "",
+      "website": "https://weekend.fund/",
+      "lead_summary": "**Ryan Hoover** is an American entrepreneur and early-stage investor. He founded **Product Hunt**, a community product-discovery site that became a standard launch venue for startups, and later founded **Weekend Fund**, which he continues to run [1][5][6].",
+      "occupations": [
+        "entrepreneur",
+        "investor"
+      ],
+      "known_for": [
+        "Founding Product Hunt",
+        "AngelList acquisition of Product Hunt (2016)",
+        "Weekend Fund"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "rrhoover",
+          "url": "https://x.com/rrhoover"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "tech",
+        "investor"
+      ],
+      "connection_count": 0
+    }
+  ]
+}

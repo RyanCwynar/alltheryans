@@ -1,0 +1,146 @@
+{
+  "ryan": {
+    "id": 16,
+    "slug": "hoover",
+    "name": "Ryan Hoover",
+    "number": null,
+    "short": "Product Hunt founder",
+    "title": "Founder of Product Hunt and Weekend Fund",
+    "photo": "/images/ryans/ryan-hoover.jpg",
+    "photo_credit": "",
+    "photo_license": "",
+    "birth_year_min": null,
+    "birth_year_max": null,
+    "birth_place": "",
+    "website": "https://weekend.fund/",
+    "lead_summary": "**Ryan Hoover** is an American entrepreneur and early-stage investor. He founded **Product Hunt**, a community product-discovery site that became a standard launch venue for startups, and later founded **Weekend Fund**, which he continues to run [1][5][6].",
+    "occupations": [
+      "entrepreneur",
+      "investor"
+    ],
+    "known_for": [
+      "Founding Product Hunt",
+      "AngelList acquisition of Product Hunt (2016)",
+      "Weekend Fund"
+    ],
+    "social": [
+      {
+        "platform": "x",
+        "handle": "rrhoover",
+        "url": "https://x.com/rrhoover"
+      }
+    ],
+    "featured_on": null,
+    "status": "published",
+    "clusters": [
+      "founder",
+      "tech",
+      "investor"
+    ],
+    "connection_count": 0,
+    "birth": {
+      "date": null,
+      "year_min": null,
+      "year_max": null,
+      "place": ""
+    },
+    "death": null,
+    "body_md": "# Ryan Hoover\n\n**Ryan Hoover** is an American entrepreneur and early-stage investor. He founded **Product Hunt**, a community product-discovery site that became a standard launch venue for startups, and later founded **Weekend Fund**, which he continues to run [1][5][6].\n\n## Career\n\n### Product Hunt\n\nHoover launched Product Hunt in late 2013 as a side project for sharing and discovering new apps and products [2][4]. The site grew into a widely used tech launchpad. In December 2016, **AngelList** acquired Product Hunt; TechCrunch reported the price as about $20 million based on a source close to the deal [1]. Hoover said Product Hunt would remain an independent platform and that he would stay CEO [1][2].\n\nIn October 2020, Hoover announced that he was stepping down as Product Hunt CEO and that investor and founder Josh Buckley would take the role. Hoover said he would continue to support the company at a strategic level [5].\n\n### Weekend Fund\n\nIn 2017, while still at Product Hunt, Hoover started **Weekend Fund**, initially reported as a $3 million AngelList Angel Fund for early-stage startups [3][4]. As of 2026, Weekend Fund’s site describes writing roughly $250k–$500k checks into early-stage companies worldwide, with a network of founder and operator LPs, and lists a portfolio including companies such as Deel, MoonPay, and Function Health [6].\n\n## Notable work\n\n- Built Product Hunt from an email-list experiment into a category-defining launch community [1][2].\n- Sold Product Hunt to AngelList (2016) [1].\n- Founded and continues to operate Weekend Fund (2017–present) [3][6].\n\n## Public profile\n\nHoover posts on X as @rrhoover and maintains personal writing at ryanhoover.me [2][4].\n\n## References\n\n1. Buhr, Sarah. \"AngelList acquires Product Hunt.\" *TechCrunch*, Dec 1, 2016. https://techcrunch.com/2016/12/01/angelhunt/\n2. Hoover, Ryan. \"Product Hunt + AngelList.\" ryanhoover.me, Dec 2016. https://www.ryanhoover.me/post/product-hunt-angellist\n3. Mannes, John. \"Ryan Hoover's $3M Angel Fund is going by the name Weekend Fund.\" *TechCrunch*, Aug 29, 2017. https://techcrunch.com/2017/08/29/weekend-fund-is-ryan-hoovers-3m-angel-fund/\n4. Hoover, Ryan. \"Weekend Fund.\" ryanhoover.me, 2017. https://www.ryanhoover.me/post/weekend-fund\n5. Hoover, Ryan. \"Product Hunt's New CEO: Josh Buckley.\" *Product Hunt*, Oct 22, 2020. https://www.producthunt.com/stories/product-hunt-s-new-ceo-josh-buckley\n6. \"Weekend Fund.\" https://weekend.fund/ (accessed Oct 12, 2026).\n\n<!-- VERIFICATION LOG (2026-10-12)\nREAD: 1,2,3,4,5,6.\nCUT: Exact birth year/place (no reliable non-Wikipedia cite found); Hooked co-author claim left out of body for length/cite budget though commonly attributed; \"still AngelList employee\" after 2020 not asserted.\nCONFIRMED: Weekend Fund still active in 2026 via weekend.fund [6].\n-->",
+    "education": [],
+    "organizations": [
+      {
+        "name": "Product Hunt",
+        "url": null,
+        "role": "Founder; CEO",
+        "start": 2013,
+        "end": 2020,
+        "note": null
+      },
+      {
+        "name": "AngelList",
+        "url": null,
+        "role": "Product Hunt acquired into AngelList",
+        "start": 2016,
+        "end": null,
+        "note": null
+      },
+      {
+        "name": "Weekend Fund",
+        "url": null,
+        "role": "Founder; general partner",
+        "start": 2017,
+        "end": null,
+        "note": null
+      }
+    ],
+    "relationships": [],
+    "sources": [
+      {
+        "n": 1,
+        "title": "AngelList acquires Product Hunt",
+        "publisher": "TechCrunch",
+        "author": "",
+        "date": "2016-12-01",
+        "url": "https://techcrunch.com/2016/12/01/angelhunt/",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": "2026-10-12"
+      },
+      {
+        "n": 2,
+        "title": "Product Hunt + AngelList",
+        "publisher": "ryanhoover.me",
+        "author": "",
+        "date": "2016-12-01",
+        "url": "https://www.ryanhoover.me/post/product-hunt-angellist",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": "2026-10-12"
+      },
+      {
+        "n": 3,
+        "title": "Ryan Hoover's $3M Angel Fund is going by the name Weekend Fund",
+        "publisher": "TechCrunch",
+        "author": "",
+        "date": "2017-08-29",
+        "url": "https://techcrunch.com/2017/08/29/weekend-fund-is-ryan-hoovers-3m-angel-fund/",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": "2026-10-12"
+      },
+      {
+        "n": 4,
+        "title": "Weekend Fund",
+        "publisher": "ryanhoover.me",
+        "author": "",
+        "date": "2017-08-29",
+        "url": "https://www.ryanhoover.me/post/weekend-fund",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": "2026-10-12"
+      },
+      {
+        "n": 5,
+        "title": "Product Hunt's New CEO: Josh Buckley",
+        "publisher": "Product Hunt",
+        "author": "",
+        "date": "2020-10-22",
+        "url": "https://www.producthunt.com/stories/product-hunt-s-new-ceo-josh-buckley",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": "2026-10-12"
+      },
+      {
+        "n": 6,
+        "title": "Weekend Fund",
+        "publisher": "Weekend Fund",
+        "author": "",
+        "date": "2026-10-12",
+        "url": "https://weekend.fund/",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": "2026-10-12"
+      }
+    ]
+  }
+}

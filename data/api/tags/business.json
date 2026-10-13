@@ -1,0 +1,54 @@
+{
+  "tag": {
+    "slug": "business",
+    "label": "Business Ryans",
+    "kind": "cluster",
+    "count": 1
+  },
+  "ryans": [
+    {
+      "id": 22,
+      "slug": "reynolds",
+      "name": "Ryan Reynolds",
+      "number": null,
+      "short": "Deadpool actor",
+      "title": "Actor and businessman",
+      "photo": "/images/ryan-reynolds.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1976,
+      "birth_year_max": 1976,
+      "birth_place": "Vancouver, British Columbia, Canada",
+      "website": "",
+      "lead_summary": "**Ryan Rodney Reynolds** (born October 23, 1976) is a Canadian-American actor, producer, and entrepreneur. He is best known for starring as the Marvel antihero Deadpool, and for building consumer brands and a Welsh football club alongside film work [1][2][3].",
+      "occupations": [
+        "actor",
+        "producer",
+        "entrepreneur"
+      ],
+      "known_for": [
+        "Deadpool franchise",
+        "Aviation Gin",
+        "Mint Mobile",
+        "Wrexham AFC",
+        "Maximum Effort"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "VancityReynolds",
+          "url": "https://x.com/VancityReynolds"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "entertainment",
+        "film",
+        "business",
+        "sports"
+      ],
+      "connection_count": 2
+    }
+  ]
+}

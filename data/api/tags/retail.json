@@ -1,0 +1,52 @@
+{
+  "tag": {
+    "slug": "retail",
+    "label": "Retail Ryans",
+    "kind": "cluster",
+    "count": 1
+  },
+  "ryans": [
+    {
+      "id": 6,
+      "slug": "cohen",
+      "name": "Ryan Cohen",
+      "number": null,
+      "short": "Chewy / GameStop",
+      "title": "Chewy co-founder; GameStop chairman and CEO",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Ryan_Cohen_2019_%28cropped%29.jpg/330px-Ryan_Cohen_2019_%28cropped%29.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1985,
+      "birth_year_max": 1985,
+      "birth_place": "",
+      "website": "",
+      "lead_summary": "**Ryan Cohen** is a Canadian-born entrepreneur and investor best known as co-founder of online pet retailer **Chewy** and as chairman and CEO of **GameStop** [1][5][6].",
+      "occupations": [
+        "entrepreneur",
+        "investor",
+        "executive"
+      ],
+      "known_for": [
+        "Co-founding Chewy",
+        "PetSmart's $3.35B Chewy acquisition",
+        "GameStop chairman and CEO; 2021 meme-stock era"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "ryancohen",
+          "url": "https://x.com/ryancohen"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "tech",
+        "investor",
+        "retail"
+      ],
+      "connection_count": 0
+    }
+  ]
+}

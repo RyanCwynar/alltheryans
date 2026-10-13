@@ -1,0 +1,135 @@
+{
+  "ryan": {
+    "id": 9,
+    "slug": "dahl",
+    "name": "Ryan Dahl",
+    "number": null,
+    "short": "Node.js & Deno",
+    "title": "Creator of Node.js and Deno",
+    "photo": "/images/ryans/ryan-dahl.jpg",
+    "photo_credit": "",
+    "photo_license": "",
+    "birth_year_min": 1981,
+    "birth_year_max": 1981,
+    "birth_place": "San Diego, California, U.S.",
+    "website": "https://tinyclouds.org/",
+    "lead_summary": "**Ryan Dahl** (born 1981) is an American software engineer best known for creating **Node.js**, the JavaScript runtime that made server-side JavaScript practical at scale, and later **Deno**, a secure TypeScript-first runtime built with V8 and Rust [1][2][4].",
+    "occupations": [
+      "software-engineer",
+      "entrepreneur"
+    ],
+    "known_for": [
+      "Creating Node.js",
+      "Creating Deno",
+      "JSConf EU 2009 Node.js talk"
+    ],
+    "social": [
+      {
+        "platform": "x",
+        "handle": "rough__sea",
+        "url": "https://x.com/rough__sea"
+      }
+    ],
+    "featured_on": null,
+    "status": "published",
+    "clusters": [
+      "founder",
+      "tech",
+      "open-source"
+    ],
+    "connection_count": 0,
+    "birth": {
+      "date": null,
+      "year_min": 1981,
+      "year_max": 1981,
+      "place": "San Diego, California, U.S."
+    },
+    "death": null,
+    "body_md": "# Ryan Dahl\n\n**Ryan Dahl** (born 1981) is an American software engineer best known for creating **Node.js**, the JavaScript runtime that made server-side JavaScript practical at scale, and later **Deno**, a secure TypeScript-first runtime built with V8 and Rust [1][2][4].\n\n## Early life and education\n\nDahl grew up in San Diego, California. He has said his mother bought him an Apple IIc when he was six, giving him early access to computers as the internet was emerging [1]. He attended community college in San Diego, then studied mathematics at the University of California, San Diego. He entered a mathematics Ph.D. program at the University of Rochester, focusing on algebraic topology, before leaving graduate school because he did not want to devote his career to abstract math [1][2]. He later spent time in South America and moved into web development, including Ruby [1][2].\n\n## Career\n\n### Node.js\n\nIn 2009, after Chrome shipped Google’s V8 JavaScript engine, Dahl combined V8 with non-blocking I/O ideas inspired by systems such as Nginx and Ruby’s Rack interface. He released Node.js and introduced it in a widely cited JSConf talk that year [1][2]. Joyent hired him and sponsored the project; he led Node’s development until January 2012, when he stepped back from day-to-day maintenance and handed operational leadership to Isaac Z. Schlueter [1][2][3].\n\n### After Node\n\nAfter leaving Node’s daily work, Dahl worked on other projects and later joined Google Brain, where he focused on machine-learning research such as image-to-image transformations [1][2][3].\n\n### Deno\n\nAround 2018–2019, Dahl and early Node collaborator Bert Belder began experimenting again with server-side JavaScript tooling. Dissatisfied with Node’s state years after they had left it, they built a new runtime demo that became Deno: TypeScript-first by design, implemented largely in Rust, and oriented around web-standard APIs and stronger default security [2][3][4]. The open-source project drew contributors quickly enough that they founded a company around Deno and related infrastructure such as Deno Deploy [2][3][4].\n\n## Notable work\n\n- **Node.js** (2009): event-driven JavaScript on V8 for networked servers [1][2].\n- **Deno** (announced 2018; company thereafter): modern JS/TS runtime and commercial platform [2][4].\n- Personal writing and project notes at tinyclouds.org [5].\n\n## Public profile\n\nDahl is comparatively low-profile for a platform creator. He discusses Node’s design tradeoffs and Deno’s goals in long-form interviews rather than constant product marketing [2][3][4]. He posts on X as @rough__sea.\n\n## References\n\n1. \"Episode 8: Interview with Ryan Dahl, Creator of Node.js.\" *Mapping The Journey*, Aug 31, 2017. https://www.mappingthejourney.com/single-post/2017/08/31/episode-8-interview-with-ryan-dahl-creator-of-nodejs/\n2. \"Why the creator of Node.js® created a new JavaScript runtime.\" *Stack Overflow Blog*, Mar 19, 2024. https://stackoverflow.blog/2024/03/19/why-the-creator-of-node-js-r-created-a-new-javascript-runtime/\n3. \"Exploring Deno Land with Ryan Dahl.\" *Changelog* Interviews #443, 2021. https://changelog.com/podcast/443\n4. Williams, Alex. \"Deno's Ryan Dahl Is an Asynchronous Guy.\" *The New Stack*, Sep 27, 2022. https://thenewstack.io/denos-ryan-dahl-is-an-asynchronous-guy/\n5. Dahl, Ryan. tinyclouds.org. Accessed Oct 12, 2026. https://tinyclouds.org/\n\n<!-- VERIFICATION LOG (2026-10-12)\nREAD: 1,2,3,4,5.\nCUT: Exact Joyent/Google Brain employment dates (not cleanly dated in accessible interviews); \"JSR\" as primary known_for without a dedicated cite; Wikipedia-only birthplace details beyond San Diego from interview [1].\nUSED: age ~36 in 2017 interview [1] supports 1981 birth year.\n-->",
+    "education": [],
+    "organizations": [
+      {
+        "name": "Joyent",
+        "url": null,
+        "role": "Employee (Node.js lead)",
+        "start": 2009,
+        "end": 2012,
+        "note": null
+      },
+      {
+        "name": "Google Brain",
+        "url": null,
+        "role": "Software engineer (machine learning research)",
+        "start": null,
+        "end": null,
+        "note": null
+      },
+      {
+        "name": "Deno Land, Inc.",
+        "url": null,
+        "role": "Co-founder",
+        "start": 2019,
+        "end": null,
+        "note": null
+      }
+    ],
+    "relationships": [],
+    "sources": [
+      {
+        "n": 1,
+        "title": "Episode 8: Interview with Ryan Dahl, Creator of Node.js",
+        "publisher": "Mapping The Journey",
+        "author": "",
+        "date": "2017-08-31",
+        "url": "https://www.mappingthejourney.com/single-post/2017/08/31/episode-8-interview-with-ryan-dahl-creator-of-nodejs/",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": "2026-10-12"
+      },
+      {
+        "n": 2,
+        "title": "Why the creator of Node.js® created a new JavaScript runtime",
+        "publisher": "Stack Overflow Blog",
+        "author": "",
+        "date": "2024-03-19",
+        "url": "https://stackoverflow.blog/2024/03/19/why-the-creator-of-node-js-r-created-a-new-javascript-runtime/",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": "2026-10-12"
+      },
+      {
+        "n": 3,
+        "title": "Exploring Deno Land with Ryan Dahl",
+        "publisher": "Changelog",
+        "author": "",
+        "date": "2021-05-19",
+        "url": "https://changelog.com/podcast/443",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": "2026-10-12"
+      },
+      {
+        "n": 4,
+        "title": "Deno's Ryan Dahl Is an Asynchronous Guy",
+        "publisher": "The New Stack",
+        "author": "",
+        "date": "2022-09-27",
+        "url": "https://thenewstack.io/denos-ryan-dahl-is-an-asynchronous-guy/",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": "2026-10-12"
+      },
+      {
+        "n": 5,
+        "title": "tinyclouds.org",
+        "publisher": "Ryan Dahl",
+        "author": "",
+        "date": "2026-10-12",
+        "url": "https://tinyclouds.org/",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": "2026-10-12"
+      }
+    ]
+  }
+}

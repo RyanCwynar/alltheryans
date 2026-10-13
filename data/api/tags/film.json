@@ -1,0 +1,166 @@
+{
+  "tag": {
+    "slug": "film",
+    "label": "Film Ryans",
+    "kind": "cluster",
+    "count": 4
+  },
+  "ryans": [
+    {
+      "id": 7,
+      "slug": "coogler",
+      "name": "Ryan Coogler",
+      "number": null,
+      "short": "Black Panther director",
+      "title": "Filmmaker",
+      "photo": "/images/ryans/ryan-coogler.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1986,
+      "birth_year_max": 1986,
+      "birth_place": "Oakland, California, U.S.",
+      "website": "",
+      "lead_summary": "**Ryan Kyle Coogler** (born May 23, 1986) is an American filmmaker. He directed *Fruitvale Station* (2013), *Creed* (2015), *Black Panther* (2018), *Black Panther: Wakanda Forever* (2022), and the original horror film *Sinners* (2025), and co-founded the production company Proximity Media [1][2].",
+      "occupations": [
+        "film-director",
+        "screenwriter",
+        "producer"
+      ],
+      "known_for": [
+        "Black Panther",
+        "Creed",
+        "Fruitvale Station",
+        "Sinners"
+      ],
+      "social": [],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "entertainment",
+        "film"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 12,
+      "slug": "gosling",
+      "name": "Ryan Gosling",
+      "number": null,
+      "short": "La La Land actor",
+      "title": "Actor and musician",
+      "photo": "/images/ryan-gosling.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1980,
+      "birth_year_max": 1980,
+      "birth_place": "London, Ontario, Canada",
+      "website": "",
+      "lead_summary": "**Ryan Thomas Gosling** (born November 12, 1980) is a Canadian actor and musician. He moved from child television to acclaimed independent films and major studio hits, earning Academy Award nominations for *Half Nelson*, *La La Land*, and *Barbie* [1][2][3].",
+      "occupations": [
+        "actor",
+        "musician",
+        "director"
+      ],
+      "known_for": [
+        "The Notebook",
+        "Drive",
+        "La La Land",
+        "Barbie",
+        "Half Nelson"
+      ],
+      "social": [],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "entertainment",
+        "music",
+        "film"
+      ],
+      "connection_count": 2
+    },
+    {
+      "id": 21,
+      "slug": "phillippe",
+      "name": "Ryan Phillippe",
+      "number": null,
+      "short": "Cruel Intentions actor",
+      "title": "Actor",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Ryan_Phillippe_2011_Shankbone.JPG/330px-Ryan_Phillippe_2011_Shankbone.JPG",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1974,
+      "birth_year_max": 1974,
+      "birth_place": "New Castle, Delaware, U.S.",
+      "website": "",
+      "lead_summary": "**Matthew Ryan Phillippe** (born September 10, 1974) is an American actor. He rose from daytime television to late-1990s teen films and later dramatic roles in *Crash* and Clint Eastwood’s *Flags of Our Fathers* [1][5].",
+      "occupations": [
+        "actor"
+      ],
+      "known_for": [
+        "Cruel Intentions",
+        "One Life to Live",
+        "Crash",
+        "Flags of Our Fathers"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "RyanPhillippe",
+          "url": "https://x.com/RyanPhillippe"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "entertainment",
+        "film",
+        "television"
+      ],
+      "connection_count": 2
+    },
+    {
+      "id": 22,
+      "slug": "reynolds",
+      "name": "Ryan Reynolds",
+      "number": null,
+      "short": "Deadpool actor",
+      "title": "Actor and businessman",
+      "photo": "/images/ryan-reynolds.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1976,
+      "birth_year_max": 1976,
+      "birth_place": "Vancouver, British Columbia, Canada",
+      "website": "",
+      "lead_summary": "**Ryan Rodney Reynolds** (born October 23, 1976) is a Canadian-American actor, producer, and entrepreneur. He is best known for starring as the Marvel antihero Deadpool, and for building consumer brands and a Welsh football club alongside film work [1][2][3].",
+      "occupations": [
+        "actor",
+        "producer",
+        "entrepreneur"
+      ],
+      "known_for": [
+        "Deadpool franchise",
+        "Aviation Gin",
+        "Mint Mobile",
+        "Wrexham AFC",
+        "Maximum Effort"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "VancityReynolds",
+          "url": "https://x.com/VancityReynolds"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "entertainment",
+        "film",
+        "business",
+        "sports"
+      ],
+      "connection_count": 2
+    }
+  ]
+}

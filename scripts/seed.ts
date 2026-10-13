@@ -306,16 +306,7 @@ async function importRelationships(
 
 async function main() {
   const apply = hasFlag("--apply");
-  const ryansDir = join(import.meta.dir, "..", "ryans");
-  const files = (await readdir(ryansDir))
-    .filter((f) => f.endsWith(".md"))
-    .sort()
-    .map((f) => join(ryansDir, f));
-
-  const parsedList: ParsedRyan[] = [];
-  for (const file of files) {
-    parsedList.push(await parseRyanMarkdown(file));
-  }
+  const parsedList = await parseAllRyans();
 
   console.log(
     `Parsed ${parsedList.length} markdown files. Mode: ${apply ? "APPLY" : "DRY-RUN"}`,
@@ -335,6 +326,32 @@ async function main() {
   }
 
   const { db, client } = createDb();
+  await applyParsedRyans(db, client, parsedList);
+
+  console.log(`Applied ${parsedList.length} Ryans to ${process.env.LIBSQL_URL}`);
+  await invalidateCdnCache();
+}
+
+/** Parse every ryans/*.md file, sorted by filename. */
+export async function parseAllRyans(): Promise<ParsedRyan[]> {
+  const ryansDir = join(import.meta.dir, "..", "ryans");
+  const files = (await readdir(ryansDir))
+    .filter((f) => f.endsWith(".md"))
+    .sort()
+    .map((f) => join(ryansDir, f));
+  const parsedList: ParsedRyan[] = [];
+  for (const file of files) {
+    parsedList.push(await parseRyanMarkdown(file));
+  }
+  return parsedList;
+}
+
+/** Upsert parsed Ryans + relationships into a migrated database. */
+export async function applyParsedRyans(
+  db: ReturnType<typeof createDb>["db"],
+  client: ReturnType<typeof createDb>["client"],
+  parsedList: ParsedRyan[],
+) {
   const slugToId = new Map<string, number>();
 
   // Clear relationship edges before re-import so stale links do not linger
@@ -344,9 +361,6 @@ async function main() {
     await importRyan(db, client, parsed, true, slugToId);
   }
   await importRelationships(db, parsedList, slugToId, true);
-
-  console.log(`Applied ${parsedList.length} Ryans to ${process.env.LIBSQL_URL}`);
-  await invalidateCdnCache();
 }
 
 /**
@@ -396,10 +410,12 @@ async function invalidateCdnCache() {
   }
 
   console.log(`  Or: vercel cache invalidate --tag ${tag}`);
-  console.log("  Or bump API_CACHE_VERSION in js/lib/cache-version.js and redeploy.");
+  console.log("  The site itself reads data/api/*.json — run `bun run build:data` and commit.");
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+if (import.meta.main) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}

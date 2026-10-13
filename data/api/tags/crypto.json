@@ -1,0 +1,51 @@
+{
+  "tag": {
+    "slug": "crypto",
+    "label": "Crypto Ryans",
+    "kind": "cluster",
+    "count": 1
+  },
+  "ryans": [
+    {
+      "id": 24,
+      "slug": "selkis",
+      "name": "Ryan Selkis",
+      "number": null,
+      "short": "Messari founder",
+      "title": "Co-founder of Messari; crypto researcher",
+      "photo": "/images/ryan-selkis.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": "",
+      "website": "https://messari.io/",
+      "lead_summary": "**Ryan Selkis** is an American crypto entrepreneur and researcher best known as co-founder and longtime CEO of **Messari**, a digital-asset data and research platform. He stepped down as CEO in July 2024 after a wave of inflammatory political posts on X [1][2][3].",
+      "occupations": [
+        "entrepreneur",
+        "analyst",
+        "investor"
+      ],
+      "known_for": [
+        "Co-founding Messari",
+        "Crypto research and market intelligence",
+        "Early CoinDesk / Consensus-era leadership"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "twobitidiot",
+          "url": "https://x.com/twobitidiot"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "tech",
+        "crypto"
+      ],
+      "connection_count": 0
+    }
+  ]
+}

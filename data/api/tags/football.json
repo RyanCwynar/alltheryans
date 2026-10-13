@@ -1,0 +1,49 @@
+{
+  "tag": {
+    "slug": "football",
+    "label": "Football Ryans",
+    "kind": "cluster",
+    "count": 1
+  },
+  "ryans": [
+    {
+      "id": 11,
+      "slug": "giggs",
+      "name": "Ryan Giggs",
+      "number": null,
+      "short": "Man Utd winger",
+      "title": "Welsh former footballer and manager",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/1/13/Ryan_Giggs_2015_%28cropped%29.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1973,
+      "birth_year_max": 1973,
+      "birth_place": "Cardiff, Wales",
+      "website": "",
+      "lead_summary": "**Ryan Joseph Giggs** (born 29 November 1973) is a Welsh former professional footballer and coach [1][2]. He spent his entire club playing career at Manchester United (1990–2014), making 963 appearances and winning 13 Premier League titles and two UEFA Champions League titles [2][3]. He later managed the Wales national team from 2018 until resigning in June 2022 [4][5].",
+      "occupations": [
+        "footballer",
+        "football-manager"
+      ],
+      "known_for": [
+        "963 appearances for Manchester United",
+        "13 Premier League titles",
+        "Wales manager 2018–2022"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "RyanGiggs",
+          "url": "https://x.com/RyanGiggs"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "athlete",
+        "football"
+      ],
+      "connection_count": 0
+    }
+  ]
+}

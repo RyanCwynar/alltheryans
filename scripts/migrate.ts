@@ -9,6 +9,11 @@ import { createDb } from "../db/client.js";
 
 async function main() {
   const { client } = createDb();
+  await migrate(client);
+}
+
+/** Apply any unapplied drizzle/*.sql files to the given client. */
+export async function migrate(client: ReturnType<typeof createDb>["client"]) {
   await client.execute(`
     CREATE TABLE IF NOT EXISTS __drizzle_migrations (
       id integer PRIMARY KEY AUTOINCREMENT NOT NULL,
@@ -52,7 +57,9 @@ async function main() {
   console.log("Migrations complete.");
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+if (import.meta.main) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}

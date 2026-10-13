@@ -3,6 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "build:data": "bun run scripts/build-data.ts",
+    "build:vendor": "bun run scripts/build-vendor.ts",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "bun run scripts/migrate.ts",
     "db:seed": "bun run scripts/seed.ts",
@@ -17,7 +19,10 @@
   },
   "devDependencies": {
     "@types/bun": "^1.2.22",
+    "dompurify": "3.2.4",
     "drizzle-kit": "^0.31.4",
+    "lit": "3.2.1",
+    "marked": "15.0.7",
     "typescript": "^5.9.2"
   }
 }

@@ -1,0 +1,49 @@
+{
+  "tag": {
+    "slug": "legal-tech",
+    "label": "Legal Tech Ryans",
+    "kind": "cluster",
+    "count": 1
+  },
+  "ryans": [
+    {
+      "id": 2,
+      "slug": "anderson",
+      "name": "Ryan Anderson",
+      "number": null,
+      "short": "Filevine CEO",
+      "title": "Co-founder and CEO of Filevine",
+      "photo": "",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": "",
+      "website": "https://www.filevine.com/",
+      "lead_summary": "**Ryan Anderson** is an American entrepreneur and former litigator who co-founded **Filevine**, a Salt Lake City–area legal technology company, and serves as its CEO [1][2].",
+      "occupations": [
+        "entrepreneur",
+        "lawyer"
+      ],
+      "known_for": [
+        "Co-founding Filevine",
+        "Legal practice-management / legal AI software"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "ryandersonlaw",
+          "url": "https://x.com/ryandersonlaw"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "tech",
+        "legal-tech"
+      ],
+      "connection_count": 0
+    }
+  ]
+}

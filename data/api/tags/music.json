@@ -1,0 +1,118 @@
+{
+  "tag": {
+    "slug": "music",
+    "label": "Music Ryans",
+    "kind": "cluster",
+    "count": 3
+  },
+  "ryans": [
+    {
+      "id": 5,
+      "slug": "castro",
+      "name": "Ryan Castro",
+      "number": null,
+      "short": "Reggaeton artist",
+      "title": "Reggaeton artist",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Foto_ryan_agosto_%28cropped%29.jpg/330px-Foto_ryan_agosto_%28cropped%29.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1994,
+      "birth_year_max": 1994,
+      "birth_place": "Medellín area (Bello / Pedregal), Antioquia, Colombia",
+      "website": "",
+      "lead_summary": "**Bryan David Castro Sosa** (born 1994), known professionally as **Ryan Castro**, is a Colombian reggaeton and dancehall singer-songwriter. Nicknamed “El Cantante del Ghetto,” he went from busking on Medellín buses to international hits including “Mujeriego,” “Jordan,” and “Quema” with Peso Pluma [1][2][3].",
+      "occupations": [
+        "singer",
+        "songwriter",
+        "rapper"
+      ],
+      "known_for": [
+        "El Cantante del Ghetto",
+        "Jordan",
+        "Mujeriego",
+        "Quema (with Peso Pluma)"
+      ],
+      "social": [],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "entertainment",
+        "music",
+        "latin"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 12,
+      "slug": "gosling",
+      "name": "Ryan Gosling",
+      "number": null,
+      "short": "La La Land actor",
+      "title": "Actor and musician",
+      "photo": "/images/ryan-gosling.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1980,
+      "birth_year_max": 1980,
+      "birth_place": "London, Ontario, Canada",
+      "website": "",
+      "lead_summary": "**Ryan Thomas Gosling** (born November 12, 1980) is a Canadian actor and musician. He moved from child television to acclaimed independent films and major studio hits, earning Academy Award nominations for *Half Nelson*, *La La Land*, and *Barbie* [1][2][3].",
+      "occupations": [
+        "actor",
+        "musician",
+        "director"
+      ],
+      "known_for": [
+        "The Notebook",
+        "Drive",
+        "La La Land",
+        "Barbie",
+        "Half Nelson"
+      ],
+      "social": [],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "entertainment",
+        "music",
+        "film"
+      ],
+      "connection_count": 2
+    },
+    {
+      "id": 26,
+      "slug": "tedder",
+      "name": "Ryan Tedder",
+      "number": null,
+      "short": "OneRepublic frontman",
+      "title": "Singer, songwriter, producer",
+      "photo": "/images/ryans/ryan-tedder.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1979,
+      "birth_year_max": 1979,
+      "birth_place": "Tulsa, Oklahoma, U.S.",
+      "website": "",
+      "lead_summary": "**Ryan Benjamin Tedder** (born June 26, 1979) is an American singer, songwriter, and record producer. He is the co-founder and frontman of OneRepublic and a prolific writer-producer for other artists [2][5][6].",
+      "occupations": [
+        "singer",
+        "songwriter",
+        "record-producer"
+      ],
+      "known_for": [
+        "OneRepublic",
+        "Apologize",
+        "Halo",
+        "Bleeding Love"
+      ],
+      "social": [],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "entertainment",
+        "music"
+      ],
+      "connection_count": 0
+    }
+  ]
+}
