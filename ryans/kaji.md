@@ -4,9 +4,9 @@ slug: kaji
 name: Ryan Kaji
 short: "Ryan's World"
 title: "American YouTube personality"
-photo: ""
-photo_credit: ""
-photo_license: ""
+photo: "/images/ryans/ryan-kaji.jpg"
+photo_credit: "Ryan Kaji via YouTube"
+photo_license: "public profile photo"
 birth: { date: "2011", place: "Texas, U.S." }
 occupations: [youtuber, actor]
 clusters: [creator, youtube]

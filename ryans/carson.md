@@ -4,9 +4,9 @@ slug: carson
 name: Ryan Carson
 short: "Treehouse founder"
 title: "Founder of Treehouse; serial entrepreneur"
-photo: ""
-photo_credit: ""
-photo_license: ""
+photo: "/images/ryans/ryan-carson.jpg"
+photo_credit: "Ryan Carson via ryancarson.com"
+photo_license: "public profile photo"
 birth:
   date: ""
   place: ""
