@@ -1,0 +1,115 @@
+{
+  "tag": {
+    "slug": "creator",
+    "label": "Creator Ryans",
+    "kind": "cluster",
+    "count": 3
+  },
+  "ryans": [
+    {
+      "id": 14,
+      "slug": "higa",
+      "name": "Ryan Higa",
+      "number": null,
+      "short": "YouTube pioneer",
+      "title": "American YouTuber and comedian",
+      "photo": "/images/ryans/ryan-higa.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1990,
+      "birth_year_max": 1990,
+      "birth_place": "Hilo, Hawaii, U.S.",
+      "website": "",
+      "lead_summary": "**Ryan Higa** (born 1990) is an American comedian and former full-time YouTuber best known for the channel nigahiga [1]. Variety described him as a pioneering influencer who began posting when YouTube launched in 2006 and whose channel held the most subscriptions on YouTube from 2009 to 2011 [1].",
+      "occupations": [
+        "youtuber",
+        "comedian",
+        "actor"
+      ],
+      "known_for": [
+        "nigahiga YouTube channel",
+        "How to Be a Ninja",
+        "Early YouTube subscriber milestones"
+      ],
+      "social": [],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "creator",
+        "youtube"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 18,
+      "slug": "kaji",
+      "name": "Ryan Kaji",
+      "number": null,
+      "short": "Ryan's World",
+      "title": "American YouTube personality",
+      "photo": "",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 2011,
+      "birth_year_max": 2011,
+      "birth_place": "Texas, U.S.",
+      "website": "",
+      "lead_summary": "**Ryan Kaji** (born 2011) is an American child entertainer and the on-camera star of the YouTube brand **Ryan’s World** (originally Ryan ToysReview), produced with his family [1][2]. Forbes ranked him the highest-paid YouTube star for three consecutive years (2018–2020) [1][2][3][4].",
+      "occupations": [
+        "youtuber",
+        "actor"
+      ],
+      "known_for": [
+        "Ryan's World",
+        "Forbes highest-paid YouTuber 2018–2020",
+        "Ryan's Mystery Playdate"
+      ],
+      "social": [],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "creator",
+        "youtube"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 27,
+      "slug": "trahan",
+      "name": "Ryan Trahan",
+      "number": null,
+      "short": "YouTuber",
+      "title": "American YouTuber and creator",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/RyanTrahan_Interview.png/330px-RyanTrahan_Interview.png",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1998,
+      "birth_year_max": 1998,
+      "birth_place": "Texas, U.S.",
+      "website": "",
+      "lead_summary": "**Ryan Trahan** (born 1998) is an American YouTuber and entrepreneur known for challenge and travel vlogs, especially his recurring “penny” series [1][2][3]. He left Texas A&M University in 2017 after NCAA rules restricted how he could promote his businesses while competing as a student-athlete, and he pursued YouTube full time [1].",
+      "occupations": [
+        "youtuber",
+        "entrepreneur"
+      ],
+      "known_for": [
+        "Penny Series",
+        "Charity challenge vlogs"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "RyanTrahan",
+          "url": "https://x.com/RyanTrahan"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "creator",
+        "youtube"
+      ],
+      "connection_count": 0
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 import { LitElement, html } from "lit";
 import "./ryan-card.js";
+import { loadTagPage } from "../lib/data.js";
 
 export class TagPage extends LitElement {
   static properties = {
@@ -30,9 +31,7 @@ export class TagPage extends LitElement {
     if (!this.slug) return;
     this.status = "loading";
     try {
-      const res = await fetch(`/api/tags/${encodeURIComponent(this.slug)}?sort=number`);
-      if (!res.ok) throw new Error("not found");
-      const data = await res.json();
+      const data = await loadTagPage(this.slug);
       this.tag = data.tag;
       this.ryans = data.ryans || [];
       this.status = "ready";

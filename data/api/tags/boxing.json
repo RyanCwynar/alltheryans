@@ -1,0 +1,48 @@
+{
+  "tag": {
+    "slug": "boxing",
+    "label": "Boxing Ryans",
+    "kind": "cluster",
+    "count": 1
+  },
+  "ryans": [
+    {
+      "id": 10,
+      "slug": "garcia",
+      "name": "Ryan Garcia",
+      "number": null,
+      "short": "WBC welterweight",
+      "title": "American professional boxer",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/RYAN_GARCIA.jpg/330px-RYAN_GARCIA.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1998,
+      "birth_year_max": 1998,
+      "birth_place": "Victorville, California, U.S.",
+      "website": "",
+      "lead_summary": "**Ryan Garcia** (born 1998) is an American professional boxer from Victorville, California [6]. Nicknamed \"King Ry,\" he has held the World Boxing Council (WBC) welterweight title since February 2026 [5][6][7]. He previously won the WBC interim lightweight title in 2021 [1][2].",
+      "occupations": [
+        "boxer"
+      ],
+      "known_for": [
+        "WBC welterweight champion",
+        "King Ry",
+        "Campbell interim lightweight title"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "RyanGarcia",
+          "url": "https://x.com/RyanGarcia"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "athlete",
+        "boxing"
+      ],
+      "connection_count": 0
+    }
+  ]
+}

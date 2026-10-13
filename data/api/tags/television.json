@@ -1,0 +1,93 @@
+{
+  "tag": {
+    "slug": "television",
+    "label": "Television Ryans",
+    "kind": "cluster",
+    "count": 2
+  },
+  "ryans": [
+    {
+      "id": 21,
+      "slug": "phillippe",
+      "name": "Ryan Phillippe",
+      "number": null,
+      "short": "Cruel Intentions actor",
+      "title": "Actor",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Ryan_Phillippe_2011_Shankbone.JPG/330px-Ryan_Phillippe_2011_Shankbone.JPG",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1974,
+      "birth_year_max": 1974,
+      "birth_place": "New Castle, Delaware, U.S.",
+      "website": "",
+      "lead_summary": "**Matthew Ryan Phillippe** (born September 10, 1974) is an American actor. He rose from daytime television to late-1990s teen films and later dramatic roles in *Crash* and Clint Eastwood’s *Flags of Our Fathers* [1][5].",
+      "occupations": [
+        "actor"
+      ],
+      "known_for": [
+        "Cruel Intentions",
+        "One Life to Live",
+        "Crash",
+        "Flags of Our Fathers"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "RyanPhillippe",
+          "url": "https://x.com/RyanPhillippe"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "entertainment",
+        "film",
+        "television"
+      ],
+      "connection_count": 2
+    },
+    {
+      "id": 23,
+      "slug": "seacrest",
+      "name": "Ryan Seacrest",
+      "number": null,
+      "short": "Idol & Wheel host",
+      "title": "TV and radio host",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Ryan_Seacrest_%282019%29.jpg/330px-Ryan_Seacrest_%282019%29.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1974,
+      "birth_year_max": 1974,
+      "birth_place": "Atlanta, Georgia, U.S.",
+      "website": "",
+      "lead_summary": "**Ryan John Seacrest** (born December 24, 1974) is an American television and radio host and producer. As of 2025–2026 he hosts *American Idol* and *Wheel of Fortune*; he previously co-hosted *Live with Kelly and Ryan* from 2017 until April 2023 [1][2][4][5][6].",
+      "occupations": [
+        "television-host",
+        "radio-host",
+        "producer"
+      ],
+      "known_for": [
+        "American Idol",
+        "Wheel of Fortune",
+        "Dick Clark's New Year's Rockin' Eve",
+        "On Air with Ryan Seacrest"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "RyanSeacrest",
+          "url": "https://x.com/RyanSeacrest"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "entertainment",
+        "television",
+        "radio",
+        "media"
+      ],
+      "connection_count": 2
+    }
+  ]
+}

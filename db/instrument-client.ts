@@ -39,5 +39,8 @@ export function instrumentClient(client: Client): Client {
       transaction(...args)) as Client["transaction"];
   }
 
+  // Methods touching private fields must run against the real client.
+  wrapped.close = client.close.bind(client);
+
   return wrapped;
 }

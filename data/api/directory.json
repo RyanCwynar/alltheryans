@@ -1,0 +1,1204 @@
+{
+  "count": 27,
+  "ryans": [
+    {
+      "id": 19,
+      "slug": "matt",
+      "name": "Matt Ryan",
+      "number": null,
+      "short": "Falcons QB / exec",
+      "title": "Former NFL quarterback; Falcons President of Football",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Washington_Football_Team_at_Atlanta_Falcons_%283_October_2021%29_DSC_4628_%2851555290664%29_%28cropped%29.jpg/330px-Washington_Football_Team_at_Atlanta_Falcons_%283_October_2021%29_DSC_4628_%2851555290664%29_%28cropped%29.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1985,
+      "birth_year_max": 1985,
+      "birth_place": "Exton, Pennsylvania, U.S.",
+      "website": "",
+      "lead_summary": "**Matthew Thomas Ryan** (born May 17, 1985) is an American football executive and former NFL quarterback [1][2]. Nicknamed \"Matty Ice,\" he spent most of his playing career with the Atlanta Falcons, won Associated Press NFL Most Valuable Player honors in 2016, and in January 2026 was named the Falcons’ President of Football [2][3].",
+      "occupations": [
+        "american-football-player",
+        "sports-executive",
+        "sports-analyst"
+      ],
+      "known_for": [
+        "2016 NFL MVP",
+        "Atlanta Falcons franchise passing records",
+        "President of Football, Atlanta Falcons"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "M_Ryan02",
+          "url": "https://x.com/M_Ryan02"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "athlete",
+        "nfl"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 20,
+      "slug": "nolan",
+      "name": "Nolan Ryan",
+      "number": null,
+      "short": "MLB pitcher",
+      "title": "Hall of Fame MLB pitcher",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Nolan_Ryan_Tiger_Stadium_1990_CROP.jpg/330px-Nolan_Ryan_Tiger_Stadium_1990_CROP.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1947,
+      "birth_year_max": 1947,
+      "birth_place": "Refugio, Texas, U.S.",
+      "website": "",
+      "lead_summary": "**Lynn Nolan Ryan Jr.** (born January 31, 1947) is an American former Major League Baseball pitcher nicknamed the \"Ryan Express\" [1][2]. Over a record-tying 27 seasons he pitched for the New York Mets, California Angels, Houston Astros, and Texas Rangers [1][2]. He holds the major-league career records for strikeouts (5,714) and no-hitters (seven) and was elected to the National Baseball Hall of Fame in 1999 [1][2][3][4].",
+      "occupations": [
+        "baseball-player",
+        "sports-executive"
+      ],
+      "known_for": [
+        "5,714 career strikeouts",
+        "Seven no-hitters",
+        "Baseball Hall of Fame (1999)"
+      ],
+      "social": [],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "athlete",
+        "mlb"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 2,
+      "slug": "anderson",
+      "name": "Ryan Anderson",
+      "number": null,
+      "short": "Filevine CEO",
+      "title": "Co-founder and CEO of Filevine",
+      "photo": "",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": "",
+      "website": "https://www.filevine.com/",
+      "lead_summary": "**Ryan Anderson** is an American entrepreneur and former litigator who co-founded **Filevine**, a Salt Lake City–area legal technology company, and serves as its CEO [1][2].",
+      "occupations": [
+        "entrepreneur",
+        "lawyer"
+      ],
+      "known_for": [
+        "Co-founding Filevine",
+        "Legal practice-management / legal AI software"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "ryandersonlaw",
+          "url": "https://x.com/ryandersonlaw"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "tech",
+        "legal-tech"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 3,
+      "slug": "breslow",
+      "name": "Ryan Breslow",
+      "number": null,
+      "short": "Bolt founder",
+      "title": "Co-founder and CEO of Bolt",
+      "photo": "/images/ryans/ryan-breslow.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": "",
+      "website": "",
+      "lead_summary": "**Ryan Breslow** is an American entrepreneur and co-founder of **Bolt**, a checkout and payments software company for online retailers. After stepping down as CEO in early 2022 amid controversy, he was reinstated as CEO in March 2025 [1][3].",
+      "occupations": [
+        "entrepreneur"
+      ],
+      "known_for": [
+        "Co-founding Bolt (one-click checkout)",
+        "Bolt's 2022 valuation peak and later crash"
+      ],
+      "social": [],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "tech",
+        "fintech"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 4,
+      "slug": "carson",
+      "name": "Ryan Carson",
+      "number": null,
+      "short": "Treehouse founder",
+      "title": "Founder of Treehouse; serial entrepreneur",
+      "photo": "",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": "",
+      "website": "https://www.ryancarson.com/",
+      "lead_summary": "**Ryan Carson** is a British-American entrepreneur known for co-founding the online coding school **Treehouse**, which he led until its December 2021 acquisition, and for earlier companies DropSend and Carsonified [1][2][3].",
+      "occupations": [
+        "entrepreneur",
+        "educator"
+      ],
+      "known_for": [
+        "Co-founding Treehouse",
+        "Carsonified conferences",
+        "DropSend"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "ryancarson",
+          "url": "https://x.com/ryancarson"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "tech",
+        "education"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 5,
+      "slug": "castro",
+      "name": "Ryan Castro",
+      "number": null,
+      "short": "Reggaeton artist",
+      "title": "Reggaeton artist",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Foto_ryan_agosto_%28cropped%29.jpg/330px-Foto_ryan_agosto_%28cropped%29.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1994,
+      "birth_year_max": 1994,
+      "birth_place": "Medellín area (Bello / Pedregal), Antioquia, Colombia",
+      "website": "",
+      "lead_summary": "**Bryan David Castro Sosa** (born 1994), known professionally as **Ryan Castro**, is a Colombian reggaeton and dancehall singer-songwriter. Nicknamed “El Cantante del Ghetto,” he went from busking on Medellín buses to international hits including “Mujeriego,” “Jordan,” and “Quema” with Peso Pluma [1][2][3].",
+      "occupations": [
+        "singer",
+        "songwriter",
+        "rapper"
+      ],
+      "known_for": [
+        "El Cantante del Ghetto",
+        "Jordan",
+        "Mujeriego",
+        "Quema (with Peso Pluma)"
+      ],
+      "social": [],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "entertainment",
+        "music",
+        "latin"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 6,
+      "slug": "cohen",
+      "name": "Ryan Cohen",
+      "number": null,
+      "short": "Chewy / GameStop",
+      "title": "Chewy co-founder; GameStop chairman and CEO",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Ryan_Cohen_2019_%28cropped%29.jpg/330px-Ryan_Cohen_2019_%28cropped%29.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1985,
+      "birth_year_max": 1985,
+      "birth_place": "",
+      "website": "",
+      "lead_summary": "**Ryan Cohen** is a Canadian-born entrepreneur and investor best known as co-founder of online pet retailer **Chewy** and as chairman and CEO of **GameStop** [1][5][6].",
+      "occupations": [
+        "entrepreneur",
+        "investor",
+        "executive"
+      ],
+      "known_for": [
+        "Co-founding Chewy",
+        "PetSmart's $3.35B Chewy acquisition",
+        "GameStop chairman and CEO; 2021 meme-stock era"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "ryancohen",
+          "url": "https://x.com/ryancohen"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "tech",
+        "investor",
+        "retail"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 7,
+      "slug": "coogler",
+      "name": "Ryan Coogler",
+      "number": null,
+      "short": "Black Panther director",
+      "title": "Filmmaker",
+      "photo": "/images/ryans/ryan-coogler.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1986,
+      "birth_year_max": 1986,
+      "birth_place": "Oakland, California, U.S.",
+      "website": "",
+      "lead_summary": "**Ryan Kyle Coogler** (born May 23, 1986) is an American filmmaker. He directed *Fruitvale Station* (2013), *Creed* (2015), *Black Panther* (2018), *Black Panther: Wakanda Forever* (2022), and the original horror film *Sinners* (2025), and co-founded the production company Proximity Media [1][2].",
+      "occupations": [
+        "film-director",
+        "screenwriter",
+        "producer"
+      ],
+      "known_for": [
+        "Black Panther",
+        "Creed",
+        "Fruitvale Station",
+        "Sinners"
+      ],
+      "social": [],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "entertainment",
+        "film"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 8,
+      "slug": "cwynar",
+      "name": "Ryan Cwynar",
+      "number": null,
+      "short": "All The Ryans",
+      "title": "Software engineer; creator of All The Ryans",
+      "photo": "/images/ryan-cwynar.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": "",
+      "website": "https://www.byldr.dev/",
+      "lead_summary": "**Ryan Cwynar** is a software engineer and entrepreneur. He operates **Byldr Software LLC** and is the creator of **All The Ryans** (alltheryans.com), the encyclopedia this page belongs to [1][2][3].",
+      "occupations": [
+        "software-engineer",
+        "entrepreneur"
+      ],
+      "known_for": [
+        "All The Ryans",
+        "Byldr"
+      ],
+      "social": [
+        {
+          "platform": "linkedin",
+          "handle": "ryancwynar",
+          "url": "https://linkedin.com/in/ryancwynar"
+        },
+        {
+          "platform": "github",
+          "handle": "RyanCwynar",
+          "url": "https://github.com/RyanCwynar"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "tech"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 9,
+      "slug": "dahl",
+      "name": "Ryan Dahl",
+      "number": null,
+      "short": "Node.js & Deno",
+      "title": "Creator of Node.js and Deno",
+      "photo": "/images/ryans/ryan-dahl.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1981,
+      "birth_year_max": 1981,
+      "birth_place": "San Diego, California, U.S.",
+      "website": "https://tinyclouds.org/",
+      "lead_summary": "**Ryan Dahl** (born 1981) is an American software engineer best known for creating **Node.js**, the JavaScript runtime that made server-side JavaScript practical at scale, and later **Deno**, a secure TypeScript-first runtime built with V8 and Rust [1][2][4].",
+      "occupations": [
+        "software-engineer",
+        "entrepreneur"
+      ],
+      "known_for": [
+        "Creating Node.js",
+        "Creating Deno",
+        "JSConf EU 2009 Node.js talk"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "rough__sea",
+          "url": "https://x.com/rough__sea"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "tech",
+        "open-source"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 10,
+      "slug": "garcia",
+      "name": "Ryan Garcia",
+      "number": null,
+      "short": "WBC welterweight",
+      "title": "American professional boxer",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/RYAN_GARCIA.jpg/330px-RYAN_GARCIA.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1998,
+      "birth_year_max": 1998,
+      "birth_place": "Victorville, California, U.S.",
+      "website": "",
+      "lead_summary": "**Ryan Garcia** (born 1998) is an American professional boxer from Victorville, California [6]. Nicknamed \"King Ry,\" he has held the World Boxing Council (WBC) welterweight title since February 2026 [5][6][7]. He previously won the WBC interim lightweight title in 2021 [1][2].",
+      "occupations": [
+        "boxer"
+      ],
+      "known_for": [
+        "WBC welterweight champion",
+        "King Ry",
+        "Campbell interim lightweight title"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "RyanGarcia",
+          "url": "https://x.com/RyanGarcia"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "athlete",
+        "boxing"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 11,
+      "slug": "giggs",
+      "name": "Ryan Giggs",
+      "number": null,
+      "short": "Man Utd winger",
+      "title": "Welsh former footballer and manager",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/1/13/Ryan_Giggs_2015_%28cropped%29.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1973,
+      "birth_year_max": 1973,
+      "birth_place": "Cardiff, Wales",
+      "website": "",
+      "lead_summary": "**Ryan Joseph Giggs** (born 29 November 1973) is a Welsh former professional footballer and coach [1][2]. He spent his entire club playing career at Manchester United (1990–2014), making 963 appearances and winning 13 Premier League titles and two UEFA Champions League titles [2][3]. He later managed the Wales national team from 2018 until resigning in June 2022 [4][5].",
+      "occupations": [
+        "footballer",
+        "football-manager"
+      ],
+      "known_for": [
+        "963 appearances for Manchester United",
+        "13 Premier League titles",
+        "Wales manager 2018–2022"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "RyanGiggs",
+          "url": "https://x.com/RyanGiggs"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "athlete",
+        "football"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 12,
+      "slug": "gosling",
+      "name": "Ryan Gosling",
+      "number": null,
+      "short": "La La Land actor",
+      "title": "Actor and musician",
+      "photo": "/images/ryan-gosling.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1980,
+      "birth_year_max": 1980,
+      "birth_place": "London, Ontario, Canada",
+      "website": "",
+      "lead_summary": "**Ryan Thomas Gosling** (born November 12, 1980) is a Canadian actor and musician. He moved from child television to acclaimed independent films and major studio hits, earning Academy Award nominations for *Half Nelson*, *La La Land*, and *Barbie* [1][2][3].",
+      "occupations": [
+        "actor",
+        "musician",
+        "director"
+      ],
+      "known_for": [
+        "The Notebook",
+        "Drive",
+        "La La Land",
+        "Barbie",
+        "Half Nelson"
+      ],
+      "social": [],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "entertainment",
+        "music",
+        "film"
+      ],
+      "connection_count": 2
+    },
+    {
+      "id": 13,
+      "slug": "graves",
+      "name": "Ryan Graves",
+      "number": null,
+      "short": "Uber / Saltwater",
+      "title": "Early Uber leader; founder of Saltwater",
+      "photo": "/images/ryans/ryan-graves.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1983,
+      "birth_year_max": 1983,
+      "birth_place": "San Diego, California, U.S.",
+      "website": "",
+      "lead_summary": "**Ryan Graves** (born 1983) is an American businessman and investor. He was the first employee hired at **Uber**, briefly held the CEO title in the company’s early months, later ran global operations, and now leads the investment firm **Saltwater** [1][2][5].",
+      "occupations": [
+        "businessman",
+        "investor"
+      ],
+      "known_for": [
+        "Uber's first hired employee",
+        "Brief early Uber CEO tenure",
+        "Saltwater investment firm"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "rfrfrfrf",
+          "url": "https://x.com/rfrfrfrf"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "tech",
+        "logistics",
+        "investor"
+      ],
+      "connection_count": 1
+    },
+    {
+      "id": 14,
+      "slug": "higa",
+      "name": "Ryan Higa",
+      "number": null,
+      "short": "YouTube pioneer",
+      "title": "American YouTuber and comedian",
+      "photo": "/images/ryans/ryan-higa.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1990,
+      "birth_year_max": 1990,
+      "birth_place": "Hilo, Hawaii, U.S.",
+      "website": "",
+      "lead_summary": "**Ryan Higa** (born 1990) is an American comedian and former full-time YouTuber best known for the channel nigahiga [1]. Variety described him as a pioneering influencer who began posting when YouTube launched in 2006 and whose channel held the most subscriptions on YouTube from 2009 to 2011 [1].",
+      "occupations": [
+        "youtuber",
+        "comedian",
+        "actor"
+      ],
+      "known_for": [
+        "nigahiga YouTube channel",
+        "How to Be a Ninja",
+        "Early YouTube subscriber milestones"
+      ],
+      "social": [],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "creator",
+        "youtube"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 15,
+      "slug": "holmes",
+      "name": "Ryan Holmes",
+      "number": null,
+      "short": "Hootsuite founder",
+      "title": "Founder and CEO of Hootsuite",
+      "photo": "/images/ryans/ryan-holmes.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1974,
+      "birth_year_max": 1974,
+      "birth_place": "British Columbia, Canada",
+      "website": "https://www.hootsuite.com/",
+      "lead_summary": "**Ryan Holmes** is a Canadian entrepreneur best known as the founder of **Hootsuite**, the Vancouver-based social media management platform. As of 2026 he again leads the company as CEO after returning on an interim basis [1][5][6].",
+      "occupations": [
+        "entrepreneur",
+        "software-executive"
+      ],
+      "known_for": [
+        "Founding Hootsuite",
+        "Social media management software"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "invoker",
+          "url": "https://x.com/invoker"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "tech"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 16,
+      "slug": "hoover",
+      "name": "Ryan Hoover",
+      "number": null,
+      "short": "Product Hunt founder",
+      "title": "Founder of Product Hunt and Weekend Fund",
+      "photo": "/images/ryans/ryan-hoover.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": "",
+      "website": "https://weekend.fund/",
+      "lead_summary": "**Ryan Hoover** is an American entrepreneur and early-stage investor. He founded **Product Hunt**, a community product-discovery site that became a standard launch venue for startups, and later founded **Weekend Fund**, which he continues to run [1][5][6].",
+      "occupations": [
+        "entrepreneur",
+        "investor"
+      ],
+      "known_for": [
+        "Founding Product Hunt",
+        "AngelList acquisition of Product Hunt (2016)",
+        "Weekend Fund"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "rrhoover",
+          "url": "https://x.com/rrhoover"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "tech",
+        "investor"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 17,
+      "slug": "humphries",
+      "name": "Ryan Humphries",
+      "number": null,
+      "short": "Sales / founder",
+      "title": "American sales leader and founder",
+      "photo": "/images/ryan-humphries.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": "",
+      "website": "",
+      "lead_summary": "**Ryan Humphries** is an American sales leader and entrepreneur based in Austin, Texas [1][2]. Public information about him is sparse and comes mainly from his own LinkedIn profile and posts rather than independent press [1][2][3].",
+      "occupations": [
+        "entrepreneur",
+        "sales"
+      ],
+      "known_for": [
+        "Curv Group / Floatie Kings sales leadership",
+        "Zen Growth"
+      ],
+      "social": [
+        {
+          "platform": "linkedin",
+          "handle": "ryan-humphries7",
+          "url": "https://www.linkedin.com/in/ryan-humphries7"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "sales"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 18,
+      "slug": "kaji",
+      "name": "Ryan Kaji",
+      "number": null,
+      "short": "Ryan's World",
+      "title": "American YouTube personality",
+      "photo": "",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 2011,
+      "birth_year_max": 2011,
+      "birth_place": "Texas, U.S.",
+      "website": "",
+      "lead_summary": "**Ryan Kaji** (born 2011) is an American child entertainer and the on-camera star of the YouTube brand **Ryan’s World** (originally Ryan ToysReview), produced with his family [1][2]. Forbes ranked him the highest-paid YouTube star for three consecutive years (2018–2020) [1][2][3][4].",
+      "occupations": [
+        "youtuber",
+        "actor"
+      ],
+      "known_for": [
+        "Ryan's World",
+        "Forbes highest-paid YouTuber 2018–2020",
+        "Ryan's Mystery Playdate"
+      ],
+      "social": [],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "creator",
+        "youtube"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 1,
+      "slug": "ryan-petersen",
+      "name": "Ryan Petersen",
+      "number": 1,
+      "short": "Flexport founder",
+      "title": "Founder and CEO of Flexport",
+      "photo": "/images/ryans/ryan-petersen.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1980,
+      "birth_year_max": 1981,
+      "birth_place": "Bethesda, Maryland, U.S.",
+      "website": "https://www.flexport.com",
+      "lead_summary": "**Ryan Petersen** (born 1980 or 1981) is an American businessman and venture capitalist. He founded and runs **Flexport**, a technology-focused freight forwarder and customs broker based in San Francisco [1][4]. Earlier in his career he worked in his family's import-export business, and in 2007 he co-founded the shipping-data company **ImportGenius** [1]. Since 2023 he has also been a partner at the venture capital firm Founders Fund [3].",
+      "occupations": [
+        "businessman",
+        "entrepreneur",
+        "venture-capitalist"
+      ],
+      "known_for": [
+        "Founding Flexport",
+        "Co-founding ImportGenius",
+        "2021 Port of Long Beach Twitter thread"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "typesfast",
+          "url": "https://x.com/typesfast"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "tech",
+        "logistics",
+        "investor"
+      ],
+      "connection_count": 1
+    },
+    {
+      "id": 21,
+      "slug": "phillippe",
+      "name": "Ryan Phillippe",
+      "number": null,
+      "short": "Cruel Intentions actor",
+      "title": "Actor",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Ryan_Phillippe_2011_Shankbone.JPG/330px-Ryan_Phillippe_2011_Shankbone.JPG",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1974,
+      "birth_year_max": 1974,
+      "birth_place": "New Castle, Delaware, U.S.",
+      "website": "",
+      "lead_summary": "**Matthew Ryan Phillippe** (born September 10, 1974) is an American actor. He rose from daytime television to late-1990s teen films and later dramatic roles in *Crash* and Clint Eastwood’s *Flags of Our Fathers* [1][5].",
+      "occupations": [
+        "actor"
+      ],
+      "known_for": [
+        "Cruel Intentions",
+        "One Life to Live",
+        "Crash",
+        "Flags of Our Fathers"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "RyanPhillippe",
+          "url": "https://x.com/RyanPhillippe"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "entertainment",
+        "film",
+        "television"
+      ],
+      "connection_count": 2
+    },
+    {
+      "id": 22,
+      "slug": "reynolds",
+      "name": "Ryan Reynolds",
+      "number": null,
+      "short": "Deadpool actor",
+      "title": "Actor and businessman",
+      "photo": "/images/ryan-reynolds.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1976,
+      "birth_year_max": 1976,
+      "birth_place": "Vancouver, British Columbia, Canada",
+      "website": "",
+      "lead_summary": "**Ryan Rodney Reynolds** (born October 23, 1976) is a Canadian-American actor, producer, and entrepreneur. He is best known for starring as the Marvel antihero Deadpool, and for building consumer brands and a Welsh football club alongside film work [1][2][3].",
+      "occupations": [
+        "actor",
+        "producer",
+        "entrepreneur"
+      ],
+      "known_for": [
+        "Deadpool franchise",
+        "Aviation Gin",
+        "Mint Mobile",
+        "Wrexham AFC",
+        "Maximum Effort"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "VancityReynolds",
+          "url": "https://x.com/VancityReynolds"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "entertainment",
+        "film",
+        "business",
+        "sports"
+      ],
+      "connection_count": 2
+    },
+    {
+      "id": 23,
+      "slug": "seacrest",
+      "name": "Ryan Seacrest",
+      "number": null,
+      "short": "Idol & Wheel host",
+      "title": "TV and radio host",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Ryan_Seacrest_%282019%29.jpg/330px-Ryan_Seacrest_%282019%29.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1974,
+      "birth_year_max": 1974,
+      "birth_place": "Atlanta, Georgia, U.S.",
+      "website": "",
+      "lead_summary": "**Ryan John Seacrest** (born December 24, 1974) is an American television and radio host and producer. As of 2025–2026 he hosts *American Idol* and *Wheel of Fortune*; he previously co-hosted *Live with Kelly and Ryan* from 2017 until April 2023 [1][2][4][5][6].",
+      "occupations": [
+        "television-host",
+        "radio-host",
+        "producer"
+      ],
+      "known_for": [
+        "American Idol",
+        "Wheel of Fortune",
+        "Dick Clark's New Year's Rockin' Eve",
+        "On Air with Ryan Seacrest"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "RyanSeacrest",
+          "url": "https://x.com/RyanSeacrest"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "entertainment",
+        "television",
+        "radio",
+        "media"
+      ],
+      "connection_count": 2
+    },
+    {
+      "id": 24,
+      "slug": "selkis",
+      "name": "Ryan Selkis",
+      "number": null,
+      "short": "Messari founder",
+      "title": "Co-founder of Messari; crypto researcher",
+      "photo": "/images/ryan-selkis.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": "",
+      "website": "https://messari.io/",
+      "lead_summary": "**Ryan Selkis** is an American crypto entrepreneur and researcher best known as co-founder and longtime CEO of **Messari**, a digital-asset data and research platform. He stepped down as CEO in July 2024 after a wave of inflammatory political posts on X [1][2][3].",
+      "occupations": [
+        "entrepreneur",
+        "analyst",
+        "investor"
+      ],
+      "known_for": [
+        "Co-founding Messari",
+        "Crypto research and market intelligence",
+        "Early CoinDesk / Consensus-era leadership"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "twobitidiot",
+          "url": "https://x.com/twobitidiot"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "tech",
+        "crypto"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 25,
+      "slug": "smith",
+      "name": "Ryan Smith",
+      "number": null,
+      "short": "Qualtrics / Jazz",
+      "title": "Qualtrics founder; Utah Jazz and Mammoth owner",
+      "photo": "/images/ryans/ryan-smith.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1978,
+      "birth_year_max": 1978,
+      "birth_place": "",
+      "website": "https://www.qualtrics.com/",
+      "lead_summary": "**Ryan Smith** (born June 28, 1978) is an American businessman, the co-founder and executive chairman of experience-management software company **Qualtrics**, and the owner of the NBA’s **Utah Jazz** and NHL’s **Utah Mammoth** through Smith Entertainment Group [1][7][8][9].",
+      "occupations": [
+        "businessman",
+        "sports-owner"
+      ],
+      "known_for": [
+        "Co-founding Qualtrics",
+        "SAP's $8B Qualtrics acquisition",
+        "Owning the Utah Jazz and Utah Mammoth"
+      ],
+      "social": [],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "tech",
+        "sports"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 26,
+      "slug": "tedder",
+      "name": "Ryan Tedder",
+      "number": null,
+      "short": "OneRepublic frontman",
+      "title": "Singer, songwriter, producer",
+      "photo": "/images/ryans/ryan-tedder.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1979,
+      "birth_year_max": 1979,
+      "birth_place": "Tulsa, Oklahoma, U.S.",
+      "website": "",
+      "lead_summary": "**Ryan Benjamin Tedder** (born June 26, 1979) is an American singer, songwriter, and record producer. He is the co-founder and frontman of OneRepublic and a prolific writer-producer for other artists [2][5][6].",
+      "occupations": [
+        "singer",
+        "songwriter",
+        "record-producer"
+      ],
+      "known_for": [
+        "OneRepublic",
+        "Apologize",
+        "Halo",
+        "Bleeding Love"
+      ],
+      "social": [],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "entertainment",
+        "music"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 27,
+      "slug": "trahan",
+      "name": "Ryan Trahan",
+      "number": null,
+      "short": "YouTuber",
+      "title": "American YouTuber and creator",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/RyanTrahan_Interview.png/330px-RyanTrahan_Interview.png",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1998,
+      "birth_year_max": 1998,
+      "birth_place": "Texas, U.S.",
+      "website": "",
+      "lead_summary": "**Ryan Trahan** (born 1998) is an American YouTuber and entrepreneur known for challenge and travel vlogs, especially his recurring “penny” series [1][2][3]. He left Texas A&M University in 2017 after NCAA rules restricted how he could promote his businesses while competing as a student-athlete, and he pursued YouTube full time [1].",
+      "occupations": [
+        "youtuber",
+        "entrepreneur"
+      ],
+      "known_for": [
+        "Penny Series",
+        "Charity challenge vlogs"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "RyanTrahan",
+          "url": "https://x.com/RyanTrahan"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "creator",
+        "youtube"
+      ],
+      "connection_count": 0
+    }
+  ],
+  "tags": [
+    {
+      "slug": "founder",
+      "label": "Founder Ryans",
+      "kind": "cluster",
+      "count": 13
+    },
+    {
+      "slug": "tech",
+      "label": "Tech Ryans",
+      "kind": "cluster",
+      "count": 12
+    },
+    {
+      "slug": "entertainment",
+      "label": "Entertainment Ryans",
+      "kind": "cluster",
+      "count": 7
+    },
+    {
+      "slug": "athlete",
+      "label": "Athlete Ryans",
+      "kind": "cluster",
+      "count": 4
+    },
+    {
+      "slug": "film",
+      "label": "Film Ryans",
+      "kind": "cluster",
+      "count": 4
+    },
+    {
+      "slug": "investor",
+      "label": "Investor Ryans",
+      "kind": "cluster",
+      "count": 4
+    },
+    {
+      "slug": "creator",
+      "label": "Creator Ryans",
+      "kind": "cluster",
+      "count": 3
+    },
+    {
+      "slug": "music",
+      "label": "Music Ryans",
+      "kind": "cluster",
+      "count": 3
+    },
+    {
+      "slug": "youtube",
+      "label": "YouTube Ryans",
+      "kind": "cluster",
+      "count": 3
+    },
+    {
+      "slug": "logistics",
+      "label": "Logistics Ryans",
+      "kind": "cluster",
+      "count": 2
+    },
+    {
+      "slug": "sports",
+      "label": "Sports Ryans",
+      "kind": "cluster",
+      "count": 2
+    },
+    {
+      "slug": "television",
+      "label": "Television Ryans",
+      "kind": "cluster",
+      "count": 2
+    },
+    {
+      "slug": "boxing",
+      "label": "Boxing Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "business",
+      "label": "Business Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "crypto",
+      "label": "Crypto Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "education",
+      "label": "Education Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "fintech",
+      "label": "Fintech Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "football",
+      "label": "Football Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "latin",
+      "label": "Latin Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "legal-tech",
+      "label": "Legal Tech Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "media",
+      "label": "Media Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "mlb",
+      "label": "Mlb Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "nfl",
+      "label": "Nfl Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "open-source",
+      "label": "Open Source Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "radio",
+      "label": "Radio Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "retail",
+      "label": "Retail Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "sales",
+      "label": "Sales Ryans",
+      "kind": "cluster",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "ryan": {
+    "id": 24,
+    "slug": "selkis",
+    "name": "Ryan Selkis",
+    "number": null,
+    "short": "Messari founder",
+    "title": "Co-founder of Messari; crypto researcher",
+    "photo": "/images/ryan-selkis.jpg",
+    "photo_credit": "",
+    "photo_license": "",
+    "birth_year_min": null,
+    "birth_year_max": null,
+    "birth_place": "",
+    "website": "https://messari.io/",
+    "lead_summary": "**Ryan Selkis** is an American crypto entrepreneur and researcher best known as co-founder and longtime CEO of **Messari**, a digital-asset data and research platform. He stepped down as CEO in July 2024 after a wave of inflammatory political posts on X [1][2][3].",
+    "occupations": [
+      "entrepreneur",
+      "analyst",
+      "investor"
+    ],
+    "known_for": [
+      "Co-founding Messari",
+      "Crypto research and market intelligence",
+      "Early CoinDesk / Consensus-era leadership"
+    ],
+    "social": [
+      {
+        "platform": "x",
+        "handle": "twobitidiot",
+        "url": "https://x.com/twobitidiot"
+      }
+    ],
+    "featured_on": null,
+    "status": "published",
+    "clusters": [
+      "founder",
+      "tech",
+      "crypto"
+    ],
+    "connection_count": 0,
+    "birth": {
+      "date": null,
+      "year_min": null,
+      "year_max": null,
+      "place": ""
+    },
+    "death": null,
+    "body_md": "# Ryan Selkis\n\n**Ryan Selkis** is an American crypto entrepreneur and researcher best known as co-founder and longtime CEO of **Messari**, a digital-asset data and research platform. He stepped down as CEO in July 2024 after a wave of inflammatory political posts on X [1][2][3].\n\n## Career\n\n### DCG and CoinDesk\n\nFortune reports that Selkis entered crypto as a consultant, then worked at **Digital Currency Group** before becoming managing director at DCG portfolio company **CoinDesk**, helping scale the newsroom and events business ahead of the 2017 bull market [3]. Industry coverage often credits him with a major role in growing CoinDesk’s **Consensus** conference during that period [1][3]. He left CoinDesk in early 2018 [3].\n\nHe was an early DCG hire (sometimes described as first hire / director-level growth and investing), **not** a co-founder of Digital Currency Group—older encyclopedia stubs that said otherwise are incorrect [3].\n\n### Messari\n\nSelkis co-founded Messari in 2018 to provide crypto market intelligence, research, and disclosure-oriented data [1][3]. He led the company for about six and a half years and was a high-visibility voice on crypto Twitter [1].\n\nOn July 19, 2024, after posts about the attempted assassination of Donald Trump and related political attacks drew internal and external criticism, Selkis announced he was stepping aside as CEO so his rhetoric would not endanger the team; Messari named CRO Eric Turner interim CEO, and Selkis moved toward a senior-adviser / policy-focused role [1][2][5].\n\n## Social media identity\n\nSelkis’s long-running X/Twitter persona has been **@twobitidiot**, a handle he has said began on Reddit in 2013 and later became his primary public account [4]. Decrypt reported a brief 2023 suspension of that account (he joked that Twitter thought he was “impersonating” himself) [4]. Earlier encyclopedia drafts listing @taborasaurus as his primary handle appear incorrect for his Messari-era identity [4]. Handles can change; cite posts carefully.\n\n## Notable work\n\n- Early leadership at CoinDesk / Consensus era [1][3].\n- Co-founded Messari (2018); CEO until July 2024 [1][3].\n\n## References\n\n1. \"Ryan Selkis Quits as Messari CEO Following Inflammatory Tweets.\" *CoinDesk*, Jul 19, 2024. https://www.coindesk.com/business/2024/07/19/ryan-selkis-quits-as-messari-ceo-following-inflammatory-tweets\n2. Roth, Emma. \"Messari CEO Ryan Selkis steps down after X tirade…\" *The Verge*, Jul 19, 2024. https://www.theverge.com/2024/7/19/24202046/ryan-selkis-messari-steps-down-donald-trump-x\n3. \"Crypto founder steps down as CEO of Messari…\" *Fortune*, Jul 19, 2024. https://fortune.com/crypto/2024/07/19/ryan-selkis-messari-trump-steps-down-ceo-politcally-charged-war/\n4. \"Messari CEO Ryan Selkis Says He Was Briefly Suspended from Twitter for ‘Impersonating Myself’.\" *Decrypt*, 2023. https://decrypt.co/118645/messari-ceo-ryan-selkis-briefly-suspended-from-twitter-for-impersonating-myself\n5. \"Messari CEO steps down over controversial Trump-related tweets.\" *Axios*, Jul 19, 2024. https://www.axios.com/2024/07/19/messari-ryan-selkis-donald-trump-political-controversy-tweets\n\n<!-- VERIFICATION LOG (2026-10-12)\nREAD: 1,2,3,4,5.\nCUT: \"co-founded Digital Currency Group\" (false per Fortune career sketch [3]); MIT Sloan MBA without cite in this pass; birth year 1985; claim he still runs Messari day-to-day after Jul 2024.\nHANDLE: Corrected from stub's @taborasaurus → @twobitidiot with Decrypt cite [4]. Alternate handles (e.g. campaign accounts) may exist; primary historical handle documented.\nPHOTO: Preserved /images/ryan-selkis.jpg path from prior stub.\n-->",
+    "education": [],
+    "organizations": [
+      {
+        "name": "Digital Currency Group",
+        "url": null,
+        "role": "Director (growth / investments); early hire",
+        "start": 2014,
+        "end": 2016,
+        "note": null
+      },
+      {
+        "name": "CoinDesk",
+        "url": null,
+        "role": "Managing Director",
+        "start": null,
+        "end": 2018,
+        "note": null
+      },
+      {
+        "name": "Messari",
+        "url": null,
+        "role": "Co-founder; CEO; later senior adviser",
+        "start": 2018,
+        "end": 2024,
+        "note": null
+      }
+    ],
+    "relationships": [],
+    "sources": [
+      {
+        "n": 1,
+        "title": "Ryan Selkis Quits as Messari CEO Following Inflammatory Tweets",
+        "publisher": "CoinDesk",
+        "author": "",
+        "date": "2024-07-19",
+        "url": "https://www.coindesk.com/business/2024/07/19/ryan-selkis-quits-as-messari-ceo-following-inflammatory-tweets",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": "2026-10-12"
+      },
+      {
+        "n": 2,
+        "title": "Messari CEO Ryan Selkis steps down after X tirade about Trump rally shooting",
+        "publisher": "The Verge",
+        "author": "",
+        "date": "2024-07-19",
+        "url": "https://www.theverge.com/2024/7/19/24202046/ryan-selkis-messari-steps-down-donald-trump-x",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": "2026-10-12"
+      },
+      {
+        "n": 3,
+        "title": "Crypto founder steps down as CEO of Messari after tweeting that it's 'literal war'…",
+        "publisher": "Fortune",
+        "author": "",
+        "date": "2024-07-19",
+        "url": "https://fortune.com/crypto/2024/07/19/ryan-selkis-messari-trump-steps-down-ceo-politcally-charged-war/",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": "2026-10-12"
+      },
+      {
+        "n": 4,
+        "title": "Messari CEO Ryan Selkis Says He Was Briefly Suspended from Twitter for ‘Impersonating Myself’",
+        "publisher": "Decrypt",
+        "author": "",
+        "date": "2023-01-01",
+        "url": "https://decrypt.co/118645/messari-ceo-ryan-selkis-briefly-suspended-from-twitter-for-impersonating-myself",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": "2026-10-12"
+      },
+      {
+        "n": 5,
+        "title": "Messari CEO steps down over controversial Trump-related tweets",
+        "publisher": "Axios",
+        "author": "",
+        "date": "2024-07-19",
+        "url": "https://www.axios.com/2024/07/19/messari-ryan-selkis-donald-trump-political-controversy-tweets",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": "2026-10-12"
+      }
+    ]
+  }
+}

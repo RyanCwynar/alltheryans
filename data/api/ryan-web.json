@@ -1,0 +1,344 @@
+{
+  "nodes": [
+    {
+      "id": "ryan-petersen",
+      "slug": "ryan-petersen",
+      "name": "Ryan Petersen",
+      "number": 1,
+      "clusters": [
+        "founder",
+        "tech",
+        "logistics",
+        "investor"
+      ],
+      "photo": "/images/ryans/ryan-petersen.jpg"
+    },
+    {
+      "id": "anderson",
+      "slug": "anderson",
+      "name": "Ryan Anderson",
+      "number": null,
+      "clusters": [
+        "founder",
+        "tech",
+        "legal-tech"
+      ],
+      "photo": ""
+    },
+    {
+      "id": "breslow",
+      "slug": "breslow",
+      "name": "Ryan Breslow",
+      "number": null,
+      "clusters": [
+        "founder",
+        "tech",
+        "fintech"
+      ],
+      "photo": "/images/ryans/ryan-breslow.jpg"
+    },
+    {
+      "id": "carson",
+      "slug": "carson",
+      "name": "Ryan Carson",
+      "number": null,
+      "clusters": [
+        "founder",
+        "tech",
+        "education"
+      ],
+      "photo": ""
+    },
+    {
+      "id": "castro",
+      "slug": "castro",
+      "name": "Ryan Castro",
+      "number": null,
+      "clusters": [
+        "entertainment",
+        "music",
+        "latin"
+      ],
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Foto_ryan_agosto_%28cropped%29.jpg/330px-Foto_ryan_agosto_%28cropped%29.jpg"
+    },
+    {
+      "id": "cohen",
+      "slug": "cohen",
+      "name": "Ryan Cohen",
+      "number": null,
+      "clusters": [
+        "founder",
+        "tech",
+        "investor",
+        "retail"
+      ],
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Ryan_Cohen_2019_%28cropped%29.jpg/330px-Ryan_Cohen_2019_%28cropped%29.jpg"
+    },
+    {
+      "id": "coogler",
+      "slug": "coogler",
+      "name": "Ryan Coogler",
+      "number": null,
+      "clusters": [
+        "entertainment",
+        "film"
+      ],
+      "photo": "/images/ryans/ryan-coogler.jpg"
+    },
+    {
+      "id": "cwynar",
+      "slug": "cwynar",
+      "name": "Ryan Cwynar",
+      "number": null,
+      "clusters": [
+        "founder",
+        "tech"
+      ],
+      "photo": "/images/ryan-cwynar.jpg"
+    },
+    {
+      "id": "dahl",
+      "slug": "dahl",
+      "name": "Ryan Dahl",
+      "number": null,
+      "clusters": [
+        "founder",
+        "tech",
+        "open-source"
+      ],
+      "photo": "/images/ryans/ryan-dahl.jpg"
+    },
+    {
+      "id": "garcia",
+      "slug": "garcia",
+      "name": "Ryan Garcia",
+      "number": null,
+      "clusters": [
+        "athlete",
+        "boxing"
+      ],
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/RYAN_GARCIA.jpg/330px-RYAN_GARCIA.jpg"
+    },
+    {
+      "id": "giggs",
+      "slug": "giggs",
+      "name": "Ryan Giggs",
+      "number": null,
+      "clusters": [
+        "athlete",
+        "football"
+      ],
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/1/13/Ryan_Giggs_2015_%28cropped%29.jpg"
+    },
+    {
+      "id": "gosling",
+      "slug": "gosling",
+      "name": "Ryan Gosling",
+      "number": null,
+      "clusters": [
+        "entertainment",
+        "music",
+        "film"
+      ],
+      "photo": "/images/ryan-gosling.jpg"
+    },
+    {
+      "id": "graves",
+      "slug": "graves",
+      "name": "Ryan Graves",
+      "number": null,
+      "clusters": [
+        "founder",
+        "tech",
+        "logistics",
+        "investor"
+      ],
+      "photo": "/images/ryans/ryan-graves.jpg"
+    },
+    {
+      "id": "higa",
+      "slug": "higa",
+      "name": "Ryan Higa",
+      "number": null,
+      "clusters": [
+        "creator",
+        "youtube"
+      ],
+      "photo": "/images/ryans/ryan-higa.jpg"
+    },
+    {
+      "id": "holmes",
+      "slug": "holmes",
+      "name": "Ryan Holmes",
+      "number": null,
+      "clusters": [
+        "founder",
+        "tech"
+      ],
+      "photo": "/images/ryans/ryan-holmes.jpg"
+    },
+    {
+      "id": "hoover",
+      "slug": "hoover",
+      "name": "Ryan Hoover",
+      "number": null,
+      "clusters": [
+        "founder",
+        "tech",
+        "investor"
+      ],
+      "photo": "/images/ryans/ryan-hoover.jpg"
+    },
+    {
+      "id": "humphries",
+      "slug": "humphries",
+      "name": "Ryan Humphries",
+      "number": null,
+      "clusters": [
+        "founder",
+        "sales"
+      ],
+      "photo": "/images/ryan-humphries.jpg"
+    },
+    {
+      "id": "kaji",
+      "slug": "kaji",
+      "name": "Ryan Kaji",
+      "number": null,
+      "clusters": [
+        "creator",
+        "youtube"
+      ],
+      "photo": ""
+    },
+    {
+      "id": "matt",
+      "slug": "matt",
+      "name": "Matt Ryan",
+      "number": null,
+      "clusters": [
+        "athlete",
+        "nfl"
+      ],
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Washington_Football_Team_at_Atlanta_Falcons_%283_October_2021%29_DSC_4628_%2851555290664%29_%28cropped%29.jpg/330px-Washington_Football_Team_at_Atlanta_Falcons_%283_October_2021%29_DSC_4628_%2851555290664%29_%28cropped%29.jpg"
+    },
+    {
+      "id": "nolan",
+      "slug": "nolan",
+      "name": "Nolan Ryan",
+      "number": null,
+      "clusters": [
+        "athlete",
+        "mlb"
+      ],
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Nolan_Ryan_Tiger_Stadium_1990_CROP.jpg/330px-Nolan_Ryan_Tiger_Stadium_1990_CROP.jpg"
+    },
+    {
+      "id": "phillippe",
+      "slug": "phillippe",
+      "name": "Ryan Phillippe",
+      "number": null,
+      "clusters": [
+        "entertainment",
+        "film",
+        "television"
+      ],
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Ryan_Phillippe_2011_Shankbone.JPG/330px-Ryan_Phillippe_2011_Shankbone.JPG"
+    },
+    {
+      "id": "reynolds",
+      "slug": "reynolds",
+      "name": "Ryan Reynolds",
+      "number": null,
+      "clusters": [
+        "entertainment",
+        "film",
+        "business",
+        "sports"
+      ],
+      "photo": "/images/ryan-reynolds.jpg"
+    },
+    {
+      "id": "seacrest",
+      "slug": "seacrest",
+      "name": "Ryan Seacrest",
+      "number": null,
+      "clusters": [
+        "entertainment",
+        "television",
+        "radio",
+        "media"
+      ],
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Ryan_Seacrest_%282019%29.jpg/330px-Ryan_Seacrest_%282019%29.jpg"
+    },
+    {
+      "id": "selkis",
+      "slug": "selkis",
+      "name": "Ryan Selkis",
+      "number": null,
+      "clusters": [
+        "founder",
+        "tech",
+        "crypto"
+      ],
+      "photo": "/images/ryan-selkis.jpg"
+    },
+    {
+      "id": "smith",
+      "slug": "smith",
+      "name": "Ryan Smith",
+      "number": null,
+      "clusters": [
+        "founder",
+        "tech",
+        "sports"
+      ],
+      "photo": "/images/ryans/ryan-smith.jpg"
+    },
+    {
+      "id": "tedder",
+      "slug": "tedder",
+      "name": "Ryan Tedder",
+      "number": null,
+      "clusters": [
+        "entertainment",
+        "music"
+      ],
+      "photo": "/images/ryans/ryan-tedder.jpg"
+    },
+    {
+      "id": "trahan",
+      "slug": "trahan",
+      "name": "Ryan Trahan",
+      "number": null,
+      "clusters": [
+        "creator",
+        "youtube"
+      ],
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/RyanTrahan_Interview.png/330px-RyanTrahan_Interview.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "graves",
+      "target": "ryan-petersen",
+      "type": "thematic-link",
+      "directed": false,
+      "note": "Bloomberg pitched Flexport as an 'Uber of the Oceans'; Ryan Graves was Uber's first hired employee (see graves.md)"
+    },
+    {
+      "source": "gosling",
+      "target": "phillippe",
+      "type": "thematic-link",
+      "directed": false,
+      "note": "Actors who broke through in late-1990s/2000s film"
+    },
+    {
+      "source": "reynolds",
+      "target": "seacrest",
+      "type": "thematic-link",
+      "directed": false,
+      "note": "Media figures with consumer brands and production companies"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "tag": {
+    "slug": "latin",
+    "label": "Latin Ryans",
+    "kind": "cluster",
+    "count": 1
+  },
+  "ryans": [
+    {
+      "id": 5,
+      "slug": "castro",
+      "name": "Ryan Castro",
+      "number": null,
+      "short": "Reggaeton artist",
+      "title": "Reggaeton artist",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Foto_ryan_agosto_%28cropped%29.jpg/330px-Foto_ryan_agosto_%28cropped%29.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1994,
+      "birth_year_max": 1994,
+      "birth_place": "Medellín area (Bello / Pedregal), Antioquia, Colombia",
+      "website": "",
+      "lead_summary": "**Bryan David Castro Sosa** (born 1994), known professionally as **Ryan Castro**, is a Colombian reggaeton and dancehall singer-songwriter. Nicknamed “El Cantante del Ghetto,” he went from busking on Medellín buses to international hits including “Mujeriego,” “Jordan,” and “Quema” with Peso Pluma [1][2][3].",
+      "occupations": [
+        "singer",
+        "songwriter",
+        "rapper"
+      ],
+      "known_for": [
+        "El Cantante del Ghetto",
+        "Jordan",
+        "Mujeriego",
+        "Quema (with Peso Pluma)"
+      ],
+      "social": [],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "entertainment",
+        "music",
+        "latin"
+      ],
+      "connection_count": 0
+    }
+  ]
+}

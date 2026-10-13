@@ -1,0 +1,50 @@
+{
+  "tag": {
+    "slug": "open-source",
+    "label": "Open Source Ryans",
+    "kind": "cluster",
+    "count": 1
+  },
+  "ryans": [
+    {
+      "id": 9,
+      "slug": "dahl",
+      "name": "Ryan Dahl",
+      "number": null,
+      "short": "Node.js & Deno",
+      "title": "Creator of Node.js and Deno",
+      "photo": "/images/ryans/ryan-dahl.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1981,
+      "birth_year_max": 1981,
+      "birth_place": "San Diego, California, U.S.",
+      "website": "https://tinyclouds.org/",
+      "lead_summary": "**Ryan Dahl** (born 1981) is an American software engineer best known for creating **Node.js**, the JavaScript runtime that made server-side JavaScript practical at scale, and later **Deno**, a secure TypeScript-first runtime built with V8 and Rust [1][2][4].",
+      "occupations": [
+        "software-engineer",
+        "entrepreneur"
+      ],
+      "known_for": [
+        "Creating Node.js",
+        "Creating Deno",
+        "JSConf EU 2009 Node.js talk"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "rough__sea",
+          "url": "https://x.com/rough__sea"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "tech",
+        "open-source"
+      ],
+      "connection_count": 0
+    }
+  ]
+}

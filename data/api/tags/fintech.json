@@ -1,0 +1,42 @@
+{
+  "tag": {
+    "slug": "fintech",
+    "label": "Fintech Ryans",
+    "kind": "cluster",
+    "count": 1
+  },
+  "ryans": [
+    {
+      "id": 3,
+      "slug": "breslow",
+      "name": "Ryan Breslow",
+      "number": null,
+      "short": "Bolt founder",
+      "title": "Co-founder and CEO of Bolt",
+      "photo": "/images/ryans/ryan-breslow.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": "",
+      "website": "",
+      "lead_summary": "**Ryan Breslow** is an American entrepreneur and co-founder of **Bolt**, a checkout and payments software company for online retailers. After stepping down as CEO in early 2022 amid controversy, he was reinstated as CEO in March 2025 [1][3].",
+      "occupations": [
+        "entrepreneur"
+      ],
+      "known_for": [
+        "Co-founding Bolt (one-click checkout)",
+        "Bolt's 2022 valuation peak and later crash"
+      ],
+      "social": [],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "tech",
+        "fintech"
+      ],
+      "connection_count": 0
+    }
+  ]
+}

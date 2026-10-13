@@ -1,0 +1,50 @@
+{
+  "tag": {
+    "slug": "education",
+    "label": "Education Ryans",
+    "kind": "cluster",
+    "count": 1
+  },
+  "ryans": [
+    {
+      "id": 4,
+      "slug": "carson",
+      "name": "Ryan Carson",
+      "number": null,
+      "short": "Treehouse founder",
+      "title": "Founder of Treehouse; serial entrepreneur",
+      "photo": "",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": "",
+      "website": "https://www.ryancarson.com/",
+      "lead_summary": "**Ryan Carson** is a British-American entrepreneur known for co-founding the online coding school **Treehouse**, which he led until its December 2021 acquisition, and for earlier companies DropSend and Carsonified [1][2][3].",
+      "occupations": [
+        "entrepreneur",
+        "educator"
+      ],
+      "known_for": [
+        "Co-founding Treehouse",
+        "Carsonified conferences",
+        "DropSend"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "ryancarson",
+          "url": "https://x.com/ryancarson"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "tech",
+        "education"
+      ],
+      "connection_count": 0
+    }
+  ]
+}

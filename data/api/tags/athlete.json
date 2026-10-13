@@ -1,0 +1,160 @@
+{
+  "tag": {
+    "slug": "athlete",
+    "label": "Athlete Ryans",
+    "kind": "cluster",
+    "count": 4
+  },
+  "ryans": [
+    {
+      "id": 19,
+      "slug": "matt",
+      "name": "Matt Ryan",
+      "number": null,
+      "short": "Falcons QB / exec",
+      "title": "Former NFL quarterback; Falcons President of Football",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Washington_Football_Team_at_Atlanta_Falcons_%283_October_2021%29_DSC_4628_%2851555290664%29_%28cropped%29.jpg/330px-Washington_Football_Team_at_Atlanta_Falcons_%283_October_2021%29_DSC_4628_%2851555290664%29_%28cropped%29.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1985,
+      "birth_year_max": 1985,
+      "birth_place": "Exton, Pennsylvania, U.S.",
+      "website": "",
+      "lead_summary": "**Matthew Thomas Ryan** (born May 17, 1985) is an American football executive and former NFL quarterback [1][2]. Nicknamed \"Matty Ice,\" he spent most of his playing career with the Atlanta Falcons, won Associated Press NFL Most Valuable Player honors in 2016, and in January 2026 was named the Falcons’ President of Football [2][3].",
+      "occupations": [
+        "american-football-player",
+        "sports-executive",
+        "sports-analyst"
+      ],
+      "known_for": [
+        "2016 NFL MVP",
+        "Atlanta Falcons franchise passing records",
+        "President of Football, Atlanta Falcons"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "M_Ryan02",
+          "url": "https://x.com/M_Ryan02"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "athlete",
+        "nfl"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 20,
+      "slug": "nolan",
+      "name": "Nolan Ryan",
+      "number": null,
+      "short": "MLB pitcher",
+      "title": "Hall of Fame MLB pitcher",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Nolan_Ryan_Tiger_Stadium_1990_CROP.jpg/330px-Nolan_Ryan_Tiger_Stadium_1990_CROP.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1947,
+      "birth_year_max": 1947,
+      "birth_place": "Refugio, Texas, U.S.",
+      "website": "",
+      "lead_summary": "**Lynn Nolan Ryan Jr.** (born January 31, 1947) is an American former Major League Baseball pitcher nicknamed the \"Ryan Express\" [1][2]. Over a record-tying 27 seasons he pitched for the New York Mets, California Angels, Houston Astros, and Texas Rangers [1][2]. He holds the major-league career records for strikeouts (5,714) and no-hitters (seven) and was elected to the National Baseball Hall of Fame in 1999 [1][2][3][4].",
+      "occupations": [
+        "baseball-player",
+        "sports-executive"
+      ],
+      "known_for": [
+        "5,714 career strikeouts",
+        "Seven no-hitters",
+        "Baseball Hall of Fame (1999)"
+      ],
+      "social": [],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "athlete",
+        "mlb"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 10,
+      "slug": "garcia",
+      "name": "Ryan Garcia",
+      "number": null,
+      "short": "WBC welterweight",
+      "title": "American professional boxer",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/RYAN_GARCIA.jpg/330px-RYAN_GARCIA.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1998,
+      "birth_year_max": 1998,
+      "birth_place": "Victorville, California, U.S.",
+      "website": "",
+      "lead_summary": "**Ryan Garcia** (born 1998) is an American professional boxer from Victorville, California [6]. Nicknamed \"King Ry,\" he has held the World Boxing Council (WBC) welterweight title since February 2026 [5][6][7]. He previously won the WBC interim lightweight title in 2021 [1][2].",
+      "occupations": [
+        "boxer"
+      ],
+      "known_for": [
+        "WBC welterweight champion",
+        "King Ry",
+        "Campbell interim lightweight title"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "RyanGarcia",
+          "url": "https://x.com/RyanGarcia"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "athlete",
+        "boxing"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 11,
+      "slug": "giggs",
+      "name": "Ryan Giggs",
+      "number": null,
+      "short": "Man Utd winger",
+      "title": "Welsh former footballer and manager",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/1/13/Ryan_Giggs_2015_%28cropped%29.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1973,
+      "birth_year_max": 1973,
+      "birth_place": "Cardiff, Wales",
+      "website": "",
+      "lead_summary": "**Ryan Joseph Giggs** (born 29 November 1973) is a Welsh former professional footballer and coach [1][2]. He spent his entire club playing career at Manchester United (1990–2014), making 963 appearances and winning 13 Premier League titles and two UEFA Champions League titles [2][3]. He later managed the Wales national team from 2018 until resigning in June 2022 [4][5].",
+      "occupations": [
+        "footballer",
+        "football-manager"
+      ],
+      "known_for": [
+        "963 appearances for Manchester United",
+        "13 Premier League titles",
+        "Wales manager 2018–2022"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "RyanGiggs",
+          "url": "https://x.com/RyanGiggs"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "athlete",
+        "football"
+      ],
+      "connection_count": 0
+    }
+  ]
+}

@@ -1,68 +1,53 @@
-import { API_CACHE_VERSION } from "./cache-version.js";
+/**
+ * Static JSON built from ryans/*.md by `bun run build:data` (data/api/).
+ * Served from the CDN; filtering and sorting happen here in the browser.
+ */
+const DATA_ROOT = "/data/api";
 
-let ryansPromise;
-let tagsPromise;
 let directoryPromise;
 let graphPromise;
 
-function withCacheVersion(path) {
-  const url = new URL(path, "https://alltheryans.local");
-  url.searchParams.set("v", API_CACHE_VERSION);
-  return `${url.pathname}${url.search}`;
-}
-
-async function api(path) {
-  // Allow CDN / browser cache (API sends s-maxage). Bust via API_CACHE_VERSION after seed.
-  const res = await fetch(withCacheVersion(path));
-  if (!res.ok) {
-    const body = await res.json().catch(() => ({}));
-    throw new Error(body.error || `API ${res.status} for ${path}`);
-  }
+async function getJson(path) {
+  const res = await fetch(`${DATA_ROOT}/${path}`);
+  if (!res.ok) throw new Error(`HTTP ${res.status} for ${path}`);
   return res.json();
 }
 
-export function loadPublishedRyans(params = {}) {
-  const qs = new URLSearchParams();
-  if (params.tag) qs.set("tag", params.tag);
-  if (params.sort) qs.set("sort", params.sort);
-  if (params.q) qs.set("q", params.q);
-  const key = qs.toString();
-  const path = `/api/ryans${key ? `?${key}` : ""}`;
-  if (!params.tag && !params.sort && !params.q) {
-    if (!ryansPromise) {
-      ryansPromise = api(path).then((data) => data.ryans || []);
-    }
-    return ryansPromise;
+function loadAll() {
+  if (!directoryPromise) {
+    directoryPromise = getJson("directory.json").then((data) => ({
+      ryans: data.ryans || [],
+      tags: data.tags || [],
+    }));
+    // Let a later call retry after a failed fetch.
+    directoryPromise.catch(() => {
+      directoryPromise = undefined;
+    });
   }
-  return api(path).then((data) => data.ryans || []);
+  return directoryPromise;
 }
 
-/** One request: published list + tags (archive / home). */
-export function loadDirectory(params = {}) {
-  const qs = new URLSearchParams();
-  if (params.tag) qs.set("tag", params.tag);
-  if (params.sort) qs.set("sort", params.sort);
-  if (params.q) qs.set("q", params.q);
-  const key = qs.toString();
-  const path = `/api/directory${key ? `?${key}` : ""}`;
-  if (!params.tag && !params.sort && !params.q) {
-    if (!directoryPromise) {
-      directoryPromise = api(path).then((data) => ({
-        ryans: data.ryans || [],
-        tags: data.tags || [],
-      }));
-      // Warm the individual caches from the same payload.
-      directoryPromise.then((d) => {
-        if (!ryansPromise) ryansPromise = Promise.resolve(d.ryans);
-        if (!tagsPromise) tagsPromise = Promise.resolve(d.tags);
-      });
-    }
-    return directoryPromise;
-  }
-  return api(path).then((data) => ({
-    ryans: data.ryans || [],
-    tags: data.tags || [],
-  }));
+function matchesQuery(ryan, q) {
+  const needle = q.toLowerCase();
+  const hay = `${ryan.name} ${ryan.short} ${ryan.title} ${ryan.lead_summary}`.toLowerCase();
+  return hay.includes(needle);
+}
+
+function applyParams(ryans, params) {
+  let list = filterByCluster(ryans, params.tag);
+  if (params.q) list = list.filter((r) => matchesQuery(r, params.q));
+  return sortRyans(list, params.sort || "name");
+}
+
+export async function loadPublishedRyans(params = {}) {
+  const { ryans } = await loadAll();
+  return applyParams(ryans, params);
+}
+
+/** Published list + tags (archive / home). */
+export async function loadDirectory(params = {}) {
+  const { ryans, tags } = await loadAll();
+  return { ryans: applyParams(ryans, params), tags };
 }
 
 /** @deprecated use loadPublishedRyans */
@@ -70,22 +55,23 @@ export function loadIndex() {
   return loadPublishedRyans();
 }
 
-export function loadTags() {
-  if (!tagsPromise) {
-    tagsPromise = api("/api/tags").then((data) => data.tags || []);
-  }
-  return tagsPromise;
+export async function loadTags() {
+  return (await loadAll()).tags;
+}
+
+export function loadTagPage(slug) {
+  return getJson(`tags/${encodeURIComponent(slug)}.json`);
 }
 
 export function loadGraph() {
   if (!graphPromise) {
-    graphPromise = api("/api/ryan-web");
+    graphPromise = getJson("ryan-web.json");
   }
   return graphPromise;
 }
 
 export async function loadRyan(slug) {
-  const data = await api(`/api/ryans/${encodeURIComponent(slug)}`);
+  const data = await getJson(`ryans/${encodeURIComponent(slug)}.json`);
   return data.ryan;
 }
 

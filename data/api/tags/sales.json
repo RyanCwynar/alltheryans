@@ -1,0 +1,48 @@
+{
+  "tag": {
+    "slug": "sales",
+    "label": "Sales Ryans",
+    "kind": "cluster",
+    "count": 1
+  },
+  "ryans": [
+    {
+      "id": 17,
+      "slug": "humphries",
+      "name": "Ryan Humphries",
+      "number": null,
+      "short": "Sales / founder",
+      "title": "American sales leader and founder",
+      "photo": "/images/ryan-humphries.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": "",
+      "website": "",
+      "lead_summary": "**Ryan Humphries** is an American sales leader and entrepreneur based in Austin, Texas [1][2]. Public information about him is sparse and comes mainly from his own LinkedIn profile and posts rather than independent press [1][2][3].",
+      "occupations": [
+        "entrepreneur",
+        "sales"
+      ],
+      "known_for": [
+        "Curv Group / Floatie Kings sales leadership",
+        "Zen Growth"
+      ],
+      "social": [
+        {
+          "platform": "linkedin",
+          "handle": "ryan-humphries7",
+          "url": "https://www.linkedin.com/in/ryan-humphries7"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "sales"
+      ],
+      "connection_count": 0
+    }
+  ]
+}
