@@ -4,9 +4,9 @@ slug: anderson
 name: Ryan Anderson
 short: "Filevine CEO"
 title: "Co-founder and CEO of Filevine"
-photo: ""
-photo_credit: ""
-photo_license: ""
+photo: "/images/ryans/ryan-anderson.jpg"
+photo_credit: "Ryan Anderson via Filevine"
+photo_license: "public profile photo"
 birth:
   date: ""
   place: ""
