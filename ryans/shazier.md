@@ -1,0 +1,142 @@
+---
+status: draft
+slug: shazier
+name: Ryan Shazier
+short: "Former Steelers linebacker"
+title: "Former Pittsburgh Steelers linebacker; author and Steelers offensive assistant"
+photo: "/images/ryans/ryan-shazier.jpg"
+photo_credit: ""
+photo_license: ""
+number: null
+birth:
+  date: "1991/1992"
+  date_precision: year-range
+  basis: "Age 28 on Sep 9, 2020 [11]; age 29 on Nov 23, 2021 [13]"
+  place: null
+  cite: [11, 13]
+death: null
+education:
+  - { institution: "Plantation High School (Plantation, Florida)", degree: null, field: null, year: null, cite: [2] }
+  - { institution: "Ohio State University", degree: "Bachelor's (completed December 2020)", field: null, year: 2020, cite: [15, 13] }
+occupations: [american-football-player, author, coach, entrepreneur]
+clusters: [athlete, football, author]
+organizations:
+  - { name: "Ohio State Buckeyes", role: "Linebacker", start: 2011, end: 2013, cite: [2, 3] }
+  - { name: "Pittsburgh Steelers", role: "Linebacker (2014–2020); offensive assistant (2024–)", start: 2014, end: null, cite: [9, 15] }
+  - { name: "Ryan Shazier Fund for Rehabilitation", role: "Founder", start: null, end: null, cite: [15] }
+  - { name: "Shay Trucking", role: "Co-founder (with his father, Vernon)", start: null, end: null, cite: [13] }
+website: ""
+social:
+  - { platform: x, handle: "RyanShazier", url: "https://x.com/RyanShazier", cite: [11] }
+known_for: ["Two-time Pro Bowl linebacker for the Pittsburgh Steelers", "Recovery from a 2017 spinal cord injury", "Memoir Walking Miracle (2021)", "Alopecia awareness"]
+relationships:
+  - { target: holiday, type: thematic-link, note: "Ryan Holiday praised Walking Miracle. Pending: no holiday page exists yet.", cite: [13] }
+  - { target: serhant, type: thematic-link, note: "Both have books praised by Ryan Holiday (see serhant.md).", cite: [13] }
+sources:
+  - { n: 1, publisher: "The Players' Tribune", date: 2017-05-24, title: "\"Bruh\" by Ryan Shazier", url: "https://www.theplayerstribune.com/articles/ryan-shazier-steelers-alopecia", access: read }
+  - { n: 2, publisher: "Ohio State Buckeyes (OhioStateBuckeyes.com)", date: 2013, title: "Ryan Shazier bio", url: "https://web.archive.org/web/20140125095141/http://www.ohiostatebuckeyes.com/sports/m-footbl/mtt/ryan_shazier_758525.html", access: archived }
+  - { n: 3, publisher: ESPN, date: 2014-01-05, title: "Ryan Shazier to NFL draft; Braxton Miller to return to Ohio State", url: "https://www.espn.com/nfl/draft2014/story/_/id/10243773/ryan-shazier-nfl-draft-braxton-miller-return-ohio-state", access: read }
+  - { n: 4, publisher: NFL.com, date: 2017-12-04, title: "Steelers LB Ryan Shazier suffers back injury", url: "https://www.nfl.com/news/steelers-lb-ryan-shazier-suffers-back-injury-0ap3000000888327", access: read }
+  - { n: 5, publisher: NFL.com, date: 2017-12-07, title: "Ryan Shazier undergoes spinal stabilization surgery", url: "https://www.nfl.com/news/ryan-shazier-undergoes-spinal-stabilization-surgery-0ap3000000889243", access: read }
+  - { n: 6, publisher: NFL.com, date: 2017-12-12, title: "Steelers place LB Ryan Shazier on injured reserve", url: "https://www.nfl.com/news/steelers-place-lb-ryan-shazier-on-injured-reserve-0ap3000000892092", access: read }
+  - { n: 7, publisher: NFL.com, date: 2018-01-22, title: "Updated player rosters for 2018 Pro Bowl in Orlando", url: "https://www.nfl.com/news/updated-player-rosters-for-2018-pro-bowl-in-orlando-0ap3000000895772", access: read }
+  - { n: 8, publisher: ESPN, date: 2018-04-27, title: "Ryan Shazier walks AT&T Stadium stage, announces Steelers' first-round pick", url: "https://www.espn.com/nfl/draft2018/story/_/id/23330513/ryan-shazier-walks-att-stadium-stage-announces-pittsburgh-steelers-first-round-pick", access: read }
+  - { n: 9, publisher: "Pittsburgh Steelers", date: 2020-03-17, title: "Shazier placed on Reserve/Retired List", url: "https://www.steelers.com/news/steelers-place-shazier-on-reserve-retired-list", access: read }
+  - { n: 10, publisher: "Pittsburgh Steelers", date: 2019-04-29, title: "Steelers place Shazier on PUP list", url: "https://www.steelers.com/news/steelers-place-shazier-on-pup-list", access: read }
+  - { n: 11, publisher: ESPN, date: 2020-09-09, title: "Steelers' Ryan Shazier announces retirement from NFL", url: "https://www.espn.com/nfl/story/_/id/29844650/steelers-ryan-shazier-announces-retirement-nfl", access: read }
+  - { n: 12, publisher: "NBC Sports (ProFootballTalk)", date: 2020-09-09, title: "Ryan Shazier \"retiring from the game I love\"", url: "https://profootballtalk.nbcsports.com/2020/09/09/ryan-shazier-retiring-from-the-game-i-love/", access: read }
+  - { n: 13, publisher: "PR Newswire", date: 2021-11-23, title: "LIFE AFTER FOOTBALL: Ryan Shazier releases book on November 30 about his post-Steelers journey, Walking Miracle", url: "https://www.prnewswire.com/news-releases/life-after-football-ryan-shazier-releases-book-on-november-30-about-his-post-steelers-journey-walking-miracle-301430376.html", access: read }
+  - { n: 14, publisher: "Kirkus Reviews", date: 2021-10-12, title: "Walking Miracle", url: "https://www.kirkusreviews.com/book-reviews/ryan-shazier/walking-miracle/", access: read }
+  - { n: 15, publisher: ESPN, date: 2024-12-21, title: "How Steelers great Ryan Shazier found new career in coaching", url: "https://www.espn.com/nfl/story/_/id/43063081/pittsburgh-steelers-ryan-shazier-linebacker-coaching-retired", access: read }
+  - { n: 16, publisher: "ABC6 (WSYX)", date: 2021-11-30, title: "Former Buckeye Ryan Shazier's new book 'Walking Miracle' hits store shelves", url: "https://abc6onyourside.com/sports/the-football-fever/ryan-shaziers-new-book-walking-miracle-hits-store-shelves", access: read }
+---
+
+# Ryan Shazier
+
+**Ryan Dean Shazier** (born 1991 or 1992) is an American former professional football linebacker, author and coach [11][13]. He played college football at Ohio State and was the Pittsburgh Steelers' first-round pick, 15th overall, in the 2014 NFL draft [3][9]. He was selected to two Pro Bowls [11]. On December 4, 2017, he suffered a spinal cord injury while making a tackle against the Cincinnati Bengals. He had spinal stabilization surgery and never played again [4][5][9].
+
+Shazier spent the next two seasons on the Steelers' reserve/physically unable to perform list while working to return to the field [9][10]. He announced his retirement on September 9, 2020 [11][12]. He later finished his degree at Ohio State and published a memoir, *Walking Miracle* (2021). He also started a foundation for people with spinal cord injuries, and in 2024 he rejoined the Steelers as an offensive assistant [13][15][16]. He has spoken publicly about having alopecia since childhood [1].
+
+## Early life and education
+Shazier grew up in South Florida [1]. In a 2017 essay for *The Players' Tribune*, he wrote that his hair began falling out when he was five, and that a dermatologist diagnosed alopecia, a condition in which the immune system attacks hair follicles [1]. When he was nine, his family moved from Fort Lauderdale to Waco, Texas, so his father could complete a divinity degree and become a pastor. They returned to Fort Lauderdale three years later [1]. He wrote that classmates in both places teased him about his appearance. He credited his parents, who did not let him hide his alopecia under a hat or a wig, with teaching him to live with it [1]. Ohio State's athletic department lists his parents as Shawn and Vernon Shazier [2].
+
+At Plantation High School in Plantation, Florida, Shazier was an all-state linebacker. As a senior he had 87 tackles and 19.5 sacks, and he set a school record with 35.5 career sacks [2]. He was named Broward County's most outstanding player and played in the Under Armour All-American Game [2]. Ohio State listed him as a psychology major [2].
+
+## Career
+
+### 2011–2013: Ohio State
+By the 2013 season, Ohio State described Shazier as "coming off back-to-back superb seasons." He had ranked in the Big Ten's top 10 in five defensive categories in 2012, and was an honorable-mention All-American (SI.com) and first-team all-Big Ten (media) selection [2]. ESPN reported that he led the Buckeyes in tackles in each of his last two seasons. Heading into the January 2014 Orange Bowl, he had a Big Ten-best 134 tackles and 22.5 tackles for loss, 5.5 more than anyone else in the conference [3].
+
+On January 5, 2014, Ohio State announced that Shazier would skip his senior season and enter the NFL draft. "Playing in the NFL is something that I have been dreaming about since my days in pee-wee football," he said in a statement [3].
+
+### 2014–2017: Pittsburgh Steelers
+The Steelers chose Shazier in the first round of the 2014 NFL draft, with the 15th overall pick [9]. He started at inside linebacker. ESPN reported that he was a full-time starter in each of his last three seasons, and that he was part of three AFC North-winning teams [11][15]. He was voted to the Pro Bowl after the 2016 season [9]. He was named to the Pro Bowl again for the 2017 season, after his injury, and Cleveland's Joe Schobert took his place on the roster [7].
+
+ESPN's summary of his career, published when he retired, credited him with 299 tackles, seven interceptions, seven forced fumbles and seven sacks [11].
+
+### December 2017: Spinal cord injury
+During a *Monday Night Football* game against the Cincinnati Bengals on December 4, 2017, Shazier's head collided with receiver Josh Malone's thigh as he made a tackle [5][6]. He was placed on a backboard, carted off the field and taken to a Cincinnati-area hospital [5]. The Steelers said that night that CT and MRI scans had been done and that he did not need surgery at that time. Steelers owner Art Rooney II, coach Mike Tomlin and general manager Kevin Colbert visited him in the hospital [4]. NFL Network reported the next day that he was showing some movement in his lower legs [4].
+
+On December 7, 2017, University of Pittsburgh Medical Center neurosurgeons David Okonkwo and Joseph Maroon performed spinal stabilization surgery [5]. The Steelers placed him on injured reserve, ending his season [6]. After the team clinched the AFC North that month, players brought Shazier into their locker-room celebration by FaceTime. Tomlin called it "a special thing" [6]. A 2021 press release for his memoir described the injury as a spinal contusion that left him "temporarily unable to walk" [13].
+
+### 2018–2020: Recovery and retirement
+On April 26, 2018, less than five months after the injury, Shazier walked onto the stage at AT&T Stadium in Dallas with his fiancée, Michelle Rodriguez, to announce the Steelers' first-round pick, safety Terrell Edmunds [8][16]. ESPN called it "the moment of the NFL draft" [8]. Colbert said that "when he was ready to walk, he was going to make that determination" [8].
+
+Shazier spent the 2018 and 2019 seasons on the reserve/physically unable to perform list [9][10]. In 2019 he said, "I definitely want to play… just because I got hurt, doesn't mean I lost the love of the game of football" [10]. On March 17, 2020, the Steelers moved him to the reserve/retired list. Colbert described the move as "a matter of protocol to ensure his continued inclusion within our organization" [9].
+
+On September 9, 2020, Shazier announced his retirement in a video posted to Twitter. "When I was 5 years old, I made the greatest discovery of my life," he said. "I discovered the game that I love — the game of football" [11][12]. At a news conference that day, Colbert told him, "You can retire from the game of football, but you're never going to retire from being a Pittsburgh Steeler" [11].
+
+### 2020–2023: Life after playing
+ESPN reported that in the years after retiring, Shazier finished his degree at Ohio State, graduating in December 2020. He also contributed to a podcast, helped launch a medical marijuana brand, and worked with his foundation, the Ryan Shazier Fund for Rehabilitation [15]. The 2021 press release said he had worked as a football analyst and had co-founded Shay Trucking, a family-owned vehicle transport company based in Pine Township, with his father, Vernon [13].
+
+### 2024–present: Coaching
+In 2024, Tomlin brought Shazier onto the Steelers staff, first on a tryout basis during organized team activities and minicamp. He then gave him a season-long role working with the running backs [15]. ESPN described him as an offensive assistant whose duties included quality-control breakdowns. Running backs coach Eddie Faulkner said, "He's doing a great job at it, whatever you ask him to do" [15]. Tomlin told Tony Dungy that Shazier "has all the tools to be a really good coach" [15]. Shazier said coaching "wasn't my first choice," and that "every single day I'm learning" [15].
+
+## Notable work and achievements
+- First-round pick (15th overall) of the Pittsburgh Steelers in 2014 [9].
+- Two-time Pro Bowl selection (2016 and 2017 seasons) [7][9][11].
+- Big Ten leader in tackles and tackles for loss heading into the 2014 Orange Bowl [3].
+- *Walking Miracle* (Grand Central Publishing, November 30, 2021), written with Larry Platt [13][14].
+
+### *Walking Miracle*
+Shazier's memoir, written with sportswriter Larry Platt, was published on November 30, 2021 [13][14][16]. The publisher's announcement said the book follows his recovery and how he "began to realize that success didn't have to be based on wins, sacks and tackles." It describes milestones such as moving his toes, walking, dancing at his wedding and raising awareness of alopecia [13]. *Kirkus Reviews* called it "inspirational reading for athletes and, in particular, those injured in the pursuit of the prize." Kirkus noted that he draws on his Christian faith and an interest in Roman Stoicism [14]. The press release said the book drew praise from Urban Meyer, his coach at Ohio State, and from the author Ryan Holiday [13]. Shazier held book signings in Columbus on the release day [16].
+
+## Public profile and social media
+Shazier posts on X as @RyanShazier. He announced his retirement there [11]. In his 2017 *Players' Tribune* essay, written after some of his hair unexpectedly started growing back, he described online reactions and the "ignorance that people with alopecia deal with every day." He said he had met many children and adults with alopecia who struggle with self-esteem [1]. ESPN's 2020 retirement story described a recovery he shared publicly through social media [11], and the Steelers noted in 2019 that he had "shared his progress via social media throughout the process" [10].
+
+## Personal life
+Shazier was engaged to Michelle Rodriguez at the time of the 2018 draft [8]. His father, Vernon, completed a divinity degree to become a pastor when Shazier was a child, and is his co-founder in Shay Trucking [1][2][13].
+
+## Recognition
+- Ed Block Courage Award, voted on by his Steelers teammates, for the strength and courage he showed during his recovery [9].
+- Pro Bowl selections after the 2016 and 2017 seasons [7][9].
+- All-America honors (honorable mention, SI.com) and first-team all-Big Ten (media) at Ohio State in 2012 [2].
+
+## See also
+- [Ryan Serhant](./serhant): both Ryans' books carry praise from Ryan Holiday [13]
+- Athlete Ryans: [Nolan Ryan](./nolan), [Ryan Garcia](./garcia)
+
+## References
+1. Shazier, Ryan. "Bruh." *The Players' Tribune*, May 24, 2017. https://www.theplayerstribune.com/articles/ryan-shazier-steelers-alopecia
+2. "Ryan Shazier" (player bio). Ohio State Buckeyes. Archived: https://web.archive.org/web/20140125095141/http://www.ohiostatebuckeyes.com/sports/m-footbl/mtt/ryan_shazier_758525.html
+3. "Ryan Shazier to NFL draft; Braxton Miller to return." *ESPN*, Jan 5, 2014. https://www.espn.com/nfl/draft2014/story/_/id/10243773/ryan-shazier-nfl-draft-braxton-miller-return-ohio-state
+4. "Steelers LB Ryan Shazier suffers back injury." *NFL.com*, Dec 4, 2017. https://www.nfl.com/news/steelers-lb-ryan-shazier-suffers-back-injury-0ap3000000888327
+5. "Ryan Shazier undergoes spinal stabilization surgery." *NFL.com*, Dec 7, 2017. https://www.nfl.com/news/ryan-shazier-undergoes-spinal-stabilization-surgery-0ap3000000889243
+6. "Steelers place LB Ryan Shazier on injured reserve." *NFL.com*, Dec 12, 2017. https://www.nfl.com/news/steelers-place-lb-ryan-shazier-on-injured-reserve-0ap3000000892092
+7. "Updated player rosters for 2018 Pro Bowl in Orlando." *NFL.com*, Jan 22, 2018. https://www.nfl.com/news/updated-player-rosters-for-2018-pro-bowl-in-orlando-0ap3000000895772
+8. "Ryan Shazier walks AT&T Stadium stage…" *ESPN*, Apr 27, 2018. https://www.espn.com/nfl/draft2018/story/_/id/23330513/ryan-shazier-walks-att-stadium-stage-announces-pittsburgh-steelers-first-round-pick
+9. "Shazier placed on Reserve/Retired List." Pittsburgh Steelers, Mar 17, 2020. https://www.steelers.com/news/steelers-place-shazier-on-reserve-retired-list
+10. "Steelers place Shazier on PUP list." Pittsburgh Steelers, Apr 29, 2019. https://www.steelers.com/news/steelers-place-shazier-on-pup-list
+11. "Steelers' Ryan Shazier announces retirement from NFL." *ESPN*, Sep 9, 2020. https://www.espn.com/nfl/story/_/id/29844650/steelers-ryan-shazier-announces-retirement-nfl
+12. "Ryan Shazier 'retiring from the game I love'." *ProFootballTalk / NBC Sports*, Sep 9, 2020. https://profootballtalk.nbcsports.com/2020/09/09/ryan-shazier-retiring-from-the-game-i-love/
+13. "LIFE AFTER FOOTBALL: Ryan Shazier releases book on November 30…" PR Newswire, Nov 23, 2021. https://www.prnewswire.com/news-releases/life-after-football-ryan-shazier-releases-book-on-november-30-about-his-post-steelers-journey-walking-miracle-301430376.html
+14. "Walking Miracle." *Kirkus Reviews*, Oct 12, 2021. https://www.kirkusreviews.com/book-reviews/ryan-shazier/walking-miracle/
+15. "How Steelers great Ryan Shazier found new career in coaching." *ESPN*, Dec 21, 2024. https://www.espn.com/nfl/story/_/id/43063081/pittsburgh-steelers-ryan-shazier-linebacker-coaching-retired
+16. Clay, Jarrod. "Former Buckeye Ryan Shazier's new book 'Walking Miracle' hits store shelves." *ABC6 / WSYX*, Nov 30, 2021. https://abc6onyourside.com/sports/the-football-fever/ryan-shaziers-new-book-walking-miracle-hits-store-shelves
+
+<!-- VERIFICATION LOG (2026-10-14)
+READ: 1, 3–16. ARCHIVED: 2.
+INJURY WORDING: neutral and factual. The page avoids the words "paralyzed" and "paraplegic" (used on Wikipedia) except where they appear in book titles or descriptions. It also avoids the "illegal head-first tackle" framing, which no source read here supports.
+CUT: exact birth date (Sep 6, 1992) and Fort Lauderdale as birthplace (only Wikipedia and pro-football-reference, which was blocked); 2017 fifth-year option; 2018 first jog; season-by-season stats and combine numbers; Steel City Greats brand name and partner (PennLive blocked; only the generic "medical marijuana brand" from ESPN kept); 2019 wedding date and children (sources were amomama/247sports); 2023 infidelity allegations and 2024 divorce filing (TMZ/NJ.com, private matters, cut on both sourcing and respect grounds); Urban Meyer/Jim Tressel recruiting story (NFL.com draft profile not read).
+NOTE: X handle @RyanShazier confirmed: Steelers.com embeds his Sep 9, 2020 retirement post as — Ryan Shazier (@RyanShazier); matches ESPN [11] retirement announcement on Twitter.
+-->
