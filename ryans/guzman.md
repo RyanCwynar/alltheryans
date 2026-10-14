@@ -5,8 +5,8 @@ name: Ryan Guzman
 short: "9-1-1's Eddie Diaz"
 title: "Actor; Eddie Diaz on 9-1-1"
 photo: "/images/ryans/ryan-guzman.jpg"
-photo_credit: ""
-photo_license: ""
+photo_credit: "Gage Skidmore via Wikimedia Commons"
+photo_license: "CC BY-SA 3.0"
 number: null
 birth:
   date: "1987-09-21"
