@@ -7,39 +7,6 @@
   },
   "ryans": [
     {
-      "id": 22,
-      "slug": "nolan",
-      "name": "Nolan Ryan",
-      "number": null,
-      "short": "MLB pitcher",
-      "title": "Hall of Fame MLB pitcher",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Nolan_Ryan_Tiger_Stadium_1990_CROP.jpg/330px-Nolan_Ryan_Tiger_Stadium_1990_CROP.jpg",
-      "photo_credit": "",
-      "photo_license": "",
-      "birth_year_min": 1947,
-      "birth_year_max": 1947,
-      "birth_place": "Refugio, Texas, U.S.",
-      "website": "",
-      "lead_summary": "**Lynn Nolan Ryan Jr.** (born January 31, 1947) is an American former Major League Baseball pitcher nicknamed the \"Ryan Express\" [1][2]. Over a record-tying 27 seasons he pitched for the New York Mets, California Angels, Houston Astros, and Texas Rangers [1][2]. He holds the major-league career records for strikeouts (5,714) and no-hitters (seven) and was elected to the National Baseball Hall of Fame in 1999 [1][2][3][4].",
-      "occupations": [
-        "baseball-player",
-        "sports-executive"
-      ],
-      "known_for": [
-        "5,714 career strikeouts",
-        "Seven no-hitters",
-        "Baseball Hall of Fame (1999)"
-      ],
-      "social": [],
-      "featured_on": null,
-      "status": "published",
-      "clusters": [
-        "athlete",
-        "mlb"
-      ],
-      "connection_count": 0
-    },
-    {
       "id": 11,
       "slug": "garcia",
       "name": "Ryan Garcia",
@@ -113,6 +80,39 @@
       "clusters": [
         "athlete",
         "football"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 22,
+      "slug": "nolan",
+      "name": "Nolan Ryan",
+      "number": null,
+      "short": "MLB pitcher",
+      "title": "Hall of Fame MLB pitcher",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Nolan_Ryan_Tiger_Stadium_1990_CROP.jpg/330px-Nolan_Ryan_Tiger_Stadium_1990_CROP.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1947,
+      "birth_year_max": 1947,
+      "birth_place": "Refugio, Texas, U.S.",
+      "website": "",
+      "lead_summary": "**Lynn Nolan Ryan Jr.** (born January 31, 1947) is an American former Major League Baseball pitcher nicknamed the \"Ryan Express\" [1][2]. Over a record-tying 27 seasons he pitched for the New York Mets, California Angels, Houston Astros, and Texas Rangers [1][2]. He holds the major-league career records for strikeouts (5,714) and no-hitters (seven) and was elected to the National Baseball Hall of Fame in 1999 [1][2][3][4].",
+      "occupations": [
+        "baseball-player",
+        "sports-executive"
+      ],
+      "known_for": [
+        "5,714 career strikeouts",
+        "Seven no-hitters",
+        "Baseball Hall of Fame (1999)"
+      ],
+      "social": [],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "athlete",
+        "mlb"
       ],
       "connection_count": 0
     },

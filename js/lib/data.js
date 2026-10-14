@@ -115,6 +115,33 @@ export function pickRyanOfDay(ryans, dateStr = todaySaoPaulo()) {
   return sorted[hashDate(dateStr) % sorted.length];
 }
 
+/**
+ * Alphabetize by whichever of the first/last names isn't "Ryan".
+ * If both or neither is Ryan, use the last name.
+ * e.g. Ryan Fleury → F, Nolan Ryan → N, Ryan Ryan → Ryan.
+ */
+export function nameSortKey(name) {
+  const parts = String(name || "")
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean);
+  if (parts.length === 0) return "";
+  if (parts.length === 1) return parts[0];
+  const first = parts[0];
+  const last = parts[parts.length - 1];
+  const isRyan = (part) => part.toLowerCase() === "ryan";
+  if (isRyan(first) === isRyan(last)) return last;
+  return isRyan(first) ? last : first;
+}
+
+function compareByRyanName(a, b) {
+  const byKey = nameSortKey(a.name).localeCompare(nameSortKey(b.name), undefined, {
+    sensitivity: "base",
+  });
+  if (byKey !== 0) return byKey;
+  return a.name.localeCompare(b.name, undefined, { sensitivity: "base" });
+}
+
 export function sortRyans(ryans, sortKey) {
   const list = [...ryans];
   switch (sortKey) {
@@ -123,25 +150,25 @@ export function sortRyans(ryans, sortKey) {
         const an = a.number ?? 9999;
         const bn = b.number ?? 9999;
         if (an !== bn) return an - bn;
-        return a.name.localeCompare(b.name);
+        return compareByRyanName(a, b);
       });
     case "birth":
       return list.sort((a, b) => {
         const ay = a.birth_year_min ?? 9999;
         const by = b.birth_year_min ?? 9999;
         if (ay !== by) return ay - by;
-        return a.name.localeCompare(b.name);
+        return compareByRyanName(a, b);
       });
     case "connections":
       return list.sort((a, b) => {
         const ac = a.connection_count ?? 0;
         const bc = b.connection_count ?? 0;
         if (ac !== bc) return bc - ac;
-        return a.name.localeCompare(b.name);
+        return compareByRyanName(a, b);
       });
     case "name":
     default:
-      return list.sort((a, b) => a.name.localeCompare(b.name));
+      return list.sort(compareByRyanName);
   }
 }
 

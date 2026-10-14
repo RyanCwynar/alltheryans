@@ -21,6 +21,33 @@ import { jsonParse } from "./serialize.js";
 
 export type SortKey = "name" | "number" | "birth" | "connections";
 
+/**
+ * Alphabetize by whichever of the first/last names isn't "Ryan".
+ * If both or neither is Ryan, use the last name.
+ * e.g. Ryan Fleury → F, Nolan Ryan → N, Ryan Ryan → Ryan.
+ */
+export function nameSortKey(name: string): string {
+  const parts = String(name || "")
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean);
+  if (parts.length === 0) return "";
+  if (parts.length === 1) return parts[0];
+  const first = parts[0];
+  const last = parts[parts.length - 1];
+  const isRyan = (part: string) => part.toLowerCase() === "ryan";
+  if (isRyan(first) === isRyan(last)) return last;
+  return isRyan(first) ? last : first;
+}
+
+function compareByRyanName(a: { name: string }, b: { name: string }): number {
+  const byKey = nameSortKey(a.name).localeCompare(nameSortKey(b.name), undefined, {
+    sensitivity: "base",
+  });
+  if (byKey !== 0) return byKey;
+  return a.name.localeCompare(b.name, undefined, { sensitivity: "base" });
+}
+
 function parseJsonFields<T extends { occupations: string; knownFor: string; social: string }>(
   row: T,
 ) {
@@ -164,22 +191,22 @@ export async function listPublishedRyans(
         const an = a.number ?? 9999;
         const bn = b.number ?? 9999;
         if (an !== bn) return an - bn;
-        return a.name.localeCompare(b.name);
+        return compareByRyanName(a, b);
       }
       case "birth": {
         const ay = a.birth_year_min ?? 9999;
         const by = b.birth_year_min ?? 9999;
         if (ay !== by) return ay - by;
-        return a.name.localeCompare(b.name);
+        return compareByRyanName(a, b);
       }
       case "connections":
         if (a.connection_count !== b.connection_count) {
           return b.connection_count - a.connection_count;
         }
-        return a.name.localeCompare(b.name);
+        return compareByRyanName(a, b);
       case "name":
       default:
-        return a.name.localeCompare(b.name);
+        return compareByRyanName(a, b);
     }
   });
 

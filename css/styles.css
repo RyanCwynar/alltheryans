@@ -542,10 +542,22 @@ a:hover {
   gap: 2.25rem 1.5rem;
 }
 
+/* Home "More Ryans": one full row only — JS slices to the column count. */
+.ryan-grid--preview {
+  grid-template-rows: auto;
+  grid-auto-rows: 0;
+  overflow: hidden;
+  row-gap: 0;
+}
+
 @media (max-width: 480px) {
   .ryan-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1.75rem 1rem;
+  }
+
+  .ryan-grid--preview {
+    row-gap: 0;
   }
 }
 
