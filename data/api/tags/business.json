@@ -3,11 +3,11 @@
     "slug": "business",
     "label": "Business Ryans",
     "kind": "cluster",
-    "count": 1
+    "count": 2
   },
   "ryans": [
     {
-      "id": 23,
+      "id": 24,
       "slug": "reynolds",
       "name": "Ryan Reynolds",
       "number": null,
@@ -47,6 +47,51 @@
         "film",
         "business",
         "sports"
+      ],
+      "connection_count": 2
+    },
+    {
+      "id": 27,
+      "slug": "serhant",
+      "name": "Ryan Serhant",
+      "number": null,
+      "short": "SERHANT. founder",
+      "title": "Founder and CEO of SERHANT.; star of Owning Manhattan",
+      "photo": "/images/ryans/ryan-serhant.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1984,
+      "birth_year_max": 1984,
+      "birth_place": "Houston, Texas, U.S.",
+      "website": "https://www.ryanserhant.com",
+      "lead_summary": "**Ryan Matthew Serhant** (born 1984) is an American real estate broker, entrepreneur and television personality [16][2]. He founded and leads **SERHANT.**, a New York–based residential brokerage that also runs media, education and technology divisions [12][16]. He first became widely known as a cast member of Bravo's *Million Dollar Listing New York*, which premiered in 2012 [1][11]. Since June 2024 he has been the central figure of the Netflix reality series *Owning Manhattan*, which follows his company [15][16].",
+      "occupations": [
+        "real-estate-broker",
+        "entrepreneur",
+        "television-personality",
+        "author",
+        "actor"
+      ],
+      "known_for": [
+        "Million Dollar Listing New York",
+        "Founding the brokerage SERHANT.",
+        "Netflix's Owning Manhattan",
+        "Sell It Like Serhant"
+      ],
+      "social": [
+        {
+          "platform": "instagram",
+          "handle": "ryanserhant",
+          "url": "https://www.instagram.com/ryanserhant/"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "tv",
+        "business",
+        "real-estate"
       ],
       "connection_count": 2
     }
