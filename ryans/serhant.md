@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 slug: serhant
 name: Ryan Serhant
 short: "SERHANT. founder"

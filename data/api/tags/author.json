@@ -1,0 +1,53 @@
+{
+  "tag": {
+    "slug": "author",
+    "label": "Author Ryans",
+    "kind": "cluster",
+    "count": 1
+  },
+  "ryans": [
+    {
+      "id": 28,
+      "slug": "shazier",
+      "name": "Ryan Shazier",
+      "number": null,
+      "short": "Former Steelers linebacke",
+      "title": "Former Pittsburgh Steelers linebacker; author and Steelers offensive assistant",
+      "photo": "/images/ryans/ryan-shazier.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1991,
+      "birth_year_max": 1992,
+      "birth_place": null,
+      "website": "",
+      "lead_summary": "**Ryan Dean Shazier** (born 1991 or 1992) is an American former professional football linebacker, author and coach [11][13]. He played college football at Ohio State and was the Pittsburgh Steelers' first-round pick, 15th overall, in the 2014 NFL draft [3][9]. He was selected to two Pro Bowls [11]. On December 4, 2017, he suffered a spinal cord injury while making a tackle against the Cincinnati Bengals. He had spinal stabilization surgery and never played again [4][5][9].",
+      "occupations": [
+        "american-football-player",
+        "author",
+        "coach",
+        "entrepreneur"
+      ],
+      "known_for": [
+        "Two-time Pro Bowl linebacker for the Pittsburgh Steelers",
+        "Recovery from a 2017 spinal cord injury",
+        "Memoir Walking Miracle (2021)",
+        "Alopecia awareness"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "RyanShazier",
+          "url": "https://x.com/RyanShazier"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "athlete",
+        "football",
+        "author"
+      ],
+      "connection_count": 2
+    }
+  ]
+}

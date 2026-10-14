@@ -167,6 +167,18 @@
       "photo": "/images/ryans/ryan-graves.jpg"
     },
     {
+      "id": "guzman",
+      "slug": "guzman",
+      "name": "Ryan Guzman",
+      "number": null,
+      "clusters": [
+        "film",
+        "actor",
+        "tv"
+      ],
+      "photo": "/images/ryans/ryan-guzman.jpg"
+    },
+    {
       "id": "higa",
       "slug": "higa",
       "name": "Ryan Higa",
@@ -284,6 +296,31 @@
       "photo": "/images/ryan-selkis.jpg"
     },
     {
+      "id": "serhant",
+      "slug": "serhant",
+      "name": "Ryan Serhant",
+      "number": null,
+      "clusters": [
+        "founder",
+        "tv",
+        "business",
+        "real-estate"
+      ],
+      "photo": "/images/ryans/ryan-serhant.jpg"
+    },
+    {
+      "id": "shazier",
+      "slug": "shazier",
+      "name": "Ryan Shazier",
+      "number": null,
+      "clusters": [
+        "athlete",
+        "football",
+        "author"
+      ],
+      "photo": "/images/ryans/ryan-shazier.jpg"
+    },
+    {
       "id": "smith",
       "slug": "smith",
       "name": "Ryan Smith",
@@ -339,6 +376,13 @@
       "type": "thematic-link",
       "directed": false,
       "note": "Media figures with consumer brands and production companies"
+    },
+    {
+      "source": "serhant",
+      "target": "shazier",
+      "type": "thematic-link",
+      "directed": false,
+      "note": "Ryan Holiday also praised Shazier's memoir, Walking Miracle (see shazier.md). Two-hop link through holiday."
     }
   ]
 }

@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 slug: shazier
 name: Ryan Shazier
 short: "Former Steelers linebacker"

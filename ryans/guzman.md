@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 slug: guzman
 name: Ryan Guzman
 short: "9-1-1's Eddie Diaz"

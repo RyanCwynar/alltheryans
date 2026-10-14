@@ -3,7 +3,7 @@
     "slug": "film",
     "label": "Film Ryans",
     "kind": "cluster",
-    "count": 4
+    "count": 5
   },
   "ryans": [
     {
@@ -77,6 +77,47 @@
         "film"
       ],
       "connection_count": 2
+    },
+    {
+      "id": 15,
+      "slug": "guzman",
+      "name": "Ryan Guzman",
+      "number": null,
+      "short": "9-1-1's Eddie Diaz",
+      "title": "Actor; Eddie Diaz on 9-1-1",
+      "photo": "/images/ryans/ryan-guzman.jpg",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1987,
+      "birth_year_max": 1987,
+      "birth_place": "Abilene, Texas, U.S.",
+      "website": "",
+      "lead_summary": "**Ryan Anthony Guzman** (born September 21, 1987) is an American actor and former model [17]. He is best known for playing Sean Asa, the male lead in the dance films *Step Up Revolution* (2012) and *Step Up: All In* (2014) [6]. He also played Noah Sandborn opposite Jennifer Lopez in the thriller *The Boy Next Door* (2015) [6][8], and since 2018 he has played firefighter Edmundo \"Eddie\" Diaz on the first-responder drama *9-1-1* [12][14].",
+      "occupations": [
+        "actor",
+        "model",
+        "former-mixed-martial-artist"
+      ],
+      "known_for": [
+        "Sean Asa in Step Up Revolution and Step Up: All In",
+        "Noah Sandborn in The Boy Next Door",
+        "Eddie Diaz in 9-1-1"
+      ],
+      "social": [
+        {
+          "platform": "instagram",
+          "handle": "ryanaguzman",
+          "url": "https://www.instagram.com/ryanaguzman/"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "film",
+        "actor",
+        "tv"
+      ],
+      "connection_count": 0
     },
     {
       "id": 23,
