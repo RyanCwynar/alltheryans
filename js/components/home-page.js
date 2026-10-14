@@ -12,20 +12,29 @@ import "./ryan-card.js";
 import "./ryan-photo.js";
 import "./name-tag.js";
 
-const PREVIEW_COUNT = 8;
+/** Matches `.ryan-grid { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) }`. */
+const GRID_MIN_COL_PX = 200;
+const MOBILE_GRID_MQ = "(max-width: 480px)";
 
 export class HomePage extends LitElement {
   static properties = {
     status: { state: true },
     featured: { state: true },
     ryans: { state: true },
+    previewCols: { state: true },
   };
+
+  #gridEl = null;
+  #ro = null;
+  #mq = null;
+  #mqHandler = null;
 
   constructor() {
     super();
     this.status = "loading";
     this.featured = null;
     this.ryans = [];
+    this.previewCols = 4;
   }
 
   createRenderRoot() {
@@ -35,6 +44,15 @@ export class HomePage extends LitElement {
   connectedCallback() {
     super.connectedCallback();
     this.#load();
+  }
+
+  disconnectedCallback() {
+    this.#teardownObserver();
+    super.disconnectedCallback();
+  }
+
+  updated() {
+    if (this.status === "ready") this.#ensureObserver();
   }
 
   async #load() {
@@ -50,12 +68,54 @@ export class HomePage extends LitElement {
     }
   }
 
+  #teardownObserver() {
+    this.#ro?.disconnect();
+    this.#ro = null;
+    this.#gridEl = null;
+    if (this.#mq && this.#mqHandler) {
+      this.#mq.removeEventListener("change", this.#mqHandler);
+    }
+    this.#mq = null;
+    this.#mqHandler = null;
+  }
+
+  #ensureObserver() {
+    const grid = this.querySelector(".ryan-grid--preview");
+    if (!grid) return;
+    if (this.#gridEl === grid && this.#ro) return;
+
+    this.#teardownObserver();
+    this.#gridEl = grid;
+    this.#ro = new ResizeObserver(() => this.#syncPreviewCols());
+    this.#ro.observe(grid);
+    this.#mq = window.matchMedia(MOBILE_GRID_MQ);
+    this.#mqHandler = () => this.#syncPreviewCols();
+    this.#mq.addEventListener("change", this.#mqHandler);
+    this.#syncPreviewCols();
+  }
+
+  #colsForWidth(width) {
+    // Mirror the CSS breakpoint: mobile is a fixed 2-column grid.
+    if (window.matchMedia(MOBILE_GRID_MQ).matches) return 2;
+    const gap = this.#gridEl
+      ? parseFloat(getComputedStyle(this.#gridEl).columnGap) || 0
+      : 0;
+    return Math.max(1, Math.floor((width + gap) / (GRID_MIN_COL_PX + gap)));
+  }
+
+  #syncPreviewCols() {
+    if (!this.#gridEl) return;
+    const cols = this.#colsForWidth(this.#gridEl.clientWidth);
+    if (cols !== this.previewCols) this.previewCols = cols;
+  }
+
   #preview() {
     // Prefer Ryans with photos for the preview grid, skipping today's pick.
+    // Show exactly one full row: as many cards as the current column count.
     const others = this.ryans.filter((r) => r.slug !== this.featured?.slug);
     const withPhoto = others.filter((r) => r.photo);
     const rest = others.filter((r) => !r.photo);
-    return [...withPhoto, ...rest].slice(0, PREVIEW_COUNT);
+    return [...withPhoto, ...rest].slice(0, this.previewCols);
   }
 
   #skeleton() {
@@ -84,7 +144,7 @@ export class HomePage extends LitElement {
         </section>
         <section class="section">
           <div class="wrap">
-            <div class="ryan-grid">
+            <div class="ryan-grid ryan-grid--preview">
               ${[0, 1, 2, 3].map(
                 () => html`<div class="skel skel-card" aria-hidden="true"></div>`,
               )}
@@ -164,7 +224,7 @@ export class HomePage extends LitElement {
               </div>
               <a class="more" href="/archive/">See all ${total} →</a>
             </div>
-            <div class="ryan-grid">
+            <div class="ryan-grid ryan-grid--preview">
               ${this.#preview().map((item) => html`<ryan-card .ryan=${item}></ryan-card>`)}
             </div>
           </div>
