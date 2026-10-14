@@ -5,8 +5,8 @@ name: Ryan Shazier
 short: "Former Steelers linebacker"
 title: "Former Pittsburgh Steelers linebacker; author and Steelers offensive assistant"
 photo: "/images/ryans/ryan-shazier.jpg"
-photo_credit: ""
-photo_license: ""
+photo_credit: "Cramerwiki via Wikimedia Commons"
+photo_license: "CC0"
 number: null
 birth:
   date: "1991/1992"

@@ -5,8 +5,8 @@ name: Ryan Serhant
 short: "SERHANT. founder"
 title: "Founder and CEO of SERHANT.; star of Owning Manhattan"
 photo: "/images/ryans/ryan-serhant.jpg"
-photo_credit: ""
-photo_license: ""
+photo_credit: "Ryan Serhant via X"
+photo_license: "public profile photo"
 number: null
 birth:
   date: "1984"
