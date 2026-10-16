@@ -1,0 +1,56 @@
+{
+  "tag": {
+    "slug": "3d-printing",
+    "label": "3d Printing Ryans",
+    "kind": "cluster",
+    "count": 1
+  },
+  "ryans": [
+    {
+      "id": 25,
+      "slug": "ryan-dunwoody",
+      "name": "Ryan Dunwoody",
+      "number": 2,
+      "short": "pi-top / Powerhouse",
+      "title": "Hardware engineer; co-creator of pi-top; Powerhouse founder",
+      "photo": "",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1990,
+      "birth_year_max": 1991,
+      "birth_place": null,
+      "website": "https://powerhouse.engineering",
+      "lead_summary": "**Ryan Dunwoody** (born 1990 or 1991) is a British hardware engineer and entrepreneur based in Shenzhen, China [3][6]. With Jesse Lozano he co-created **pi-top**, a Raspberry Pi laptop kit that Guinness World Records lists as the first 3D-printed laptop, dated 9 November 2014 [1]. He later founded the motor-control company Motormaster and, in 2025, **Powerhouse Engineering**, a Shenzhen company that offers hardware startups engineering, prototyping and manufacturing support [6][7].",
+      "occupations": [
+        "engineer",
+        "entrepreneur"
+      ],
+      "known_for": [
+        "Co-creating pi-top, Guinness World Records' first 3D-printed laptop",
+        "Founding Powerhouse Engineering in Shenzhen",
+        "Hardware Beers Shenzhen"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "Ryan__Dunwoody",
+          "url": "https://x.com/Ryan__Dunwoody"
+        },
+        {
+          "platform": "linkedin",
+          "handle": "ryandunwoody",
+          "url": "https://www.linkedin.com/in/ryandunwoody"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "tech",
+        "hardware",
+        "3d-printing"
+      ],
+      "connection_count": 0
+    }
+  ]
+}
