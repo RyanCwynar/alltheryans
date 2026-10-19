@@ -427,11 +427,25 @@
       "note": "Media figures with consumer brands and production companies"
     },
     {
+      "source": "ryan-holiday",
+      "target": "serhant",
+      "type": "thematic-link",
+      "directed": false,
+      "note": "Ryan Holiday's endorsement appears on the publisher's page for Sell It Like Serhant."
+    },
+    {
       "source": "serhant",
       "target": "shazier",
       "type": "thematic-link",
       "directed": false,
       "note": "Ryan Holiday also praised Shazier's memoir, Walking Miracle (see shazier.md). Two-hop link through holiday."
+    },
+    {
+      "source": "ryan-holiday",
+      "target": "shazier",
+      "type": "thematic-link",
+      "directed": false,
+      "note": "Ryan Holiday praised Walking Miracle."
     }
   ]
 }

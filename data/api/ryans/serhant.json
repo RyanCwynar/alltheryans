@@ -86,6 +86,14 @@
     "relationships": [
       {
         "type": "thematic-link",
+        "note": "Ryan Holiday's endorsement appears on the publisher's page for Sell It Like Serhant.",
+        "directed": false,
+        "verified": true,
+        "source": "serhant",
+        "target": "ryan-holiday"
+      },
+      {
+        "type": "thematic-link",
         "note": "Ryan Holiday also praised Shazier's memoir, Walking Miracle (see shazier.md). Two-hop link through holiday.",
         "directed": false,
         "verified": true,

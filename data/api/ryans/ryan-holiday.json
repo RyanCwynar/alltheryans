@@ -90,7 +90,24 @@
         "note": null
       }
     ],
-    "relationships": [],
+    "relationships": [
+      {
+        "type": "thematic-link",
+        "note": "Ryan Holiday's endorsement appears on the publisher's page for Sell It Like Serhant.",
+        "directed": false,
+        "verified": true,
+        "source": "serhant",
+        "target": "ryan-holiday"
+      },
+      {
+        "type": "thematic-link",
+        "note": "Ryan Holiday praised Walking Miracle.",
+        "directed": false,
+        "verified": true,
+        "source": "shazier",
+        "target": "ryan-holiday"
+      }
+    ],
     "sources": [
       {
         "n": 1,

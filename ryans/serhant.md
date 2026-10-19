@@ -28,7 +28,7 @@ social:
   - { platform: instagram, handle: "ryanserhant", url: "https://www.instagram.com/ryanserhant/", cite: [4] }
 known_for: ["Million Dollar Listing New York", "Founding the brokerage SERHANT.", "Netflix's Owning Manhattan", "Sell It Like Serhant"]
 relationships:
-  - { target: holiday, type: thematic-link, note: "Ryan Holiday's endorsement appears on the publisher's page for Sell It Like Serhant. Pending: no holiday page exists yet.", cite: [7] }
+  - { target: ryan-holiday, type: thematic-link, note: "Ryan Holiday's endorsement appears on the publisher's page for Sell It Like Serhant.", cite: [7] }
   - { target: shazier, type: thematic-link, note: "Ryan Holiday also praised Shazier's memoir, Walking Miracle (see shazier.md). Two-hop link through holiday.", cite: [7] }
 sources:
   - { n: 1, publisher: "Boston Herald", date: 2012-03-07, title: "Topsfield native takes bite out of Big Apple in 'Million Dollar Listing'", url: "https://www.bostonherald.com/2012/03/07/topsfield-native-takes-bite-out-of-big-apple-in-million-dollar-listing", access: read }
