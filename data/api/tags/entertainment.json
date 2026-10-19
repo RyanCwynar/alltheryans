@@ -199,7 +199,7 @@
       "connection_count": 2
     },
     {
-      "id": 26,
+      "id": 29,
       "slug": "seacrest",
       "name": "Ryan Seacrest",
       "number": null,
@@ -236,13 +236,13 @@
       "clusters": [
         "entertainment",
         "television",
-        "radio",
-        "media"
+        "media",
+        "radio"
       ],
       "connection_count": 2
     },
     {
-      "id": 31,
+      "id": 34,
       "slug": "tedder",
       "name": "Ryan Tedder",
       "number": null,

@@ -3,11 +3,53 @@
     "slug": "author",
     "label": "Author Ryans",
     "kind": "cluster",
-    "count": 1
+    "count": 2
   },
   "ryans": [
     {
-      "id": 29,
+      "id": 28,
+      "slug": "ryan-holiday",
+      "name": "Ryan Holiday",
+      "number": 5,
+      "short": "Author who popularized mo",
+      "title": "Author, The Daily Stoic; founder of Brass Check",
+      "photo": "",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1987,
+      "birth_year_max": 1987,
+      "birth_place": "Sacramento, California, U.S.",
+      "website": "https://ryanholiday.net",
+      "lead_summary": "**Ryan Holiday** (born June 16, 1987) is an American author and marketer [6]. His own biography says he dropped out of college at 19 to apprentice under Robert Greene, author of *The 48 Laws of Power* [1]. He later worked as director of marketing at American Apparel and founded the creative agency Brass Check [1].",
+      "occupations": [
+        "author",
+        "marketer",
+        "podcaster"
+      ],
+      "known_for": [
+        "The Obstacle Is the Way (2014)",
+        "Ego Is the Enemy (2016)",
+        "The Daily Stoic (2016)",
+        "Trust Me, I'm Lying (2012)"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "RyanHoliday",
+          "url": "https://x.com/RyanHoliday"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "author",
+        "media",
+        "philosophy"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 32,
       "slug": "shazier",
       "name": "Ryan Shazier",
       "number": null,
