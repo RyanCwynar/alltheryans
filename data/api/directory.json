@@ -1,5 +1,5 @@
 {
-  "count": 31,
+  "count": 34,
   "ryans": [
     {
       "id": 2,
@@ -37,6 +37,44 @@
         "founder",
         "tech",
         "legal-tech"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 25,
+      "slug": "ryan-blaney",
+      "name": "Ryan Blaney",
+      "number": 3,
+      "short": "2023 NASCAR Cup Series ch",
+      "title": "NASCAR Cup Series driver for Team Penske",
+      "photo": "",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1993,
+      "birth_year_max": 1993,
+      "birth_place": "Hartford, Ohio, U.S.",
+      "website": "https://www.teampenske.com/drivers/index.cfm/4401/Ryan",
+      "lead_summary": "**Ryan Blaney** (born December 31, 1993) is an American stock car racing driver who drives the No. 12 Ford Mustang Dark Horse for Team Penske in the NASCAR Cup Series [1][2]. He won the NASCAR Cup Series championship in 2023 [2][5]. Team Penske lists his birthplace as Hartford, Ohio, and his residence as Mooresville, North Carolina [2].",
+      "occupations": [
+        "racing-driver"
+      ],
+      "known_for": [
+        "2023 NASCAR Cup Series championship",
+        "2023 Coca-Cola 600 win",
+        "No. 12 Team Penske Ford"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "Blaney",
+          "url": "https://x.com/Blaney"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "athlete",
+        "motorsport"
       ],
       "connection_count": 0
     },
@@ -309,7 +347,7 @@
       "connection_count": 0
     },
     {
-      "id": 25,
+      "id": 26,
       "slug": "ryan-dunwoody",
       "name": "Ryan Dunwoody",
       "number": 2,
@@ -394,6 +432,48 @@
       "clusters": [
         "tech",
         "open-source"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 27,
+      "slug": "ryan-florence",
+      "name": "Ryan Florence",
+      "number": 4,
+      "short": "Co-creator of React Route",
+      "title": "Web developer; co-founder of Remix and React Training",
+      "photo": "",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": null,
+      "website": "",
+      "lead_summary": "**Ryan Florence** is an American web developer and educator who created the first version of React Router in May 2014 [1]. With Michael Jackson, he co-founded React Training in 2015 [2][3]. He later co-founded Remix Software with Michael Jackson, with Kent C. Dodds also described as a co-founder in interviews [2][9].",
+      "occupations": [
+        "software-engineer",
+        "entrepreneur",
+        "educator"
+      ],
+      "known_for": [
+        "Co-creating React Router (2014)",
+        "Co-founding React Training (2015)",
+        "Co-creating Remix"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "ryanflorence",
+          "url": "https://x.com/ryanflorence"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "tech",
+        "open-source",
+        "engineer"
       ],
       "connection_count": 0
     },
@@ -624,6 +704,48 @@
       "clusters": [
         "creator",
         "youtube"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 28,
+      "slug": "ryan-holiday",
+      "name": "Ryan Holiday",
+      "number": 5,
+      "short": "Author who popularized mo",
+      "title": "Author, The Daily Stoic; founder of Brass Check",
+      "photo": "",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1987,
+      "birth_year_max": 1987,
+      "birth_place": "Sacramento, California, U.S.",
+      "website": "https://ryanholiday.net",
+      "lead_summary": "**Ryan Holiday** (born June 16, 1987) is an American author and marketer [6]. His own biography says he dropped out of college at 19 to apprentice under Robert Greene, author of *The 48 Laws of Power* [1]. He later worked as director of marketing at American Apparel and founded the creative agency Brass Check [1].",
+      "occupations": [
+        "author",
+        "marketer",
+        "podcaster"
+      ],
+      "known_for": [
+        "The Obstacle Is the Way (2014)",
+        "Ego Is the Enemy (2016)",
+        "The Daily Stoic (2016)",
+        "Trust Me, I'm Lying (2012)"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "RyanHoliday",
+          "url": "https://x.com/RyanHoliday"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "author",
+        "media",
+        "philosophy"
       ],
       "connection_count": 0
     },
@@ -936,7 +1058,7 @@
       "connection_count": 2
     },
     {
-      "id": 26,
+      "id": 29,
       "slug": "seacrest",
       "name": "Ryan Seacrest",
       "number": null,
@@ -973,13 +1095,13 @@
       "clusters": [
         "entertainment",
         "television",
-        "radio",
-        "media"
+        "media",
+        "radio"
       ],
       "connection_count": 2
     },
     {
-      "id": 27,
+      "id": 30,
       "slug": "selkis",
       "name": "Ryan Selkis",
       "number": null,
@@ -1020,7 +1142,7 @@
       "connection_count": 0
     },
     {
-      "id": 28,
+      "id": 31,
       "slug": "serhant",
       "name": "Ryan Serhant",
       "number": null,
@@ -1065,7 +1187,7 @@
       "connection_count": 2
     },
     {
-      "id": 29,
+      "id": 32,
       "slug": "shazier",
       "name": "Ryan Shazier",
       "number": null,
@@ -1108,7 +1230,7 @@
       "connection_count": 2
     },
     {
-      "id": 30,
+      "id": 33,
       "slug": "smith",
       "name": "Ryan Smith",
       "number": null,
@@ -1142,7 +1264,7 @@
       "connection_count": 0
     },
     {
-      "id": 31,
+      "id": 34,
       "slug": "tedder",
       "name": "Ryan Tedder",
       "number": null,
@@ -1177,7 +1299,7 @@
       "connection_count": 0
     },
     {
-      "id": 32,
+      "id": 35,
       "slug": "trahan",
       "name": "Ryan Trahan",
       "number": null,
@@ -1220,13 +1342,13 @@
       "slug": "founder",
       "label": "Founder Ryans",
       "kind": "cluster",
-      "count": 15
+      "count": 16
     },
     {
       "slug": "tech",
       "label": "Tech Ryans",
       "kind": "cluster",
-      "count": 14
+      "count": 15
     },
     {
       "slug": "entertainment",
@@ -1235,16 +1357,16 @@
       "count": 7
     },
     {
-      "slug": "film",
-      "label": "Film Ryans",
+      "slug": "athlete",
+      "label": "Athlete Ryans",
       "kind": "cluster",
       "count": 5
     },
     {
-      "slug": "athlete",
-      "label": "Athlete Ryans",
+      "slug": "film",
+      "label": "Film Ryans",
       "kind": "cluster",
-      "count": 4
+      "count": 5
     },
     {
       "slug": "investor",
@@ -1265,10 +1387,22 @@
       "count": 3
     },
     {
+      "slug": "open-source",
+      "label": "Open Source Ryans",
+      "kind": "cluster",
+      "count": 3
+    },
+    {
       "slug": "youtube",
       "label": "YouTube Ryans",
       "kind": "cluster",
       "count": 3
+    },
+    {
+      "slug": "author",
+      "label": "Author Ryans",
+      "kind": "cluster",
+      "count": 2
     },
     {
       "slug": "business",
@@ -1289,8 +1423,8 @@
       "count": 2
     },
     {
-      "slug": "open-source",
-      "label": "Open Source Ryans",
+      "slug": "media",
+      "label": "Media Ryans",
       "kind": "cluster",
       "count": 2
     },
@@ -1325,12 +1459,6 @@
       "count": 1
     },
     {
-      "slug": "author",
-      "label": "Author Ryans",
-      "kind": "cluster",
-      "count": 1
-    },
-    {
       "slug": "boxing",
       "label": "Boxing Ryans",
       "kind": "cluster",
@@ -1345,6 +1473,12 @@
     {
       "slug": "education",
       "label": "Education Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "engineer",
+      "label": "Engineer Ryans",
       "kind": "cluster",
       "count": 1
     },
@@ -1373,14 +1507,20 @@
       "count": 1
     },
     {
-      "slug": "media",
-      "label": "Media Ryans",
+      "slug": "mlb",
+      "label": "Mlb Ryans",
       "kind": "cluster",
       "count": 1
     },
     {
-      "slug": "mlb",
-      "label": "Mlb Ryans",
+      "slug": "motorsport",
+      "label": "Motorsport Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "philosophy",
+      "label": "Philosophy Ryans",
       "kind": "cluster",
       "count": 1
     },

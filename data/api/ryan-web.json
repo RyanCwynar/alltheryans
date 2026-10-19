@@ -271,6 +271,17 @@
       "photo": "/images/ryan-reynolds.jpg"
     },
     {
+      "id": "ryan-blaney",
+      "slug": "ryan-blaney",
+      "name": "Ryan Blaney",
+      "number": 3,
+      "clusters": [
+        "athlete",
+        "motorsport"
+      ],
+      "photo": ""
+    },
+    {
       "id": "ryan-dunwoody",
       "slug": "ryan-dunwoody",
       "name": "Ryan Dunwoody",
@@ -284,6 +295,31 @@
       "photo": ""
     },
     {
+      "id": "ryan-florence",
+      "slug": "ryan-florence",
+      "name": "Ryan Florence",
+      "number": 4,
+      "clusters": [
+        "founder",
+        "tech",
+        "open-source",
+        "engineer"
+      ],
+      "photo": ""
+    },
+    {
+      "id": "ryan-holiday",
+      "slug": "ryan-holiday",
+      "name": "Ryan Holiday",
+      "number": 5,
+      "clusters": [
+        "author",
+        "media",
+        "philosophy"
+      ],
+      "photo": ""
+    },
+    {
       "id": "seacrest",
       "slug": "seacrest",
       "name": "Ryan Seacrest",
@@ -291,8 +327,8 @@
       "clusters": [
         "entertainment",
         "television",
-        "radio",
-        "media"
+        "media",
+        "radio"
       ],
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Ryan_Seacrest_%282019%29.jpg/330px-Ryan_Seacrest_%282019%29.jpg"
     },

@@ -1,0 +1,52 @@
+{
+  "tag": {
+    "slug": "engineer",
+    "label": "Engineer Ryans",
+    "kind": "cluster",
+    "count": 1
+  },
+  "ryans": [
+    {
+      "id": 27,
+      "slug": "ryan-florence",
+      "name": "Ryan Florence",
+      "number": 4,
+      "short": "Co-creator of React Route",
+      "title": "Web developer; co-founder of Remix and React Training",
+      "photo": "",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": null,
+      "website": "",
+      "lead_summary": "**Ryan Florence** is an American web developer and educator who created the first version of React Router in May 2014 [1]. With Michael Jackson, he co-founded React Training in 2015 [2][3]. He later co-founded Remix Software with Michael Jackson, with Kent C. Dodds also described as a co-founder in interviews [2][9].",
+      "occupations": [
+        "software-engineer",
+        "entrepreneur",
+        "educator"
+      ],
+      "known_for": [
+        "Co-creating React Router (2014)",
+        "Co-founding React Training (2015)",
+        "Co-creating Remix"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "ryanflorence",
+          "url": "https://x.com/ryanflorence"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "tech",
+        "open-source",
+        "engineer"
+      ],
+      "connection_count": 0
+    }
+  ]
+}

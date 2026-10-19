@@ -1,0 +1,48 @@
+{
+  "tag": {
+    "slug": "motorsport",
+    "label": "Motorsport Ryans",
+    "kind": "cluster",
+    "count": 1
+  },
+  "ryans": [
+    {
+      "id": 25,
+      "slug": "ryan-blaney",
+      "name": "Ryan Blaney",
+      "number": 3,
+      "short": "2023 NASCAR Cup Series ch",
+      "title": "NASCAR Cup Series driver for Team Penske",
+      "photo": "",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1993,
+      "birth_year_max": 1993,
+      "birth_place": "Hartford, Ohio, U.S.",
+      "website": "https://www.teampenske.com/drivers/index.cfm/4401/Ryan",
+      "lead_summary": "**Ryan Blaney** (born December 31, 1993) is an American stock car racing driver who drives the No. 12 Ford Mustang Dark Horse for Team Penske in the NASCAR Cup Series [1][2]. He won the NASCAR Cup Series championship in 2023 [2][5]. Team Penske lists his birthplace as Hartford, Ohio, and his residence as Mooresville, North Carolina [2].",
+      "occupations": [
+        "racing-driver"
+      ],
+      "known_for": [
+        "2023 NASCAR Cup Series championship",
+        "2023 Coca-Cola 600 win",
+        "No. 12 Team Penske Ford"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "Blaney",
+          "url": "https://x.com/Blaney"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "athlete",
+        "motorsport"
+      ],
+      "connection_count": 0
+    }
+  ]
+}

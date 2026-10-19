@@ -1,6 +1,6 @@
 {
   "ryan": {
-    "id": 26,
+    "id": 29,
     "slug": "seacrest",
     "name": "Ryan Seacrest",
     "number": null,
@@ -37,8 +37,8 @@
     "clusters": [
       "entertainment",
       "television",
-      "radio",
-      "media"
+      "media",
+      "radio"
     ],
     "connection_count": 0,
     "birth": {
