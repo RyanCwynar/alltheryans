@@ -30,7 +30,7 @@ social:
   - { platform: x, handle: "RyanShazier", url: "https://x.com/RyanShazier", cite: [11] }
 known_for: ["Two-time Pro Bowl linebacker for the Pittsburgh Steelers", "Recovery from a 2017 spinal cord injury", "Memoir Walking Miracle (2021)", "Alopecia awareness"]
 relationships:
-  - { target: holiday, type: thematic-link, note: "Ryan Holiday praised Walking Miracle. Pending: no holiday page exists yet.", cite: [13] }
+  - { target: ryan-holiday, type: thematic-link, note: "Ryan Holiday praised Walking Miracle.", cite: [13] }
   - { target: serhant, type: thematic-link, note: "Both have books praised by Ryan Holiday (see serhant.md).", cite: [13] }
 sources:
   - { n: 1, publisher: "The Players' Tribune", date: 2017-05-24, title: "\"Bruh\" by Ryan Shazier", url: "https://www.theplayerstribune.com/articles/ryan-shazier-steelers-alopecia", access: read }
