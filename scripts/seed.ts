@@ -2,16 +2,17 @@
 /**
  * Single-writer import CLI: load ryans/*.md into libSQL via the shared Drizzle schema.
  *
- * Default: dry-run (no writes).
+ * Default: dry-run (read DB, print insert/update/delete plan, no writes).
  * Apply:    bun run db:seed -- --apply
+ * Subset:   bun run db:seed -- --only=slug1,slug2 [--apply]
  *
  * Auth for Head of Content: use this CLI with LIBSQL_URL + LIBSQL_AUTH_TOKEN
  * (wallet SIWE can wrap the same upserts later; one writer at a time).
  */
 import { readdir } from "node:fs/promises";
 import { join } from "node:path";
-import { eq } from "drizzle-orm";
-import { createDb } from "../db/client.js";
+import { and, eq, inArray } from "drizzle-orm";
+import { createDb, type Db } from "../db/client.js";
 import {
   citations,
   education,
@@ -24,19 +25,292 @@ import {
   tags,
 } from "../db/schema.js";
 import { jsonString, slugify, tagLabel } from "../db/serialize.js";
-import { parseRyanMarkdown, type ParsedRyan } from "./parse-ryan-md.js";
+import { parseRyanMarkdown, type ParsedRyan, type ParsedRelationship } from "./parse-ryan-md.js";
 
-function hasFlag(flag: string): boolean {
-  return process.argv.includes(flag);
+export type SeedArgs = {
+  apply: boolean;
+  /** null = all repo Ryans; otherwise only these slugs */
+  onlySlugs: string[] | null;
+};
+
+export type RelEdge = {
+  sourceSlug: string;
+  targetSlug: string;
+  type: string;
+  directed: boolean;
+  note: string;
+  verified: boolean;
+};
+
+export type SeedPlan = {
+  ryansInsert: string[];
+  ryansUpdate: string[];
+  relInsert: RelEdge[];
+  relUpdate: RelEdge[];
+  relDelete: RelEdge[];
+  relSkipMissingTarget: RelEdge[];
+};
+
+/** Parse CLI flags from argv (defaults to process.argv). */
+export function parseSeedArgs(argv: string[] = process.argv): SeedArgs {
+  const apply = argv.includes("--apply");
+  const onlyArg = argv.find((a) => a === "--only" || a.startsWith("--only="));
+  let onlySlugs: string[] | null = null;
+  if (onlyArg) {
+    let raw = "";
+    if (onlyArg.startsWith("--only=")) {
+      raw = onlyArg.slice("--only=".length);
+    } else {
+      const idx = argv.indexOf("--only");
+      raw = argv[idx + 1] ?? "";
+      if (!raw || raw.startsWith("--")) {
+        throw new Error("--only requires a comma-separated slug list (e.g. --only=slug1,slug2)");
+      }
+    }
+    onlySlugs = raw
+      .split(",")
+      .map((s) => s.trim())
+      .filter(Boolean);
+    if (onlySlugs.length === 0) {
+      throw new Error("--only requires at least one slug");
+    }
+  }
+  return { apply, onlySlugs };
+}
+
+/**
+ * Restrict the parsed list to `--only` slugs. Throws if any requested slug is
+ * missing from the repo. When onlySlugs is null, returns the full list.
+ */
+export function filterParsedRyans(
+  parsedList: ParsedRyan[],
+  onlySlugs: string[] | null,
+): ParsedRyan[] {
+  if (onlySlugs == null) return parsedList;
+  const bySlug = new Map(parsedList.map((p) => [p.slug, p]));
+  const missing = onlySlugs.filter((s) => !bySlug.has(s));
+  if (missing.length > 0) {
+    throw new Error(`Unknown slug(s) for --only: ${missing.join(", ")}`);
+  }
+  // Preserve --only order for predictable dry-run output
+  return onlySlugs.map((s) => bySlug.get(s)!);
+}
+
+function relKey(e: Pick<RelEdge, "sourceSlug" | "targetSlug" | "type">): string {
+  return `${e.sourceSlug}\0${e.targetSlug}\0${e.type}`;
+}
+
+function relFieldsEqual(a: RelEdge, b: RelEdge): boolean {
+  return (
+    a.directed === b.directed &&
+    (a.note || "") === (b.note || "") &&
+    a.verified === b.verified
+  );
+}
+
+/**
+ * Diff desired relationships against existing DB edges for scoped source Ryans.
+ * Edges whose source is outside `scopedSourceSlugs` are never deleted or updated.
+ */
+export function planRelationshipOps(
+  desired: RelEdge[],
+  existing: RelEdge[],
+  scopedSourceSlugs: Set<string>,
+): Pick<SeedPlan, "relInsert" | "relUpdate" | "relDelete"> {
+  const scopedDesired = desired.filter((e) => scopedSourceSlugs.has(e.sourceSlug));
+  const scopedExisting = existing.filter((e) => scopedSourceSlugs.has(e.sourceSlug));
+
+  const desiredByKey = new Map(scopedDesired.map((e) => [relKey(e), e]));
+  const existingByKey = new Map(scopedExisting.map((e) => [relKey(e), e]));
+
+  const relInsert: RelEdge[] = [];
+  const relUpdate: RelEdge[] = [];
+  const relDelete: RelEdge[] = [];
+
+  for (const [key, want] of desiredByKey) {
+    const have = existingByKey.get(key);
+    if (!have) relInsert.push(want);
+    else if (!relFieldsEqual(want, have)) relUpdate.push(want);
+  }
+  for (const [key, have] of existingByKey) {
+    if (!desiredByKey.has(key)) relDelete.push(have);
+  }
+
+  return { relInsert, relUpdate, relDelete };
+}
+
+/** Build desired RelEdge list from parsed markdown; collect missing-target skips. */
+export function collectDesiredRelationships(
+  parsedInScope: ParsedRyan[],
+  slugToId: Map<string, number>,
+): { desired: RelEdge[]; skipMissingTarget: RelEdge[] } {
+  const desired: RelEdge[] = [];
+  const skipMissingTarget: RelEdge[] = [];
+  for (const parsed of parsedInScope) {
+    for (const rel of parsed.relationships) {
+      const edge = toRelEdge(parsed.slug, rel);
+      if (!slugToId.has(rel.target)) {
+        skipMissingTarget.push(edge);
+        continue;
+      }
+      desired.push(edge);
+    }
+  }
+  return { desired, skipMissingTarget };
+}
+
+function toRelEdge(sourceSlug: string, rel: ParsedRelationship): RelEdge {
+  return {
+    sourceSlug,
+    targetSlug: rel.target,
+    type: rel.type,
+    directed: rel.directed,
+    note: rel.note || "",
+    verified: rel.verified,
+  };
+}
+
+export function formatSeedPlan(plan: SeedPlan, opts: SeedArgs): string[] {
+  const lines: string[] = [];
+  const scope =
+    opts.onlySlugs == null
+      ? "all repo Ryans"
+      : `--only=${opts.onlySlugs.join(",")}`;
+  lines.push(`Scope: ${scope}`);
+  lines.push(
+    `Ryans: insert=${plan.ryansInsert.length} update=${plan.ryansUpdate.length}`,
+  );
+  lines.push(
+    `Relationships: insert=${plan.relInsert.length} update=${plan.relUpdate.length} delete=${plan.relDelete.length} skip(missing target)=${plan.relSkipMissingTarget.length}`,
+  );
+  lines.push("");
+
+  for (const slug of plan.ryansInsert) {
+    lines.push(`INSERT ryan ${slug}`);
+  }
+  for (const slug of plan.ryansUpdate) {
+    lines.push(
+      `UPDATE ryan ${slug} (replace tags, organizations, education, citations)`,
+    );
+  }
+  for (const e of plan.relInsert) {
+    lines.push(
+      `INSERT rel ${e.sourceSlug} -[${e.type}]-> ${e.targetSlug}`,
+    );
+  }
+  for (const e of plan.relUpdate) {
+    lines.push(
+      `UPDATE rel ${e.sourceSlug} -[${e.type}]-> ${e.targetSlug}`,
+    );
+  }
+  for (const e of plan.relDelete) {
+    lines.push(
+      `DELETE rel ${e.sourceSlug} -[${e.type}]-> ${e.targetSlug}`,
+    );
+  }
+  for (const e of plan.relSkipMissingTarget) {
+    lines.push(
+      `SKIP rel ${e.sourceSlug} -[${e.type}]-> ${e.targetSlug} (target missing)`,
+    );
+  }
+  return lines;
+}
+
+async function loadSlugToId(db: Db): Promise<Map<string, number>> {
+  const rows = await db.select({ id: ryans.id, slug: ryans.slug }).from(ryans);
+  return new Map(rows.map((r) => [r.slug, r.id]));
+}
+
+async function loadExistingRelationships(
+  db: Db,
+  idToSlug: Map<number, string>,
+  scopedSourceIds: number[],
+): Promise<RelEdge[]> {
+  if (scopedSourceIds.length === 0) return [];
+  const rows = await db
+    .select({
+      sourceId: relationships.sourceId,
+      targetId: relationships.targetId,
+      type: relationships.type,
+      directed: relationships.directed,
+      note: relationships.note,
+      verified: relationships.verified,
+    })
+    .from(relationships)
+    .where(inArray(relationships.sourceId, scopedSourceIds));
+
+  const edges: RelEdge[] = [];
+  for (const r of rows) {
+    const sourceSlug = idToSlug.get(r.sourceId);
+    const targetSlug = idToSlug.get(r.targetId);
+    if (!sourceSlug || !targetSlug) continue;
+    edges.push({
+      sourceSlug,
+      targetSlug,
+      type: r.type,
+      directed: r.directed,
+      note: r.note || "",
+      verified: r.verified,
+    });
+  }
+  return edges;
+}
+
+async function buildSeedPlan(
+  db: Db,
+  parsedInScope: ParsedRyan[],
+): Promise<{ plan: SeedPlan; slugToId: Map<string, number> }> {
+  const slugToId = await loadSlugToId(db);
+  const idToSlug = new Map([...slugToId.entries()].map(([s, id]) => [id, s]));
+
+  const ryansInsert: string[] = [];
+  const ryansUpdate: string[] = [];
+  for (const p of parsedInScope) {
+    if (slugToId.has(p.slug)) ryansUpdate.push(p.slug);
+    else ryansInsert.push(p.slug);
+  }
+
+  const scopedSourceSlugs = new Set(parsedInScope.map((p) => p.slug));
+  // New inserts are not in slugToId yet; relationship planning only needs
+  // existing DB edges for sources that already have ids.
+  const scopedSourceIds = [...scopedSourceSlugs]
+    .map((s) => slugToId.get(s))
+    .filter((id): id is number => id != null);
+
+  const existing = await loadExistingRelationships(db, idToSlug, scopedSourceIds);
+  // Targets being inserted in this same run are not in slugToId yet — mark them
+  // provisionally so desired edges between new Ryans are not skipped.
+  const provisional = new Map(slugToId);
+  for (const slug of ryansInsert) provisional.set(slug, -1);
+  const { desired, skipMissingTarget } = collectDesiredRelationships(
+    parsedInScope,
+    provisional,
+  );
+
+  const { relInsert, relUpdate, relDelete } = planRelationshipOps(
+    desired,
+    existing,
+    scopedSourceSlugs,
+  );
+
+  return {
+    plan: {
+      ryansInsert,
+      ryansUpdate,
+      relInsert,
+      relUpdate,
+      relDelete,
+      relSkipMissingTarget: skipMissingTarget,
+    },
+    slugToId,
+  };
 }
 
 async function upsertTag(
-  db: ReturnType<typeof createDb>["db"],
+  db: Db,
   slug: string,
-  apply: boolean,
-): Promise<number | null> {
+): Promise<number> {
   const label = tagLabel(slug);
-  if (!apply) return null;
   const existing = await db.select().from(tags).where(eq(tags.slug, slug)).limit(1);
   if (existing[0]) return existing[0].id;
   const inserted = await db
@@ -47,13 +321,11 @@ async function upsertTag(
 }
 
 async function upsertOrg(
-  db: ReturnType<typeof createDb>["db"],
+  db: Db,
   name: string,
   url: string,
-  apply: boolean,
-): Promise<number | null> {
+): Promise<number> {
   const slug = slugify(name);
-  if (!apply) return null;
   const existing = await db
     .select()
     .from(organizations)
@@ -68,11 +340,9 @@ async function upsertOrg(
 }
 
 async function upsertSource(
-  db: ReturnType<typeof createDb>["db"],
+  db: Db,
   src: ParsedRyan["sources"][number],
-  apply: boolean,
-): Promise<number | null> {
-  if (!apply) return null;
+): Promise<number> {
   const existing = await db
     .select()
     .from(sources)
@@ -111,7 +381,6 @@ async function upsertSource(
 
 async function syncFts(
   client: ReturnType<typeof createDb>["client"],
-  _ryanId: number,
   row: {
     slug: string;
     name: string;
@@ -132,10 +401,9 @@ async function syncFts(
 }
 
 async function importRyan(
-  db: ReturnType<typeof createDb>["db"],
+  db: Db,
   client: ReturnType<typeof createDb>["client"],
   parsed: ParsedRyan,
-  apply: boolean,
   slugToId: Map<string, number>,
 ) {
   const now = new Date().toISOString();
@@ -165,12 +433,6 @@ async function importRyan(
     updatedAt: now,
   };
 
-  console.log(
-    `${apply ? "UPSERT" : "DRY"} ${parsed.slug} status=${parsed.status} tags=${parsed.clusters.join(",") || "-"} sources=${parsed.sources.length}`,
-  );
-
-  if (!apply) return;
-
   const existing = await db
     .select({ id: ryans.id })
     .from(ryans)
@@ -195,24 +457,20 @@ async function importRyan(
   slugToId.set(parsed.slug, ryanId);
 
   for (const cluster of parsed.clusters) {
-    const tagId = await upsertTag(db, cluster, true);
-    if (tagId != null) {
-      await db.insert(ryanTags).values({ ryanId, tagId }).onConflictDoNothing();
-    }
+    const tagId = await upsertTag(db, cluster);
+    await db.insert(ryanTags).values({ ryanId, tagId }).onConflictDoNothing();
   }
 
   for (const org of parsed.organizations) {
-    const orgId = await upsertOrg(db, org.name, org.url, true);
-    if (orgId != null) {
-      await db.insert(ryanOrganizations).values({
-        ryanId,
-        organizationId: orgId,
-        role: org.role || null,
-        startYear: org.start,
-        endYear: org.end,
-        note: org.note || null,
-      });
-    }
+    const orgId = await upsertOrg(db, org.name, org.url);
+    await db.insert(ryanOrganizations).values({
+      ryanId,
+      organizationId: orgId,
+      role: org.role || null,
+      startYear: org.start,
+      endYear: org.end,
+      note: org.note || null,
+    });
   }
 
   for (const edu of parsed.education) {
@@ -225,11 +483,9 @@ async function importRyan(
     });
   }
 
-  const footnoteToSourceId = new Map<number, number>();
   for (const src of parsed.sources) {
-    const sourceId = await upsertSource(db, src, true);
-    if (sourceId != null && src.n != null) {
-      footnoteToSourceId.set(src.n, sourceId);
+    const sourceId = await upsertSource(db, src);
+    if (src.n != null) {
       await db.insert(citations).values({
         sourceId,
         ryanId,
@@ -240,96 +496,110 @@ async function importRyan(
     }
   }
 
-  await syncFts(client, ryanId, {
+  await syncFts(client, {
     slug: parsed.slug,
     name: parsed.name,
     short: parsed.short,
     title: parsed.title,
     bodyMd: parsed.bodyMd,
   });
-
-  // Stash pending relationships on the object for pass 2
-  (parsed as ParsedRyan & { _ryanId: number; _footnoteMap: Map<number, number> })._ryanId =
-    ryanId;
-  (
-    parsed as ParsedRyan & { _footnoteMap: Map<number, number> }
-  )._footnoteMap = footnoteToSourceId;
 }
 
-async function importRelationships(
-  db: ReturnType<typeof createDb>["db"],
-  parsedList: ParsedRyan[],
+async function applyRelationshipPlan(
+  db: Db,
+  plan: SeedPlan,
   slugToId: Map<string, number>,
-  apply: boolean,
 ) {
-  for (const parsed of parsedList) {
-    const sourceId = slugToId.get(parsed.slug);
-    if (!sourceId) continue;
-    for (const rel of parsed.relationships) {
-      const targetId = slugToId.get(rel.target);
-      if (!targetId) {
-        console.log(
-          `  queue relationship ${parsed.slug} -> ${rel.target} (${rel.type}) — target missing`,
-        );
-        continue;
-      }
-      console.log(
-        `${apply ? "REL" : "DRY-REL"} ${parsed.slug} -[${rel.type}]-> ${rel.target}`,
+  for (const e of plan.relDelete) {
+    const sourceId = slugToId.get(e.sourceSlug);
+    const targetId = slugToId.get(e.targetSlug);
+    if (sourceId == null || targetId == null) continue;
+    await db
+      .delete(relationships)
+      .where(
+        and(
+          eq(relationships.sourceId, sourceId),
+          eq(relationships.targetId, targetId),
+          eq(relationships.type, e.type),
+        ),
       );
-      if (!apply) continue;
+  }
 
-      await db
-        .insert(relationships)
-        .values({
-          sourceId,
-          targetId,
-          type: rel.type,
-          directed: rel.directed,
-          note: rel.note || null,
-          verified: rel.verified,
-        })
-        .onConflictDoUpdate({
-          target: [
-            relationships.sourceId,
-            relationships.targetId,
-            relationships.type,
-          ],
-          set: {
-            directed: rel.directed,
-            note: rel.note || null,
-            verified: rel.verified,
-          },
-        });
+  const upserts = [...plan.relInsert, ...plan.relUpdate];
+  for (const e of upserts) {
+    const sourceId = slugToId.get(e.sourceSlug);
+    const targetId = slugToId.get(e.targetSlug);
+    if (sourceId == null || targetId == null) {
+      console.log(
+        `  skip relationship ${e.sourceSlug} -> ${e.targetSlug} (${e.type}) — id unresolved`,
+      );
+      continue;
     }
+    await db
+      .insert(relationships)
+      .values({
+        sourceId,
+        targetId,
+        type: e.type,
+        directed: e.directed,
+        note: e.note || null,
+        verified: e.verified,
+      })
+      .onConflictDoUpdate({
+        target: [
+          relationships.sourceId,
+          relationships.targetId,
+          relationships.type,
+        ],
+        set: {
+          directed: e.directed,
+          note: e.note || null,
+          verified: e.verified,
+        },
+      });
   }
 }
 
 async function main() {
-  const apply = hasFlag("--apply");
-  const parsedList = await parseAllRyans();
+  const opts = parseSeedArgs();
+  const allParsed = await parseAllRyans();
+  const parsedInScope = filterParsedRyans(allParsed, opts.onlySlugs);
 
   console.log(
-    `Parsed ${parsedList.length} markdown files. Mode: ${apply ? "APPLY" : "DRY-RUN"}`,
+    `Parsed ${allParsed.length} markdown files; seeding ${parsedInScope.length}. Mode: ${opts.apply ? "APPLY" : "DRY-RUN"}`,
   );
   console.log(
-    `  published=${parsedList.filter((p) => p.status === "published").length} draft=${parsedList.filter((p) => p.status === "draft").length}`,
+    `  in-scope published=${parsedInScope.filter((p) => p.status === "published").length} draft=${parsedInScope.filter((p) => p.status === "draft").length}`,
   );
-
-  if (!apply) {
-    for (const p of parsedList) {
-      console.log(
-        `DRY ${p.slug} status=${p.status} clusters=${p.clusters.join("|") || "-"} rels=${p.relationships.length}`,
-      );
-    }
-    console.log("Dry-run complete. Re-run with --apply to write.");
-    return;
-  }
 
   const { db, client } = createDb();
-  await applyParsedRyans(db, client, parsedList);
+  try {
+    const { plan, slugToId } = await buildSeedPlan(db, parsedInScope);
 
-  console.log(`Applied ${parsedList.length} Ryans to ${process.env.LIBSQL_URL}`);
-  await invalidateCdnCache();
+    for (const line of formatSeedPlan(plan, opts)) {
+      console.log(line);
+    }
+
+    if (!opts.apply) {
+      console.log("");
+      console.log("Dry-run complete (no writes). Re-run with --apply to write.");
+      return;
+    }
+
+    // Never wipe relationships wholesale — only mutate edges for scoped sources.
+    for (const parsed of parsedInScope) {
+      await importRyan(db, client, parsed, slugToId);
+    }
+    await applyRelationshipPlan(db, plan, slugToId);
+
+    console.log("");
+    console.log(
+      `Applied ${parsedInScope.length} Ryan(s) to ${process.env.LIBSQL_URL}`,
+    );
+    await invalidateCdnCache();
+  } finally {
+    client.close();
+  }
 }
 
 /** Parse every ryans/*.md file, sorted by filename. */
@@ -346,21 +616,24 @@ export async function parseAllRyans(): Promise<ParsedRyan[]> {
   return parsedList;
 }
 
-/** Upsert parsed Ryans + relationships into a migrated database. */
+/**
+ * Upsert parsed Ryans + relationships into a migrated database.
+ * Optional `onlySlugs` limits which Ryans (and their outgoing relationships)
+ * are replaced. Relationships for Ryans outside the scope are never deleted.
+ */
 export async function applyParsedRyans(
-  db: ReturnType<typeof createDb>["db"],
+  db: Db,
   client: ReturnType<typeof createDb>["client"],
   parsedList: ParsedRyan[],
+  onlySlugs: string[] | null = null,
 ) {
-  const slugToId = new Map<string, number>();
+  const parsedInScope = filterParsedRyans(parsedList, onlySlugs);
+  const { plan, slugToId } = await buildSeedPlan(db, parsedInScope);
 
-  // Clear relationship edges before re-import so stale links do not linger
-  await db.delete(relationships);
-
-  for (const parsed of parsedList) {
-    await importRyan(db, client, parsed, true, slugToId);
+  for (const parsed of parsedInScope) {
+    await importRyan(db, client, parsed, slugToId);
   }
-  await importRelationships(db, parsedList, slugToId, true);
+  await applyRelationshipPlan(db, plan, slugToId);
 }
 
 /**

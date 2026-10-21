@@ -44,9 +44,10 @@ Never ship these to the browser. See `.env.example`.
 bun install
 export LIBSQL_URL=file:./.data/local.db
 bun run db:migrate
-bun run db:seed            # dry-run
+bun run db:seed            # dry-run (reads DB; lists insert/update/delete)
 bun run db:seed -- --apply # write to local db
 bun run build:data         # the frontend only needs this
+bun run test               # unit tests (bun:test)
 bun run dev                # static + /api on :4173
 ```
 
@@ -69,8 +70,22 @@ Successful GETs send `Cache-Control: public, s-maxage=3600, stale-while-revalida
 **Recommended: CLI import** (implemented). One writer, same Drizzle schema as the API, no multi-writer replication.
 
 ```bash
+# Dry-run against LIBSQL_URL (read-only): prints exact INSERT/UPDATE/DELETE plan
+bun run db:seed
+
+# Full apply: upsert every ryans/*.md Ryan; replace their child rows + outgoing relationships
 bun run db:seed -- --apply
+
+# Incremental: only these slugs (and their tags/orgs/education/citations + outgoing relationships)
+bun run db:seed -- --only=slug1,slug2
+bun run db:seed -- --only=slug1,slug2 --apply
 ```
+
+### Seed safety
+
+- **`--only=slug,…`** — when set, only those Ryans are deleted/reinserted for child tables (`ryan_tags`, `ryan_organizations`, `education`, `citations`). All other Ryans are untouched.
+- **Relationships are never wiped wholesale.** The CLI upserts edges from Markdown (insert if missing, update if fields changed) and only deletes stale outgoing edges whose **source** Ryan is in scope (`--only` set, or every repo Ryan when `--only` is omitted). Relationships for Ryans that exist in the DB but are outside scope (or not in the repo) are left alone.
+- **Dry-run** always connects to `LIBSQL_URL` and lists every ryan/relationship insert, update, and delete before any write.
 
 After `--apply`, the seed script tries a Vercel CDN purge of `/api/*` when `VERCEL_TOKEN` + `VERCEL_PROJECT_ID` are set. The public pages read `data/api/`, so also run `bun run build:data` and commit.
 

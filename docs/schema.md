@@ -2,6 +2,8 @@
 
 Authoring format remains Markdown + YAML frontmatter in `ryans/*.md`.
 The single-writer CLI (`bun run db:seed -- --apply`) upserts into libSQL.
+Use `--only=slug1,slug2` for incremental seeding; relationships are upserted and
+only outgoing edges for in-scope sources are replaced (never a wholesale wipe).
 The public Hono API is **read-only** and only returns `status = 'published'`.
 
 Drizzle source of truth: `db/schema.ts`  

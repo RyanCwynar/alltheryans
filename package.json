@@ -9,6 +9,7 @@
     "db:migrate": "bun run scripts/migrate.ts",
     "db:seed": "bun run scripts/seed.ts",
     "dev": "bun run scripts/dev-server.ts",
+    "test": "bun test scripts/",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
