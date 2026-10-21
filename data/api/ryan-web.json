@@ -320,6 +320,17 @@
       "photo": ""
     },
     {
+      "id": "ryangrowthh",
+      "slug": "ryangrowthh",
+      "name": "Ryan (@ryangrowthh)",
+      "number": 6,
+      "clusters": [
+        "creator",
+        "media"
+      ],
+      "photo": "/images/ryans/ryangrowthh.jpg"
+    },
+    {
       "id": "seacrest",
       "slug": "seacrest",
       "name": "Ryan Seacrest",

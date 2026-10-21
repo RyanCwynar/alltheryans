@@ -3,9 +3,46 @@
     "slug": "creator",
     "label": "Creator Ryans",
     "kind": "cluster",
-    "count": 3
+    "count": 4
   },
   "ryans": [
+    {
+      "id": 29,
+      "slug": "ryangrowthh",
+      "name": "Ryan (@ryangrowthh)",
+      "number": 6,
+      "short": "X growth marketer",
+      "title": "Marketer; distribution for @milesdeutscher and @aiedge_",
+      "photo": "/images/ryans/ryangrowthh.jpg",
+      "photo_credit": "X profile photo of @ryangrowthh",
+      "photo_license": "",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": null,
+      "website": "",
+      "lead_summary": "**Ryan**, who posts on X as **@ryangrowthh**, is a marketer based in Seattle, Washington [1]. His X bio describes him as a \"marketing guy who builds big brands\" and says he is \"building mass distribution\" for @milesdeutscher and @aiedge_ [1]. His X account was created in May 2026 [1].",
+      "occupations": [
+        "marketer"
+      ],
+      "known_for": [
+        "Growth marketing on X",
+        "Using Grok Bot for X content, about 2M views in his first two weeks on X (his figure)"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "ryangrowthh",
+          "url": "https://x.com/ryangrowthh"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "creator",
+        "media"
+      ],
+      "connection_count": 0
+    },
     {
       "id": 16,
       "slug": "higa",
@@ -74,7 +111,7 @@
       "connection_count": 0
     },
     {
-      "id": 35,
+      "id": 36,
       "slug": "trahan",
       "name": "Ryan Trahan",
       "number": null,
