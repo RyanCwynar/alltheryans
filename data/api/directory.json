@@ -1,6 +1,43 @@
 {
-  "count": 34,
+  "count": 35,
   "ryans": [
+    {
+      "id": 29,
+      "slug": "ryangrowthh",
+      "name": "Ryan (@ryangrowthh)",
+      "number": 6,
+      "short": "X growth marketer",
+      "title": "Marketer; distribution for @milesdeutscher and @aiedge_",
+      "photo": "/images/ryans/ryangrowthh.jpg",
+      "photo_credit": "X profile photo of @ryangrowthh",
+      "photo_license": "",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": null,
+      "website": "",
+      "lead_summary": "**Ryan**, who posts on X as **@ryangrowthh**, is a marketer based in Seattle, Washington [1]. His X bio describes him as a \"marketing guy who builds big brands\" and says he is \"building mass distribution\" for @milesdeutscher and @aiedge_ [1]. His X account was created in May 2026 [1].",
+      "occupations": [
+        "marketer"
+      ],
+      "known_for": [
+        "Growth marketing on X",
+        "Using Grok Bot for X content, about 2M views in his first two weeks on X (his figure)"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "ryangrowthh",
+          "url": "https://x.com/ryangrowthh"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "creator",
+        "media"
+      ],
+      "connection_count": 0
+    },
     {
       "id": 2,
       "slug": "anderson",
@@ -1058,7 +1095,7 @@
       "connection_count": 2
     },
     {
-      "id": 29,
+      "id": 30,
       "slug": "seacrest",
       "name": "Ryan Seacrest",
       "number": null,
@@ -1101,7 +1138,7 @@
       "connection_count": 2
     },
     {
-      "id": 30,
+      "id": 31,
       "slug": "selkis",
       "name": "Ryan Selkis",
       "number": null,
@@ -1142,7 +1179,7 @@
       "connection_count": 0
     },
     {
-      "id": 31,
+      "id": 32,
       "slug": "serhant",
       "name": "Ryan Serhant",
       "number": null,
@@ -1187,7 +1224,7 @@
       "connection_count": 3
     },
     {
-      "id": 32,
+      "id": 33,
       "slug": "shazier",
       "name": "Ryan Shazier",
       "number": null,
@@ -1230,7 +1267,7 @@
       "connection_count": 3
     },
     {
-      "id": 33,
+      "id": 34,
       "slug": "smith",
       "name": "Ryan Smith",
       "number": null,
@@ -1264,7 +1301,7 @@
       "connection_count": 0
     },
     {
-      "id": 34,
+      "id": 35,
       "slug": "tedder",
       "name": "Ryan Tedder",
       "number": null,
@@ -1299,7 +1336,7 @@
       "connection_count": 0
     },
     {
-      "id": 35,
+      "id": 36,
       "slug": "trahan",
       "name": "Ryan Trahan",
       "number": null,
@@ -1369,14 +1406,20 @@
       "count": 5
     },
     {
+      "slug": "creator",
+      "label": "Creator Ryans",
+      "kind": "cluster",
+      "count": 4
+    },
+    {
       "slug": "investor",
       "label": "Investor Ryans",
       "kind": "cluster",
       "count": 4
     },
     {
-      "slug": "creator",
-      "label": "Creator Ryans",
+      "slug": "media",
+      "label": "Media Ryans",
       "kind": "cluster",
       "count": 3
     },
@@ -1419,12 +1462,6 @@
     {
       "slug": "logistics",
       "label": "Logistics Ryans",
-      "kind": "cluster",
-      "count": 2
-    },
-    {
-      "slug": "media",
-      "label": "Media Ryans",
       "kind": "cluster",
       "count": 2
     },
