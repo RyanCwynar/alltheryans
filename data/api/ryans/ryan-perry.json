@@ -1,0 +1,184 @@
+{
+  "ryan": {
+    "id": 32,
+    "slug": "ryan-perry",
+    "name": "Ryan Perry",
+    "number": null,
+    "short": "Pyroscope co-founder; run",
+    "title": "Senior Field Engineer at SpaceXAI; co-founder of Pyroscope",
+    "photo": "",
+    "photo_credit": "",
+    "photo_license": "",
+    "birth_year_min": null,
+    "birth_year_max": null,
+    "birth_place": null,
+    "website": "https://ryanperry.io",
+    "lead_summary": "**Ryan Perry** is a software engineer and founder. He co-founded Pyroscope, an open-source continuous profiling project that Grafana Labs acquired in March 2023 [1][5][7]. He is a Senior Field Engineer at SpaceXAI and has written about running his mobile game Rank'em with a team of Grok Bot agents [1][2][3].",
+    "occupations": [
+      "software-engineer",
+      "entrepreneur"
+    ],
+    "known_for": [
+      "Co-founding Pyroscope, acquired by Grafana Labs in 2023",
+      "Rank'em, a mobile game run by a team of Grok Bot agents"
+    ],
+    "social": [
+      {
+        "platform": "github",
+        "handle": "rperry2174",
+        "url": "https://github.com/rperry2174"
+      }
+    ],
+    "featured_on": null,
+    "status": "published",
+    "clusters": [
+      "founder",
+      "tech",
+      "open-source",
+      "engineer"
+    ],
+    "connection_count": 0,
+    "birth": {
+      "date": null,
+      "year_min": null,
+      "year_max": null,
+      "place": null
+    },
+    "death": null,
+    "body_md": "# Ryan Perry\n\n**Ryan Perry** is a software engineer and founder. He co-founded Pyroscope, an open-source continuous profiling project that Grafana Labs acquired in March 2023 [1][5][7]. He is a Senior Field Engineer at SpaceXAI and has written about running his mobile game Rank'em with a team of Grok Bot agents [1][2][3].\n\n## Career\n\nPerry's site lists 2014 as the year of his first tech job [1]. He writes that his first software engineering job was at Sensor Tower, a mobile app analytics company, and that he later worked at Lion Studios, part of AppLovin [2]. His writing index includes a 2019 post about a coding bootcamp he attended [1]. Y Combinator's profile says he worked at Sensor Tower and Lion Studios in software engineering, product and data engineering roles [6].\n\n### Pyroscope and Grafana Labs\n\nPerry and Dmitry Filimonov founded Pyroscope in 2021 [5]. It went through Y Combinator's Winter 2021 batch [6]. Grafana Labs announced the acquisition on March 15, 2023, and merged it with Grafana Phlare under the name Grafana Pyroscope [5][7]. TechCrunch quoted Perry as co-founder and CEO of Pyroscope [7]. Perry's site lists his roles as Pyroscope CEO and co-founder, then Principal Emerging Products Manager at Grafana Labs [1].\n\n### SpaceXAI and Rank'em\n\nPerry is a Senior Field Engineer at SpaceXAI (Luma lists the company as SpaceXSI) and has presented Grok Bot workshops, including one on pairing Grok Bot with Cursor cloud agents [1][8]. His site lists two live games: Rank'em, a party game where players rank a topic, and Clue Rush, a trivia game [1].\n\nIn an August 25, 2026, post, Perry described six bots that run Rank'em: an orchestrator that owns the App Store and Google Play listings, plus analytics, ad creative, app engineering, infrastructure and bug-fix bots [2][3]. Each has its own cloud computer, routines and connected accounts, and they hand work to each other [3]. He wrote that the game had just passed 1,000 downloads across iOS and Android over the previous week [3]. He credited the bots with cutting cost per install from $15 to about $1 after switching to an ad aimed at couples, and with about a 4x improvement in day-7 retention after a hint feature shipped [3]. His own blog version calls the retention gain \"projected\" and the cost-per-install gain \"measured\" [2].\n\nAn October 2026 post on X by @diamai_, summarizing a talk Perry gave on the official Grok channel, quoted him saying a team of bots had run the app \"totally autonomously for the past, I think probably like 2 months,\" and said the app was at about 10,000 downloads [4]. The 10,000 figure comes from that post and was not found in Perry's own writing.\n\n## See also\n\n- Engineer Ryans: [Ryan Florence](./ryan-florence)\n\n## References\n\n1. \"Ryan Perry.\" ryanperry.io, accessed Oct 21, 2026. https://ryanperry.io\n2. Perry, Ryan. \"How I'm Using Grok Bot to Build a Mobile Game Studio.\" ryanperry.io, Aug 25, 2026. https://ryanperry.io/post/grokbot-mobile-app-lifecycle\n3. Perry, Ryan. \"Grok Bot for mobile app development.\" xAI Grok Bot Guides, Aug 25, 2026. https://x.ai/bot/guides/grok-bot-for-mobile-app-development\n4. @diamai_. Post on X, Oct 2026. https://x.com/diamai_/status/2112894215503884483\n5. \"Grafana Labs Acquires Pyroscope.\" Grafana Labs, Mar 15, 2023. https://grafana.com/press/2023/03/15/grafana-labs-acquires-pyroscope-the-company-behind-the-popular-open-source-continuous-profiling-project/\n6. \"Pyroscope.\" Y Combinator. https://www.ycombinator.com/companies/pyroscope\n7. \"Grafana acquires Pyroscope and merges it with its Phlare continuous profiling database.\" TechCrunch, Mar 15, 2023. https://techcrunch.com/2023/03/15/grafana-acquires-pyroscope-and-merges-it-with-its-phlare-continuous-profiling-database/\n8. \"Ship Code at Scale with Grok Bot and Cursor.\" Luma. https://luma.com/k4ayeisf\n\n<!-- VERIFICATION LOG (2026-10-21, full-read pass)\nIDENTITY: same person across sources: @diamai_ post names Ryan Perry, SpaceXSI engineer, bots running his mobile app [4]; ryanperry.io and x.ai guide (same author) describe the Rank'em bot team [1][2][3]; Luma lists Ryan Perry, Senior Field Engineer [8]; YC and Grafana list him as Pyroscope co-founder [5][6][7], and YC's bio matches the Sensor Tower/Lion Studios history in [2].\nREAD in full: [1]-[8] (blog [2] via WebFetch; [4] via api.fxtwitter.com).\nFIXED: 1,000 downloads is \"over the past week\" [3]; the 4x D7 figure is \"projected\" in his blog [2] and stated as achieved in the guide [3], so both are noted. \"co-founded with Filimonov\" now cited to Grafana [5], founding year 2021.\nATTRIBUTED: ~10,000 downloads and \"2 months autonomous\" come only from the @diamai_ post [4].\nCUT: birth date/place, nationality, education specifics, the $2.4M funding figure (self-reported on [1]), \"90% of bots shared\" (clip post only), X handle (not found).\nCONFLICT-OF-INTEREST NOTE: Perry works on the product that runs this series' bots; keep page neutral.\n-->",
+    "education": [],
+    "organizations": [
+      {
+        "name": "Sensor Tower",
+        "url": null,
+        "role": "Software engineer",
+        "start": null,
+        "end": null,
+        "note": null
+      },
+      {
+        "name": "Lion Studios (AppLovin)",
+        "url": null,
+        "role": null,
+        "start": null,
+        "end": null,
+        "note": null
+      },
+      {
+        "name": "Pyroscope",
+        "url": null,
+        "role": "Co-founder and CEO",
+        "start": null,
+        "end": 2023,
+        "note": null
+      },
+      {
+        "name": "Grafana Labs",
+        "url": null,
+        "role": "Principal Emerging Products Manager",
+        "start": 2023,
+        "end": null,
+        "note": null
+      },
+      {
+        "name": "SpaceXAI",
+        "url": null,
+        "role": "Senior Field Engineer",
+        "start": null,
+        "end": null,
+        "note": null
+      }
+    ],
+    "relationships": [],
+    "sources": [
+      {
+        "n": 1,
+        "title": "Ryan Perry (home page)",
+        "publisher": "ryanperry.io",
+        "author": "",
+        "date": "2026-10-21",
+        "url": "https://ryanperry.io",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": ""
+      },
+      {
+        "n": 2,
+        "title": "How I'm Using Grok Bot to Build a Mobile Game Studio",
+        "publisher": "ryanperry.io",
+        "author": "",
+        "date": "2026-08-25",
+        "url": "https://ryanperry.io/post/grokbot-mobile-app-lifecycle",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": ""
+      },
+      {
+        "n": 3,
+        "title": "Grok Bot for mobile app development",
+        "publisher": "xAI Grok Bot Guides",
+        "author": "",
+        "date": "2026-08-25",
+        "url": "https://x.ai/bot/guides/grok-bot-for-mobile-app-development",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": ""
+      },
+      {
+        "n": 4,
+        "title": "Post on Ryan Perry's Grok channel talk",
+        "publisher": "@diamai_ on X",
+        "author": "",
+        "date": "2026-10",
+        "url": "https://x.com/diamai_/status/2112894215503884483",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": ""
+      },
+      {
+        "n": 5,
+        "title": "Grafana Labs Acquires Pyroscope",
+        "publisher": "Grafana Labs",
+        "author": "",
+        "date": "2023-03-15",
+        "url": "https://grafana.com/press/2023/03/15/grafana-labs-acquires-pyroscope-the-company-behind-the-popular-open-source-continuous-profiling-project/",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": ""
+      },
+      {
+        "n": 6,
+        "title": "Pyroscope",
+        "publisher": "Y Combinator",
+        "author": "",
+        "date": "",
+        "url": "https://www.ycombinator.com/companies/pyroscope",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": ""
+      },
+      {
+        "n": 7,
+        "title": "Grafana acquires Pyroscope and merges it with its Phlare continuous profiling database",
+        "publisher": "TechCrunch",
+        "author": "",
+        "date": "2023-03-15",
+        "url": "https://techcrunch.com/2023/03/15/grafana-acquires-pyroscope-and-merges-it-with-its-phlare-continuous-profiling-database/",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": ""
+      },
+      {
+        "n": 8,
+        "title": "Ship Code at Scale with Grok Bot and Cursor",
+        "publisher": "Luma",
+        "author": "",
+        "date": "",
+        "url": "https://luma.com/k4ayeisf",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": ""
+      }
+    ]
+  }
+}

@@ -17,6 +17,13 @@ Checked-in SQL: `drizzle/0000_init.sql`
 - `sources` / `citations` — footnotes
 - `ryans_fts` — FTS5 mirror maintained by the seed CLI
 
+## Clusters (controlled vocabulary)
+
+Frontmatter `clusters:` values are tag slugs. Prefer this list; new sport/field tags need an entry here (and a friendly label in `db/serialize.ts` `tagLabel` when the default title-case is wrong).
+
+- Core: `actor`, `athlete`, `author`, `business`, `creator`, `engineer`, `entertainment`, `founder`, `investor`, `media`, `musician`, `producer`, `tech`
+- Fields: `3d-printing`, `boxing`, `crypto`, `education`, `film`, `fintech`, `football`, `hardware`, `hockey`, `latin`, `legal-tech`, `logistics`, `mlb`, `motorsport`, `music`, `nfl`, `open-source`, `philosophy`, `radio`, `real-estate`, `retail`, `sales`, `sports`, `television`, `tv`, `youtube`
+
 ## Env (server only)
 
 - `LIBSQL_URL` — e.g. `https://alltheryans-db.byldr.co` or `file:./.data/local.db`

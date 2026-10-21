@@ -1,0 +1,155 @@
+{
+  "ryan": {
+    "id": 30,
+    "slug": "ryan-hemsworth",
+    "name": "Ryan Hemsworth",
+    "number": null,
+    "short": "Canadian producer; Juno w",
+    "title": "Canadian electronic music producer and DJ",
+    "photo": "",
+    "photo_credit": "",
+    "photo_license": "",
+    "birth_year_min": 1990,
+    "birth_year_max": 1990,
+    "birth_place": "Halifax, Nova Scotia, Canada",
+    "website": "https://ryanhemsworth.bandcamp.com",
+    "lead_summary": "**Ryan Hemsworth** (born April 23, 1990) is a Canadian DJ and record producer from Halifax, Nova Scotia [1]. His 2013 debut album *Guilt Trips* won the 2014 Juno Award for Electronic Album of the Year [1]. His album *Numbskull* was released on Topshelf Records on October 21, 2026 [2][4].",
+    "occupations": [
+      "record-producer",
+      "dj"
+    ],
+    "known_for": [
+      "Guilt Trips (2013)",
+      "Secret Songs label",
+      "Numbskull (2026)"
+    ],
+    "social": [
+      {
+        "platform": "x",
+        "handle": "ryanhemsworth",
+        "url": "https://x.com/ryanhemsworth"
+      }
+    ],
+    "featured_on": null,
+    "status": "published",
+    "clusters": [
+      "musician",
+      "producer"
+    ],
+    "connection_count": 0,
+    "birth": {
+      "date": "1990-04-23",
+      "year_min": 1990,
+      "year_max": 1990,
+      "place": "Halifax, Nova Scotia, Canada"
+    },
+    "death": null,
+    "body_md": "# Ryan Hemsworth\n\n**Ryan Hemsworth** (born April 23, 1990) is a Canadian DJ and record producer from Halifax, Nova Scotia [1]. His 2013 debut album *Guilt Trips* won the 2014 Juno Award for Electronic Album of the Year [1]. His album *Numbskull* was released on Topshelf Records on October 21, 2026 [2][4].\n\n## Early life and education\n\nHemsworth was raised in Halifax [1][6] and studied journalism at the University of King's College, according to Wikipedia [1].\n\n## Career\n\n### Guilt Trips and Secret Songs\n\nWikipedia lists his genres as electronic and hip-hop [1]. In 2011 he released *Distorted*, a collaborative album with Shady Blaze [1]. *Guilt Trips* came out on Last Gang Records in 2013 and won the Juno for Electronic Album of the Year in 2014 [1]. In 2014 he started Secret Songs, a label for music by friends and newer artists. Wikipedia lists Tennyson, GFOTY and Kero Kero Bonito among its releases [1].\n\nTopshelf's biography says he has worked with Alex G, Tinashe and Mitski over a 15-year span [3]. Wikipedia also lists *Alone for the First Time* (2014), *Elsewhere* (2018), the collaborative *Radio Active* (2022, with Bodysync and Giraffage) and *Nutty* (2024) [1].\n\n### Numbskull (2026)\n\nPitchfork reported on August 12, 2026, that Hemsworth had signed to Topshelf Records. Pitchfork and the label call *Numbskull* his first album, or first solo album, since *Elsewhere* in 2018, although Wikipedia lists *Nutty* (2024) as a studio album [1][3][5]. The lead single was \"One Step\" [5]. Sarah Tudzin of Illuminati Hotties sings on \"One Step\" [3][5]. Hemsworth said in a statement that the track started from \"old Three 6 Mafia tapes, and some old crunchy 90s UK rave stuff\" [5].\n\nThe album has 12 tracks and runs 28 minutes [2][4]. Guests include Nana Lourdes, MSPAINT, Tegan and Sara, and Allie [3][5]. The label describes influences from shoegaze, lo-fi and metal, and calls \"Never Learned,\" with Tegan and Sara, an emo track built on guitar and blast beats [3]. Topshelf says CDs and tapes are shipping and vinyl ships in early November 2026 [3]. Pitchfork reported that he would support George Clanton on tour in November 2026 [5].\n\n## Discography (selected)\n\n- *Guilt Trips* (2013) [1][6]\n- *Alone for the First Time* (2014) [1]\n- *Elsewhere* (2018) [1][5]\n- *Nutty* (2024) [1]\n- *Numbskull* (Topshelf, 2026) [2][3][4]\n\n## Public profile and social media\n\nHemsworth posts on X as @ryanhemsworth; the account bio reads \"numbskull\" [7].\n\n## Recognition\n\n- Juno Award, Electronic Album of the Year, 2014, for *Guilt Trips* [1].\n\n## See also\n\n- Musician Ryans: [Ryan Tedder](./ryan-tedder), [Ryan Bingham](./ryan-bingham)\n\n## References\n\n1. \"Ryan Hemsworth.\" Wikipedia. https://en.wikipedia.org/wiki/Ryan_Hemsworth\n2. \"Numbskull | Ryan Hemsworth.\" Bandcamp. https://ryanhemsworth.bandcamp.com/album/numbskull\n3. \"Ryan Hemsworth - Numbskull.\" Topshelf Records. https://www.topshelfrecords.com/products/876245-ryan-hemsworth-numbskull\n4. \"Numbskull - Album by Ryan Hemsworth.\" Apple Music. https://music.apple.com/us/album/numbskull/6786830517\n5. Mickles, Kiana. \"Ryan Hemsworth Signs to Topshelf for First Album in Eight Years.\" Pitchfork, Aug 12, 2026. https://pitchfork.com/story/ryan-hemsworth-signs-to-topshelf-for-first-album-in-eight-years-numbskull/\n6. \"Ryan Hemsworth: Born on the Internet.\" SPIN, Oct 2013. https://www.spinmagazine.com/2013/10/ryan-hemsworth-guilt-trips-profile/\n7. \"ryan (@ryanhemsworth).\" X, accessed Oct 21, 2026. https://x.com/ryanhemsworth\n\n<!-- VERIFICATION LOG (2026-10-21, full-read pass)\nREAD in full: [1] Wikipedia, [2] Bandcamp, [3] Topshelf product page, [4] Apple Music, [5] Pitchfork, [6] SPIN 2013 profile (Halifax, Guilt Trips release), [7] X profile via api.fxtwitter.com (bio \"numbskull\", ~36.8k followers; not verified-badged, but bio matches the new album).\nFIXED: \"first album since Elsewhere\" now attributed to Pitchfork/label; Wikipedia lists Nutty (2024) and Radio Active (2022, collab), so the claim is flagged as conflicting. Formats line narrowed to what the product page says. Genre line now matches Wikipedia (dropped \"sample-based ... R&B\" wording). Juno cited to Wikipedia only (SPIN predates it).\nADDED: Distorted (2011), Last Gang label, discography entries from [1].\nCUT: reviews of Numbskull (none on release day); follower counts in body.\n-->",
+    "education": [
+      {
+        "institution": "University of King's College",
+        "degree": null,
+        "field": "journalism",
+        "year": null
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Secret Songs",
+        "url": null,
+        "role": "Founder (label)",
+        "start": 2014,
+        "end": null,
+        "note": null
+      },
+      {
+        "name": "Topshelf Records",
+        "url": null,
+        "role": "Recording artist",
+        "start": 2026,
+        "end": null,
+        "note": null
+      }
+    ],
+    "relationships": [],
+    "sources": [
+      {
+        "n": 1,
+        "title": "Ryan Hemsworth",
+        "publisher": "Wikipedia",
+        "author": "",
+        "date": "",
+        "url": "https://en.wikipedia.org/wiki/Ryan_Hemsworth",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": ""
+      },
+      {
+        "n": 2,
+        "title": "Numbskull | Ryan Hemsworth",
+        "publisher": "Bandcamp",
+        "author": "",
+        "date": "2026-10-21",
+        "url": "https://ryanhemsworth.bandcamp.com/album/numbskull",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": ""
+      },
+      {
+        "n": 3,
+        "title": "Ryan Hemsworth - Numbskull",
+        "publisher": "Topshelf Records",
+        "author": "",
+        "date": "2026",
+        "url": "https://www.topshelfrecords.com/products/876245-ryan-hemsworth-numbskull",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": ""
+      },
+      {
+        "n": 4,
+        "title": "Numbskull - Album by Ryan Hemsworth",
+        "publisher": "Apple Music",
+        "author": "",
+        "date": "2026-10-21",
+        "url": "https://music.apple.com/us/album/numbskull/6786830517",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": ""
+      },
+      {
+        "n": 5,
+        "title": "Ryan Hemsworth Signs to Topshelf for First Album in Eight Years",
+        "publisher": "Pitchfork",
+        "author": "",
+        "date": "2026-08-12",
+        "url": "https://pitchfork.com/story/ryan-hemsworth-signs-to-topshelf-for-first-album-in-eight-years-numbskull/",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": ""
+      },
+      {
+        "n": 6,
+        "title": "Ryan Hemsworth: Born on the Internet",
+        "publisher": "SPIN",
+        "author": "",
+        "date": "2013-10",
+        "url": "https://www.spinmagazine.com/2013/10/ryan-hemsworth-guilt-trips-profile/",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": ""
+      },
+      {
+        "n": 7,
+        "title": "ryan (@ryanhemsworth) profile",
+        "publisher": "X",
+        "author": "",
+        "date": "2026-10-21",
+        "url": "https://x.com/ryanhemsworth",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": ""
+      }
+    ]
+  }
+}

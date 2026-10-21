@@ -1,0 +1,124 @@
+{
+  "ryan": {
+    "id": 26,
+    "slug": "ryan-cohen",
+    "name": "Ryan Cohen",
+    "number": null,
+    "short": "Chewy founder, chairman a",
+    "title": "Chairman and CEO of GameStop; co-founder of Chewy",
+    "photo": "",
+    "photo_credit": "",
+    "photo_license": "",
+    "birth_year_min": 1986,
+    "birth_year_max": 1986,
+    "birth_place": "Montreal, Quebec, Canada",
+    "website": "",
+    "lead_summary": "**Ryan Cohen** (born 1986, according to Wikipedia) is a Canadian businessman and investor. He co-founded the online pet retailer Chewy in 2011 and is chairman and chief executive of GameStop [1]. PetSmart bought Chewy in 2017 for $3.35 billion, which Fortune and Wikipedia describe as the largest e-commerce acquisition at the time [1][3].",
+    "occupations": [
+      "businessman",
+      "investor"
+    ],
+    "known_for": [
+      "Founding Chewy",
+      "$3.35 billion sale of Chewy to PetSmart",
+      "GameStop turnaround as chairman and CEO"
+    ],
+    "social": [
+      {
+        "platform": "x",
+        "handle": "ryancohen",
+        "url": "https://x.com/ryancohen"
+      }
+    ],
+    "featured_on": null,
+    "status": "published",
+    "clusters": [
+      "founder",
+      "investor",
+      "business"
+    ],
+    "connection_count": 0,
+    "birth": {
+      "date": null,
+      "year_min": 1986,
+      "year_max": 1986,
+      "place": "Montreal, Quebec, Canada"
+    },
+    "death": null,
+    "body_md": "# Ryan Cohen\n\n**Ryan Cohen** (born 1986, according to Wikipedia) is a Canadian businessman and investor. He co-founded the online pet retailer Chewy in 2011 and is chairman and chief executive of GameStop [1]. PetSmart bought Chewy in 2017 for $3.35 billion, which Fortune and Wikipedia describe as the largest e-commerce acquisition at the time [1][3].\n\n## Early life\n\nCohen was born in Montreal to a Jewish family. His mother was a teacher and his father, Ted Cohen, ran a glassware importing business [1][4]. He did not attend college, and he has named his father as his main influence [1][3]. According to Forbes, he started his first business at 15, collecting referral fees from e-commerce sites [4].\n\n## Career\n\n### Chewy (2011–2018)\n\nCohen founded the company as MrChewy in 2011, at 25 [1]. Cohen has said he pitched more than 100 venture capital firms and was turned down by all of them [1][3]. Wikipedia records a first outside investment of $15 million from Volition Capital in 2013 [1].\n\nPetSmart acquired Chewy in April 2017 for $3.35 billion [1][3]. Cohen stayed on as CEO, and Forbes says he grew annual revenue to $3.5 billion before stepping down in 2018 [4]. Chewy went public in June 2019 [1].\n\n### RC Ventures and Bed Bath & Beyond\n\nCohen founded the investment firm RC Ventures in 2019 [3]. Fortune reports that RC Ventures held just under 10% of Bed Bath & Beyond in 2022, then sold the stake later that year for a $68 million gain [3].\n\n### GameStop (2021–present)\n\nForbes reports that Cohen spent about $76 million on a 13% stake in GameStop in late 2020 [4]. He joined the board in January 2021 with two former Chewy executives and became chairman on June 9, 2021 [1][4]. He took over as CEO on September 28, 2023 [1]. Wikipedia reports that he receives no salary, cash bonus or time-vesting stock from GameStop [1]. Fortune reports that the board has promised him stock options worth up to $35 billion if the company's market value reaches about $100 billion [3].\n\nAs CEO he cut costs, closed stores and moved the company toward collectibles [1][3]. Fortune reports that full-time salaried staff fell from 11,000 in 2023 to 6,500 in 2025 and that the company held about $9 billion in cash [3]. In May 2026, Fortune reported that GameStop had made an unsolicited offer of about $56 billion for eBay [3].\n\n## Personal life\n\nForbes lists Cohen as married, a Canadian citizen, and a resident of Bal Harbour, Florida [4].\n\n## Public profile and social media\n\nCohen posts on X as @ryancohen, a verified account with about 486,000 followers as of October 21, 2026 [2].\n\n## Recognition\n\n- Fortune \"40 under 40\", 2017, according to Wikipedia [1].\n- Recode 100, 2017, according to Wikipedia [1].\n\n## See also\n\n- Founder Ryans: [Ryan Petersen](./ryan-petersen), [Ryan Serhant](./ryan-serhant)\n\n## References\n\n1. \"Ryan Cohen.\" Wikipedia. https://en.wikipedia.org/wiki/Ryan_Cohen\n2. \"Ryan Cohen (@ryancohen).\" X, accessed Oct 21, 2026. https://x.com/ryancohen\n3. \"GameStop's billionaire CEO created Chewy and is seeking to buy eBay for $56 billion.\" Fortune, May 5, 2026. https://fortune.com/2026/05/05/gamestop-billionaire-entrepreneur-ceo-ryan-cohen-chewy-cofounder-meme-stocks/\n4. \"Ryan Cohen.\" Forbes profile, updated Mar 10, 2026. https://www.forbes.com/profile/ryan-cohen/\n\n<!-- VERIFICATION LOG (2026-10-21, full-read pass)\nREAD in full: [1] Wikipedia (accepted rev. 7 Aug 2026), [3] Fortune, [4] Forbes profile, [2] X profile via api.fxtwitter.com (verified individual, ~486k followers).\nDROPPED: AP CEO article (fetch timed out twice) -> CEO date now cited to Wikipedia, which cites AP; AP \"no compensation\" line replaced by Wikipedia's no-salary statement. Reuters (401 paywall) -> Michael Day co-founder claim removed.\nADDED: $35B option package [3]; X handle [2].\nATTRIBUTED: birth year (Wikipedia 1986 vs Forbes age 41); 100 VC rejections is Cohen's account [1][3]; awards via Wikipedia [1].\nCUT: net worth; eBay bid outcome; 2026 record-profit figures; market-cap figures; Apple/Alibaba holdings.\n-->",
+    "education": [],
+    "organizations": [
+      {
+        "name": "Chewy",
+        "url": null,
+        "role": "Founder and CEO",
+        "start": 2011,
+        "end": 2018,
+        "note": null
+      },
+      {
+        "name": "RC Ventures",
+        "url": null,
+        "role": "Founder",
+        "start": 2019,
+        "end": null,
+        "note": null
+      },
+      {
+        "name": "GameStop",
+        "url": null,
+        "role": "Director (2021), chairman (2021), CEO (2023)",
+        "start": 2021,
+        "end": null,
+        "note": null
+      }
+    ],
+    "relationships": [],
+    "sources": [
+      {
+        "n": 1,
+        "title": "Ryan Cohen",
+        "publisher": "Wikipedia",
+        "author": "",
+        "date": "",
+        "url": "https://en.wikipedia.org/wiki/Ryan_Cohen",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": ""
+      },
+      {
+        "n": 2,
+        "title": "Ryan Cohen (@ryancohen) profile, verified",
+        "publisher": "X",
+        "author": "",
+        "date": "2026-10-21",
+        "url": "https://x.com/ryancohen",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": ""
+      },
+      {
+        "n": 3,
+        "title": "GameStop's billionaire CEO created Chewy and is seeking to buy eBay for $56 billion",
+        "publisher": "Fortune",
+        "author": "",
+        "date": "2026-05-05",
+        "url": "https://fortune.com/2026/05/05/gamestop-billionaire-entrepreneur-ceo-ryan-cohen-chewy-cofounder-meme-stocks/",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": ""
+      },
+      {
+        "n": 4,
+        "title": "Ryan Cohen profile",
+        "publisher": "Forbes",
+        "author": "",
+        "date": "2026-03-10",
+        "url": "https://www.forbes.com/profile/ryan-cohen/",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": ""
+      }
+    ]
+  }
+}

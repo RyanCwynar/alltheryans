@@ -41,6 +41,11 @@ export function tagLabel(slug: string): string {
     business: "Business Ryans",
     boxer: "Boxer Ryans",
     baseball: "Baseball Ryans",
+    hockey: "Hockey Ryans",
+    producer: "Producer Ryans",
+    motorsport: "Motorsport Ryans",
+    football: "Football Ryans",
+    "open-source": "Open-source Ryans",
   };
   return known[slug] ?? `${slug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())} Ryans`;
 }

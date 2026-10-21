@@ -1,0 +1,49 @@
+{
+  "tag": {
+    "slug": "musician",
+    "label": "Musician Ryans",
+    "kind": "cluster",
+    "count": 1
+  },
+  "ryans": [
+    {
+      "id": 30,
+      "slug": "ryan-hemsworth",
+      "name": "Ryan Hemsworth",
+      "number": null,
+      "short": "Canadian producer; Juno w",
+      "title": "Canadian electronic music producer and DJ",
+      "photo": "",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1990,
+      "birth_year_max": 1990,
+      "birth_place": "Halifax, Nova Scotia, Canada",
+      "website": "https://ryanhemsworth.bandcamp.com",
+      "lead_summary": "**Ryan Hemsworth** (born April 23, 1990) is a Canadian DJ and record producer from Halifax, Nova Scotia [1]. His 2013 debut album *Guilt Trips* won the 2014 Juno Award for Electronic Album of the Year [1]. His album *Numbskull* was released on Topshelf Records on October 21, 2026 [2][4].",
+      "occupations": [
+        "record-producer",
+        "dj"
+      ],
+      "known_for": [
+        "Guilt Trips (2013)",
+        "Secret Songs label",
+        "Numbskull (2026)"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "ryanhemsworth",
+          "url": "https://x.com/ryanhemsworth"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "musician",
+        "producer"
+      ],
+      "connection_count": 0
+    }
+  ]
+}
