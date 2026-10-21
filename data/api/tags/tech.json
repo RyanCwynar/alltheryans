@@ -3,7 +3,7 @@
     "slug": "tech",
     "label": "Tech Ryans",
     "kind": "cluster",
-    "count": 15
+    "count": 16
   },
   "ryans": [
     {
@@ -49,7 +49,7 @@
       "connection_count": 1
     },
     {
-      "id": 26,
+      "id": 28,
       "slug": "ryan-dunwoody",
       "name": "Ryan Dunwoody",
       "number": 2,
@@ -95,7 +95,7 @@
       "connection_count": 0
     },
     {
-      "id": 27,
+      "id": 29,
       "slug": "ryan-florence",
       "name": "Ryan Florence",
       "number": 4,
@@ -535,7 +535,47 @@
       "connection_count": 0
     },
     {
-      "id": 31,
+      "id": 32,
+      "slug": "ryan-perry",
+      "name": "Ryan Perry",
+      "number": null,
+      "short": "Pyroscope co-founder; run",
+      "title": "Senior Field Engineer at SpaceXAI; co-founder of Pyroscope",
+      "photo": "",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": null,
+      "website": "https://ryanperry.io",
+      "lead_summary": "**Ryan Perry** is a software engineer and founder. He co-founded Pyroscope, an open-source continuous profiling project that Grafana Labs acquired in March 2023 [1][5][7]. He is a Senior Field Engineer at SpaceXAI and has written about running his mobile game Rank'em with a team of Grok Bot agents [1][2][3].",
+      "occupations": [
+        "software-engineer",
+        "entrepreneur"
+      ],
+      "known_for": [
+        "Co-founding Pyroscope, acquired by Grafana Labs in 2023",
+        "Rank'em, a mobile game run by a team of Grok Bot agents"
+      ],
+      "social": [
+        {
+          "platform": "github",
+          "handle": "rperry2174",
+          "url": "https://github.com/rperry2174"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "tech",
+        "open-source",
+        "engineer"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 35,
       "slug": "selkis",
       "name": "Ryan Selkis",
       "number": null,
@@ -576,7 +616,7 @@
       "connection_count": 0
     },
     {
-      "id": 34,
+      "id": 38,
       "slug": "smith",
       "name": "Ryan Smith",
       "number": null,

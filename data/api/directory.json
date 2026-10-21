@@ -1,8 +1,8 @@
 {
-  "count": 35,
+  "count": 39,
   "ryans": [
     {
-      "id": 29,
+      "id": 33,
       "slug": "ryangrowthh",
       "name": "Ryan (@ryangrowthh)",
       "number": 6,
@@ -266,6 +266,46 @@
       "connection_count": 0
     },
     {
+      "id": 26,
+      "slug": "ryan-cohen",
+      "name": "Ryan Cohen",
+      "number": null,
+      "short": "Chewy founder, chairman a",
+      "title": "Chairman and CEO of GameStop; co-founder of Chewy",
+      "photo": "",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1986,
+      "birth_year_max": 1986,
+      "birth_place": "Montreal, Quebec, Canada",
+      "website": "",
+      "lead_summary": "**Ryan Cohen** (born 1986, according to Wikipedia) is a Canadian businessman and investor. He co-founded the online pet retailer Chewy in 2011 and is chairman and chief executive of GameStop [1]. PetSmart bought Chewy in 2017 for $3.35 billion, which Fortune and Wikipedia describe as the largest e-commerce acquisition at the time [1][3].",
+      "occupations": [
+        "businessman",
+        "investor"
+      ],
+      "known_for": [
+        "Founding Chewy",
+        "$3.35 billion sale of Chewy to PetSmart",
+        "GameStop turnaround as chairman and CEO"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "ryancohen",
+          "url": "https://x.com/ryancohen"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "investor",
+        "business"
+      ],
+      "connection_count": 0
+    },
+    {
       "id": 7,
       "slug": "coogler",
       "name": "Ryan Coogler",
@@ -297,6 +337,39 @@
       "clusters": [
         "entertainment",
         "film"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 27,
+      "slug": "ryan-craig",
+      "name": "Ryan Craig",
+      "number": null,
+      "short": "Vegas Golden Knights head",
+      "title": "Head coach of the Vegas Golden Knights",
+      "photo": "",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1982,
+      "birth_year_max": 1982,
+      "birth_place": "Abbotsford, British Columbia, Canada",
+      "website": "",
+      "lead_summary": "**Ryan Craig** (born January 6, 1982) is a Canadian ice hockey coach and former centre who is head coach of the Vegas Golden Knights of the NHL [1][3]. He was named the franchise's fifth head coach on June 17, 2026, replacing John Tortorella [1][2]. He was an assistant on the Vegas staff that won the Stanley Cup in 2023 [1].",
+      "occupations": [
+        "ice-hockey-player",
+        "coach"
+      ],
+      "known_for": [
+        "Fifth head coach of the Vegas Golden Knights",
+        "2023 Stanley Cup as Vegas assistant",
+        "2016 Calder Cup as Lake Erie captain"
+      ],
+      "social": [],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "athlete",
+        "hockey"
       ],
       "connection_count": 0
     },
@@ -384,7 +457,7 @@
       "connection_count": 0
     },
     {
-      "id": 26,
+      "id": 28,
       "slug": "ryan-dunwoody",
       "name": "Ryan Dunwoody",
       "number": 2,
@@ -473,7 +546,7 @@
       "connection_count": 0
     },
     {
-      "id": 27,
+      "id": 29,
       "slug": "ryan-florence",
       "name": "Ryan Florence",
       "number": 4,
@@ -711,6 +784,45 @@
       "connection_count": 0
     },
     {
+      "id": 30,
+      "slug": "ryan-hemsworth",
+      "name": "Ryan Hemsworth",
+      "number": null,
+      "short": "Canadian producer; Juno w",
+      "title": "Canadian electronic music producer and DJ",
+      "photo": "",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1990,
+      "birth_year_max": 1990,
+      "birth_place": "Halifax, Nova Scotia, Canada",
+      "website": "https://ryanhemsworth.bandcamp.com",
+      "lead_summary": "**Ryan Hemsworth** (born April 23, 1990) is a Canadian DJ and record producer from Halifax, Nova Scotia [1]. His 2013 debut album *Guilt Trips* won the 2014 Juno Award for Electronic Album of the Year [1]. His album *Numbskull* was released on Topshelf Records on October 21, 2026 [2][4].",
+      "occupations": [
+        "record-producer",
+        "dj"
+      ],
+      "known_for": [
+        "Guilt Trips (2013)",
+        "Secret Songs label",
+        "Numbskull (2026)"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "ryanhemsworth",
+          "url": "https://x.com/ryanhemsworth"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "musician",
+        "producer"
+      ],
+      "connection_count": 0
+    },
+    {
       "id": 16,
       "slug": "higa",
       "name": "Ryan Higa",
@@ -745,7 +857,7 @@
       "connection_count": 0
     },
     {
-      "id": 28,
+      "id": 31,
       "slug": "ryan-holiday",
       "name": "Ryan Holiday",
       "number": 5,
@@ -969,6 +1081,46 @@
       "connection_count": 0
     },
     {
+      "id": 32,
+      "slug": "ryan-perry",
+      "name": "Ryan Perry",
+      "number": null,
+      "short": "Pyroscope co-founder; run",
+      "title": "Senior Field Engineer at SpaceXAI; co-founder of Pyroscope",
+      "photo": "",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": null,
+      "website": "https://ryanperry.io",
+      "lead_summary": "**Ryan Perry** is a software engineer and founder. He co-founded Pyroscope, an open-source continuous profiling project that Grafana Labs acquired in March 2023 [1][5][7]. He is a Senior Field Engineer at SpaceXAI and has written about running his mobile game Rank'em with a team of Grok Bot agents [1][2][3].",
+      "occupations": [
+        "software-engineer",
+        "entrepreneur"
+      ],
+      "known_for": [
+        "Co-founding Pyroscope, acquired by Grafana Labs in 2023",
+        "Rank'em, a mobile game run by a team of Grok Bot agents"
+      ],
+      "social": [
+        {
+          "platform": "github",
+          "handle": "rperry2174",
+          "url": "https://github.com/rperry2174"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "tech",
+        "open-source",
+        "engineer"
+      ],
+      "connection_count": 0
+    },
+    {
       "id": 1,
       "slug": "ryan-petersen",
       "name": "Ryan Petersen",
@@ -1095,7 +1247,7 @@
       "connection_count": 2
     },
     {
-      "id": 30,
+      "id": 34,
       "slug": "seacrest",
       "name": "Ryan Seacrest",
       "number": null,
@@ -1138,7 +1290,7 @@
       "connection_count": 2
     },
     {
-      "id": 31,
+      "id": 35,
       "slug": "selkis",
       "name": "Ryan Selkis",
       "number": null,
@@ -1179,7 +1331,7 @@
       "connection_count": 0
     },
     {
-      "id": 32,
+      "id": 36,
       "slug": "serhant",
       "name": "Ryan Serhant",
       "number": null,
@@ -1224,7 +1376,7 @@
       "connection_count": 3
     },
     {
-      "id": 33,
+      "id": 37,
       "slug": "shazier",
       "name": "Ryan Shazier",
       "number": null,
@@ -1267,7 +1419,7 @@
       "connection_count": 3
     },
     {
-      "id": 34,
+      "id": 38,
       "slug": "smith",
       "name": "Ryan Smith",
       "number": null,
@@ -1301,7 +1453,7 @@
       "connection_count": 0
     },
     {
-      "id": 35,
+      "id": 39,
       "slug": "tedder",
       "name": "Ryan Tedder",
       "number": null,
@@ -1336,7 +1488,7 @@
       "connection_count": 0
     },
     {
-      "id": 36,
+      "id": 40,
       "slug": "trahan",
       "name": "Ryan Trahan",
       "number": null,
@@ -1379,13 +1531,13 @@
       "slug": "founder",
       "label": "Founder Ryans",
       "kind": "cluster",
-      "count": 16
+      "count": 18
     },
     {
       "slug": "tech",
       "label": "Tech Ryans",
       "kind": "cluster",
-      "count": 15
+      "count": 16
     },
     {
       "slug": "entertainment",
@@ -1397,11 +1549,17 @@
       "slug": "athlete",
       "label": "Athlete Ryans",
       "kind": "cluster",
-      "count": 5
+      "count": 6
     },
     {
       "slug": "film",
       "label": "Film Ryans",
+      "kind": "cluster",
+      "count": 5
+    },
+    {
+      "slug": "investor",
+      "label": "Investor Ryans",
       "kind": "cluster",
       "count": 5
     },
@@ -1412,10 +1570,16 @@
       "count": 4
     },
     {
-      "slug": "investor",
-      "label": "Investor Ryans",
+      "slug": "open-source",
+      "label": "Open-source Ryans",
       "kind": "cluster",
       "count": 4
+    },
+    {
+      "slug": "business",
+      "label": "Business Ryans",
+      "kind": "cluster",
+      "count": 3
     },
     {
       "slug": "media",
@@ -1426,12 +1590,6 @@
     {
       "slug": "music",
       "label": "Music Ryans",
-      "kind": "cluster",
-      "count": 3
-    },
-    {
-      "slug": "open-source",
-      "label": "Open Source Ryans",
       "kind": "cluster",
       "count": 3
     },
@@ -1448,8 +1606,8 @@
       "count": 2
     },
     {
-      "slug": "business",
-      "label": "Business Ryans",
+      "slug": "engineer",
+      "label": "Engineer Ryans",
       "kind": "cluster",
       "count": 2
     },
@@ -1514,12 +1672,6 @@
       "count": 1
     },
     {
-      "slug": "engineer",
-      "label": "Engineer Ryans",
-      "kind": "cluster",
-      "count": 1
-    },
-    {
       "slug": "fintech",
       "label": "Fintech Ryans",
       "kind": "cluster",
@@ -1528,6 +1680,12 @@
     {
       "slug": "hardware",
       "label": "Hardware Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "hockey",
+      "label": "Hockey Ryans",
       "kind": "cluster",
       "count": 1
     },
@@ -1556,8 +1714,20 @@
       "count": 1
     },
     {
+      "slug": "musician",
+      "label": "Musician Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
       "slug": "philosophy",
       "label": "Philosophy Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "producer",
+      "label": "Producer Ryans",
       "kind": "cluster",
       "count": 1
     },

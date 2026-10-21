@@ -1,0 +1,43 @@
+{
+  "tag": {
+    "slug": "hockey",
+    "label": "Hockey Ryans",
+    "kind": "cluster",
+    "count": 1
+  },
+  "ryans": [
+    {
+      "id": 27,
+      "slug": "ryan-craig",
+      "name": "Ryan Craig",
+      "number": null,
+      "short": "Vegas Golden Knights head",
+      "title": "Head coach of the Vegas Golden Knights",
+      "photo": "",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1982,
+      "birth_year_max": 1982,
+      "birth_place": "Abbotsford, British Columbia, Canada",
+      "website": "",
+      "lead_summary": "**Ryan Craig** (born January 6, 1982) is a Canadian ice hockey coach and former centre who is head coach of the Vegas Golden Knights of the NHL [1][3]. He was named the franchise's fifth head coach on June 17, 2026, replacing John Tortorella [1][2]. He was an assistant on the Vegas staff that won the Stanley Cup in 2023 [1].",
+      "occupations": [
+        "ice-hockey-player",
+        "coach"
+      ],
+      "known_for": [
+        "Fifth head coach of the Vegas Golden Knights",
+        "2023 Stanley Cup as Vegas assistant",
+        "2016 Calder Cup as Lake Erie captain"
+      ],
+      "social": [],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "athlete",
+        "hockey"
+      ],
+      "connection_count": 0
+    }
+  ]
+}

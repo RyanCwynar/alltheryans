@@ -282,6 +282,29 @@
       "photo": ""
     },
     {
+      "id": "ryan-cohen",
+      "slug": "ryan-cohen",
+      "name": "Ryan Cohen",
+      "number": null,
+      "clusters": [
+        "founder",
+        "investor",
+        "business"
+      ],
+      "photo": ""
+    },
+    {
+      "id": "ryan-craig",
+      "slug": "ryan-craig",
+      "name": "Ryan Craig",
+      "number": null,
+      "clusters": [
+        "athlete",
+        "hockey"
+      ],
+      "photo": ""
+    },
+    {
       "id": "ryan-dunwoody",
       "slug": "ryan-dunwoody",
       "name": "Ryan Dunwoody",
@@ -308,6 +331,17 @@
       "photo": ""
     },
     {
+      "id": "ryan-hemsworth",
+      "slug": "ryan-hemsworth",
+      "name": "Ryan Hemsworth",
+      "number": null,
+      "clusters": [
+        "musician",
+        "producer"
+      ],
+      "photo": ""
+    },
+    {
       "id": "ryan-holiday",
       "slug": "ryan-holiday",
       "name": "Ryan Holiday",
@@ -316,6 +350,19 @@
         "author",
         "media",
         "philosophy"
+      ],
+      "photo": ""
+    },
+    {
+      "id": "ryan-perry",
+      "slug": "ryan-perry",
+      "name": "Ryan Perry",
+      "number": null,
+      "clusters": [
+        "founder",
+        "tech",
+        "open-source",
+        "engineer"
       ],
       "photo": ""
     },

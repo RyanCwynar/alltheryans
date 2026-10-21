@@ -3,9 +3,49 @@
     "slug": "business",
     "label": "Business Ryans",
     "kind": "cluster",
-    "count": 2
+    "count": 3
   },
   "ryans": [
+    {
+      "id": 26,
+      "slug": "ryan-cohen",
+      "name": "Ryan Cohen",
+      "number": null,
+      "short": "Chewy founder, chairman a",
+      "title": "Chairman and CEO of GameStop; co-founder of Chewy",
+      "photo": "",
+      "photo_credit": "",
+      "photo_license": "",
+      "birth_year_min": 1986,
+      "birth_year_max": 1986,
+      "birth_place": "Montreal, Quebec, Canada",
+      "website": "",
+      "lead_summary": "**Ryan Cohen** (born 1986, according to Wikipedia) is a Canadian businessman and investor. He co-founded the online pet retailer Chewy in 2011 and is chairman and chief executive of GameStop [1]. PetSmart bought Chewy in 2017 for $3.35 billion, which Fortune and Wikipedia describe as the largest e-commerce acquisition at the time [1][3].",
+      "occupations": [
+        "businessman",
+        "investor"
+      ],
+      "known_for": [
+        "Founding Chewy",
+        "$3.35 billion sale of Chewy to PetSmart",
+        "GameStop turnaround as chairman and CEO"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "ryancohen",
+          "url": "https://x.com/ryancohen"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "investor",
+        "business"
+      ],
+      "connection_count": 0
+    },
     {
       "id": 24,
       "slug": "reynolds",
@@ -51,7 +91,7 @@
       "connection_count": 2
     },
     {
-      "id": 32,
+      "id": 36,
       "slug": "serhant",
       "name": "Ryan Serhant",
       "number": null,
