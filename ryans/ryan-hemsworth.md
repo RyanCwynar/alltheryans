@@ -4,9 +4,10 @@ slug: ryan-hemsworth
 name: Ryan Hemsworth
 short: "Canadian producer; Juno winner for Guilt Trips"
 title: "Canadian electronic music producer and DJ"
-photo: ""
-photo_credit: ""
-photo_license: ""
+photo: "/images/ryans/ryan-hemsworth.jpg"
+photo_credit: "X profile photo of @ryanhemsworth"
+photo_license: "public profile photo"
+photo_source: "https://x.com/ryanhemsworth"
 number: null
 birth:
   date: "1990-04-23"

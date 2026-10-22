@@ -4,9 +4,10 @@ slug: phillippe
 name: Ryan Phillippe
 short: "Cruel Intentions actor"
 title: "Actor"
-photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Ryan_Phillippe_2011_Shankbone.JPG/330px-Ryan_Phillippe_2011_Shankbone.JPG"
-photo_credit: ""
-photo_license: ""
+photo: "/images/ryans/ryan-phillippe.jpg"
+photo_credit: "X profile photo of @RyanPhillippe"
+photo_license: "public profile photo"
+photo_source: "https://x.com/RyanPhillippe"
 birth:
   date: "1974-09-10"
   place: "New Castle, Delaware, U.S."

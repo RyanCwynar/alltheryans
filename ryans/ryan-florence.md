@@ -4,9 +4,10 @@ slug: ryan-florence
 name: Ryan Florence
 short: "Co-creator of React Router and Remix"
 title: "Web developer; co-founder of Remix and React Training"
-photo: ""
-photo_credit: ""
-photo_license: ""
+photo: "/images/ryans/ryan-florence.jpg"
+photo_credit: "X profile photo of @ryanflorence"
+photo_license: "public profile photo"
+photo_source: "https://x.com/ryanflorence"
 number: 4
 birth:
   date: null

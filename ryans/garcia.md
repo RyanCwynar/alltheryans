@@ -4,9 +4,10 @@ slug: garcia
 name: Ryan Garcia
 short: "WBC welterweight"
 title: "American professional boxer"
-photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/RYAN_GARCIA.jpg/330px-RYAN_GARCIA.jpg"
-photo_credit: ""
-photo_license: ""
+photo: "/images/ryans/ryan-garcia.jpg"
+photo_credit: "X profile photo of @RyanGarcia"
+photo_license: "public profile photo"
+photo_source: "https://x.com/RyanGarcia"
 birth: { date: "1998", place: "Victorville, California, U.S." }
 occupations: [boxer]
 clusters: [athlete, boxing]

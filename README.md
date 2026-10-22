@@ -22,6 +22,18 @@ bun run build:data   # ryans/*.md → data/api/*.json (throwaway local DB, same 
 git add data/api && git commit && git push
 ```
 
+### Profile photos
+
+Store files under `images/ryans/` and point `photo:` at that local path (no hotlinks). Prefer the Ryan’s X avatar when `social` has a confirmed handle:
+
+```bash
+bun run photos:check                              # fail if an X handle has no local photo
+bun run photos:fetch -- --only=ryan-holiday --write   # download avatar + patch frontmatter
+bun run build:data
+```
+
+Otherwise use a Wikimedia Commons image (set `photo_credit`, `photo_license`, `photo_source`) or leave `photo: ""` for the initials placeholder. See `docs/format-spec.md`.
+
 The deploy is the cache bust: Vercel serves `data/api/` as static files from its CDN, so pages
 never wait on a function cold start or the VPS. The output is deterministic, so a rebuild with no
 Markdown changes produces no diff.

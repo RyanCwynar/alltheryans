@@ -4,7 +4,7 @@ slug: reynolds
 name: Ryan Reynolds
 short: "Deadpool actor"
 title: "Actor and businessman"
-photo: "/images/ryan-reynolds.jpg"
+photo: "/images/ryans/ryan-reynolds.jpg"
 photo_credit: ""
 photo_license: ""
 birth:

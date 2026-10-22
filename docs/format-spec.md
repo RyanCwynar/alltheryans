@@ -40,6 +40,10 @@ Neutral, third person, past tense for completed events. No jokes, superlatives o
 slug: ryan-petersen            # unique, kebab-case
 name: Ryan Petersen
 number: 1                      # Ryan #N in the series
+photo: /images/ryans/ryan-petersen.jpg   # always a local path under images/ryans/; never a hotlink
+photo_credit: ""               # e.g. "X profile photo of @typesfast" or "Name via Wikimedia Commons"
+photo_license: ""              # e.g. "public profile photo", "CC BY-SA 4.0", "CC0"
+photo_source: ""               # X profile URL or Commons file page URL the local file came from
 birth: { date: "1980/1981", date_precision: year-range, place: "Bethesda, Maryland, U.S.", cite: [n] }
 death: null
 education: [{ institution, degree, field, year, cite }]
@@ -53,3 +57,13 @@ relationships: [{ target: <ryan-slug>, type: <controlled type>, note, cite: [n] 
 sources: [{ n, title, publisher, date, url, access: read|paywalled|archived }]
 ```
 Relationship types (controlled): `co-starred-with`, `bandmate-of`, `teammate-of`, `rival-of`, `invested-in`, `co-founded-with`, `worked-with`, `same-school`, `same-hometown`, `same-company`, `married-to`, `related-to`, `thematic-link`. Every relationship needs a citation showing **both** ends of the link.
+
+## Profile photo (required for the infobox)
+
+Every Ryan page renders a photo in the bio aside (`<ryan-photo>`). Prefer, in order:
+
+1. **Confirmed X handle** — if `social` includes `platform: x`, fetch the avatar with `bun run photos:fetch -- --only=<slug> --write`. That calls `https://api.fxtwitter.com/<handle>`, takes `avatar_url`, swaps `_normal` for `_400x400`, saves under `images/ryans/`, and sets `photo` / `photo_credit` / `photo_license` / `photo_source`.
+2. **Wikimedia Commons** — download a suitably licensed file into `images/ryans/`, set `photo` to the local path, and record `photo_credit`, `photo_license`, and `photo_source` (the Commons file page).
+3. **Placeholder** — leave `photo: ""`. The UI shows a clean initials tile. Use this only when neither X nor Commons yields a usable image.
+
+Never hotlink remote image URLs in frontmatter. After changing photos, run `bun run build:data` and commit `data/api/`. Check gaps with `bun run photos:check`.

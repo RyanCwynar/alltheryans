@@ -416,6 +416,7 @@ async function importRyan(
     photo: parsed.photo || null,
     photoCredit: parsed.photoCredit || null,
     photoLicense: parsed.photoLicense || null,
+    photoSource: parsed.photoSource || null,
     birthDate: parsed.birthDate,
     birthYearMin: parsed.birthYearMin,
     birthYearMax: parsed.birthYearMax,
@@ -571,6 +572,18 @@ async function main() {
   console.log(
     `  in-scope published=${parsedInScope.filter((p) => p.status === "published").length} draft=${parsedInScope.filter((p) => p.status === "draft").length}`,
   );
+
+  const { findPhotoGaps } = await import("./fetch-ryan-photos.js");
+  const photoGaps = findPhotoGaps(parsedInScope).filter(
+    (g) => g.reason === "x-without-photo" || g.reason === "hotlink",
+  );
+  if (photoGaps.length) {
+    console.log("");
+    console.log("Photo warnings (prefer local images/ryans/; fetch X avatars with bun run photos:fetch -- --write):");
+    for (const g of photoGaps) {
+      console.log(`  ${g.slug}: ${g.reason}${g.handle ? ` (@${g.handle})` : ""}`);
+    }
+  }
 
   const { db, client } = createDb();
   try {

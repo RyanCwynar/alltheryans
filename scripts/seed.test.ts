@@ -21,6 +21,7 @@ function stubRyan(slug: string): ParsedRyan {
     photo: "",
     photoCredit: "",
     photoLicense: "",
+    photoSource: "",
     birthDate: null,
     birthYearMin: null,
     birthYearMax: null,

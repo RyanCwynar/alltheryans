@@ -49,6 +49,8 @@ export const ryans = sqliteTable(
     photo: text("photo"),
     photoCredit: text("photo_credit"),
     photoLicense: text("photo_license"),
+    /** Commons page or X profile URL the local file was taken from */
+    photoSource: text("photo_source"),
     birthDate: text("birth_date"),
     birthYearMin: integer("birth_year_min"),
     birthYearMax: integer("birth_year_max"),

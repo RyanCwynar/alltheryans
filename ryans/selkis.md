@@ -4,7 +4,7 @@ slug: selkis
 name: Ryan Selkis
 short: "Messari founder"
 title: "Co-founder of Messari; crypto researcher"
-photo: "/images/ryan-selkis.jpg"
+photo: "/images/ryans/ryan-selkis.jpg"
 photo_credit: ""
 photo_license: ""
 birth:

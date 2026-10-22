@@ -4,7 +4,7 @@ slug: gosling
 name: Ryan Gosling
 short: "La La Land actor"
 title: "Actor and musician"
-photo: "/images/ryan-gosling.jpg"
+photo: "/images/ryans/ryan-gosling.jpg"
 photo_credit: ""
 photo_license: ""
 birth:

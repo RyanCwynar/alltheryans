@@ -59,7 +59,7 @@
         "music",
         "latin"
       ],
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Foto_ryan_agosto_%28cropped%29.jpg/330px-Foto_ryan_agosto_%28cropped%29.jpg"
+      "photo": "/images/ryans/ryan-castro.jpg"
     },
     {
       "id": "cohen",
@@ -72,7 +72,7 @@
         "investor",
         "retail"
       ],
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Ryan_Cohen_2019_%28cropped%29.jpg/330px-Ryan_Cohen_2019_%28cropped%29.jpg"
+      "photo": "/images/ryans/ryan-cohen.jpg"
     },
     {
       "id": "coogler",
@@ -94,7 +94,7 @@
         "founder",
         "tech"
       ],
-      "photo": "/images/ryan-cwynar.jpg"
+      "photo": "/images/ryans/ryan-cwynar.jpg"
     },
     {
       "id": "dahl",
@@ -128,7 +128,7 @@
         "athlete",
         "boxing"
       ],
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/RYAN_GARCIA.jpg/330px-RYAN_GARCIA.jpg"
+      "photo": "/images/ryans/ryan-garcia.jpg"
     },
     {
       "id": "giggs",
@@ -139,7 +139,7 @@
         "athlete",
         "football"
       ],
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/1/13/Ryan_Giggs_2015_%28cropped%29.jpg"
+      "photo": "/images/ryans/ryan-giggs.jpg"
     },
     {
       "id": "gosling",
@@ -151,7 +151,7 @@
         "music",
         "film"
       ],
-      "photo": "/images/ryan-gosling.jpg"
+      "photo": "/images/ryans/ryan-gosling.jpg"
     },
     {
       "id": "graves",
@@ -221,7 +221,7 @@
         "founder",
         "sales"
       ],
-      "photo": "/images/ryan-humphries.jpg"
+      "photo": "/images/ryans/ryan-humphries.jpg"
     },
     {
       "id": "kaji",
@@ -243,7 +243,7 @@
         "athlete",
         "mlb"
       ],
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Nolan_Ryan_Tiger_Stadium_1990_CROP.jpg/330px-Nolan_Ryan_Tiger_Stadium_1990_CROP.jpg"
+      "photo": "/images/ryans/ryan-nolan.jpg"
     },
     {
       "id": "phillippe",
@@ -255,7 +255,7 @@
         "film",
         "television"
       ],
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Ryan_Phillippe_2011_Shankbone.JPG/330px-Ryan_Phillippe_2011_Shankbone.JPG"
+      "photo": "/images/ryans/ryan-phillippe.jpg"
     },
     {
       "id": "reynolds",
@@ -268,7 +268,7 @@
         "business",
         "sports"
       ],
-      "photo": "/images/ryan-reynolds.jpg"
+      "photo": "/images/ryans/ryan-reynolds.jpg"
     },
     {
       "id": "ryan-blaney",
@@ -279,7 +279,7 @@
         "athlete",
         "motorsport"
       ],
-      "photo": ""
+      "photo": "/images/ryans/ryan-blaney.jpg"
     },
     {
       "id": "ryan-cohen",
@@ -291,7 +291,7 @@
         "investor",
         "business"
       ],
-      "photo": ""
+      "photo": "/images/ryans/ryan-cohen.jpg"
     },
     {
       "id": "ryan-craig",
@@ -302,7 +302,7 @@
         "athlete",
         "hockey"
       ],
-      "photo": ""
+      "photo": "/images/ryans/ryan-craig.jpg"
     },
     {
       "id": "ryan-dunwoody",
@@ -315,7 +315,7 @@
         "hardware",
         "3d-printing"
       ],
-      "photo": ""
+      "photo": "/images/ryans/ryan-dunwoody.jpg"
     },
     {
       "id": "ryan-florence",
@@ -328,7 +328,7 @@
         "open-source",
         "engineer"
       ],
-      "photo": ""
+      "photo": "/images/ryans/ryan-florence.jpg"
     },
     {
       "id": "ryan-hemsworth",
@@ -339,7 +339,7 @@
         "musician",
         "producer"
       ],
-      "photo": ""
+      "photo": "/images/ryans/ryan-hemsworth.jpg"
     },
     {
       "id": "ryan-holiday",
@@ -351,7 +351,7 @@
         "media",
         "philosophy"
       ],
-      "photo": ""
+      "photo": "/images/ryans/ryan-holiday.jpg"
     },
     {
       "id": "ryan-moore",
@@ -400,7 +400,7 @@
         "media",
         "radio"
       ],
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Ryan_Seacrest_%282019%29.jpg/330px-Ryan_Seacrest_%282019%29.jpg"
+      "photo": "/images/ryans/ryan-seacrest.jpg"
     },
     {
       "id": "selkis",
@@ -412,7 +412,7 @@
         "tech",
         "crypto"
       ],
-      "photo": "/images/ryan-selkis.jpg"
+      "photo": "/images/ryans/ryan-selkis.jpg"
     },
     {
       "id": "serhant",
@@ -471,7 +471,7 @@
         "creator",
         "youtube"
       ],
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/RyanTrahan_Interview.png/330px-RyanTrahan_Interview.png"
+      "photo": "/images/ryans/ryan-trahan.jpg"
     }
   ],
   "links": [

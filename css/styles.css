@@ -614,7 +614,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   gap: 0.35rem;
-  background: var(--accent-tint);
+  background: linear-gradient(160deg, var(--accent-tint) 0%, #fff 72%);
   color: var(--accent);
 }
 

@@ -4,9 +4,10 @@ slug: nolan
 name: Nolan Ryan
 short: "MLB pitcher"
 title: "Hall of Fame MLB pitcher"
-photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Nolan_Ryan_Tiger_Stadium_1990_CROP.jpg/330px-Nolan_Ryan_Tiger_Stadium_1990_CROP.jpg"
-photo_credit: ""
-photo_license: ""
+photo: "/images/ryans/ryan-nolan.jpg"
+photo_credit: "Chuck Andersen via Wikimedia Commons"
+photo_license: "CC BY 2.0"
+photo_source: "https://commons.wikimedia.org/wiki/File:Nolan_Ryan_Tiger_Stadium_1990_CROP.jpg"
 birth: { date: "1947-01-31", place: "Refugio, Texas, U.S." }
 occupations: [baseball-player, sports-executive]
 clusters: [athlete, mlb]
