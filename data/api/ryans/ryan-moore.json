@@ -1,0 +1,102 @@
+{
+  "ryan": {
+    "id": 32,
+    "slug": "ryan-moore",
+    "name": "Ryan Moore",
+    "number": 7,
+    "short": "Team Moore / tmgo.to",
+    "title": "CEO of Team Moore LLC; tmgo.to and AdominanceAI",
+    "photo": "/images/ryans/ryan-moore.jpg",
+    "photo_credit": "Ryan Moore",
+    "photo_license": "",
+    "birth_year_min": null,
+    "birth_year_max": null,
+    "birth_place": null,
+    "website": "https://moore.team",
+    "lead_summary": "**Ryan Moore**, who posts on X as **@0xElGato**, is an entrepreneur based in the United States [1]. His X bio lists him as CEO of Team Moore LLC (@TeamMooreLLC) [1]. He runs **tmgo.to** (short links and QR codes) and **@AdominanceAI** (AI marketing), and builds tech for law firms and agencies [1]. His website is moore.team [1].",
+    "occupations": [
+      "entrepreneur",
+      "marketer"
+    ],
+    "known_for": [
+      "Team Moore LLC",
+      "tmgo.to short links and QR codes",
+      "AdominanceAI"
+    ],
+    "social": [
+      {
+        "platform": "x",
+        "handle": "0xElGato",
+        "url": "https://x.com/0xElGato"
+      }
+    ],
+    "featured_on": null,
+    "status": "published",
+    "clusters": [
+      "founder",
+      "tech",
+      "marketing"
+    ],
+    "connection_count": 0,
+    "birth": {
+      "date": null,
+      "year_min": null,
+      "year_max": null,
+      "place": null
+    },
+    "death": null,
+    "body_md": "# Ryan Moore\n\n**Ryan Moore**, who posts on X as **@0xElGato**, is an entrepreneur based in the United States [1]. His X bio lists him as CEO of Team Moore LLC (@TeamMooreLLC) [1]. He runs **tmgo.to** (short links and QR codes) and **@AdominanceAI** (AI marketing), and builds tech for law firms and agencies [1]. His website is moore.team [1].\n\n## Career\nAccording to his X profile, Moore is CEO of Team Moore LLC and runs tmgo.to and AdominanceAI [1]. The same bio says he builds tech for law firms and agencies [1]. No further career details were found in accessible sources reviewed for this page.\n\n## Public profile and social media\nMoore posts on X as @0xElGato [1]. On October 22, 2026 he posted at https://x.com/0xElGato/status/2113342205528019326 [2].\n\n## Personal life\nHis X bio describes him as a husband and father [1].\n\n## References\n1. Moore, Ryan (@0xElGato). Profile. X, accessed Oct 22, 2026. https://x.com/0xElGato\n2. Moore, Ryan (@0xElGato). Post. X, Oct 22, 2026. https://x.com/0xElGato/status/2113342205528019326\n\n<!-- VERIFICATION LOG (2026-10-22)\nREAD: 1 (X API / fxtwitter public profile: name \"Ryan Moore\", bio, location \"United States\", website moore.team, handle 0xElGato), 2 (status 2113342205528019326 — video post with empty text body; cited as source post only, no claims taken from the video).\nATTRIBUTED from bio only: CEO Team Moore LLC; tmgo.to short links + QR; AdominanceAI AI marketing; builds tech for law firms & agencies; husband & father.\nUNKNOWN: birth date/place beyond \"United States\" location, education, founding dates, headcount. Body kept short because only self-published X sources were provided.\nPHOTO: /images/ryans/ryan-moore.jpg — provided headshot for this entry.\nNO PROD DB: build:data only; did not run db:seed --apply against remote.\n-->",
+    "education": [],
+    "organizations": [
+      {
+        "name": "Team Moore LLC",
+        "url": null,
+        "role": "CEO",
+        "start": null,
+        "end": null,
+        "note": null
+      },
+      {
+        "name": "tmgo.to",
+        "url": null,
+        "role": "Runs short links and QR codes",
+        "start": null,
+        "end": null,
+        "note": null
+      },
+      {
+        "name": "AdominanceAI",
+        "url": null,
+        "role": "AI marketing",
+        "start": null,
+        "end": null,
+        "note": null
+      }
+    ],
+    "relationships": [],
+    "sources": [
+      {
+        "n": 1,
+        "title": "Ryan Moore (@0xElGato) profile",
+        "publisher": "X",
+        "author": "",
+        "date": "2026-10-22",
+        "url": "https://x.com/0xElGato",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": "2026-10-22"
+      },
+      {
+        "n": 2,
+        "title": "Post by @0xElGato",
+        "publisher": "X (@0xElGato)",
+        "author": "",
+        "date": "2026-10-22",
+        "url": "https://x.com/0xElGato/status/2113342205528019326",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": "2026-10-22"
+      }
+    ]
+  }
+}

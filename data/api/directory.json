@@ -1,8 +1,8 @@
 {
-  "count": 39,
+  "count": 40,
   "ryans": [
     {
-      "id": 33,
+      "id": 34,
       "slug": "ryangrowthh",
       "name": "Ryan (@ryangrowthh)",
       "number": 6,
@@ -1048,6 +1048,46 @@
       "connection_count": 0
     },
     {
+      "id": 32,
+      "slug": "ryan-moore",
+      "name": "Ryan Moore",
+      "number": 7,
+      "short": "Team Moore / tmgo.to",
+      "title": "CEO of Team Moore LLC; tmgo.to and AdominanceAI",
+      "photo": "/images/ryans/ryan-moore.jpg",
+      "photo_credit": "Ryan Moore",
+      "photo_license": "",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": null,
+      "website": "https://moore.team",
+      "lead_summary": "**Ryan Moore**, who posts on X as **@0xElGato**, is an entrepreneur based in the United States [1]. His X bio lists him as CEO of Team Moore LLC (@TeamMooreLLC) [1]. He runs **tmgo.to** (short links and QR codes) and **@AdominanceAI** (AI marketing), and builds tech for law firms and agencies [1]. His website is moore.team [1].",
+      "occupations": [
+        "entrepreneur",
+        "marketer"
+      ],
+      "known_for": [
+        "Team Moore LLC",
+        "tmgo.to short links and QR codes",
+        "AdominanceAI"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "0xElGato",
+          "url": "https://x.com/0xElGato"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "tech",
+        "marketing"
+      ],
+      "connection_count": 0
+    },
+    {
       "id": 22,
       "slug": "nolan",
       "name": "Nolan Ryan",
@@ -1081,7 +1121,7 @@
       "connection_count": 0
     },
     {
-      "id": 32,
+      "id": 33,
       "slug": "ryan-perry",
       "name": "Ryan Perry",
       "number": null,
@@ -1247,7 +1287,7 @@
       "connection_count": 2
     },
     {
-      "id": 34,
+      "id": 35,
       "slug": "seacrest",
       "name": "Ryan Seacrest",
       "number": null,
@@ -1290,7 +1330,7 @@
       "connection_count": 2
     },
     {
-      "id": 35,
+      "id": 36,
       "slug": "selkis",
       "name": "Ryan Selkis",
       "number": null,
@@ -1331,7 +1371,7 @@
       "connection_count": 0
     },
     {
-      "id": 36,
+      "id": 37,
       "slug": "serhant",
       "name": "Ryan Serhant",
       "number": null,
@@ -1376,7 +1416,7 @@
       "connection_count": 3
     },
     {
-      "id": 37,
+      "id": 38,
       "slug": "shazier",
       "name": "Ryan Shazier",
       "number": null,
@@ -1419,7 +1459,7 @@
       "connection_count": 3
     },
     {
-      "id": 38,
+      "id": 39,
       "slug": "smith",
       "name": "Ryan Smith",
       "number": null,
@@ -1453,7 +1493,7 @@
       "connection_count": 0
     },
     {
-      "id": 39,
+      "id": 40,
       "slug": "tedder",
       "name": "Ryan Tedder",
       "number": null,
@@ -1488,7 +1528,7 @@
       "connection_count": 0
     },
     {
-      "id": 40,
+      "id": 41,
       "slug": "trahan",
       "name": "Ryan Trahan",
       "number": null,
@@ -1531,13 +1571,13 @@
       "slug": "founder",
       "label": "Founder Ryans",
       "kind": "cluster",
-      "count": 18
+      "count": 19
     },
     {
       "slug": "tech",
       "label": "Tech Ryans",
       "kind": "cluster",
-      "count": 16
+      "count": 17
     },
     {
       "slug": "entertainment",
@@ -1698,6 +1738,12 @@
     {
       "slug": "legal-tech",
       "label": "Legal Tech Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "marketing",
+      "label": "Marketing Ryans",
       "kind": "cluster",
       "count": 1
     },

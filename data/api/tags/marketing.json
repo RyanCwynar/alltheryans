@@ -1,0 +1,50 @@
+{
+  "tag": {
+    "slug": "marketing",
+    "label": "Marketing Ryans",
+    "kind": "cluster",
+    "count": 1
+  },
+  "ryans": [
+    {
+      "id": 32,
+      "slug": "ryan-moore",
+      "name": "Ryan Moore",
+      "number": 7,
+      "short": "Team Moore / tmgo.to",
+      "title": "CEO of Team Moore LLC; tmgo.to and AdominanceAI",
+      "photo": "/images/ryans/ryan-moore.jpg",
+      "photo_credit": "Ryan Moore",
+      "photo_license": "",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": null,
+      "website": "https://moore.team",
+      "lead_summary": "**Ryan Moore**, who posts on X as **@0xElGato**, is an entrepreneur based in the United States [1]. His X bio lists him as CEO of Team Moore LLC (@TeamMooreLLC) [1]. He runs **tmgo.to** (short links and QR codes) and **@AdominanceAI** (AI marketing), and builds tech for law firms and agencies [1]. His website is moore.team [1].",
+      "occupations": [
+        "entrepreneur",
+        "marketer"
+      ],
+      "known_for": [
+        "Team Moore LLC",
+        "tmgo.to short links and QR codes",
+        "AdominanceAI"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "0xElGato",
+          "url": "https://x.com/0xElGato"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "tech",
+        "marketing"
+      ],
+      "connection_count": 0
+    }
+  ]
+}

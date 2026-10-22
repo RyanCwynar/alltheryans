@@ -354,6 +354,18 @@
       "photo": ""
     },
     {
+      "id": "ryan-moore",
+      "slug": "ryan-moore",
+      "name": "Ryan Moore",
+      "number": 7,
+      "clusters": [
+        "founder",
+        "tech",
+        "marketing"
+      ],
+      "photo": "/images/ryans/ryan-moore.jpg"
+    },
+    {
       "id": "ryan-perry",
       "slug": "ryan-perry",
       "name": "Ryan Perry",
