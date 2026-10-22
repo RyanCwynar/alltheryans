@@ -39,6 +39,7 @@ export type ParsedRyan = {
   photo: string;
   photoCredit: string;
   photoLicense: string;
+  photoSource: string;
   birthDate: string | null;
   birthYearMin: number | null;
   birthYearMax: number | null;
@@ -293,6 +294,7 @@ export async function parseRyanMarkdown(path: string): Promise<ParsedRyan> {
     photo: asString(meta.photo),
     photoCredit: asString(meta.photo_credit),
     photoLicense: asString(meta.photo_license),
+    photoSource: asString(meta.photo_source),
     ...birth,
     deathDate: meta.death == null || meta.death === "" ? null : asString(meta.death),
     website: asString(meta.website),

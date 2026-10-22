@@ -4,9 +4,10 @@ slug: ryan-holiday
 name: Ryan Holiday
 short: "Author who popularized modern Stoicism"
 title: "Author, The Daily Stoic; founder of Brass Check"
-photo: ""
-photo_credit: ""
-photo_license: ""
+photo: "/images/ryans/ryan-holiday.jpg"
+photo_credit: "X profile photo of @RyanHoliday"
+photo_license: "public profile photo"
+photo_source: "https://x.com/RyanHoliday"
 number: 5
 birth:
   date: "1987-06-16"

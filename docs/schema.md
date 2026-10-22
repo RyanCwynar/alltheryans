@@ -7,11 +7,11 @@ only outgoing edges for in-scope sources are replaced (never a wholesale wipe).
 The public Hono API is **read-only** and only returns `status = 'published'`.
 
 Drizzle source of truth: `db/schema.ts`  
-Checked-in SQL: `drizzle/0000_init.sql`
+Checked-in SQL: `drizzle/0000_init.sql`, `drizzle/0001_photo_source.sql`
 
 ## Tables
 
-- `ryans` — profile + `body_md`, JSON TEXT for `occupations` / `known_for` / `social`, publish gate `status` (`draft`|`approved`|`published`)
+- `ryans` — profile + `body_md`, photo fields (`photo`, `photo_credit`, `photo_license`, `photo_source`), JSON TEXT for `occupations` / `known_for` / `social`, publish gate `status` (`draft`|`approved`|`published`)
 - `tags` / `ryan_tags` — clusters (actor, founder, …)
 - `organizations` / `ryan_organizations`
 - `education`

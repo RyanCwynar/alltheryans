@@ -4,9 +4,10 @@ slug: cohen
 name: Ryan Cohen
 short: "Chewy / GameStop"
 title: "Chewy co-founder; GameStop chairman and CEO"
-photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Ryan_Cohen_2019_%28cropped%29.jpg/330px-Ryan_Cohen_2019_%28cropped%29.jpg"
-photo_credit: ""
-photo_license: ""
+photo: "/images/ryans/ryan-cohen.jpg"
+photo_credit: "X profile photo of @ryancohen"
+photo_license: "public profile photo"
+photo_source: "https://x.com/ryancohen"
 birth:
   date: "1985"
   place: ""

@@ -9,6 +9,8 @@
     "db:migrate": "bun run scripts/migrate.ts",
     "db:seed": "bun run scripts/seed.ts",
     "dev": "bun run scripts/dev-server.ts",
+    "photos:check": "bun run scripts/fetch-ryan-photos.ts --check",
+    "photos:fetch": "bun run scripts/fetch-ryan-photos.ts --fetch",
     "test": "bun test scripts/",
     "typecheck": "tsc --noEmit"
   },

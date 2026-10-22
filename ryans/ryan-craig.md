@@ -4,9 +4,10 @@ slug: ryan-craig
 name: Ryan Craig
 short: "Vegas Golden Knights head coach"
 title: "Head coach of the Vegas Golden Knights"
-photo: ""
-photo_credit: ""
-photo_license: ""
+photo: "/images/ryans/ryan-craig.jpg"
+photo_credit: "TheAHL via Wikimedia Commons"
+photo_license: "CC BY 2.0"
+photo_source: "https://commons.wikimedia.org/wiki/File:Ryan_Craig_(32477651591)_(cropped).jpg"
 number: null
 birth:
   date: "1982-01-06"

@@ -4,9 +4,10 @@ slug: seacrest
 name: Ryan Seacrest
 short: "Idol & Wheel host"
 title: "TV and radio host"
-photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Ryan_Seacrest_%282019%29.jpg/330px-Ryan_Seacrest_%282019%29.jpg"
-photo_credit: ""
-photo_license: ""
+photo: "/images/ryans/ryan-seacrest.jpg"
+photo_credit: "X profile photo of @RyanSeacrest"
+photo_license: "public profile photo"
+photo_source: "https://x.com/RyanSeacrest"
 birth:
   date: "1974-12-24"
   place: "Atlanta, Georgia, U.S."

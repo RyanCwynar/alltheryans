@@ -4,7 +4,7 @@ slug: cwynar
 name: Ryan Cwynar
 short: "All The Ryans"
 title: "Software engineer; creator of All The Ryans"
-photo: "/images/ryan-cwynar.jpg"
+photo: "/images/ryans/ryan-cwynar.jpg"
 photo_credit: ""
 photo_license: ""
 birth: { date: "", place: "" }

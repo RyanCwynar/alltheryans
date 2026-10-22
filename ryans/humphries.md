@@ -4,7 +4,7 @@ slug: humphries
 name: Ryan Humphries
 short: "Sales / founder"
 title: "American sales leader and founder"
-photo: "/images/ryan-humphries.jpg"
+photo: "/images/ryans/ryan-humphries.jpg"
 photo_credit: ""
 photo_license: ""
 birth: { date: "", place: "" }

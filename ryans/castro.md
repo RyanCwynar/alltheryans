@@ -4,9 +4,10 @@ slug: castro
 name: Ryan Castro
 short: "Reggaeton artist"
 title: "Reggaeton artist"
-photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Foto_ryan_agosto_%28cropped%29.jpg/330px-Foto_ryan_agosto_%28cropped%29.jpg"
-photo_credit: ""
-photo_license: ""
+photo: "/images/ryans/ryan-castro.jpg"
+photo_credit: "Andrelovanegas via Wikimedia Commons"
+photo_license: "CC BY-SA 4.0"
+photo_source: "https://commons.wikimedia.org/wiki/File:Foto_ryan_agosto_(cropped).jpg"
 birth:
   date: "1994"
   place: "Medellín area (Bello / Pedregal), Antioquia, Colombia"

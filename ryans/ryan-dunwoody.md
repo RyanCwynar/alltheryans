@@ -4,9 +4,10 @@ slug: ryan-dunwoody
 name: Ryan Dunwoody
 short: "pi-top / Powerhouse"
 title: "Hardware engineer; co-creator of pi-top; Powerhouse founder"
-photo: ""
-photo_credit: ""
-photo_license: ""
+photo: "/images/ryans/ryan-dunwoody.jpg"
+photo_credit: "X profile photo of @Ryan__Dunwoody"
+photo_license: "public profile photo"
+photo_source: "https://x.com/Ryan__Dunwoody"
 number: 2
 birth:
   date: "1990/1991"

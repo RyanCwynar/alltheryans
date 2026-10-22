@@ -4,9 +4,10 @@ slug: matt
 name: Matt Ryan
 short: "Falcons QB / exec"
 title: "Former NFL quarterback; Falcons President of Football"
-photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Washington_Football_Team_at_Atlanta_Falcons_%283_October_2021%29_DSC_4628_%2851555290664%29_%28cropped%29.jpg/330px-Washington_Football_Team_at_Atlanta_Falcons_%283_October_2021%29_DSC_4628_%2851555290664%29_%28cropped%29.jpg"
-photo_credit: ""
-photo_license: ""
+photo: "/images/ryans/matt-ryan.jpg"
+photo_credit: "X profile photo of @M_Ryan02"
+photo_license: "public profile photo"
+photo_source: "https://x.com/M_Ryan02"
 birth: { date: "1985-05-17", place: "Exton, Pennsylvania, U.S." }
 occupations: [american-football-player, sports-executive, sports-analyst]
 clusters: [athlete, nfl]

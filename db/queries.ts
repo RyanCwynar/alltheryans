@@ -77,6 +77,7 @@ function mapRyanListItem(
     photo: row.photo || "",
     photo_credit: row.photoCredit || "",
     photo_license: row.photoLicense || "",
+    photo_source: row.photoSource || "",
     birth_year_min: row.birthYearMin,
     birth_year_max: row.birthYearMax,
     birth_place: row.birthPlace,

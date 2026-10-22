@@ -4,9 +4,10 @@ slug: ryan-blaney
 name: Ryan Blaney
 short: "2023 NASCAR Cup Series champion"
 title: "NASCAR Cup Series driver for Team Penske"
-photo: ""
-photo_credit: ""
-photo_license: ""
+photo: "/images/ryans/ryan-blaney.jpg"
+photo_credit: "X profile photo of @Blaney"
+photo_license: "public profile photo"
+photo_source: "https://x.com/Blaney"
 number: 3
 birth:
   date: "1993-12-31"

@@ -37,10 +37,11 @@ export class RyanPhoto extends LitElement {
         @error=${() => (this.broken = true)}
       />`;
     }
+    const label = ryan.name ? `No photo for ${ryan.name}` : "No photo";
     return html`
-      <div class="initials" aria-hidden="true">
-        <span class="letters">${initials(ryan.name)}</span>
-        <span class="scrawl">my name is Ryan</span>
+      <div class="initials" role="img" aria-label=${label}>
+        <span class="letters" aria-hidden="true">${initials(ryan.name)}</span>
+        <span class="scrawl" aria-hidden="true">my name is Ryan</span>
       </div>
     `;
   }

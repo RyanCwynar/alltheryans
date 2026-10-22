@@ -4,9 +4,10 @@ slug: giggs
 name: Ryan Giggs
 short: "Man Utd winger"
 title: "Welsh former footballer and manager"
-photo: "https://upload.wikimedia.org/wikipedia/commons/1/13/Ryan_Giggs_2015_%28cropped%29.jpg"
-photo_credit: ""
-photo_license: ""
+photo: "/images/ryans/ryan-giggs.jpg"
+photo_credit: "Dmitry Golubovich via Wikimedia Commons"
+photo_license: "CC BY-SA 3.0"
+photo_source: "https://commons.wikimedia.org/wiki/File:Ryan_Giggs_2015_(cropped).jpg"
 birth: { date: "1973-11-29", place: "Cardiff, Wales" }
 occupations: [footballer, football-manager]
 clusters: [athlete, football]
