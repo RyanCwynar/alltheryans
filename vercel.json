@@ -7,7 +7,7 @@
     },
     {
       "source": "/ryan/:slug",
-      "destination": "/index.html"
+      "destination": "/api/ryan-page/:slug"
     },
     {
       "source": "/tag/:slug",
