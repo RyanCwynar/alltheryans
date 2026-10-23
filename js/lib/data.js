@@ -2,6 +2,8 @@
  * Static JSON built from ryans/*.md by `bun run build:data` (data/api/).
  * Served from the CDN; filtering and sorting happen here in the browser.
  */
+import { slugLookupCandidates } from "./slug-alias.js";
+
 const DATA_ROOT = "/data/api";
 
 let directoryPromise;
@@ -71,8 +73,16 @@ export function loadGraph() {
 }
 
 export async function loadRyan(slug) {
-  const data = await getJson(`ryans/${encodeURIComponent(slug)}.json`);
-  return data.ryan;
+  let lastErr;
+  for (const candidate of slugLookupCandidates(slug)) {
+    try {
+      const data = await getJson(`ryans/${encodeURIComponent(candidate)}.json`);
+      return data.ryan;
+    } catch (err) {
+      lastErr = err;
+    }
+  }
+  throw lastErr || new Error(`Ryan not found: ${slug}`);
 }
 
 /** Back-compat name used by bio-page */
