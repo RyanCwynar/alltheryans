@@ -63,6 +63,8 @@ describe("applyRyanShareMeta", () => {
     expect(html).toContain(
       'name="twitter:image" content="https://alltheryans.com/images/ryans/ryan-florence.jpg"',
     );
+    expect(html).toContain('name="twitter:card" content="summary"');
+    expect(html).not.toContain('name="twitter:card" content="summary_large_image"');
     expect(html).toContain('property="og:image:alt" content="Ryan Florence"');
     expect(html).toContain('name="twitter:image:alt" content="Ryan Florence"');
     expect(html).toContain("Web developer; co-founder of Remix and React Training");
@@ -70,5 +72,9 @@ describe("applyRyanShareMeta", () => {
     // Homepage defaults must be gone
     expect(html).not.toContain('canonical" href="https://alltheryans.com/"');
     expect(html).not.toContain('og:image" content="https://alltheryans.com/images/og-default.png"');
+  });
+
+  test("homepage index.html keeps summary_large_image", () => {
+    expect(indexHtml).toContain('name="twitter:card" content="summary_large_image"');
   });
 });
