@@ -9,7 +9,7 @@
 import { mkdirSync } from "node:fs";
 import { join } from "node:path";
 import { createApp } from "../api/app.js";
-import { loadRyanShareLocal } from "../api/_lib/load-ryan-share.js";
+import { loadRyanShareLocal } from "./load-ryan-share-local.js";
 import {
   applyRyanShareMeta,
   buildRyanShareMeta,

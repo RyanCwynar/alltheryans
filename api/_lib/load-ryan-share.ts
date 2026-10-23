@@ -1,10 +1,15 @@
 /**
  * Load a published Ryan for share-card HTML: prefer libSQL when configured,
- * else static data/api JSON (committed seed) from the same deployment / disk.
+ * else static data/api JSON (committed seed) from the same deployment.
+ * When the DB row exists but `photo` is empty, fill photo from static JSON.
+ *
+ * Edge-safe: no node:* imports. Bun-local disk loading lives in
+ * scripts/load-ryan-share-local.ts.
  */
 import { createDb as createWebDb } from "../../db/client-web.js";
 import { getPublishedRyanBySlug } from "../../db/queries.js";
 import type { RyanShareInput } from "./ryan-shell.js";
+import { mergeRyanWithStaticPhoto, photoMissing } from "./static-photo.js";
 
 function asShareInput(ryan: {
   slug: string;
@@ -56,46 +61,27 @@ async function fromStaticFetch(
   }
 }
 
+/**
+ * Edge / serverless: DB first; if photo is missing, overlay static JSON photo.
+ * Exported merge helper keeps the empty-DB-photo case unit-testable.
+ */
+export function resolveRyanShare(
+  fromDb: RyanShareInput | null,
+  fromStatic: RyanShareInput | null,
+): RyanShareInput | null {
+  return mergeRyanWithStaticPhoto(fromDb, fromStatic);
+}
+
 /** Edge / serverless: DB first, then static JSON on the deployment. */
 export async function loadRyanShare(
   slug: string,
   request: Request,
 ): Promise<RyanShareInput | null> {
   const fromDb = await fromDatabase(slug);
-  if (fromDb) return fromDb;
-  return fromStaticFetch(slug, request);
+  if (fromDb && !photoMissing(fromDb.photo)) return fromDb;
+
+  const fromStatic = await fromStaticFetch(slug, request);
+  return resolveRyanShare(fromDb, fromStatic);
 }
 
-/** Bun local: committed JSON first, then optional libSQL for DB-only Ryans. */
-export async function loadRyanShareLocal(
-  slug: string,
-  root: string,
-): Promise<RyanShareInput | null> {
-  try {
-    const { readFile } = await import("node:fs/promises");
-    const { join } = await import("node:path");
-    const raw = await readFile(
-      join(root, "data/api/ryans", `${slug}.json`),
-      "utf8",
-    );
-    const data = JSON.parse(raw) as { ryan?: RyanShareInput };
-    if (data.ryan) return asShareInput(data.ryan);
-  } catch {
-    // fall through to DB
-  }
-
-  const url = process.env.LIBSQL_URL?.trim();
-  if (url?.startsWith("file:")) {
-    try {
-      const { createDb } = await import("../../db/client.js");
-      const { db } = createDb();
-      const ryan = await getPublishedRyanBySlug(db, slug);
-      if (ryan) return asShareInput(ryan);
-    } catch {
-      // Unmigrated local DB is common in fresh checkouts.
-    }
-    return null;
-  }
-
-  return fromDatabase(slug);
-}
+export { photoMissing };
