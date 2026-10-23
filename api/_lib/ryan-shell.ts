@@ -168,7 +168,8 @@ export function applyRyanShareMeta(html: string, meta: RyanShareMeta): string {
   out = setMetaByProperty(out, "og:url", meta.canonicalUrl);
   out = setMetaByProperty(out, "og:image", meta.imageUrl);
   out = setMetaByProperty(out, "og:image:alt", meta.imageAlt);
-  out = setMetaByName(out, "twitter:card", "summary_large_image");
+  // Compact square avatar card on X (not full-bleed large image).
+  out = setMetaByName(out, "twitter:card", "summary");
   out = setMetaByName(out, "twitter:title", meta.pageTitle);
   out = setMetaByName(out, "twitter:description", meta.description);
   out = setMetaByName(out, "twitter:image", meta.imageUrl);
