@@ -1,6 +1,8 @@
 /**
  * When libSQL is behind committed data/api JSON (e.g. photos added in Markdown
  * but prod DB not re-seeded), fill empty `photo` from the static payload.
+ *
+ * Edge-safe: no node:* imports (fetch-only).
  */
 
 export type WithPhoto = { slug: string; photo?: string | null };
@@ -73,23 +75,6 @@ export async function loadStaticPhotoMap(
     }
   }
   photoMapCache = { key, map, at: now };
-  return map;
-}
-
-/** Disk fallback for Bun local (no HTTP round-trip). */
-export async function loadStaticPhotoMapFromDisk(
-  root: string,
-): Promise<Map<string, string>> {
-  const { readFile } = await import("node:fs/promises");
-  const { join } = await import("node:path");
-  const raw = await readFile(join(root, "data/api/directory.json"), "utf8");
-  const data = JSON.parse(raw) as DirectoryPayload;
-  const map = new Map<string, string>();
-  for (const r of data.ryans || []) {
-    if (r.slug && !photoMissing(r.photo)) {
-      map.set(r.slug, String(r.photo).trim());
-    }
-  }
   return map;
 }
 

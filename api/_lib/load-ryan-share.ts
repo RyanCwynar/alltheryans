@@ -1,7 +1,10 @@
 /**
  * Load a published Ryan for share-card HTML: prefer libSQL when configured,
- * else static data/api JSON (committed seed) from the same deployment / disk.
+ * else static data/api JSON (committed seed) from the same deployment.
  * When the DB row exists but `photo` is empty, fill photo from static JSON.
+ *
+ * Edge-safe: no node:* imports. Bun-local disk loading lives in
+ * scripts/load-ryan-share-local.ts.
  */
 import { createDb as createWebDb } from "../../db/client-web.js";
 import { getPublishedRyanBySlug } from "../../db/queries.js";
@@ -79,46 +82,6 @@ export async function loadRyanShare(
 
   const fromStatic = await fromStaticFetch(slug, request);
   return resolveRyanShare(fromDb, fromStatic);
-}
-
-/** Bun local: committed JSON first, then optional libSQL for DB-only Ryans. */
-export async function loadRyanShareLocal(
-  slug: string,
-  root: string,
-): Promise<RyanShareInput | null> {
-  let fromStatic: RyanShareInput | null = null;
-  try {
-    const { readFile } = await import("node:fs/promises");
-    const { join } = await import("node:path");
-    const raw = await readFile(
-      join(root, "data/api/ryans", `${slug}.json`),
-      "utf8",
-    );
-    const data = JSON.parse(raw) as { ryan?: RyanShareInput };
-    if (data.ryan) fromStatic = asShareInput(data.ryan);
-  } catch {
-    // fall through to DB
-  }
-
-  const url = process.env.LIBSQL_URL?.trim();
-  if (url?.startsWith("file:")) {
-    try {
-      const { createDb } = await import("../../db/client.js");
-      const { db } = createDb();
-      const ryan = await getPublishedRyanBySlug(db, slug);
-      if (ryan) {
-        const fromDb = asShareInput(ryan);
-        return resolveRyanShare(fromDb, fromStatic);
-      }
-    } catch {
-      // Unmigrated local DB is common in fresh checkouts.
-    }
-    return fromStatic;
-  }
-
-  const fromDb = await fromDatabase(slug);
-  if (fromDb || fromStatic) return resolveRyanShare(fromDb, fromStatic);
-  return null;
 }
 
 export { photoMissing };
