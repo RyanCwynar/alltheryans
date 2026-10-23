@@ -3,7 +3,7 @@
     "slug": "athlete",
     "label": "Athlete Ryans",
     "kind": "cluster",
-    "count": 6
+    "count": 8
   },
   "ryans": [
     {
@@ -78,6 +78,49 @@
         "hockey"
       ],
       "connection_count": 0
+    },
+    {
+      "id": 28,
+      "slug": "ryan-day",
+      "name": "Ryan Day",
+      "number": null,
+      "short": "Ohio State head coach",
+      "title": "Head football coach at The Ohio State University",
+      "photo": "/images/ryans/ryan-day.jpg",
+      "photo_credit": "X profile photo of @ryandaytime",
+      "photo_license": "public profile photo",
+      "photo_source": "https://x.com/ryandaytime",
+      "birth_year_min": 1979,
+      "birth_year_max": 1979,
+      "birth_place": "Manchester, New Hampshire, U.S.",
+      "website": "https://ohiostatebuckeyes.com/sports/football/roster/coaches/ryan-day/2310",
+      "lead_summary": "**Ryan Patrick Day** (born March 12, 1979) is an American college and professional football coach and former collegiate quarterback who serves as the head football coach at The Ohio State University [1][2][4]. Named to succeed Urban Meyer on December 4, 2018, after going 3–0 as acting head coach at the start of the 2018 season, Day officially took over as Ohio State's head coach on January 2, 2019 [1][2][3].",
+      "occupations": [
+        "coach",
+        "american-football-player"
+      ],
+      "known_for": [
+        "Head football coach at Ohio State University (2019–present)",
+        "Winning the 2024 College Football Playoff National Championship",
+        "2019 Big Ten Coach of the Year and five CFP appearances",
+        "Childhood and adolescent mental health advocacy with On Our Sleeves"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "ryandaytime",
+          "url": "https://x.com/ryandaytime"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "education",
+        "athlete",
+        "football",
+        "sports"
+      ],
+      "connection_count": 4
     },
     {
       "id": 11,
@@ -159,6 +202,48 @@
       "connection_count": 0
     },
     {
+      "id": 21,
+      "slug": "matt",
+      "name": "Matt Ryan",
+      "number": null,
+      "short": "Falcons QB / exec",
+      "title": "Former NFL quarterback; Falcons President of Football",
+      "photo": "/images/ryans/matt-ryan.jpg",
+      "photo_credit": "X profile photo of @M_Ryan02",
+      "photo_license": "public profile photo",
+      "photo_source": "https://x.com/M_Ryan02",
+      "birth_year_min": 1985,
+      "birth_year_max": 1985,
+      "birth_place": "Exton, Pennsylvania, U.S.",
+      "website": "",
+      "lead_summary": "**Matthew Thomas Ryan** (born May 17, 1985) is an American football executive and former NFL quarterback [1][2]. Nicknamed \"Matty Ice,\" he spent most of his playing career with the Atlanta Falcons, won Associated Press NFL Most Valuable Player honors in 2016, and in January 2026 was named the Falcons’ President of Football [2][3].",
+      "occupations": [
+        "american-football-player",
+        "sports-executive",
+        "sports-analyst"
+      ],
+      "known_for": [
+        "2016 NFL MVP",
+        "Atlanta Falcons franchise passing records",
+        "President of Football, Atlanta Falcons"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "M_Ryan02",
+          "url": "https://x.com/M_Ryan02"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "athlete",
+        "football",
+        "nfl"
+      ],
+      "connection_count": 4
+    },
+    {
       "id": 22,
       "slug": "nolan",
       "name": "Nolan Ryan",
@@ -193,7 +278,7 @@
       "connection_count": 0
     },
     {
-      "id": 38,
+      "id": 41,
       "slug": "shazier",
       "name": "Ryan Shazier",
       "number": null,

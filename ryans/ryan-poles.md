@@ -1,0 +1,149 @@
+---
+status: published
+slug: ryan-poles
+name: Ryan Poles
+short: "Chicago Bears GM"
+title: "General Manager of the Chicago Bears"
+photo: "/images/ryans/ryan-poles.jpg"
+photo_credit: "Ryan Poles via Chicago Bears"
+photo_license: "public profile photo"
+photo_source: "https://www.chicagobears.com/team/front-office/ryan-poles"
+number: null
+birth:
+  date: "1985-09-20"
+  date_precision: day
+  basis: "ESPN player biography [9]; age 36 at Jan 25, 2022 hire [2] and 39 in July 2025 [4]"
+  place: "Canandaigua, New York, U.S."
+  cite: [1, 2, 9]
+death: null
+education:
+  - { institution: "Boston College", degree: "BA", field: "Communications", year: 2007, cite: [1] }
+occupations: [sports-executive, american-football-player]
+clusters: [sports, nfl, football, business]
+organizations:
+  - { name: "Boston College", role: "Offensive lineman (2003–2007); Recruiting / graduate assistant (2008–2009)", start: 2003, end: 2009, cite: [1, 2, 3] }
+  - { name: "Chicago Bears", role: "Undrafted free agent offensive lineman (offseason / training camp)", start: 2008, end: 2008, cite: [1, 2, 3] }
+  - { name: "Kansas City Chiefs", role: "Player personnel and scouting executive (Executive Director of Player Personnel, 2021)", start: 2009, end: 2021, cite: [1, 2] }
+  - { name: "Chicago Bears", role: "General Manager", start: 2022, end: null, cite: [1, 2, 4] }
+website: "https://www.chicagobears.com/team/front-office/ryan-poles"
+social: []
+known_for:
+  - "Seventh general manager in Chicago Bears franchise history (2022–present)"
+  - "2023 No. 1 draft pick trade with Carolina Panthers that yielded DJ Moore and Caleb Williams"
+  - "Executive Director of Player Personnel for the Kansas City Chiefs (Super Bowl LIV champion)"
+  - "2025 NFC North division championship with head coach Ben Johnson"
+relationships:
+  - { target: matt, type: teammate-of, note: "Played offensive tackle at Boston College (2003–2007) protecting quarterback Matt Ryan and lived together in university housing", cite: [1, 2, 3] }
+  - { target: ryan-day, type: same-school, note: "Both attended Boston College (Poles 2003–2007 BA; Day 2004 MS) and worked on the Boston College football staff in 2008", cite: [1, 3, 11] }
+sources:
+  - { n: 1, publisher: "Chicago Bears", date: "2026", title: "Ryan Poles — General Manager Biography", url: "https://www.chicagobears.com/team/front-office/ryan-poles", access: read, checked_at: "2026-10-23" }
+  - { n: 2, publisher: "Chicago Bears", author: "Larry Mayer", date: "2022-01-25", title: "OFFICIAL: Chicago Bears hire Chiefs' Ryan Poles as 7th GM in franchise history", url: "https://www.chicagobears.com/news/bears-hire-ryan-poles-as-general-manager", access: read, checked_at: "2026-10-23" }
+  - { n: 3, publisher: "Chicago Bears", author: "Gabby Hajduk", date: "2022-10-21", title: "Ryan Poles thankful for Boston College roots", url: "https://www.chicagobears.com/news/ryan-poles-thankful-for-boston-college-roots", access: read, checked_at: "2026-10-23" }
+  - { n: 4, publisher: "NFL.com", author: "Grant Gordon", date: "2025-07-11", title: "General manager Ryan Poles, Bears agree to extension through 2029 season", url: "https://www.nfl.com/news/general-manager-ryan-poles-bears-agree-to-extension-through-2029-season", access: read, checked_at: "2026-10-23" }
+  - { n: 5, publisher: "NBC Chicago / Associated Press", date: "2025-07-11", title: "Chicago Bears, Ryan Poles agree to contract extension", url: "https://www.nbcchicago.com/news/sports/nfl/chicago-bears/bears-and-general-manager-ryan-poles-agree-to-contract-extension-through-2029-reports/3787815/", access: read, checked_at: "2026-10-23" }
+  - { n: 6, publisher: "Chicago Bears", author: "Gabby Hajduk", date: "2026-01-21", title: "Ryan Poles 'proud of progress' Bears made in 2025, focused on building a championship team", url: "https://www.chicagobears.com/news/ryan-poles-proud-of-progress-bears-made-in-2025-focused-on-building-a-championship-team", access: read, checked_at: "2026-10-23" }
+  - { n: 7, publisher: "Chicago Bears", author: "Larry Mayer", date: "2026-01-27", title: "By the Numbers: Bears' 2025 season", url: "https://www.chicagobears.com/news/by-the-numbers-bears-2025-season-stats-caleb-williams-ben-johnson", access: read, checked_at: "2026-10-23" }
+  - { n: 8, publisher: "Chicago Bears", author: "Larry Mayer", date: "2026-09-01", title: "8 things we learned from Bears GM Ryan Poles", url: "https://www.chicagobears.com/news/8-things-we-learned-from-bears-gm-ryan-poles-53-man-roster-2026", access: read, checked_at: "2026-10-23" }
+  - { n: 9, publisher: "ESPN", date: null, title: "Ryan C. Poles Biography", url: "https://www.espn.com/nfl/player/bio/_/id/11813/ryan-c-poles", access: read, checked_at: "2026-10-23" }
+  - { n: 10, publisher: "Chicago Bears", author: "Larry Mayer", date: "2026-10-22", title: "Game Recap: Bears knock off Patriots on Thursday Night Football, improve to 5-2", url: "https://www.chicagobears.com/news/game-recap-bears-knock-off-patriots-on-thursday-night-football-improve-to-5-2", access: read, checked_at: "2026-10-23" }
+  - { n: 11, publisher: "Ohio State Athletics", date: "2026-06-15", title: "Ryan Day | Head Coach | Ohio State Football", url: "https://ohiostatebuckeyes.com/sports/football/roster/coaches/ryan-day/2310", access: read, checked_at: "2026-10-23" }
+  - { n: 12, publisher: "Chicago Bears", author: "Larry Mayer", date: "2026-09-28", title: "Game Recap: Case Keenum, defense lead Bears to dominant victory over Eagles", url: "https://www.chicagobears.com/news/game-recap-case-keenum-defense-lead-bears-to-dominant-victory-over-eagles", access: read, checked_at: "2026-10-23" }
+---
+
+# Ryan Poles
+
+**Ryan C. Poles** (born September 20, 1985) is an American professional football executive and former collegiate offensive lineman who serves as the general manager of the Chicago Bears of the National Football League (NFL) [1][2][9]. Named the seventh general manager in franchise history on January 25, 2022, at age 36, Poles previously spent 13 seasons (2009–2021) in the front office of the Kansas City Chiefs, rising from player personnel assistant to executive director of player personnel [1][2].
+
+A native of Canandaigua, New York, Poles played five seasons on the offensive line at Boston College (2003–2007), where he protected quarterback Matt Ryan, and briefly attended training camp with the Chicago Bears as an undrafted free agent in 2008 [1][2][3]. After a three-year roster teardown and rebuild in Chicago that included trading the No. 1 overall pick in the 2023 NFL Draft to the Carolina Panthers for wide receiver DJ Moore and the pick used to draft quarterback Caleb Williams No. 1 overall in 2024, Poles hired head coach Ben Johnson in January 2025 and signed a contract extension through the 2029 season in July 2025 [1][4][5]. In 2025 the Bears went 11–6, won their first NFC North division title since 2018, and earned their first postseason victory since 2010 [1][6][7].
+
+## Early life and education
+
+Poles was born on September 20, 1985, in Canandaigua, New York, and played high school football at Canandaigua Academy [1][9]. He attended Boston College, where he was a member of the Eagles football team from 2003 to 2007 and played offensive tackle and guard [1][2][9]. During his collegiate career, Poles protected Boston College quarterback Matt Ryan and lived in university housing with Ryan and tight end Trey Koziol, whom Poles later hired onto his scouting staffs in Kansas City and Chicago [1][2][3].
+
+During Poles's tenure on the roster, Boston College transitioned from the Big East to the Atlantic Coast Conference (ACC) in 2005, posted back-to-back double-digit win seasons in 2006 (10 wins) and 2007 (11 wins), and reached No. 2 in the Associated Press national poll in 2007—the program's highest AP ranking since 1942 [3]. In 2007 Poles received Boston College's Paul Cavanaugh Award, presented to the student-athlete demonstrating total commitment to football on and off the field as well as ethics and community volunteerism [1]. He graduated from Boston College in 2007 with a bachelor's degree in communications [1].
+
+## Career
+
+### 2008–2009: Undrafted free agent and Boston College recruiting assistant
+
+After completing his collegiate eligibility, Poles signed with the Chicago Bears as an undrafted free agent in 2008 and went through training camp in Bourbonnais, Illinois, before being released during final 53-man roster cuts [1][2][3]. Following his release, Poles prepared to leave football for a marketing job in Vermont, but in September 2008 his former Boston College roommate Trey Koziol—who was leaving his position as Boston College's graduate assistant to take a scouting internship with the Tennessee Titans—recommended Poles as his replacement [3].
+
+Poles served as a graduate and recruiting assistant at Boston College for the 2008–2009 academic year, overlapping on the Boston College football staff with wide receivers coach Ryan Day [1][3][11]. Poles later recalled that an early reprimand over poorly stapled recruiting packets taught him attention to detail, and that watching NFL scouts evaluate Boston College defensive tackle B.J. Raji ahead of the 2009 NFL Draft inspired him to write to NFL teams seeking an entry-level scouting job [3].
+
+### 2009–2021: Kansas City Chiefs front office
+
+In 2009 Poles joined the Kansas City Chiefs under general manager Scott Pioli as a player personnel assistant [1][2]. Over 13 seasons in Kansas City, he worked under three general managers—Pioli (2009–2012), John Dorsey (2013–2017), and Brett Veach (2017–2021)—and was promoted five times [1][2]:
+
+- Player Personnel Assistant (2009) [1][2]
+- College Scouting Administrator (2010–2012) [1][2]
+- College Scouting Coordinator (2013–2016) [1][2]
+- Director of College Scouting (2017) [1][2]
+- Assistant Director of Player Personnel (2018–2020) [1][2]
+- Executive Director of Player Personnel (2021) [1][2]
+
+As Kansas City's director of college scouting in 2017, Poles helped oversee the draft evaluation process when the Chiefs traded up in the first round to select quarterback Patrick Mahomes 10th overall [1][2]. In his senior personnel roles, he oversaw national college scouting, managed out-of-town area scouts, assisted Veach with coordinating the NFL Draft, and contributed to pro personnel evaluations and free agency preparation [1][2]. During his 13 seasons with the organization, Kansas City won seven AFC West division titles, appeared in two Super Bowls, and defeated the San Francisco 49ers in Super Bowl LIV following the 2019 season [1][2]. From 2009 to 2021, Chiefs rosters earned 69 total Pro Bowl selections across 28 different players, including Mahomes, Travis Kelce, Tyreek Hill, Chris Jones, Orlando Brown, and Tyrann Mathieu [1][2].
+
+### 2022–2024: Chicago Bears general manager and roster rebuild
+
+On January 25, 2022, following a 13-day search led by Bears chairman George H. McCaskey, president and CEO Ted Phillips, and Hall of Fame executive Bill Polian, Chicago hired Poles as the seventh general manager in franchise history, succeeding Ryan Pace [2]. Two days later, Poles hired Indianapolis Colts defensive coordinator Matt Eberflus as head coach [4][5].
+
+Inheriting one of the oldest rosters in the NFL at the conclusion of the 2021 season, Poles initiated a comprehensive salary-cap and draft-capital teardown in 2022, trading away veteran linebackers Khalil Mack and Roquan Smith [1][4]. The Bears fielded 11 Week 1 rookie debuts, led the league with 6,721 snaps played by first-year players, and set a franchise single-season rushing record with 3,019 rushing yards, but lost their final 10 games to finish 3–14 with the No. 1 overall pick in the 2023 NFL Draft [1][5].
+
+On March 15, 2023, Poles executed the signature transaction of his tenure, trading the No. 1 overall pick in the 2023 NFL Draft to the Carolina Panthers in exchange for wide receiver DJ Moore, the No. 9 and No. 61 picks in 2023, Carolina's first-round pick in 2024, and a second-round pick in 2025 [1][4][5]. Poles used the 2023 first-round pick (after trading down one spot to No. 10) on right tackle Darnell Wright, and at the Week 9 trade deadline in 2023 acquired defensive end Montez Sweat from the Washington Commanders for a 2024 second-round pick [1][4]. Behind the NFL's No. 1 rush defense (86.4 yards allowed per game) and No. 2 rushing offense (141.1 yards per game), Chicago improved by four wins in 2023 to finish 7–10 [1][5].
+
+Because Carolina finished the 2023 season with the league's worst record, the Panthers' 2024 first-round pick conveyed to Chicago as the No. 1 overall selection [1][4][5]. In the 2024 NFL Draft, Poles selected USC quarterback Caleb Williams at No. 1 overall, Washington wide receiver Rome Odunze at No. 9 overall, and Iowa punter Tory Taylor in the fourth round, while also trading for veteran wide receiver Keenan Allen and signing running back D'Andre Swift [1][4][5]. Williams set Bears rookie passing records and threw 353 consecutive pass attempts without an interception—an NFL rookie record—though he was also sacked a franchise-record and NFL-high 68 times as Chicago endured a 10-game losing streak during the 2024 season [1][4][5]. On November 29, 2024, the day after a 23–20 Thanksgiving loss at Detroit, the Bears fired Eberflus—the first mid-season head-coaching dismissal in the franchise's 105-year history—and finished 2024 at 5–12, bringing Poles's three-year record to 15–36 [4][5].
+
+### 2025–2026: Ben Johnson hire, contract extension, and NFC North title
+
+In January 2025 Poles hired Detroit Lions offensive coordinator Ben Johnson as Chicago's head coach, and in the 2025 offseason overhauled the interior offensive line by trading for four-time All-Pro guard Joe Thuney from Kansas City and Pro Bowl guard Jonah Jackson from the Los Angeles Rams, signing center Drew Dalman, and drafting tight end Colston Loveland, wide receiver Luther Burden III, offensive tackle Ozzy Trapilo, and running back Kyle Monangai [1][4][5][6][7]. On July 11, 2025, Chicago Bears president and CEO Kevin Warren and Poles agreed to a contract extension keeping Poles under contract through the 2029 season, matching Johnson's five-year timeline [4][5].
+
+During the 2025 regular season, the Bears rebounded from an 0–2 start to finish 11–6 and win the NFC North division title—their first division crown and winning record since 2018 [1][6][7]. Chicago scored 441 points (third-most in franchise history), led the NFL with 33 takeaways and a +22 turnover differential, allowed the third-fewest sacks in the league (24), and had three offensive linemen—Thuney, Dalman, and Wright—earn All-Pro or Pro Bowl honors as Williams broke Erik Kramer's single-season franchise passing record with 3,942 yards [1][7]. Dubbed the "Cardiac Bears" after winning six regular-season games in which they trailed in the final two minutes, Chicago defeated the Green Bay Packers 31–27 in the NFC Wild Card Round at Soldier Field on January 10, 2026, overcoming an 18-point halftime deficit (21–3) for the largest postseason comeback in franchise history before falling 20–17 in overtime to the Los Angeles Rams in the NFC Divisional Round [1][6][7][10].
+
+Entering his fifth season as general manager in 2026, Poles drafted Oregon safety Dillon Thieneman in the first round of the 2026 NFL Draft and reshaped the defensive tackle rotation around veteran Grady Jarrett [8][12]. When Williams missed three games (Weeks 3–5) with a hamstring injury, Chicago went 2–1 behind third-string quarterback Case Keenum—who threw for 247 yards and accounted for three touchdowns in a 27–7 Monday night win over the Philadelphia Eagles on September 28, 2026—and backup Tyson Bagent [10][12]. Following Williams's return in Week 6, the Bears beat the Atlanta Falcons 31–23 and defeated the New England Patriots 30–24 on *Thursday Night Football* on October 22, 2026, improving to 5–2 [10].
+
+## Notable work and achievements
+
+- Super Bowl LIV champion (2019 season) and two-time AFC champion as a member of the Kansas City Chiefs player personnel department [1][2].
+- Seventh general manager in Chicago Bears history (hired January 25, 2022; extended through 2029 in July 2025) [1][2][4].
+- Executed the March 2023 trade of the No. 1 overall NFL Draft pick to Carolina for DJ Moore and the pick used to select quarterback Caleb Williams No. 1 overall in 2024 [1][4][5].
+- Built the 2025 Chicago Bears roster that went 11–6, won the NFC North division title, and defeated Green Bay 31–27 in the NFC Wild Card Round [1][6][7].
+
+## Public profile and social media
+
+Poles does not maintain a verified personal X account; his public statements are issued through Halas Hall press conferences and Chicago Bears media availabilities [1][2][6][8]. On October 23, 2026, following Chicago's Week 7 win over New England, Bears fans on X highlighted Poles's roster depth after the team opened the 2026 season 5–2, including a 2–1 stretch with backup and third-string quarterbacks [10][12].
+
+## Personal life
+
+According to his official Chicago Bears biography, Poles is married to his wife, Katie, and they have two children, Mason and Jordyn [1].
+
+## Recognition
+
+- Paul Cavanaugh Award, Boston College, 2007 [1].
+- Named to "40 Under 40" lists by *Ingram's Magazine* (2019), *The Athletic* (2021), and *Chicago Magazine* (2024 and 2025) [1].
+
+## See also
+
+- NFL and Football Ryans: [Matt Ryan](./matt) (Boston College teammate, 2003–2007) [1][2][3], [Ryan Day](./ryan-day) (Boston College alumnus and 2008 staff colleague) [1][3][11], [Ryan Shazier](./shazier)
+- Sports-executive and Coach Ryans: [Ryan Smith](./smith), [Ryan Craig](./ryan-craig)
+
+## References
+
+1. "Ryan Poles — General Manager." Chicago Bears, updated 2026. https://www.chicagobears.com/team/front-office/ryan-poles
+2. Mayer, Larry. "OFFICIAL: Chicago Bears hire Chiefs' Ryan Poles as 7th GM in franchise history." Chicago Bears, Jan 25, 2022. https://www.chicagobears.com/news/bears-hire-ryan-poles-as-general-manager
+3. Hajduk, Gabby. "Ryan Poles thankful for Boston College roots." Chicago Bears, Oct 21, 2022. https://www.chicagobears.com/news/ryan-poles-thankful-for-boston-college-roots
+4. Gordon, Grant. "General manager Ryan Poles, Bears agree to extension through 2029 season." NFL.com, Jul 11, 2025. https://www.nfl.com/news/general-manager-ryan-poles-bears-agree-to-extension-through-2029-season
+5. Associated Press. "Chicago Bears, Ryan Poles agree to contract extension." NBC Chicago, Jul 11, 2025. https://www.nbcchicago.com/news/sports/nfl/chicago-bears/bears-and-general-manager-ryan-poles-agree-to-contract-extension-through-2029-reports/3787815/
+6. Hajduk, Gabby. "Ryan Poles 'proud of progress' Bears made in 2025, focused on building a championship team." Chicago Bears, Jan 21, 2026. https://www.chicagobears.com/news/ryan-poles-proud-of-progress-bears-made-in-2025-focused-on-building-a-championship-team
+7. Mayer, Larry. "By the Numbers: Bears' 2025 season." Chicago Bears, Jan 27, 2026. https://www.chicagobears.com/news/by-the-numbers-bears-2025-season-stats-caleb-williams-ben-johnson
+8. Mayer, Larry. "8 things we learned from Bears GM Ryan Poles." Chicago Bears, Sep 1, 2026. https://www.chicagobears.com/news/8-things-we-learned-from-bears-gm-ryan-poles-53-man-roster-2026
+9. "Ryan C. Poles Biography." ESPN, accessed Oct 23, 2026. https://www.espn.com/nfl/player/bio/_/id/11813/ryan-c-poles
+10. Mayer, Larry. "Game Recap: Bears knock off Patriots on Thursday Night Football, improve to 5-2." Chicago Bears, Oct 22, 2026. https://www.chicagobears.com/news/game-recap-bears-knock-off-patriots-on-thursday-night-football-improve-to-5-2
+11. "Ryan Day | Head Coach | Ohio State Football." Ohio State Athletics, updated Jun 15, 2026. https://ohiostatebuckeyes.com/sports/football/roster/coaches/ryan-day/2310
+12. Mayer, Larry. "Game Recap: Case Keenum, defense lead Bears to dominant victory over Eagles." Chicago Bears, Sep 28, 2026. https://www.chicagobears.com/news/game-recap-case-keenum-defense-lead-bears-to-dominant-victory-over-eagles
+
+<!-- VERIFICATION LOG (2026-10-23, full-read pass)
+READ in full: [1] Chicago Bears official GM bio, [2] Bears Jan 2022 hire announcement, [3] Bears Boston College feature, [4] NFL.com July 2025 extension report, [5] NBC Chicago / AP July 2025 extension report, [6] Bears Jan 2026 end-of-season press conference report, [7] Bears 2025 season by the numbers, [8] Bears Sep 2026 53-man roster press conference, [9] ESPN player biography (confirms DOB 9/20/1985 and Canandaigua, NY), [10] Bears Oct 22, 2026 TNF recap vs Patriots (5-2 record), [11] Ohio State official bio for Ryan Day (Boston College overlap), [12] Bears Sep 28, 2026 MNF recap vs Eagles (Case Keenum start).
+NO WIKIPEDIA CITATIONS: Wikipedia was used only to locate primary links and is not cited.
+RELATIONSHIPS VERIFIED: `matt` (Matt Ryan) is cited on both ends ([1][2][3] explicitly name Poles protecting Matt Ryan and living together at Boston College); `ryan-day` is cited on both ends ([1][3] and [11] confirm Boston College degrees and 2008 football staff overlap).
+PHOTO: Official Chicago Bears front-office headshot from [1], saved locally to /images/ryans/ryan-poles.jpg.
+-->

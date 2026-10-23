@@ -3,7 +3,7 @@
     "slug": "founder",
     "label": "Founder Ryans",
     "kind": "cluster",
-    "count": 19
+    "count": 20
   },
   "ryans": [
     {
@@ -50,7 +50,7 @@
       "connection_count": 1
     },
     {
-      "id": 28,
+      "id": 29,
       "slug": "ryan-dunwoody",
       "name": "Ryan Dunwoody",
       "number": 2,
@@ -97,7 +97,7 @@
       "connection_count": 0
     },
     {
-      "id": 29,
+      "id": 30,
       "slug": "ryan-florence",
       "name": "Ryan Florence",
       "number": 4,
@@ -140,7 +140,7 @@
       "connection_count": 0
     },
     {
-      "id": 32,
+      "id": 34,
       "slug": "ryan-moore",
       "name": "Ryan Moore",
       "number": 7,
@@ -626,6 +626,42 @@
     },
     {
       "id": 33,
+      "slug": "ryan-miller",
+      "name": "Ryan Miller",
+      "number": null,
+      "short": "Disney Lorcana designer",
+      "title": "Co-designer and brand manager of Disney Lorcana at Ravensburger",
+      "photo": "/images/ryans/ryan-miller.jpg",
+      "photo_credit": "Ryan Miller via Disney Parks Blog / Ravensburger",
+      "photo_license": "public profile photo",
+      "photo_source": "https://disneyparksblog.com/products/exclusive-interview-with-disney-lorcana-trading-card-game-designer/",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": "Bakersfield, California, U.S. (raised)",
+      "website": "https://www.disneylorcana.com",
+      "lead_summary": "**Ryan Miller** (also legally known as **Ryan Milton** in federal court filings) is an American tabletop and trading card game designer and brand manager at Ravensburger North America, based in the Seattle area [1][3][7][9]. With co-designer Steve Warner, he created *Disney Lorcana*, Ravensburger's first collectible trading card game, which launched in August 2023 in collaboration with The Walt Disney Company [1][2][5].",
+      "occupations": [
+        "game-designer",
+        "brand-manager"
+      ],
+      "known_for": [
+        "Co-designing Disney Lorcana with Steve Warner",
+        "Lead design work on Duel Masters and Kaijudo at Wizards of the Coast",
+        "Designing The Princess Bride Adventure Book Game (2020)",
+        "Co-designing the Warhammer 40,000 Collectible Card Game (2001)"
+      ],
+      "social": [],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "entertainment",
+        "creator"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 35,
       "slug": "ryan-perry",
       "name": "Ryan Perry",
       "number": null,
@@ -666,7 +702,7 @@
       "connection_count": 0
     },
     {
-      "id": 36,
+      "id": 39,
       "slug": "selkis",
       "name": "Ryan Selkis",
       "number": null,
@@ -708,7 +744,7 @@
       "connection_count": 0
     },
     {
-      "id": 37,
+      "id": 40,
       "slug": "serhant",
       "name": "Ryan Serhant",
       "number": null,
@@ -754,7 +790,7 @@
       "connection_count": 3
     },
     {
-      "id": 39,
+      "id": 42,
       "slug": "smith",
       "name": "Ryan Smith",
       "number": null,
