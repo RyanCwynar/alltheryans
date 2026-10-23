@@ -8,6 +8,7 @@
  */
 import { createDb as createWebDb } from "../../db/client-web.js";
 import { getPublishedRyanBySlug } from "../../db/queries.js";
+import { slugLookupCandidates } from "../../db/slug-alias.js";
 import type { RyanShareInput } from "./ryan-shell.js";
 import { mergeRyanWithStaticPhoto, photoMissing } from "./static-photo.js";
 
@@ -47,18 +48,23 @@ async function fromStaticFetch(
   slug: string,
   request: Request,
 ): Promise<RyanShareInput | null> {
-  try {
-    const res = await fetch(
-      new URL(`/data/api/ryans/${encodeURIComponent(slug)}.json`, request.url),
-      { headers: { Accept: "application/json" } },
-    );
-    if (!res.ok) return null;
-    const data = (await res.json()) as { ryan?: RyanShareInput };
-    return data.ryan ? asShareInput(data.ryan) : null;
-  } catch (err) {
-    console.error("loadRyanShare static fetch:", err);
-    return null;
+  for (const candidate of slugLookupCandidates(slug)) {
+    try {
+      const res = await fetch(
+        new URL(
+          `/data/api/ryans/${encodeURIComponent(candidate)}.json`,
+          request.url,
+        ),
+        { headers: { Accept: "application/json" } },
+      );
+      if (!res.ok) continue;
+      const data = (await res.json()) as { ryan?: RyanShareInput };
+      if (data.ryan) return asShareInput(data.ryan);
+    } catch (err) {
+      console.error("loadRyanShare static fetch:", candidate, err);
+    }
   }
+  return null;
 }
 
 /**

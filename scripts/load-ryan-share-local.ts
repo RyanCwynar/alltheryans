@@ -5,6 +5,7 @@ import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { createDb } from "../db/client.js";
 import { getPublishedRyanBySlug } from "../db/queries.js";
+import { slugLookupCandidates } from "../db/slug-alias.js";
 import type { RyanShareInput } from "../api/_lib/ryan-shell.js";
 import { resolveRyanShare } from "../api/_lib/load-ryan-share.js";
 
@@ -26,22 +27,31 @@ function asShareInput(ryan: {
   };
 }
 
+async function fromStaticDisk(
+  slug: string,
+  root: string,
+): Promise<RyanShareInput | null> {
+  for (const candidate of slugLookupCandidates(slug)) {
+    try {
+      const raw = await readFile(
+        join(root, "data/api/ryans", `${candidate}.json`),
+        "utf8",
+      );
+      const data = JSON.parse(raw) as { ryan?: RyanShareInput };
+      if (data.ryan) return asShareInput(data.ryan);
+    } catch {
+      // try next candidate
+    }
+  }
+  return null;
+}
+
 /** Committed JSON first, then optional local libSQL for DB-only Ryans. */
 export async function loadRyanShareLocal(
   slug: string,
   root: string,
 ): Promise<RyanShareInput | null> {
-  let fromStatic: RyanShareInput | null = null;
-  try {
-    const raw = await readFile(
-      join(root, "data/api/ryans", `${slug}.json`),
-      "utf8",
-    );
-    const data = JSON.parse(raw) as { ryan?: RyanShareInput };
-    if (data.ryan) fromStatic = asShareInput(data.ryan);
-  } catch {
-    // fall through to DB
-  }
+  const fromStatic = await fromStaticDisk(slug, root);
 
   const url = process.env.LIBSQL_URL?.trim();
   if (url?.startsWith("file:")) {

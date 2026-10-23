@@ -18,6 +18,7 @@ import {
   tags,
 } from "./schema.js";
 import { jsonParse } from "./serialize.js";
+import { preferSlugMatch, slugLookupCandidates } from "./slug-alias.js";
 
 export type SortKey = "name" | "number" | "birth" | "connections";
 
@@ -215,12 +216,13 @@ export async function listPublishedRyans(
 }
 
 export async function getPublishedRyanBySlug(db: Db, slug: string) {
-  const rows = await db
+  const candidates = slugLookupCandidates(slug);
+  if (!candidates.length) return null;
+  const matched = await db
     .select()
     .from(ryans)
-    .where(and(eq(ryans.slug, slug), eq(ryans.status, "published")))
-    .limit(1);
-  const row = rows[0];
+    .where(and(inArray(ryans.slug, candidates), eq(ryans.status, "published")));
+  const row = preferSlugMatch(slug, matched);
   if (!row) return null;
 
   // Detail joins in parallel after the primary row (2 round-trip waves total).
