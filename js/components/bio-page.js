@@ -55,13 +55,42 @@ export class BioPage extends LitElement {
       this.ryan = ryan;
       this.ryans = sortByName(list);
       this.status = "ready";
-      document.title = `${ryan.name} · All The Ryans`;
+      document.title = `${ryan.name} — All The Ryans`;
+      const descText = (
+        ryan.title ||
+        ryan.short ||
+        ryan.lead_summary ||
+        `Bio of ${ryan.name}`
+      )
+        .toString()
+        .replace(/\[\d+\]/g, "")
+        .replace(/[*_`]+/g, "")
+        .replace(/\s+/g, " ")
+        .trim();
       const desc = document.querySelector('meta[name="description"]');
-      if (desc) {
-        desc.setAttribute(
-          "content",
-          (ryan.title || ryan.short || ryan.lead_summary || `Bio of ${ryan.name}`).toString(),
-        );
+      if (desc) desc.setAttribute("content", descText);
+      const canon = document.querySelector('link[rel="canonical"]');
+      if (canon) {
+        canon.setAttribute("href", `https://alltheryans.com/ryan/${encodeURIComponent(ryan.slug)}`);
+      }
+      const absPhoto = ryan.photo?.startsWith("http")
+        ? ryan.photo
+        : ryan.photo
+          ? `https://alltheryans.com${ryan.photo}`
+          : "https://alltheryans.com/images/og-default.png";
+      for (const [sel, attr, val] of [
+        ['meta[property="og:title"]', "content", `${ryan.name} — All The Ryans`],
+        ['meta[property="og:description"]', "content", descText],
+        ['meta[property="og:url"]', "content", `https://alltheryans.com/ryan/${encodeURIComponent(ryan.slug)}`],
+        ['meta[property="og:image"]', "content", absPhoto],
+        ['meta[property="og:image:alt"]', "content", ryan.name],
+        ['meta[name="twitter:title"]', "content", `${ryan.name} — All The Ryans`],
+        ['meta[name="twitter:description"]', "content", descText],
+        ['meta[name="twitter:image"]', "content", absPhoto],
+        ['meta[name="twitter:image:alt"]', "content", ryan.name],
+      ]) {
+        const el = document.querySelector(sel);
+        if (el) el.setAttribute(attr, val);
       }
     } catch (err) {
       console.error(err);

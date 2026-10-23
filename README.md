@@ -11,6 +11,7 @@ Notable people named Ryan — Lit frontend + static JSON built from Markdown, se
 | DB | Self-hosted libSQL at `https://alltheryans-db.byldr.co` (optional; backs `/api/*`) |
 | ORM | Drizzle (`sqlite` dialect), shared schema in `db/schema.ts` |
 | API | Hono on Vercel Functions — **read-only** |
+| Ryan share cards | `GET /ryan/:slug` rewrites to Edge `api/ryan-page/[slug]` — SPA shell + per-Ryan OG/Twitter meta |
 | Writes | Single-writer CLI (`bun run db:seed`) with `LIBSQL_*` env |
 
 Markdown files in `ryans/` are the source of truth. Publishing is `status: published` in frontmatter.
