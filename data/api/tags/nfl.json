@@ -1,0 +1,89 @@
+{
+  "tag": {
+    "slug": "nfl",
+    "label": "Nfl Ryans",
+    "kind": "cluster",
+    "count": 2
+  },
+  "ryans": [
+    {
+      "id": 21,
+      "slug": "matt",
+      "name": "Matt Ryan",
+      "number": null,
+      "short": "Falcons QB / exec",
+      "title": "Former NFL quarterback; Falcons President of Football",
+      "photo": "/images/ryans/matt-ryan.jpg",
+      "photo_credit": "X profile photo of @M_Ryan02",
+      "photo_license": "public profile photo",
+      "photo_source": "https://x.com/M_Ryan02",
+      "birth_year_min": 1985,
+      "birth_year_max": 1985,
+      "birth_place": "Exton, Pennsylvania, U.S.",
+      "website": "",
+      "lead_summary": "**Matthew Thomas Ryan** (born May 17, 1985) is an American football executive and former NFL quarterback [1][2]. Nicknamed \"Matty Ice,\" he spent most of his playing career with the Atlanta Falcons, won Associated Press NFL Most Valuable Player honors in 2016, and in January 2026 was named the Falcons’ President of Football [2][3].",
+      "occupations": [
+        "american-football-player",
+        "sports-executive",
+        "sports-analyst"
+      ],
+      "known_for": [
+        "2016 NFL MVP",
+        "Atlanta Falcons franchise passing records",
+        "President of Football, Atlanta Falcons"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "M_Ryan02",
+          "url": "https://x.com/M_Ryan02"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "athlete",
+        "football",
+        "nfl"
+      ],
+      "connection_count": 4
+    },
+    {
+      "id": 36,
+      "slug": "ryan-poles",
+      "name": "Ryan Poles",
+      "number": null,
+      "short": "Chicago Bears GM",
+      "title": "General Manager of the Chicago Bears",
+      "photo": "/images/ryans/ryan-poles.jpg",
+      "photo_credit": "Ryan Poles via Chicago Bears",
+      "photo_license": "public profile photo",
+      "photo_source": "https://www.chicagobears.com/team/front-office/ryan-poles",
+      "birth_year_min": 1985,
+      "birth_year_max": 1985,
+      "birth_place": "Canandaigua, New York, U.S.",
+      "website": "https://www.chicagobears.com/team/front-office/ryan-poles",
+      "lead_summary": "**Ryan C. Poles** (born September 20, 1985) is an American professional football executive and former collegiate offensive lineman who serves as the general manager of the Chicago Bears of the National Football League (NFL) [1][2][9]. Named the seventh general manager in franchise history on January 25, 2022, at age 36, Poles previously spent 13 seasons (2009–2021) in the front office of the Kansas City Chiefs, rising from player personnel assistant to executive director of player personnel [1][2].",
+      "occupations": [
+        "sports-executive",
+        "american-football-player"
+      ],
+      "known_for": [
+        "Seventh general manager in Chicago Bears franchise history (2022–present)",
+        "2023 No. 1 draft pick trade with Carolina Panthers that yielded DJ Moore and Caleb Williams",
+        "Executive Director of Player Personnel for the Kansas City Chiefs (Super Bowl LIV champion)",
+        "2025 NFC North division championship with head coach Ben Johnson"
+      ],
+      "social": [],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "football",
+        "nfl",
+        "business",
+        "sports"
+      ],
+      "connection_count": 4
+    }
+  ]
+}

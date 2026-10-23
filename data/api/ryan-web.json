@@ -235,6 +235,18 @@
       "photo": "/images/ryans/ryan-kaji.jpg"
     },
     {
+      "id": "matt",
+      "slug": "matt",
+      "name": "Matt Ryan",
+      "number": null,
+      "clusters": [
+        "athlete",
+        "football",
+        "nfl"
+      ],
+      "photo": "/images/ryans/matt-ryan.jpg"
+    },
+    {
       "id": "nolan",
       "slug": "nolan",
       "name": "Nolan Ryan",
@@ -305,6 +317,19 @@
       "photo": "/images/ryans/ryan-craig.jpg"
     },
     {
+      "id": "ryan-day",
+      "slug": "ryan-day",
+      "name": "Ryan Day",
+      "number": null,
+      "clusters": [
+        "education",
+        "athlete",
+        "football",
+        "sports"
+      ],
+      "photo": "/images/ryans/ryan-day.jpg"
+    },
+    {
       "id": "ryan-dunwoody",
       "slug": "ryan-dunwoody",
       "name": "Ryan Dunwoody",
@@ -354,6 +379,18 @@
       "photo": "/images/ryans/ryan-holiday.jpg"
     },
     {
+      "id": "ryan-miller",
+      "slug": "ryan-miller",
+      "name": "Ryan Miller",
+      "number": null,
+      "clusters": [
+        "founder",
+        "entertainment",
+        "creator"
+      ],
+      "photo": "/images/ryans/ryan-miller.jpg"
+    },
+    {
       "id": "ryan-moore",
       "slug": "ryan-moore",
       "name": "Ryan Moore",
@@ -377,6 +414,19 @@
         "engineer"
       ],
       "photo": ""
+    },
+    {
+      "id": "ryan-poles",
+      "slug": "ryan-poles",
+      "name": "Ryan Poles",
+      "number": null,
+      "clusters": [
+        "football",
+        "nfl",
+        "business",
+        "sports"
+      ],
+      "photo": "/images/ryans/ryan-poles.jpg"
     },
     {
       "id": "ryangrowthh",
@@ -490,11 +540,32 @@
       "note": "Actors who broke through in late-1990s/2000s film"
     },
     {
+      "source": "matt",
+      "target": "ryan-poles",
+      "type": "teammate-of",
+      "directed": false,
+      "note": "Boston College teammates (2003–2007); Poles blocked for Ryan and they lived together in university housing"
+    },
+    {
+      "source": "matt",
+      "target": "ryan-day",
+      "type": "worked-with",
+      "directed": false,
+      "note": "Day was Boston College wide receivers coach in 2007 during Ryan's senior season as starting quarterback"
+    },
+    {
       "source": "reynolds",
       "target": "seacrest",
       "type": "thematic-link",
       "directed": false,
       "note": "Media figures with consumer brands and production companies"
+    },
+    {
+      "source": "ryan-day",
+      "target": "ryan-poles",
+      "type": "same-school",
+      "directed": false,
+      "note": "Both earned degrees at Boston College (Day 2004 MS; Poles 2007 BA) and served on the Boston College football staff in 2008"
     },
     {
       "source": "ryan-holiday",

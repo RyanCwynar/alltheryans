@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 slug: matt
 name: Matt Ryan
 short: "Falcons QB / exec"
@@ -10,7 +10,7 @@ photo_license: "public profile photo"
 photo_source: "https://x.com/M_Ryan02"
 birth: { date: "1985-05-17", place: "Exton, Pennsylvania, U.S." }
 occupations: [american-football-player, sports-executive, sports-analyst]
-clusters: [athlete, nfl]
+clusters: [athlete, nfl, football]
 organizations:
   - { name: "Atlanta Falcons", role: "Quarterback", start: 2008, end: 2021 }
   - { name: "Indianapolis Colts", role: "Quarterback", start: 2022, end: 2022 }
@@ -23,13 +23,17 @@ known_for:
   - "2016 NFL MVP"
   - "Atlanta Falcons franchise passing records"
   - "President of Football, Atlanta Falcons"
-relationships: []
+relationships:
+  - { target: ryan-poles, type: teammate-of, note: "Boston College teammates (2003–2007); Poles blocked for Ryan and they lived together in university housing", cite: [4, 6] }
+  - { target: ryan-day, type: worked-with, note: "Day was Boston College wide receivers coach in 2007 during Ryan's senior season as starting quarterback", cite: [4, 7] }
 sources:
   - { n: 1, title: "Matt Ryan Stats", publisher: "Pro-Football-Reference", date: 2026-10-12, url: "https://www.pro-football-reference.com/players/R/RyanMa00.htm", access: read, checked_at: 2026-10-12 }
   - { n: 2, title: "Matt Ryan announces retirement, signs one-day contract with Atlanta to retire a Falcon", publisher: "Atlanta Falcons", date: 2024-04-22, url: "https://www.atlantafalcons.com/news/matt-ryan-retirement-one-day-contract-quarterback", access: read, checked_at: 2026-10-12 }
   - { n: 3, title: "Matt Ryan named President of Football", publisher: "Atlanta Falcons", date: 2026-01-10, url: "https://www.atlantafalcons.com/news/atlanta-falcons-name-matt-ryan-president-of-football", access: read, checked_at: 2026-10-12 }
   - { n: 4, title: "Matt Ryan - Football", publisher: "Boston College Athletics", date: 2008-01-01, url: "https://bceagles.com/sports/football/roster/matt-ryan/1844", access: search-snippet, checked_at: 2026-10-12 }
   - { n: 5, title: "Falcons name former longtime quarterback Matt Ryan to new role as president of football", publisher: AP News, date: 2026-01-10, url: "https://apnews.com/article/falcons-ryan-blank-2f3bdece7741da963efb31f2b8011997", access: search-snippet, checked_at: 2026-10-12 }
+  - { n: 6, title: "Ryan Poles thankful for Boston College roots", publisher: "Chicago Bears", date: 2022-10-21, url: "https://www.chicagobears.com/news/ryan-poles-thankful-for-boston-college-roots", access: read, checked_at: 2026-10-23 }
+  - { n: 7, title: "Ryan Day | Head Coach | Ohio State Football", publisher: "Ohio State Athletics", date: 2026-06-15, url: "https://ohiostatebuckeyes.com/sports/football/roster/coaches/ryan-day/2310", access: read, checked_at: 2026-10-23 }
 ---
 
 # Matt Ryan
@@ -37,7 +41,7 @@ sources:
 **Matthew Thomas Ryan** (born May 17, 1985) is an American football executive and former NFL quarterback [1][2]. Nicknamed "Matty Ice," he spent most of his playing career with the Atlanta Falcons, won Associated Press NFL Most Valuable Player honors in 2016, and in January 2026 was named the Falcons’ President of Football [2][3].
 
 ## Early life and college
-Ryan was born in Exton, Pennsylvania, and played college football at Boston College [1][4]. The Falcons selected him third overall in the 2008 NFL Draft [2][3].
+Ryan was born in Exton, Pennsylvania, and played college football at Boston College [1][4]. Offensive tackle Ryan Poles blocked for him there from 2003 to 2007; the two lived together in university housing [4][6]. In 2007, his senior season, Ryan Day was Boston College’s wide receivers coach [4][7]. The Falcons selected Ryan third overall in the 2008 NFL Draft [2][3].
 
 ## Playing career
 Ryan started immediately as a rookie in 2008 and was named AP Offensive Rookie of the Year [2]. Over 14 seasons in Atlanta (2008–2021) he started 222 of 225 possible regular-season games, compiled a 120–102 record, and made six playoff appearances [2]. In 2016 he earned first-team All-Pro, AP Offensive Player of the Year, and AP MVP honors after leading Atlanta to an NFC championship and Super Bowl LI, which the Falcons lost to the New England Patriots [2][3].
@@ -55,6 +59,8 @@ CBS Sports announced in May 2023 that Ryan would join the network as an NFL anal
 3. "Matt Ryan named President of Football." Atlanta Falcons, Jan 10, 2026. https://www.atlantafalcons.com/news/atlanta-falcons-name-matt-ryan-president-of-football
 4. "Matt Ryan - Football." Boston College Athletics. https://bceagles.com/sports/football/roster/matt-ryan/1844
 5. "Falcons name former longtime quarterback Matt Ryan to new role as president of football." *AP News*, Jan 10, 2026. https://apnews.com/article/falcons-ryan-blank-2f3bdece7741da963efb31f2b8011997
+6. Hajduk, Gabby. "Ryan Poles thankful for Boston College roots." Chicago Bears, Oct 21, 2022. https://www.chicagobears.com/news/ryan-poles-thankful-for-boston-college-roots
+7. "Ryan Day | Head Coach | Ohio State Football." Ohio State Athletics, Jun 15, 2026. https://ohiostatebuckeyes.com/sports/football/roster/coaches/ryan-day/2310
 
 <!-- VERIFICATION LOG (2026-10-12)
 READ in full: 1, 2, 3. SEARCH SNIPPET: 4, 5 (AP Cloudflare).
