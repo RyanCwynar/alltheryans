@@ -16,6 +16,7 @@ import {
 } from "../db/queries.js";
 import { withRouteTiming } from "../db/timing.js";
 import { API_CACHE_TAG, CDN_CACHE } from "./_lib/http.js";
+import { enrichRyanPhoto, enrichRyanPhotos } from "./_lib/static-photo.js";
 
 export type AppEnv = {
   Bindings: LibsqlEnv;
@@ -64,7 +65,11 @@ export function createApp() {
         const tag = c.req.query("tag") || undefined;
         const sort = parseSort(c.req.query("sort") || undefined);
         const q = c.req.query("q") || undefined;
-        const ryans = await listPublishedRyans(db, { tag, sort, q });
+        const origin = new URL(c.req.url).origin;
+        const ryans = await enrichRyanPhotos(
+          await listPublishedRyans(db, { tag, sort, q }),
+          origin,
+        );
         return c.json({ count: ryans.length, ryans }, 200, cacheHeaders());
       });
     } catch (err) {
@@ -79,7 +84,12 @@ export function createApp() {
         const db = dbFromEnv(c.env ?? {});
         const ryan = await getPublishedRyanBySlug(db, c.req.param("slug"));
         if (!ryan) return c.json({ error: "not_found" }, 404, noStore());
-        return c.json({ ryan }, 200, cacheHeaders());
+        const origin = new URL(c.req.url).origin;
+        return c.json(
+          { ryan: await enrichRyanPhoto(ryan, origin) },
+          200,
+          cacheHeaders(),
+        );
       });
     } catch (err) {
       console.error(err);
@@ -107,7 +117,12 @@ export function createApp() {
         const sort = parseSort(c.req.query("sort") || "number");
         const page = await getTagPage(db, c.req.param("tag"), sort);
         if (!page) return c.json({ error: "not_found" }, 404, noStore());
-        return c.json(page, 200, cacheHeaders());
+        const origin = new URL(c.req.url).origin;
+        return c.json(
+          { ...page, ryans: await enrichRyanPhotos(page.ryans, origin) },
+          200,
+          cacheHeaders(),
+        );
       });
     } catch (err) {
       console.error(err);
@@ -124,7 +139,9 @@ export function createApp() {
           sort: parseSort(c.req.query("sort") || undefined),
           q: c.req.query("q") || undefined,
         });
-        return c.json(data, 200, cacheHeaders());
+        const origin = new URL(c.req.url).origin;
+        const ryans = await enrichRyanPhotos(data.ryans, origin);
+        return c.json({ ...data, ryans, count: ryans.length }, 200, cacheHeaders());
       });
     } catch (err) {
       console.error(err);
@@ -137,7 +154,12 @@ export function createApp() {
       return await withRouteTiming("GET /api/ryan-web", async () => {
         const db = dbFromEnv(c.env ?? {});
         const graph = await getRyanWeb(db);
-        return c.json(graph, 200, cacheHeaders());
+        const origin = new URL(c.req.url).origin;
+        return c.json(
+          { ...graph, nodes: await enrichRyanPhotos(graph.nodes, origin) },
+          200,
+          cacheHeaders(),
+        );
       });
     } catch (err) {
       console.error(err);
