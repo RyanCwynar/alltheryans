@@ -46,7 +46,7 @@ sources:
 
 ## Software: from wish lists to hiveminds
 
-Snodgrass came to Amazon from Carnegie Mellon in 1997. As a Senior Principal Engineer he worked on Kindle, distributed systems, and Amazon's original microservices platform, and he is a named inventor on more than 25 U.S. patents, from wish lists to e-book encryption.
+Snodgrass came to Amazon from Carnegie Mellon in 1997. As a Senior Principal Engineer he worked on Kindle, distributed systems, and Amazon's original microservices platform, and he is a named inventor on 35 U.S. patents, from wish lists to e-book encryption, one of them alongside Jeff Bezos.
 
 In 2026 he co-founded SageOx with Ajit Banerjee and Milkana Brace, and serves as CTO. The company's pitch is "making AI multi-player": give people and their agents the same shared context, so what one knows, everyone knows. Canaan led its $15 million seed round. Snodgrass is the top contributor to its open-source ox CLI and writes about engineering with AI agents on the SageOx blog and his Substack. His X bio lists his location as 127.0.0.1.
 
@@ -64,7 +64,7 @@ By then the car had turned into a research project, and the research into a book
 - ***Carrera 2.7*:** bronze, Independent Publisher Book Awards; shortlisted, International Historic Motoring Awards.
 - **Motorworld Buchpreis:** first place.
 - **Concours:** Best in Class at Palos Verdes (2010), Concours on the Avenue (2015), and Forest Grove.
-- **Patents:** more than 25 U.S. patents.
+- **Patents:** 35 U.S. patents, including one co-invented with Jeff Bezos.
 
 ## Personal life
 
@@ -93,7 +93,8 @@ RESEARCH TRAIL (read, not listed to keep refs short):
 - X @rsnodgrass via fxtwitter API (bio: ex-Sr Principal Engineer @Amazon, Kindle, distributed systems, orig microservices platform; "teammaxxing ox-style"; location 127.0.0.1)
 - LinkedIn https://www.linkedin.com/in/rsnodgrass/ (CMU; publications; 36+ patents/applications listed incl. "Probabilistic technique for consistency checking cache entries" US 7,461,206, 2008)
 - Google Patents front pages US6360254B1 (priority 1998-09-15, Amazon.com Holdings), US7356490B1 (wish lists), US8826036B1 (ebook encryption)
-- Google Patents inventor queries: 22 US grants for "Ryan J. Snodgrass" + 3 more Amazon US grants under "Ryan Snodgrass" + US7356490B1 = 26 verified US grants, Amazon/Audible assignees, priority dates 1998-09-15 to 2011-07-19. Stated as "more than 25". Per-patent recheck was blocked by rate limiting.
+- Google Patents inventor queries: 22 US grants for "Ryan J. Snodgrass" + 3 more Amazon US grants under "Ryan Snodgrass" + US7356490B1 = 26 verified US grants, Amazon/Audible assignees, priority dates 1998-09-15 to 2011-07-19. SUPERSEDED: count is 35 issued U.S. patents per the subject's LinkedIn patents list (supplied 2026-10-24: 35 issued + 1 application, US 2014/0189499). Google found 6 more (US7778890, US9948531, US7734872, US9448932, US9485146, US8738460), all same-family continuations of listed patents; excluded at subject's request.
+- USPTO front page https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/7478054 : US 7,478,054 B1 "Sharing information about purchases", inventors Warren Adams, Jeffrey P. Bezos, Jennifer Jacobi, Ryan Snodgrass; assignee Amazon.com, Inc.; filed Nov 20, 2000; issued Jan 13, 2009.
 - Parabolica product pages https://parabolicapress.com/products/porsche-carrera-2-7-book and https://parabolicapress.com/products/porsche-turbo-3-0-book (pages, images, 2,500 copies, Aug 2018, 11.25 lb)
 - Parabolica award badges (read as images): carrera27 page = IHMA 2016 shortlist Publication of the Year, IAMC medal (level not shown), IPPY Bronze; homepage = RAC Motoring Book of the Year 2018 shortlist, MPG Awards finalist Best of the Year 2018, IPPY Gold, Motorworld Buchpreis 1st. 2018 badges assigned to Turbo 3.0 (only 2018 book). IPPY Gold assigned to Turbo 3.0 per search result for 2019 IPPY (Best Book Arts Craftsmanship, tie) - IPPY page itself not read. Motorworld Buchpreis book/year not stated; left unassigned.
 - Historic Racing News https://historicracingnews.com/Article/-International-Historic-Motoring-Awards-Finalists-Announced/710 (2016 IHMA Publication of the Year finalists incl. Carrera 2.7)
