@@ -56,7 +56,7 @@ He writes about all of it on the SageOx blog, under titles like "Your agents are
 
 Snodgrass spent the 2000 through 2025 seasons racing in a variety of series, the SCCA among them. In 2004 he joined NayKid Racing's three-car Corvette Z06 team in the SCCA's T1 class, driving the No. 75 alongside Scotty B. White and Cindi Lux; the team had won 11 of 13 T1 races the year before. The rookie finished third in both of his first two races with the team, at Thunderhill in March 2004, completing a NayKid podium sweep. Off the track, he has run Arizona's Copperstate 1000 vintage rally several times.
 
-In 2009 he went looking for a 1974–76 Porsche Carrera 2.7 MFI, the mechanically fuel-injected successor to the 1973 Carrera RS. He found his in late 2011: a silver 1976 coupe that had sat in primer at a San Diego body shop for about 12 years, stripped to a bare roller. It was a "Sondermodell," number 40 of 113, sold only in Germany during the final two months of the 1976 model year. "They were the last model-year street Porsche with MFI," he told Road Scholars. Restored, the car won Best in Class at the 2015 Concours on the Avenue in Monterey. He has also won Best in Class at Oregon's Forest Grove Concours d'Elegance with a 1955 Mercedes-Benz 300 SL.
+In 2009 he went looking for a 1974–76 Porsche Carrera 2.7 MFI, the mechanically fuel-injected successor to the 1973 Carrera RS. He found his in late 2011: a silver 1976 coupe that had sat in primer at a San Diego body shop for about 12 years, stripped to a bare roller. It was a "Sondermodell," number 40 of 113, sold only in Germany during the final two months of the 1976 model year. "They were the last model-year street Porsche with MFI," he told Road Scholars. Restored, the car won Best in Class at the 2015 Concours on the Avenue in Monterey. He has also won Best in Class at Oregon's Forest Grove Concours d'Elegance with a 1955 Mercedes-Benz 300 SL, and in the 300 SL class at the 2010 Palos Verdes Concours d'Elegance in Los Angeles County.
 
 By then the car had turned into a research project, and the research into a book. Snodgrass took a sabbatical from software and founded Parabolica Press. "I was compelled to do it as a lifelong lover of car books," he said. His model was Georg Konradsheim's *Carrera RS*; Konradsheim introduced him to that book's designer, Christoph Mäder, and both men became, in Snodgrass's words, "good mentors, advisors, and friends."
 
@@ -70,7 +70,7 @@ Then he went bigger. *Turbo 3.0: Porsche's First Turbocharged Supercar* (2018) r
 - ***Carrera 2.7*:** shortlisted, Publication of the Year, International Historic Motoring Awards (2016); bronze, Independent Publisher Book Awards; International Automotive Media Competition award.
 - **Motorworld Buchpreis:** first place.
 - **Patents:** named inventor on more than 25 issued U.S. patents, filed from 1998 to 2011.
-- **Concours:** Best in Class, Concours on the Avenue (2015), 1976 Porsche Carrera 2.7 MFI; Best in Class, Forest Grove Concours d'Elegance, 1955 Mercedes-Benz 300 SL.
+- **Concours:** Best in Class, 300 SL class, Palos Verdes Concours d'Elegance (2010); Best in Class, Concours on the Avenue (2015), 1976 Porsche Carrera 2.7 MFI; Best in Class, Forest Grove Concours d'Elegance, 1955 Mercedes-Benz 300 SL.
 
 ## Personal life
 
@@ -88,7 +88,7 @@ Snodgrass lives in the Seattle area.
 
 <!-- VERIFICATION LOG (2026-10-24)
 SUBJECT REQUESTS (2026-10-24): no inline [n] markers; narrative voice; organized by field; references cut to the 7 strongest; CMU dates removed; simplified clusters/known_for.
-SUBJECT-PROVIDED (no published source found): joined Amazon in 1997; 15 years at Amazon (so end 2012); raced the 2000-2025 seasons across several series incl. SCCA; Best in Class at Forest Grove Concours with a 1955 Mercedes-Benz 300 SL (year not given); multi-time Copperstate 1000 participant (user said "Copper State Rally"; official name used). Patents corroborate Amazon 1998-2011 filings.
+SUBJECT-PROVIDED (no published source found): joined Amazon in 1997; 15 years at Amazon (so end 2012); raced the 2000-2025 seasons across several series incl. SCCA; Best in Class at Forest Grove Concours with a 1955 Mercedes-Benz 300 SL (year not given); Best in Class, 300 SL class, 2010 Palos Verdes Concours d'Elegance (Los Angeles County; car not specified); multi-time Copperstate 1000 participant (user said "Copper State Rally"; official name used). Patents corroborate Amazon 1998-2011 filings.
 CLAIM MAP (listed refs): SageOx role/blog titles/agents-in-teams [1]; seed + co-investors [2]; Substack tagline [3]; sabbatical, Parabolica founding, research method [4]; patents [5]; car, Sondermodell 40/113, Germany-only, bare roller, tartan, 18-month restoration, Stuttgart x4, quotes, concours, Konradsheim/Maeder, 7.5 lb [6]; NayKid 2004 T1 No. 75 Z06, teammates, 3rd x2 at Thunderhill, 2003 record 11/13 [7].
 RESEARCH TRAIL (read, not listed to keep refs short):
 - SageOx About https://sageox.ai/about (co-founders Banerjee, Brace; "making AI multi-player"; what one knows, everyone knows)
