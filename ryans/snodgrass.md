@@ -46,31 +46,25 @@ sources:
 
 ## Software: from wish lists to hiveminds
 
-Snodgrass came to Amazon from Carnegie Mellon in 1997. He is a named inventor on more than 25 issued U.S. patents, and the titles read like a tour of the early web: secure links to private resources, services for electronic wish lists, automatically buying a gift from a wish list, e-book encryption, and a "probabilistic technique for consistency checking cache entries." He describes his role as Senior Principal Engineer, working on Kindle, distributed systems, and Amazon's original microservices platform.
+Snodgrass came to Amazon from Carnegie Mellon in 1997. As a Senior Principal Engineer he worked on Kindle, distributed systems, and Amazon's original microservices platform, and he is a named inventor on more than 25 U.S. patents, from wish lists to e-book encryption.
 
-In 2026 he co-founded SageOx with Ajit Banerjee and Milkana Brace, and serves as CTO. The company's pitch is "making AI multi-player": give people and their agents the same shared context, so what one knows, everyone knows. Canaan led its $15 million seed round in May 2026, with A.Capital, Pioneer Square Labs, and Founders' Co-op joining. Snodgrass is the top contributor to its open-source ox CLI, billed as "The hivemind for AI coding agents," and was an early contributor to Steve Yegge's Beads, a task tracker built for coding agents. His working theory: "the agents work the best when they have enough context but not too much."
-
-He writes about all of it on the SageOx blog, under titles like "Your agents are a generation behind, and they will never tell you" and "YAGNI changed altitude," and on a Substack subtitled "Beyond the comfort of determinism." In hindsight, that 2008 patent on probabilistic cache checking was an early warning. His X bio ends with "teammaxxing ox-style" and lists his location as 127.0.0.1.
+In 2026 he co-founded SageOx with Ajit Banerjee and Milkana Brace, and serves as CTO. The company's pitch is "making AI multi-player": give people and their agents the same shared context, so what one knows, everyone knows. Canaan led its $15 million seed round. Snodgrass is the top contributor to its open-source ox CLI and writes about engineering with AI agents on the SageOx blog and his Substack. His X bio lists his location as 127.0.0.1.
 
 ## Cars: from the racetrack to the archive
 
-Snodgrass spent the 2000 through 2025 seasons racing in a variety of series, the SCCA among them. In 2004 he joined NayKid Racing's three-car Corvette Z06 team in the SCCA's T1 class, driving the No. 75 alongside Scotty B. White and Cindi Lux; the team had won 11 of 13 T1 races the year before. The rookie finished third in both of his first two races with the team, at Thunderhill in March 2004, completing a NayKid podium sweep. Off the track, he has run Arizona's Copperstate 1000 vintage rally several times.
+Snodgrass raced from 2000 through 2025 in a variety of series, including the SCCA. In 2004 he drove a Corvette Z06 for NayKid Racing alongside Scotty B. White and Cindi Lux, finishing on the podium in his first two races with the team. He has also run Arizona's Copperstate 1000 vintage rally several times.
 
-In 2009 he went looking for a 1974–76 Porsche Carrera 2.7 MFI, the mechanically fuel-injected successor to the 1973 Carrera RS. He found his in late 2011: a silver 1976 coupe that had sat in primer at a San Diego body shop for about 12 years, stripped to a bare roller. It was a "Sondermodell," number 40 of 113, sold only in Germany during the final two months of the 1976 model year. "They were the last model-year street Porsche with MFI," he told Road Scholars. Restored, the car won Best in Class at the 2015 Concours on the Avenue in Monterey. He has also won Best in Class at Oregon's Forest Grove Concours d'Elegance with a 1955 Mercedes-Benz 300 SL, and in the 300 SL class at the 2010 Palos Verdes Concours d'Elegance in Los Angeles County.
+In 2011, after a two-year search, he bought a 1976 Porsche Carrera 2.7 MFI "Sondermodell," one of 113 built, that had sat in primer at a San Diego body shop for about 12 years. Restored, it won Best in Class at the 2015 Concours on the Avenue in Monterey. He has also taken Best in Class with a 1955 Mercedes-Benz 300 SL at the Palos Verdes and Forest Grove concours.
 
-By then the car had turned into a research project, and the research into a book. Snodgrass took a sabbatical from software and founded Parabolica Press. "I was compelled to do it as a lifelong lover of car books," he said. His model was Georg Konradsheim's *Carrera RS*; Konradsheim introduced him to that book's designer, Christoph Mäder, and both men became, in Snodgrass's words, "good mentors, advisors, and friends."
-
-*Carrera 2.7* arrived in October 2015: 406 pages, 7.5 pounds, more than 530 previously unpublished images, and a print run of 2,500. Reviewer Wallace Wyss wrote that "Snodgrass has raised the bar on what we expect in a car book."
-
-Then he went bigger. *Turbo 3.0: Porsche's First Turbocharged Supercar* (2018) runs 536 pages and 11.25 pounds, with 1,508 images, and follows the 1975–77 3.0-liter 930 Turbo from the factory to privateer racing and the 934 and 934.5 race cars. Like the first book, it was built from factory archives, private collections, and interviews with the engineers, development drivers, and racing drivers who were there.
+By then the car had turned into a research project, and the research into a book. Snodgrass took a sabbatical from software and founded Parabolica Press. "I was compelled to do it as a lifelong lover of car books," he said. *Carrera 2.7* followed in 2015 and *Turbo 3.0: Porsche's First Turbocharged Supercar* in 2018, both built from Porsche's factory archives, private collections, and interviews with the engineers and drivers who were there. Reviewer Wallace Wyss wrote that "Snodgrass has raised the bar on what we expect in a car book."
 
 ## Recognition
 
-- ***Turbo 3.0*:** shortlisted, Royal Automobile Club Motoring Book of the Year (2018); finalist, MPG Awards Best of the Year (2018); gold, Independent Publisher Book Awards.
-- ***Carrera 2.7*:** shortlisted, Publication of the Year, International Historic Motoring Awards (2016); bronze, Independent Publisher Book Awards; International Automotive Media Competition award.
+- ***Turbo 3.0*:** gold, Independent Publisher Book Awards; shortlisted, RAC Motoring Book of the Year; finalist, MPG Awards.
+- ***Carrera 2.7*:** bronze, Independent Publisher Book Awards; shortlisted, International Historic Motoring Awards.
 - **Motorworld Buchpreis:** first place.
-- **Patents:** named inventor on more than 25 issued U.S. patents, filed from 1998 to 2011.
-- **Concours:** Best in Class, 300 SL class, Palos Verdes Concours d'Elegance (2010); Best in Class, Concours on the Avenue (2015), 1976 Porsche Carrera 2.7 MFI; Best in Class, Forest Grove Concours d'Elegance, 1955 Mercedes-Benz 300 SL.
+- **Concours:** Best in Class at Palos Verdes (2010), Concours on the Avenue (2015), and Forest Grove.
+- **Patents:** more than 25 U.S. patents.
 
 ## Personal life
 
@@ -87,8 +81,8 @@ Snodgrass lives in the Seattle area.
 7. "RACE: NayKid Racing Thunderhill notes." *Motorsport.com*, Mar 23, 2004. https://au.motorsport.com/scca/news/race-naykid-racing-thunderhill-notes/2029174/
 
 <!-- VERIFICATION LOG (2026-10-24)
-SUBJECT REQUESTS (2026-10-24): no inline [n] markers; narrative voice; organized by field; references cut to the 7 strongest; CMU dates removed; simplified clusters/known_for.
-SUBJECT-PROVIDED (no published source found): joined Amazon in 1997; 15 years at Amazon (so end 2012); raced the 2000-2025 seasons across several series incl. SCCA; Best in Class at Forest Grove Concours with a 1955 Mercedes-Benz 300 SL (year not given); Best in Class, 300 SL class, 2010 Palos Verdes Concours d'Elegance (Los Angeles County; car not specified); multi-time Copperstate 1000 participant (user said "Copper State Rally"; official name used). Patents corroborate Amazon 1998-2011 filings.
+SUBJECT REQUESTS (2026-10-24): simplified (no book weights/page/image counts, co-investors, Beads, blog titles, Konradsheim/Maeder, award years beyond concours); no inline [n] markers; narrative voice; organized by field; references cut to the 7 strongest; CMU dates removed; simplified clusters/known_for.
+SUBJECT-PROVIDED (no published source found): joined Amazon in 1997; 15 years at Amazon (so end 2012); raced the 2000-2025 seasons across several series incl. SCCA; Best in Class at Forest Grove Concours with a 1955 Mercedes-Benz 300 SL (year not given); Best in Class, 300 SL class, 2010 Palos Verdes Concours d'Elegance (subject said "as well" after the 1955 300 SL Forest Grove win; treated as the same car); multi-time Copperstate 1000 participant (user said "Copper State Rally"; official name used). Patents corroborate Amazon 1998-2011 filings.
 CLAIM MAP (listed refs): SageOx role/blog titles/agents-in-teams [1]; seed + co-investors [2]; Substack tagline [3]; sabbatical, Parabolica founding, research method [4]; patents [5]; car, Sondermodell 40/113, Germany-only, bare roller, tartan, 18-month restoration, Stuttgart x4, quotes, concours, Konradsheim/Maeder, 7.5 lb [6]; NayKid 2004 T1 No. 75 Z06, teammates, 3rd x2 at Thunderhill, 2003 record 11/13 [7].
 RESEARCH TRAIL (read, not listed to keep refs short):
 - SageOx About https://sageox.ai/about (co-founders Banerjee, Brace; "making AI multi-player"; what one knows, everyone knows)
