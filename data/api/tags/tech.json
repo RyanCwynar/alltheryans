@@ -3,7 +3,7 @@
     "slug": "tech",
     "label": "Tech Ryans",
     "kind": "cluster",
-    "count": 17
+    "count": 18
   },
   "ryans": [
     {
@@ -703,6 +703,59 @@
         "founder",
         "tech",
         "sports"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 43,
+      "slug": "snodgrass",
+      "name": "Ryan Snodgrass",
+      "number": null,
+      "short": "SageOx CTO / Porsche auth",
+      "title": "Co-founder and CTO of SageOx; author of Porsche histories",
+      "photo": "/images/ryans/ryan-snodgrass.jpg",
+      "photo_credit": "X profile photo of @rsnodgrass",
+      "photo_license": "public profile photo",
+      "photo_source": "https://x.com/rsnodgrass",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": "",
+      "website": "https://sageox.ai/about/ryan-snodgrass",
+      "lead_summary": "**Ryan Snodgrass** is a software engineer, racer, and Porsche historian with a habit of going all the way to the source. He spent 15 years at Amazon, took a sabbatical to write two award-winning books about Porsche, and in 2026 co-founded SageOx, a Seattle startup that wants people and AI coding agents to work as one team.",
+      "occupations": [
+        "software-engineer",
+        "entrepreneur",
+        "author"
+      ],
+      "known_for": [
+        "Co-founding SageOx",
+        "Carrera 2.7 (2015)",
+        "Turbo 3.0 (2018)",
+        "Amazon patents"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "rsnodgrass",
+          "url": "https://x.com/rsnodgrass"
+        },
+        {
+          "platform": "github",
+          "handle": "rsnodgrass",
+          "url": "https://github.com/rsnodgrass"
+        },
+        {
+          "platform": "linkedin",
+          "handle": "rsnodgrass",
+          "url": "https://www.linkedin.com/in/rsnodgrass/"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "founder",
+        "tech",
+        "author"
       ],
       "connection_count": 0
     }

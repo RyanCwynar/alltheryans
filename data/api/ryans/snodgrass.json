@@ -1,0 +1,177 @@
+{
+  "ryan": {
+    "id": 43,
+    "slug": "snodgrass",
+    "name": "Ryan Snodgrass",
+    "number": null,
+    "short": "SageOx CTO / Porsche auth",
+    "title": "Co-founder and CTO of SageOx; author of Porsche histories",
+    "photo": "/images/ryans/ryan-snodgrass.jpg",
+    "photo_credit": "X profile photo of @rsnodgrass",
+    "photo_license": "public profile photo",
+    "photo_source": "https://x.com/rsnodgrass",
+    "birth_year_min": null,
+    "birth_year_max": null,
+    "birth_place": "",
+    "website": "https://sageox.ai/about/ryan-snodgrass",
+    "lead_summary": "**Ryan Snodgrass** is a software engineer, racer, and Porsche historian with a habit of going all the way to the source. He spent 15 years at Amazon, took a sabbatical to write two award-winning books about Porsche, and in 2026 co-founded SageOx, a Seattle startup that wants people and AI coding agents to work as one team.",
+    "occupations": [
+      "software-engineer",
+      "entrepreneur",
+      "author"
+    ],
+    "known_for": [
+      "Co-founding SageOx",
+      "Carrera 2.7 (2015)",
+      "Turbo 3.0 (2018)",
+      "Amazon patents"
+    ],
+    "social": [
+      {
+        "platform": "x",
+        "handle": "rsnodgrass",
+        "url": "https://x.com/rsnodgrass"
+      },
+      {
+        "platform": "github",
+        "handle": "rsnodgrass",
+        "url": "https://github.com/rsnodgrass"
+      },
+      {
+        "platform": "linkedin",
+        "handle": "rsnodgrass",
+        "url": "https://www.linkedin.com/in/rsnodgrass/"
+      }
+    ],
+    "featured_on": null,
+    "status": "published",
+    "clusters": [
+      "founder",
+      "tech",
+      "author"
+    ],
+    "connection_count": 0,
+    "birth": {
+      "date": null,
+      "year_min": null,
+      "year_max": null,
+      "place": ""
+    },
+    "death": null,
+    "body_md": "# Ryan Snodgrass\n\n**Ryan Snodgrass** is a software engineer, racer, and Porsche historian with a habit of going all the way to the source. He spent 15 years at Amazon, took a sabbatical to write two award-winning books about Porsche, and in 2026 co-founded SageOx, a Seattle startup that wants people and AI coding agents to work as one team.\n\n## Software: from wish lists to hiveminds\n\nSnodgrass came to Amazon from Carnegie Mellon in 1997. He is a named inventor on more than 25 issued U.S. patents, and the titles read like a tour of the early web: secure links to private resources, services for electronic wish lists, automatically buying a gift from a wish list, e-book encryption, and a \"probabilistic technique for consistency checking cache entries.\" He describes his role as Senior Principal Engineer, working on Kindle, distributed systems, and Amazon's original microservices platform.\n\nIn 2026 he co-founded SageOx with Ajit Banerjee and Milkana Brace, and serves as CTO. The company's pitch is \"making AI multi-player\": give people and their agents the same shared context, so what one knows, everyone knows. Canaan led its $15 million seed round in May 2026, with A.Capital, Pioneer Square Labs, and Founders' Co-op joining. Snodgrass is the top contributor to its open-source ox CLI, billed as \"The hivemind for AI coding agents,\" and was an early contributor to Steve Yegge's Beads, a task tracker built for coding agents. His working theory: \"the agents work the best when they have enough context but not too much.\"\n\nHe writes about all of it on the SageOx blog, under titles like \"Your agents are a generation behind, and they will never tell you\" and \"YAGNI changed altitude,\" and on a Substack subtitled \"Beyond the comfort of determinism.\" In hindsight, that 2008 patent on probabilistic cache checking was an early warning. His X bio ends with \"teammaxxing ox-style\" and lists his location as 127.0.0.1.\n\n## Cars: from the racetrack to the archive\n\nSnodgrass spent the 2000 through 2025 seasons racing in a variety of series, the SCCA among them. In 2004 he joined NayKid Racing's three-car Corvette Z06 team in the SCCA's T1 class, driving the No. 75 alongside Scotty B. White and Cindi Lux; the team had won 11 of 13 T1 races the year before. The rookie finished third in both of his first two races with the team, at Thunderhill in March 2004, completing a NayKid podium sweep. Off the track, he has run Arizona's Copperstate 1000 vintage rally several times.\n\nIn 2009 he went looking for a 1974–76 Porsche Carrera 2.7 MFI, the mechanically fuel-injected successor to the 1973 Carrera RS. He found his in late 2011: a silver 1976 coupe that had sat in primer at a San Diego body shop for about 12 years, stripped to a bare roller. It was a \"Sondermodell,\" number 40 of 113, sold only in Germany during the final two months of the 1976 model year. \"They were the last model-year street Porsche with MFI,\" he told Road Scholars. Restored, the car won Best in Class at the 2015 Concours on the Avenue in Monterey. He has also won Best in Class at Oregon's Forest Grove Concours d'Elegance with a 1955 Mercedes-Benz 300 SL.\n\nBy then the car had turned into a research project, and the research into a book. Snodgrass took a sabbatical from software and founded Parabolica Press. \"I was compelled to do it as a lifelong lover of car books,\" he said. His model was Georg Konradsheim's *Carrera RS*; Konradsheim introduced him to that book's designer, Christoph Mäder, and both men became, in Snodgrass's words, \"good mentors, advisors, and friends.\"\n\n*Carrera 2.7* arrived in October 2015: 406 pages, 7.5 pounds, more than 530 previously unpublished images, and a print run of 2,500. Reviewer Wallace Wyss wrote that \"Snodgrass has raised the bar on what we expect in a car book.\"\n\nThen he went bigger. *Turbo 3.0: Porsche's First Turbocharged Supercar* (2018) runs 536 pages and 11.25 pounds, with 1,508 images, and follows the 1975–77 3.0-liter 930 Turbo from the factory to privateer racing and the 934 and 934.5 race cars. Like the first book, it was built from factory archives, private collections, and interviews with the engineers, development drivers, and racing drivers who were there.\n\n## Recognition\n\n- ***Turbo 3.0*:** shortlisted, Royal Automobile Club Motoring Book of the Year (2018); finalist, MPG Awards Best of the Year (2018); gold, Independent Publisher Book Awards.\n- ***Carrera 2.7*:** shortlisted, Publication of the Year, International Historic Motoring Awards (2016); bronze, Independent Publisher Book Awards; International Automotive Media Competition award.\n- **Motorworld Buchpreis:** first place.\n- **Patents:** named inventor on more than 25 issued U.S. patents, filed from 1998 to 2011.\n- **Concours:** Best in Class, Concours on the Avenue (2015), 1976 Porsche Carrera 2.7 MFI; Best in Class, Forest Grove Concours d'Elegance, 1955 Mercedes-Benz 300 SL.\n\n## Personal life\n\nSnodgrass lives in the Seattle area.\n\n## References\n\n1. \"Ryan Snodgrass.\" *SageOx*. https://sageox.ai/about/ryan-snodgrass\n2. \"Fenwick Represents SageOx in $15M Seed Funding.\" *Fenwick*, May 6, 2026. https://www.fenwick.com/insights/experience/fenwick-represents-sageox-in-15m-seed-funding\n3. \"Ryan Snodgrass.\" *Substack*. https://rsnodgrass.substack.com/\n4. \"Author Bio: Ryan Snodgrass.\" *Parabolica Press*. https://parabolicapress.com/pages/author-bio-ryan-snodgrass\n5. \"Inventor: Ryan J. Snodgrass.\" *Google Patents*. https://patents.google.com/?inventor=Ryan+J.+Snodgrass\n6. Ingram, Cam. \"The Car That Inspired a Book: Ryan Snodgrass' 1976 Carrera 2.7 MFI.\" *Road Scholars*, 2016. https://www.roadscholars.com/articles/the-car-that-inspired-a-book-ryan-snodgrass-1976-carrera-2-7-mfi\n7. \"RACE: NayKid Racing Thunderhill notes.\" *Motorsport.com*, Mar 23, 2004. https://au.motorsport.com/scca/news/race-naykid-racing-thunderhill-notes/2029174/\n\n<!-- VERIFICATION LOG (2026-10-24)\nSUBJECT REQUESTS (2026-10-24): no inline [n] markers; narrative voice; organized by field; references cut to the 7 strongest; CMU dates removed; simplified clusters/known_for.\nSUBJECT-PROVIDED (no published source found): joined Amazon in 1997; 15 years at Amazon (so end 2012); raced the 2000-2025 seasons across several series incl. SCCA; Best in Class at Forest Grove Concours with a 1955 Mercedes-Benz 300 SL (year not given); multi-time Copperstate 1000 participant (user said \"Copper State Rally\"; official name used). Patents corroborate Amazon 1998-2011 filings.\nCLAIM MAP (listed refs): SageOx role/blog titles/agents-in-teams [1]; seed + co-investors [2]; Substack tagline [3]; sabbatical, Parabolica founding, research method [4]; patents [5]; car, Sondermodell 40/113, Germany-only, bare roller, tartan, 18-month restoration, Stuttgart x4, quotes, concours, Konradsheim/Maeder, 7.5 lb [6]; NayKid 2004 T1 No. 75 Z06, teammates, 3rd x2 at Thunderhill, 2003 record 11/13 [7].\nRESEARCH TRAIL (read, not listed to keep refs short):\n- SageOx About https://sageox.ai/about (co-founders Banerjee, Brace; \"making AI multi-player\"; what one knows, everyone knows)\n- TheSaaSNews https://www.thesaasnews.com/news/sageox-raises-15m-seed/ (CTO, founded 2026; misspells co-founder names)\n- sageox/ox repo + contributors via GitHub API (rsnodgrass top, 820 commits; \"The hivemind for AI coding agents\")\n- SageOx \"How we work\" https://sageox.ai/blog/how-we-work-ryan-snodgrass (Beads early contributor; agents/context quote)\n- steveyegge/beads contributors via GitHub API (rsnodgrass 42 commits)\n- X @rsnodgrass via fxtwitter API (bio: ex-Sr Principal Engineer @Amazon, Kindle, distributed systems, orig microservices platform; \"teammaxxing ox-style\"; location 127.0.0.1)\n- LinkedIn https://www.linkedin.com/in/rsnodgrass/ (CMU; publications; 36+ patents/applications listed incl. \"Probabilistic technique for consistency checking cache entries\" US 7,461,206, 2008)\n- Google Patents front pages US6360254B1 (priority 1998-09-15, Amazon.com Holdings), US7356490B1 (wish lists), US8826036B1 (ebook encryption)\n- Google Patents inventor queries: 22 US grants for \"Ryan J. Snodgrass\" + 3 more Amazon US grants under \"Ryan Snodgrass\" + US7356490B1 = 26 verified US grants, Amazon/Audible assignees, priority dates 1998-09-15 to 2011-07-19. Stated as \"more than 25\". Per-patent recheck was blocked by rate limiting.\n- Parabolica product pages https://parabolicapress.com/products/porsche-carrera-2-7-book and https://parabolicapress.com/products/porsche-turbo-3-0-book (pages, images, 2,500 copies, Aug 2018, 11.25 lb)\n- Parabolica award badges (read as images): carrera27 page = IHMA 2016 shortlist Publication of the Year, IAMC medal (level not shown), IPPY Bronze; homepage = RAC Motoring Book of the Year 2018 shortlist, MPG Awards finalist Best of the Year 2018, IPPY Gold, Motorworld Buchpreis 1st. 2018 badges assigned to Turbo 3.0 (only 2018 book). IPPY Gold assigned to Turbo 3.0 per search result for 2019 IPPY (Best Book Arts Craftsmanship, tie) - IPPY page itself not read. Motorworld Buchpreis book/year not stated; left unassigned.\n- Historic Racing News https://historicracingnews.com/Article/-International-Historic-Motoring-Awards-Finalists-Announced/710 (2016 IHMA Publication of the Year finalists incl. Carrera 2.7)\n- My Car Quest https://mycarquest.com/2016/09/book-review-carrera-2-7-soul-porsches-legendary-carrera-2-7-rs-lives-within-carrera-2-7-mfi.html (Wyss quote)\n- Racecar.com https://www.racecar.com/news/5537/motorsport/naykid-racing-to-bare-all-in-2004 (Mar 19, 2004: newcomer, No. 75, teammates)\nCONFLICT: Turbo 3.0 date - LinkedIn Jan 2018 vs publisher Aug 2018; used publisher.\nCUT: RM Sotheby's 1977 Turbo Carrera ownership (page not readable). 2005 June Sprints crash (search snippet only). LinkedIn employers (not shown).\nPHOTO: /images/ryans/ryan-snodgrass.jpg - X avatar via photos:fetch.\nNO PROD DB: build:data only; did not run db:seed --apply against remote.\n-->",
+    "education": [
+      {
+        "institution": "Carnegie Mellon University",
+        "degree": "",
+        "field": "",
+        "year": null
+      }
+    ],
+    "organizations": [
+      {
+        "name": "SageOx",
+        "url": null,
+        "role": "Co-founder and CTO",
+        "start": 2026,
+        "end": null,
+        "note": null
+      },
+      {
+        "name": "Parabolica Press",
+        "url": null,
+        "role": "Founder, author, and publisher",
+        "start": 2015,
+        "end": null,
+        "note": null
+      },
+      {
+        "name": "Amazon",
+        "url": null,
+        "role": "Senior Principal Engineer",
+        "start": 1997,
+        "end": 2012,
+        "note": null
+      }
+    ],
+    "relationships": [],
+    "sources": [
+      {
+        "n": 1,
+        "title": "Ryan Snodgrass",
+        "publisher": "SageOx",
+        "author": "",
+        "date": "2026-10-24",
+        "url": "https://sageox.ai/about/ryan-snodgrass",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": "2026-10-24"
+      },
+      {
+        "n": 2,
+        "title": "Fenwick Represents SageOx in $15M Seed Funding",
+        "publisher": "Fenwick",
+        "author": "",
+        "date": "2026-05-06",
+        "url": "https://www.fenwick.com/insights/experience/fenwick-represents-sageox-in-15m-seed-funding",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": "2026-10-24"
+      },
+      {
+        "n": 3,
+        "title": "Ryan Snodgrass",
+        "publisher": "Substack",
+        "author": "",
+        "date": "2026-10-24",
+        "url": "https://rsnodgrass.substack.com/",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": "2026-10-24"
+      },
+      {
+        "n": 4,
+        "title": "Author Bio: Ryan Snodgrass",
+        "publisher": "Parabolica Press",
+        "author": "",
+        "date": "2026-10-24",
+        "url": "https://parabolicapress.com/pages/author-bio-ryan-snodgrass",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": "2026-10-24"
+      },
+      {
+        "n": 5,
+        "title": "Inventor: Ryan J. Snodgrass",
+        "publisher": "Google Patents",
+        "author": "",
+        "date": "2026-10-24",
+        "url": "https://patents.google.com/?inventor=Ryan+J.+Snodgrass",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": "2026-10-24"
+      },
+      {
+        "n": 6,
+        "title": "The Car That Inspired a Book: Ryan Snodgrass' 1976 Carrera 2.7 MFI",
+        "publisher": "Road Scholars",
+        "author": "",
+        "date": "2016",
+        "url": "https://www.roadscholars.com/articles/the-car-that-inspired-a-book-ryan-snodgrass-1976-carrera-2-7-mfi",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": "2026-10-24"
+      },
+      {
+        "n": 7,
+        "title": "RACE: NayKid Racing Thunderhill notes",
+        "publisher": "Motorsport.com",
+        "author": "",
+        "date": "2004-03-23",
+        "url": "https://au.motorsport.com/scca/news/race-naykid-racing-thunderhill-notes/2029174/",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": "2026-10-24"
+      }
+    ]
+  }
+}
