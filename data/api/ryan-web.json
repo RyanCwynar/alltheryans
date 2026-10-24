@@ -502,6 +502,18 @@
       "photo": "/images/ryans/ryan-smith.jpg"
     },
     {
+      "id": "snodgrass",
+      "slug": "snodgrass",
+      "name": "Ryan Snodgrass",
+      "number": null,
+      "clusters": [
+        "founder",
+        "tech",
+        "author"
+      ],
+      "photo": "/images/ryans/ryan-snodgrass.jpg"
+    },
+    {
       "id": "tedder",
       "slug": "tedder",
       "name": "Ryan Tedder",
