@@ -356,6 +356,18 @@
       "photo": "/images/ryans/ryan-florence.jpg"
     },
     {
+      "id": "ryan-greenblatt",
+      "slug": "ryan-greenblatt",
+      "name": "Ryan Greenblatt",
+      "number": 9,
+      "clusters": [
+        "tech",
+        "engineer",
+        "ai-safety"
+      ],
+      "photo": "/images/ryans/ryan-greenblatt.jpg"
+    },
+    {
       "id": "ryan-hemsworth",
       "slug": "ryan-hemsworth",
       "name": "Ryan Hemsworth",
@@ -377,6 +389,18 @@
         "philosophy"
       ],
       "photo": "/images/ryans/ryan-holiday.jpg"
+    },
+    {
+      "id": "ryan-leonard",
+      "slug": "ryan-leonard",
+      "name": "Ryan Leonard",
+      "number": 10,
+      "clusters": [
+        "athlete",
+        "sports",
+        "hockey"
+      ],
+      "photo": "/images/ryans/ryan-leonard.jpg"
     },
     {
       "id": "ryan-miller",
@@ -414,6 +438,20 @@
         "engineer"
       ],
       "photo": ""
+    },
+    {
+      "id": "ryan-peterman",
+      "slug": "ryan-peterman",
+      "name": "Ryan Peterman",
+      "number": 8,
+      "clusters": [
+        "tech",
+        "creator",
+        "hardware",
+        "engineer",
+        "media"
+      ],
+      "photo": "/images/ryans/ryan-peterman.jpg"
     },
     {
       "id": "ryan-poles",

@@ -1,8 +1,8 @@
 {
-  "count": 44,
+  "count": 47,
   "ryans": [
     {
-      "id": 37,
+      "id": 40,
       "slug": "ryangrowthh",
       "name": "Ryan (@ryangrowthh)",
       "number": 6,
@@ -805,6 +805,47 @@
       "connection_count": 1
     },
     {
+      "id": 31,
+      "slug": "ryan-greenblatt",
+      "name": "Ryan Greenblatt",
+      "number": 9,
+      "short": "AI safety researcher at M",
+      "title": "Member of Technical Staff at METR; former Chief Scientist at Redwood Research",
+      "photo": "/images/ryans/ryan-greenblatt.jpg",
+      "photo_credit": "X profile photo of @RyanGreenblatt",
+      "photo_license": "public profile photo",
+      "photo_source": "https://x.com/RyanGreenblatt",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": null,
+      "website": "https://www.lesswrong.com/users/ryan_greenblatt",
+      "lead_summary": "**Ryan Greenblatt** is an AI safety researcher. He is a Member of Technical Staff at METR, a nonprofit that evaluates AI systems, where he works on investigations and risk assessment [1]. Before joining METR in September 2026, he was Chief Scientist at Redwood Research [1][2]. He is best known as first author of the 2023 paper that introduced \"AI control\" as a research agenda and of the 2024 paper *Alignment faking in large language models*, written with researchers at Anthropic and Redwood [5][6].",
+      "occupations": [
+        "researcher",
+        "computer-scientist"
+      ],
+      "known_for": [
+        "AI control research (arXiv 2312.06942, 2023)",
+        "Alignment faking in large language models (arXiv 2412.14093, 2024)",
+        "Transcript analysis for METR's 2026 investigation of the OpenAI / Hugging Face incident"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "RyanGreenblatt",
+          "url": "https://x.com/RyanGreenblatt"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "tech",
+        "engineer",
+        "ai-safety"
+      ],
+      "connection_count": 0
+    },
+    {
       "id": 15,
       "slug": "guzman",
       "name": "Ryan Guzman",
@@ -847,7 +888,7 @@
       "connection_count": 0
     },
     {
-      "id": 31,
+      "id": 32,
       "slug": "ryan-hemsworth",
       "name": "Ryan Hemsworth",
       "number": null,
@@ -922,7 +963,7 @@
       "connection_count": 0
     },
     {
-      "id": 32,
+      "id": 33,
       "slug": "ryan-holiday",
       "name": "Ryan Holiday",
       "number": 5,
@@ -1118,6 +1159,42 @@
       "connection_count": 0
     },
     {
+      "id": 34,
+      "slug": "ryan-leonard",
+      "name": "Ryan Leonard",
+      "number": 10,
+      "short": "Washington Capitals forwa",
+      "title": "Right wing for the Washington Capitals; 2023 first-round pick and former Boston College star",
+      "photo": "/images/ryans/ryan-leonard.jpg",
+      "photo_credit": "Sandro Halank, Wikimedia Commons (cropped and resized)",
+      "photo_license": "CC BY-SA 4.0",
+      "photo_source": "https://commons.wikimedia.org/wiki/File:2026-05-10_Deutschland_gegen_USA_(Eishockey-L%C3%A4nderspiel)_by_Sandro_Halank%E2%80%93065.jpg",
+      "birth_year_min": 2005,
+      "birth_year_max": 2005,
+      "birth_place": "Northampton, Massachusetts, US",
+      "website": "",
+      "lead_summary": "**Ryan Leonard** (born January 21, 2005) is an American professional ice hockey right winger for the Washington Capitals of the National Hockey League (NHL) [4]. The Capitals chose him eighth overall in the 2023 NHL Draft [1]. He played two seasons at Boston College, where he led the nation in goals as a sophomore and was named Hockey East Player of the Year [1][2]. He captained the United States to the 2025 World Junior Championship gold medal and was named the tournament's most valuable player [1].",
+      "occupations": [
+        "athlete",
+        "ice-hockey-player"
+      ],
+      "known_for": [
+        "8th overall pick, 2023 NHL Draft",
+        "Hockey East Player of the Year and nation's goals leader, 2024–25",
+        "Captain and MVP of the U.S. team at the 2025 World Juniors",
+        "45 points as a rookie for Washington, 2025–26"
+      ],
+      "social": [],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "athlete",
+        "sports",
+        "hockey"
+      ],
+      "connection_count": 0
+    },
+    {
       "id": 21,
       "slug": "matt",
       "name": "Matt Ryan",
@@ -1160,7 +1237,7 @@
       "connection_count": 4
     },
     {
-      "id": 33,
+      "id": 35,
       "slug": "ryan-miller",
       "name": "Ryan Miller",
       "number": null,
@@ -1196,7 +1273,7 @@
       "connection_count": 0
     },
     {
-      "id": 34,
+      "id": 36,
       "slug": "ryan-moore",
       "name": "Ryan Moore",
       "number": 7,
@@ -1271,7 +1348,7 @@
       "connection_count": 0
     },
     {
-      "id": 35,
+      "id": 37,
       "slug": "ryan-perry",
       "name": "Ryan Perry",
       "number": null,
@@ -1308,6 +1385,52 @@
         "tech",
         "open-source",
         "engineer"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 38,
+      "slug": "ryan-peterman",
+      "name": "Ryan Peterman",
+      "number": 8,
+      "short": "Host of The Peterman Pod;",
+      "title": "Podcaster and writer; builder of the Compose ergonomic keyboard; former Staff software engineer at Instagram",
+      "photo": "/images/ryans/ryan-peterman.jpg",
+      "photo_credit": "X profile photo of @ryanlpeterman",
+      "photo_license": "public profile photo",
+      "photo_source": "https://x.com/ryanlpeterman",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": null,
+      "website": "https://www.ryanlpeterman.dev/",
+      "lead_summary": "**Ryan Peterman** is a software engineer, writer and podcaster. He worked at Instagram, part of Meta, for about seven years and was promoted to Staff software engineer three years out of college [1][2][6]. He writes the newsletter *The Peterman Post*, which his site lists at more than 100,000 subscribers, and hosts *The Peterman Pod*, an interview podcast about the careers of technical people [1][12].",
+      "occupations": [
+        "software-engineer",
+        "podcaster",
+        "writer",
+        "entrepreneur"
+      ],
+      "known_for": [
+        "The Peterman Pod (2024–present)",
+        "The Peterman Post newsletter",
+        "Compose ergonomic keyboard (Kickstarter, 2026)",
+        "Reducing Instagram's basic video compute time by 94% (Meta Engineering, 2022)"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "ryanlpeterman",
+          "url": "https://x.com/ryanlpeterman"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "tech",
+        "creator",
+        "hardware",
+        "engineer",
+        "media"
       ],
       "connection_count": 0
     },
@@ -1396,7 +1519,7 @@
       "connection_count": 2
     },
     {
-      "id": 36,
+      "id": 39,
       "slug": "ryan-poles",
       "name": "Ryan Poles",
       "number": null,
@@ -1478,7 +1601,7 @@
       "connection_count": 2
     },
     {
-      "id": 38,
+      "id": 41,
       "slug": "seacrest",
       "name": "Ryan Seacrest",
       "number": null,
@@ -1522,7 +1645,7 @@
       "connection_count": 2
     },
     {
-      "id": 39,
+      "id": 42,
       "slug": "selkis",
       "name": "Ryan Selkis",
       "number": null,
@@ -1564,7 +1687,7 @@
       "connection_count": 0
     },
     {
-      "id": 40,
+      "id": 43,
       "slug": "serhant",
       "name": "Ryan Serhant",
       "number": null,
@@ -1610,7 +1733,7 @@
       "connection_count": 3
     },
     {
-      "id": 41,
+      "id": 44,
       "slug": "shazier",
       "name": "Ryan Shazier",
       "number": null,
@@ -1654,7 +1777,7 @@
       "connection_count": 3
     },
     {
-      "id": 42,
+      "id": 45,
       "slug": "smith",
       "name": "Ryan Smith",
       "number": null,
@@ -1689,7 +1812,7 @@
       "connection_count": 0
     },
     {
-      "id": 43,
+      "id": 46,
       "slug": "tedder",
       "name": "Ryan Tedder",
       "number": null,
@@ -1725,7 +1848,7 @@
       "connection_count": 0
     },
     {
-      "id": 44,
+      "id": 47,
       "slug": "trahan",
       "name": "Ryan Trahan",
       "number": null,
@@ -1775,13 +1898,13 @@
       "slug": "tech",
       "label": "Tech Ryans",
       "kind": "cluster",
-      "count": 17
+      "count": 19
     },
     {
       "slug": "athlete",
       "label": "Athlete Ryans",
       "kind": "cluster",
-      "count": 8
+      "count": 9
     },
     {
       "slug": "entertainment",
@@ -1793,7 +1916,7 @@
       "slug": "creator",
       "label": "Creator Ryans",
       "kind": "cluster",
-      "count": 5
+      "count": 6
     },
     {
       "slug": "film",
@@ -1814,8 +1937,26 @@
       "count": 5
     },
     {
+      "slug": "sports",
+      "label": "Sports Ryans",
+      "kind": "cluster",
+      "count": 5
+    },
+    {
       "slug": "business",
       "label": "Business Ryans",
+      "kind": "cluster",
+      "count": 4
+    },
+    {
+      "slug": "engineer",
+      "label": "Engineer Ryans",
+      "kind": "cluster",
+      "count": 4
+    },
+    {
+      "slug": "media",
+      "label": "Media Ryans",
       "kind": "cluster",
       "count": 4
     },
@@ -1824,18 +1965,6 @@
       "label": "Open-source Ryans",
       "kind": "cluster",
       "count": 4
-    },
-    {
-      "slug": "sports",
-      "label": "Sports Ryans",
-      "kind": "cluster",
-      "count": 4
-    },
-    {
-      "slug": "media",
-      "label": "Media Ryans",
-      "kind": "cluster",
-      "count": 3
     },
     {
       "slug": "music",
@@ -1862,8 +1991,14 @@
       "count": 2
     },
     {
-      "slug": "engineer",
-      "label": "Engineer Ryans",
+      "slug": "hardware",
+      "label": "Hardware Ryans",
+      "kind": "cluster",
+      "count": 2
+    },
+    {
+      "slug": "hockey",
+      "label": "Hockey Ryans",
       "kind": "cluster",
       "count": 2
     },
@@ -1904,6 +2039,12 @@
       "count": 1
     },
     {
+      "slug": "ai-safety",
+      "label": "Ai Safety Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
       "slug": "boxing",
       "label": "Boxing Ryans",
       "kind": "cluster",
@@ -1918,18 +2059,6 @@
     {
       "slug": "fintech",
       "label": "Fintech Ryans",
-      "kind": "cluster",
-      "count": 1
-    },
-    {
-      "slug": "hardware",
-      "label": "Hardware Ryans",
-      "kind": "cluster",
-      "count": 1
-    },
-    {
-      "slug": "hockey",
-      "label": "Hockey Ryans",
       "kind": "cluster",
       "count": 1
     },

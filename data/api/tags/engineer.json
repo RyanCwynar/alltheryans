@@ -3,7 +3,7 @@
     "slug": "engineer",
     "label": "Engineer Ryans",
     "kind": "cluster",
-    "count": 2
+    "count": 4
   },
   "ryans": [
     {
@@ -50,7 +50,94 @@
       "connection_count": 0
     },
     {
-      "id": 35,
+      "id": 38,
+      "slug": "ryan-peterman",
+      "name": "Ryan Peterman",
+      "number": 8,
+      "short": "Host of The Peterman Pod;",
+      "title": "Podcaster and writer; builder of the Compose ergonomic keyboard; former Staff software engineer at Instagram",
+      "photo": "/images/ryans/ryan-peterman.jpg",
+      "photo_credit": "X profile photo of @ryanlpeterman",
+      "photo_license": "public profile photo",
+      "photo_source": "https://x.com/ryanlpeterman",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": null,
+      "website": "https://www.ryanlpeterman.dev/",
+      "lead_summary": "**Ryan Peterman** is a software engineer, writer and podcaster. He worked at Instagram, part of Meta, for about seven years and was promoted to Staff software engineer three years out of college [1][2][6]. He writes the newsletter *The Peterman Post*, which his site lists at more than 100,000 subscribers, and hosts *The Peterman Pod*, an interview podcast about the careers of technical people [1][12].",
+      "occupations": [
+        "software-engineer",
+        "podcaster",
+        "writer",
+        "entrepreneur"
+      ],
+      "known_for": [
+        "The Peterman Pod (2024–present)",
+        "The Peterman Post newsletter",
+        "Compose ergonomic keyboard (Kickstarter, 2026)",
+        "Reducing Instagram's basic video compute time by 94% (Meta Engineering, 2022)"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "ryanlpeterman",
+          "url": "https://x.com/ryanlpeterman"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "tech",
+        "creator",
+        "hardware",
+        "engineer",
+        "media"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 31,
+      "slug": "ryan-greenblatt",
+      "name": "Ryan Greenblatt",
+      "number": 9,
+      "short": "AI safety researcher at M",
+      "title": "Member of Technical Staff at METR; former Chief Scientist at Redwood Research",
+      "photo": "/images/ryans/ryan-greenblatt.jpg",
+      "photo_credit": "X profile photo of @RyanGreenblatt",
+      "photo_license": "public profile photo",
+      "photo_source": "https://x.com/RyanGreenblatt",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": null,
+      "website": "https://www.lesswrong.com/users/ryan_greenblatt",
+      "lead_summary": "**Ryan Greenblatt** is an AI safety researcher. He is a Member of Technical Staff at METR, a nonprofit that evaluates AI systems, where he works on investigations and risk assessment [1]. Before joining METR in September 2026, he was Chief Scientist at Redwood Research [1][2]. He is best known as first author of the 2023 paper that introduced \"AI control\" as a research agenda and of the 2024 paper *Alignment faking in large language models*, written with researchers at Anthropic and Redwood [5][6].",
+      "occupations": [
+        "researcher",
+        "computer-scientist"
+      ],
+      "known_for": [
+        "AI control research (arXiv 2312.06942, 2023)",
+        "Alignment faking in large language models (arXiv 2412.14093, 2024)",
+        "Transcript analysis for METR's 2026 investigation of the OpenAI / Hugging Face incident"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "RyanGreenblatt",
+          "url": "https://x.com/RyanGreenblatt"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "tech",
+        "engineer",
+        "ai-safety"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 37,
       "slug": "ryan-perry",
       "name": "Ryan Perry",
       "number": null,

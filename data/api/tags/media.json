@@ -3,11 +3,11 @@
     "slug": "media",
     "label": "Media Ryans",
     "kind": "cluster",
-    "count": 3
+    "count": 4
   },
   "ryans": [
     {
-      "id": 32,
+      "id": 33,
       "slug": "ryan-holiday",
       "name": "Ryan Holiday",
       "number": 5,
@@ -50,7 +50,7 @@
       "connection_count": 2
     },
     {
-      "id": 37,
+      "id": 40,
       "slug": "ryangrowthh",
       "name": "Ryan (@ryangrowthh)",
       "number": 6,
@@ -89,6 +89,52 @@
     },
     {
       "id": 38,
+      "slug": "ryan-peterman",
+      "name": "Ryan Peterman",
+      "number": 8,
+      "short": "Host of The Peterman Pod;",
+      "title": "Podcaster and writer; builder of the Compose ergonomic keyboard; former Staff software engineer at Instagram",
+      "photo": "/images/ryans/ryan-peterman.jpg",
+      "photo_credit": "X profile photo of @ryanlpeterman",
+      "photo_license": "public profile photo",
+      "photo_source": "https://x.com/ryanlpeterman",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": null,
+      "website": "https://www.ryanlpeterman.dev/",
+      "lead_summary": "**Ryan Peterman** is a software engineer, writer and podcaster. He worked at Instagram, part of Meta, for about seven years and was promoted to Staff software engineer three years out of college [1][2][6]. He writes the newsletter *The Peterman Post*, which his site lists at more than 100,000 subscribers, and hosts *The Peterman Pod*, an interview podcast about the careers of technical people [1][12].",
+      "occupations": [
+        "software-engineer",
+        "podcaster",
+        "writer",
+        "entrepreneur"
+      ],
+      "known_for": [
+        "The Peterman Pod (2024–present)",
+        "The Peterman Post newsletter",
+        "Compose ergonomic keyboard (Kickstarter, 2026)",
+        "Reducing Instagram's basic video compute time by 94% (Meta Engineering, 2022)"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "ryanlpeterman",
+          "url": "https://x.com/ryanlpeterman"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "tech",
+        "creator",
+        "hardware",
+        "engineer",
+        "media"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 41,
       "slug": "seacrest",
       "name": "Ryan Seacrest",
       "number": null,
