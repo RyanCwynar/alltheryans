@@ -3,9 +3,45 @@
     "slug": "sports",
     "label": "Sports Ryans",
     "kind": "cluster",
-    "count": 4
+    "count": 5
   },
   "ryans": [
+    {
+      "id": 34,
+      "slug": "ryan-leonard",
+      "name": "Ryan Leonard",
+      "number": 10,
+      "short": "Washington Capitals forwa",
+      "title": "Right wing for the Washington Capitals; 2023 first-round pick and former Boston College star",
+      "photo": "/images/ryans/ryan-leonard.jpg",
+      "photo_credit": "Sandro Halank, Wikimedia Commons (cropped and resized)",
+      "photo_license": "CC BY-SA 4.0",
+      "photo_source": "https://commons.wikimedia.org/wiki/File:2026-05-10_Deutschland_gegen_USA_(Eishockey-L%C3%A4nderspiel)_by_Sandro_Halank%E2%80%93065.jpg",
+      "birth_year_min": 2005,
+      "birth_year_max": 2005,
+      "birth_place": "Northampton, Massachusetts, US",
+      "website": "",
+      "lead_summary": "**Ryan Leonard** (born January 21, 2005) is an American professional ice hockey right winger for the Washington Capitals of the National Hockey League (NHL) [4]. The Capitals chose him eighth overall in the 2023 NHL Draft [1]. He played two seasons at Boston College, where he led the nation in goals as a sophomore and was named Hockey East Player of the Year [1][2]. He captained the United States to the 2025 World Junior Championship gold medal and was named the tournament's most valuable player [1].",
+      "occupations": [
+        "athlete",
+        "ice-hockey-player"
+      ],
+      "known_for": [
+        "8th overall pick, 2023 NHL Draft",
+        "Hockey East Player of the Year and nation's goals leader, 2024–25",
+        "Captain and MVP of the U.S. team at the 2025 World Juniors",
+        "45 points as a rookie for Washington, 2025–26"
+      ],
+      "social": [],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "athlete",
+        "sports",
+        "hockey"
+      ],
+      "connection_count": 0
+    },
     {
       "id": 28,
       "slug": "ryan-day",
@@ -50,7 +86,7 @@
       "connection_count": 4
     },
     {
-      "id": 36,
+      "id": 39,
       "slug": "ryan-poles",
       "name": "Ryan Poles",
       "number": null,
@@ -132,7 +168,7 @@
       "connection_count": 2
     },
     {
-      "id": 42,
+      "id": 45,
       "slug": "smith",
       "name": "Ryan Smith",
       "number": null,
