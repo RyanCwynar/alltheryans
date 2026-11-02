@@ -1,0 +1,174 @@
+{
+  "ryan": {
+    "id": 26,
+    "slug": "ryan-carniato",
+    "name": "Ryan Carniato",
+    "number": null,
+    "short": "Creator of SolidJS; Staff",
+    "title": "Software engineer; creator of the SolidJS JavaScript UI library and a proponent of fine-grained reactivity (signals)",
+    "photo": "/images/ryans/ryan-carniato.jpg",
+    "photo_credit": "X profile photo of @RyanCarniato",
+    "photo_license": "public profile photo",
+    "photo_source": "https://x.com/RyanCarniato",
+    "birth_year_min": null,
+    "birth_year_max": null,
+    "birth_place": null,
+    "website": "https://www.solidjs.com/",
+    "lead_summary": "**Ryan Carniato** is a software engineer and the creator of SolidJS, an open-source JavaScript library for building user interfaces [1][2]. The project's GitHub repository was created in April 2018 and describes Solid as \"a declarative, efficient, and flexible JavaScript library for building user interfaces\" [1]. Since September 2024 he has worked at Sentry as a Staff engineer on its open-source team, a role that funds his full-time work on Solid [3][4].",
+    "occupations": [
+      "software-engineer",
+      "open-source-maintainer",
+      "creator"
+    ],
+    "known_for": [
+      "Creating SolidJS (repository opened April 2018)",
+      "SolidStart",
+      "Advocacy for signals and fine-grained reactivity in front-end frameworks"
+    ],
+    "social": [
+      {
+        "platform": "x",
+        "handle": "RyanCarniato",
+        "url": "https://x.com/RyanCarniato"
+      },
+      {
+        "platform": "github",
+        "handle": "ryansolid",
+        "url": "https://github.com/ryansolid"
+      },
+      {
+        "platform": "youtube",
+        "handle": "@ryansolid",
+        "url": "https://www.youtube.com/@ryansolid"
+      }
+    ],
+    "featured_on": null,
+    "status": "published",
+    "clusters": [
+      "tech",
+      "open-source",
+      "creator",
+      "javascript"
+    ],
+    "connection_count": 0,
+    "birth": {
+      "date": null,
+      "year_min": null,
+      "year_max": null,
+      "place": null
+    },
+    "death": null,
+    "body_md": "# Ryan Carniato\n\n**Ryan Carniato** is a software engineer and the creator of SolidJS, an open-source JavaScript library for building user interfaces [1][2]. The project's GitHub repository was created in April 2018 and describes Solid as \"a declarative, efficient, and flexible JavaScript library for building user interfaces\" [1]. Since September 2024 he has worked at Sentry as a Staff engineer on its open-source team, a role that funds his full-time work on Solid [3][4].\n\n## Education\n\nHis DEV Community profile lists a B.A.Sc. in computer engineering from the University of British Columbia [3]. No birth date or birthplace was found in the sources opened for this page.\n\n## Career\n\n### SolidJS\n\nSolid's contributors page lists Carniato as project founder on the core team [2]. Solid is built on fine-grained reactivity, in which state is held in reactive primitives called signals rather than re-running whole components. Carniato describes himself as a \"Fine-Grained Reactivity super fan\" and also lists himself as a core team member of the Marko framework [3]. As of November 2, 2026, the solidjs/solid repository had about 36,200 stars on GitHub [1].\n\nIn his 2024 Sentry announcement he wrote that \"Solid and Signals has completely transformed the way modern JavaScript frameworks are designed over a few short years,\" and that the next phase would revisit Solid's reactive system for the first time in six years on the way to Solid 2.0, including work on async signals [4].\n\n### Netlify (about 2022–2024)\n\nBefore Sentry, Carniato spent about two years at Netlify, which he wrote \"believed in us (and me) before anyone else did\" and whose support \"made SolidStart possible,\" Solid's application framework [4]. He worked with Netlify's Frameworks and Primitives team and gave talks alongside its developer experience team [4].\n\n### Sentry (2024–present)\n\nOn September 3, 2024, Carniato announced he was joining Sentry, the error-monitoring and tracing company, which would support his continued full-time work on SolidJS and open source [4]. His profiles list his role as Staff engineer, open source [2][3].\n\n## Public profile and social media\n\nCarniato posts on X as @RyanCarniato [5]. As of November 2, 2026, his bio read \"got signals?\" and named Solid and Sentry, listed Portland, Oregon, and linked his YouTube channel; the account had about 59,200 followers [5]. On October 28, 2026, he quoted a post about banning React's `useState` hook in agent-written apps with \"Is this the state of React? You all have more patience than me.\" [6] The post had about 38,000 views as of November 2 [6].\n\n## See also\n\n- Tech Ryans: [Ryan Dahl](./dahl), [Ryan Florence](./ryan-florence)\n\n## References\n\n1. \"solidjs/solid.\" GitHub, accessed Nov 2, 2026. https://github.com/solidjs/solid\n2. \"Team and Contributors.\" SolidJS. https://www.solidjs.com/contributors\n3. \"Ryan Carniato.\" DEV Community profile. https://dev.to/ryansolid\n4. Carniato, Ryan. \"I'm Joining Sentry.\" DEV Community, Sep 3, 2024. https://dev.to/ryansolid/im-joining-sentry-2k9e\n5. Carniato, Ryan (@RyanCarniato). X profile, accessed Nov 2, 2026. https://x.com/RyanCarniato\n6. Carniato, Ryan (@RyanCarniato). X post, Oct 28, 2026. https://x.com/RyanCarniato/status/2115467254125174963\n\n<!-- VERIFICATION LOG (2026-11-02)\nREAD: 1 (GitHub API: created 2018-04-24, 36,208 stars), 2 (search excerpt), 3, 4 (full text), 5 and 6 (X API).\nNOT FOUND / CUT: birth date/place; UBC graduation year; exact Netlify start date (only \"last 2 years\" as of Sep 2024); employer before Netlify (eBay is widely reported but no source opened, so omitted).\nSCOUT CHECK: \"signals over hooks\" is framing, not a quote; page uses his own words only.\nPHOTO: X avatar profile_images/1810837163447308292/8Piov0f6_400x400.jpg via X API 2026-11-02.\n-->",
+    "education": [
+      {
+        "institution": "University of British Columbia",
+        "degree": "B.A.Sc.",
+        "field": "Computer engineering",
+        "year": null
+      }
+    ],
+    "organizations": [
+      {
+        "name": "SolidJS",
+        "url": null,
+        "role": "Creator / project founder",
+        "start": 2018,
+        "end": null,
+        "note": null
+      },
+      {
+        "name": "Netlify",
+        "url": null,
+        "role": "Engineer (Frameworks and Primitives)",
+        "start": 2022,
+        "end": 2024,
+        "note": null
+      },
+      {
+        "name": "Sentry",
+        "url": null,
+        "role": "Staff engineer, open source",
+        "start": 2024,
+        "end": null,
+        "note": null
+      },
+      {
+        "name": "Marko (MarkoJS)",
+        "url": null,
+        "role": "Core team member",
+        "start": null,
+        "end": null,
+        "note": null
+      }
+    ],
+    "relationships": [],
+    "sources": [
+      {
+        "n": 1,
+        "title": "solidjs/solid repository",
+        "publisher": "GitHub",
+        "author": "",
+        "date": "",
+        "url": "https://github.com/solidjs/solid",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": ""
+      },
+      {
+        "n": 2,
+        "title": "Team and Contributors",
+        "publisher": "SolidJS",
+        "author": "",
+        "date": "",
+        "url": "https://www.solidjs.com/contributors",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": ""
+      },
+      {
+        "n": 3,
+        "title": "Ryan Carniato (profile)",
+        "publisher": "DEV Community",
+        "author": "",
+        "date": "",
+        "url": "https://dev.to/ryansolid",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": ""
+      },
+      {
+        "n": 4,
+        "title": "I'm Joining Sentry",
+        "publisher": "DEV Community",
+        "author": "",
+        "date": "2024-09-03",
+        "url": "https://dev.to/ryansolid/im-joining-sentry-2k9e",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": ""
+      },
+      {
+        "n": 5,
+        "title": "Ryan Carniato (@RyanCarniato) profile",
+        "publisher": "X (@RyanCarniato)",
+        "author": "",
+        "date": "2026-11-02",
+        "url": "https://x.com/RyanCarniato",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": ""
+      },
+      {
+        "n": 6,
+        "title": "Is this the state of React? You all have more patience than me.",
+        "publisher": "X (@RyanCarniato)",
+        "author": "",
+        "date": "2026-10-28",
+        "url": "https://x.com/RyanCarniato/status/2115467254125174963",
+        "access": "read",
+        "archive_url": "",
+        "checked_at": ""
+      }
+    ]
+  }
+}

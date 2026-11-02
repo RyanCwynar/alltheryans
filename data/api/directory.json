@@ -1,8 +1,8 @@
 {
-  "count": 47,
+  "count": 50,
   "ryans": [
     {
-      "id": 40,
+      "id": 43,
       "slug": "ryangrowthh",
       "name": "Ryan (@ryangrowthh)",
       "number": 6,
@@ -152,6 +152,59 @@
       "connection_count": 0
     },
     {
+      "id": 26,
+      "slug": "ryan-carniato",
+      "name": "Ryan Carniato",
+      "number": null,
+      "short": "Creator of SolidJS; Staff",
+      "title": "Software engineer; creator of the SolidJS JavaScript UI library and a proponent of fine-grained reactivity (signals)",
+      "photo": "/images/ryans/ryan-carniato.jpg",
+      "photo_credit": "X profile photo of @RyanCarniato",
+      "photo_license": "public profile photo",
+      "photo_source": "https://x.com/RyanCarniato",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": null,
+      "website": "https://www.solidjs.com/",
+      "lead_summary": "**Ryan Carniato** is a software engineer and the creator of SolidJS, an open-source JavaScript library for building user interfaces [1][2]. The project's GitHub repository was created in April 2018 and describes Solid as \"a declarative, efficient, and flexible JavaScript library for building user interfaces\" [1]. Since September 2024 he has worked at Sentry as a Staff engineer on its open-source team, a role that funds his full-time work on Solid [3][4].",
+      "occupations": [
+        "software-engineer",
+        "open-source-maintainer",
+        "creator"
+      ],
+      "known_for": [
+        "Creating SolidJS (repository opened April 2018)",
+        "SolidStart",
+        "Advocacy for signals and fine-grained reactivity in front-end frameworks"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "RyanCarniato",
+          "url": "https://x.com/RyanCarniato"
+        },
+        {
+          "platform": "github",
+          "handle": "ryansolid",
+          "url": "https://github.com/ryansolid"
+        },
+        {
+          "platform": "youtube",
+          "handle": "@ryansolid",
+          "url": "https://www.youtube.com/@ryansolid"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "tech",
+        "open-source",
+        "creator",
+        "javascript"
+      ],
+      "connection_count": 0
+    },
+    {
       "id": 4,
       "slug": "carson",
       "name": "Ryan Carson",
@@ -273,7 +326,7 @@
       "connection_count": 0
     },
     {
-      "id": 26,
+      "id": 27,
       "slug": "ryan-cohen",
       "name": "Ryan Cohen",
       "number": null,
@@ -350,7 +403,7 @@
       "connection_count": 0
     },
     {
-      "id": 27,
+      "id": 28,
       "slug": "ryan-craig",
       "name": "Ryan Craig",
       "number": null,
@@ -469,7 +522,7 @@
       "connection_count": 0
     },
     {
-      "id": 28,
+      "id": 29,
       "slug": "ryan-day",
       "name": "Ryan Day",
       "number": null,
@@ -512,7 +565,7 @@
       "connection_count": 4
     },
     {
-      "id": 29,
+      "id": 30,
       "slug": "ryan-dunwoody",
       "name": "Ryan Dunwoody",
       "number": 2,
@@ -603,7 +656,7 @@
       "connection_count": 0
     },
     {
-      "id": 30,
+      "id": 31,
       "slug": "ryan-florence",
       "name": "Ryan Florence",
       "number": 4,
@@ -805,7 +858,7 @@
       "connection_count": 1
     },
     {
-      "id": 31,
+      "id": 32,
       "slug": "ryan-greenblatt",
       "name": "Ryan Greenblatt",
       "number": 9,
@@ -888,7 +941,47 @@
       "connection_count": 0
     },
     {
-      "id": 32,
+      "id": 33,
+      "slug": "ryan-helsley",
+      "name": "Ryan Helsley",
+      "number": null,
+      "short": "Baltimore Orioles closer;",
+      "title": "American professional baseball pitcher for the Baltimore Orioles; former All-Star closer and citizen of the Cherokee Nation",
+      "photo": "/images/ryans/ryan-helsley.jpg",
+      "photo_credit": "X profile photo of @_RHelsley",
+      "photo_license": "public profile photo",
+      "photo_source": "https://x.com/_RHelsley",
+      "birth_year_min": 1994,
+      "birth_year_max": 1994,
+      "birth_place": null,
+      "website": "",
+      "lead_summary": "**Ryan Dalton Helsley** (born July 18, 1994) is an American professional baseball pitcher for the Baltimore Orioles of Major League Baseball [1]. A right-handed reliever, he was the St. Louis Cardinals' closer, an All-Star in 2022, and the 2024 National League Reliever of the Year after a club-record 49 saves [1]. On October 29, 2026, he exercised a $14 million player option to stay with Baltimore for 2027, after an elbow injury cut short his first season with the team [2].",
+      "occupations": [
+        "baseball-player"
+      ],
+      "known_for": [
+        "49 saves in 2024, a Cardinals single-season record",
+        "2024 NL Reliever of the Year",
+        "Immaculate inning vs. Cincinnati, Sep 16, 2022"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "_RHelsley",
+          "url": "https://x.com/_RHelsley"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "mlb",
+        "sports",
+        "baseball"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 34,
       "slug": "ryan-hemsworth",
       "name": "Ryan Hemsworth",
       "number": null,
@@ -963,7 +1056,7 @@
       "connection_count": 0
     },
     {
-      "id": 33,
+      "id": 35,
       "slug": "ryan-holiday",
       "name": "Ryan Holiday",
       "number": 5,
@@ -1159,7 +1252,7 @@
       "connection_count": 0
     },
     {
-      "id": 34,
+      "id": 36,
       "slug": "ryan-leonard",
       "name": "Ryan Leonard",
       "number": 10,
@@ -1237,7 +1330,7 @@
       "connection_count": 4
     },
     {
-      "id": 35,
+      "id": 37,
       "slug": "ryan-miller",
       "name": "Ryan Miller",
       "number": null,
@@ -1273,7 +1366,7 @@
       "connection_count": 0
     },
     {
-      "id": 36,
+      "id": 38,
       "slug": "ryan-moore",
       "name": "Ryan Moore",
       "number": 7,
@@ -1348,7 +1441,7 @@
       "connection_count": 0
     },
     {
-      "id": 37,
+      "id": 39,
       "slug": "ryan-perry",
       "name": "Ryan Perry",
       "number": null,
@@ -1389,7 +1482,7 @@
       "connection_count": 0
     },
     {
-      "id": 38,
+      "id": 40,
       "slug": "ryan-peterman",
       "name": "Ryan Peterman",
       "number": 8,
@@ -1519,7 +1612,7 @@
       "connection_count": 2
     },
     {
-      "id": 39,
+      "id": 41,
       "slug": "ryan-poles",
       "name": "Ryan Poles",
       "number": null,
@@ -1601,7 +1694,42 @@
       "connection_count": 2
     },
     {
-      "id": 41,
+      "id": 42,
+      "slug": "ryan-richter",
+      "name": "Ryan Richter",
+      "number": null,
+      "short": "Interim head coach of the",
+      "title": "American soccer coach and former professional player; interim head coach of the Philadelphia Union of Major League Soccer",
+      "photo": "/images/ryans/ryan-richter.jpg",
+      "photo_credit": "Something Original, via Wikimedia Commons",
+      "photo_license": "CC BY-SA 3.0",
+      "photo_source": "https://commons.wikimedia.org/wiki/File:Ryan_Richter_at_Preseason_Training_for_the_Philadelphia_Union,_Jan_2011.jpg",
+      "birth_year_min": 1989,
+      "birth_year_max": 1989,
+      "birth_place": null,
+      "website": "",
+      "lead_summary": "**Ryan Richter** (born April 12, 1989) is an American soccer coach and former professional player who is the interim head coach of the Philadelphia Union of Major League Soccer [1][2]. He was named to the role on May 27, 2026, when the Union were last in MLS at 1-10-4 [2][3]. Under Richter the team went unbeaten in 15 straight league matches (12 wins, 3 draws) after the 2026 FIFA World Cup break and clinched a 2026 MLS Cup Playoffs berth on October 28, 2026 [4][5].",
+      "occupations": [
+        "soccer-coach",
+        "soccer-player"
+      ],
+      "known_for": [
+        "Taking over a 1-10-4 Philadelphia Union in May 2026 and leading a franchise-record 15-game MLS unbeaten run",
+        "Union clinching a 2026 MLS Cup Playoffs berth on Oct 28, 2026"
+      ],
+      "social": [],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "sports",
+        "soccer",
+        "mls",
+        "coach"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 44,
       "slug": "seacrest",
       "name": "Ryan Seacrest",
       "number": null,
@@ -1645,7 +1773,7 @@
       "connection_count": 2
     },
     {
-      "id": 42,
+      "id": 45,
       "slug": "selkis",
       "name": "Ryan Selkis",
       "number": null,
@@ -1687,7 +1815,7 @@
       "connection_count": 0
     },
     {
-      "id": 43,
+      "id": 46,
       "slug": "serhant",
       "name": "Ryan Serhant",
       "number": null,
@@ -1733,7 +1861,7 @@
       "connection_count": 3
     },
     {
-      "id": 44,
+      "id": 47,
       "slug": "shazier",
       "name": "Ryan Shazier",
       "number": null,
@@ -1777,7 +1905,7 @@
       "connection_count": 3
     },
     {
-      "id": 45,
+      "id": 48,
       "slug": "smith",
       "name": "Ryan Smith",
       "number": null,
@@ -1812,7 +1940,7 @@
       "connection_count": 0
     },
     {
-      "id": 46,
+      "id": 49,
       "slug": "tedder",
       "name": "Ryan Tedder",
       "number": null,
@@ -1848,7 +1976,7 @@
       "connection_count": 0
     },
     {
-      "id": 47,
+      "id": 50,
       "slug": "trahan",
       "name": "Ryan Trahan",
       "number": null,
@@ -1898,7 +2026,7 @@
       "slug": "tech",
       "label": "Tech Ryans",
       "kind": "cluster",
-      "count": 19
+      "count": 20
     },
     {
       "slug": "athlete",
@@ -1916,7 +2044,13 @@
       "slug": "creator",
       "label": "Creator Ryans",
       "kind": "cluster",
-      "count": 6
+      "count": 7
+    },
+    {
+      "slug": "sports",
+      "label": "Sports Ryans",
+      "kind": "cluster",
+      "count": 7
     },
     {
       "slug": "film",
@@ -1937,8 +2071,8 @@
       "count": 5
     },
     {
-      "slug": "sports",
-      "label": "Sports Ryans",
+      "slug": "open-source",
+      "label": "Open-source Ryans",
       "kind": "cluster",
       "count": 5
     },
@@ -1957,12 +2091,6 @@
     {
       "slug": "media",
       "label": "Media Ryans",
-      "kind": "cluster",
-      "count": 4
-    },
-    {
-      "slug": "open-source",
-      "label": "Open-source Ryans",
       "kind": "cluster",
       "count": 4
     },
@@ -2009,6 +2137,12 @@
       "count": 2
     },
     {
+      "slug": "mlb",
+      "label": "Mlb Ryans",
+      "kind": "cluster",
+      "count": 2
+    },
+    {
       "slug": "nfl",
       "label": "Nfl Ryans",
       "kind": "cluster",
@@ -2045,8 +2179,20 @@
       "count": 1
     },
     {
+      "slug": "baseball",
+      "label": "Baseball Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
       "slug": "boxing",
       "label": "Boxing Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "coach",
+      "label": "Coach Ryans",
       "kind": "cluster",
       "count": 1
     },
@@ -2059,6 +2205,12 @@
     {
       "slug": "fintech",
       "label": "Fintech Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "javascript",
+      "label": "Javascript Ryans",
       "kind": "cluster",
       "count": 1
     },
@@ -2081,8 +2233,8 @@
       "count": 1
     },
     {
-      "slug": "mlb",
-      "label": "Mlb Ryans",
+      "slug": "mls",
+      "label": "Mls Ryans",
       "kind": "cluster",
       "count": 1
     },
@@ -2131,6 +2283,12 @@
     {
       "slug": "sales",
       "label": "Sales Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "soccer",
+      "label": "Soccer Ryans",
       "kind": "cluster",
       "count": 1
     }

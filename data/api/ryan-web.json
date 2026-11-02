@@ -294,6 +294,19 @@
       "photo": "/images/ryans/ryan-blaney.jpg"
     },
     {
+      "id": "ryan-carniato",
+      "slug": "ryan-carniato",
+      "name": "Ryan Carniato",
+      "number": null,
+      "clusters": [
+        "tech",
+        "open-source",
+        "creator",
+        "javascript"
+      ],
+      "photo": "/images/ryans/ryan-carniato.jpg"
+    },
+    {
       "id": "ryan-cohen",
       "slug": "ryan-cohen",
       "name": "Ryan Cohen",
@@ -366,6 +379,18 @@
         "ai-safety"
       ],
       "photo": "/images/ryans/ryan-greenblatt.jpg"
+    },
+    {
+      "id": "ryan-helsley",
+      "slug": "ryan-helsley",
+      "name": "Ryan Helsley",
+      "number": null,
+      "clusters": [
+        "mlb",
+        "sports",
+        "baseball"
+      ],
+      "photo": "/images/ryans/ryan-helsley.jpg"
     },
     {
       "id": "ryan-hemsworth",
@@ -465,6 +490,19 @@
         "sports"
       ],
       "photo": "/images/ryans/ryan-poles.jpg"
+    },
+    {
+      "id": "ryan-richter",
+      "slug": "ryan-richter",
+      "name": "Ryan Richter",
+      "number": null,
+      "clusters": [
+        "sports",
+        "soccer",
+        "mls",
+        "coach"
+      ],
+      "photo": "/images/ryans/ryan-richter.jpg"
     },
     {
       "id": "ryangrowthh",

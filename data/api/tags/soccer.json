@@ -1,0 +1,45 @@
+{
+  "tag": {
+    "slug": "soccer",
+    "label": "Soccer Ryans",
+    "kind": "cluster",
+    "count": 1
+  },
+  "ryans": [
+    {
+      "id": 42,
+      "slug": "ryan-richter",
+      "name": "Ryan Richter",
+      "number": null,
+      "short": "Interim head coach of the",
+      "title": "American soccer coach and former professional player; interim head coach of the Philadelphia Union of Major League Soccer",
+      "photo": "/images/ryans/ryan-richter.jpg",
+      "photo_credit": "Something Original, via Wikimedia Commons",
+      "photo_license": "CC BY-SA 3.0",
+      "photo_source": "https://commons.wikimedia.org/wiki/File:Ryan_Richter_at_Preseason_Training_for_the_Philadelphia_Union,_Jan_2011.jpg",
+      "birth_year_min": 1989,
+      "birth_year_max": 1989,
+      "birth_place": null,
+      "website": "",
+      "lead_summary": "**Ryan Richter** (born April 12, 1989) is an American soccer coach and former professional player who is the interim head coach of the Philadelphia Union of Major League Soccer [1][2]. He was named to the role on May 27, 2026, when the Union were last in MLS at 1-10-4 [2][3]. Under Richter the team went unbeaten in 15 straight league matches (12 wins, 3 draws) after the 2026 FIFA World Cup break and clinched a 2026 MLS Cup Playoffs berth on October 28, 2026 [4][5].",
+      "occupations": [
+        "soccer-coach",
+        "soccer-player"
+      ],
+      "known_for": [
+        "Taking over a 1-10-4 Philadelphia Union in May 2026 and leading a franchise-record 15-game MLS unbeaten run",
+        "Union clinching a 2026 MLS Cup Playoffs berth on Oct 28, 2026"
+      ],
+      "social": [],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "sports",
+        "soccer",
+        "mls",
+        "coach"
+      ],
+      "connection_count": 0
+    }
+  ]
+}

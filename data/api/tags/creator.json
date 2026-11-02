@@ -3,11 +3,11 @@
     "slug": "creator",
     "label": "Creator Ryans",
     "kind": "cluster",
-    "count": 6
+    "count": 7
   },
   "ryans": [
     {
-      "id": 40,
+      "id": 43,
       "slug": "ryangrowthh",
       "name": "Ryan (@ryangrowthh)",
       "number": 6,
@@ -45,7 +45,7 @@
       "connection_count": 0
     },
     {
-      "id": 38,
+      "id": 40,
       "slug": "ryan-peterman",
       "name": "Ryan Peterman",
       "number": 8,
@@ -87,6 +87,59 @@
         "hardware",
         "engineer",
         "media"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 26,
+      "slug": "ryan-carniato",
+      "name": "Ryan Carniato",
+      "number": null,
+      "short": "Creator of SolidJS; Staff",
+      "title": "Software engineer; creator of the SolidJS JavaScript UI library and a proponent of fine-grained reactivity (signals)",
+      "photo": "/images/ryans/ryan-carniato.jpg",
+      "photo_credit": "X profile photo of @RyanCarniato",
+      "photo_license": "public profile photo",
+      "photo_source": "https://x.com/RyanCarniato",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": null,
+      "website": "https://www.solidjs.com/",
+      "lead_summary": "**Ryan Carniato** is a software engineer and the creator of SolidJS, an open-source JavaScript library for building user interfaces [1][2]. The project's GitHub repository was created in April 2018 and describes Solid as \"a declarative, efficient, and flexible JavaScript library for building user interfaces\" [1]. Since September 2024 he has worked at Sentry as a Staff engineer on its open-source team, a role that funds his full-time work on Solid [3][4].",
+      "occupations": [
+        "software-engineer",
+        "open-source-maintainer",
+        "creator"
+      ],
+      "known_for": [
+        "Creating SolidJS (repository opened April 2018)",
+        "SolidStart",
+        "Advocacy for signals and fine-grained reactivity in front-end frameworks"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "RyanCarniato",
+          "url": "https://x.com/RyanCarniato"
+        },
+        {
+          "platform": "github",
+          "handle": "ryansolid",
+          "url": "https://github.com/ryansolid"
+        },
+        {
+          "platform": "youtube",
+          "handle": "@ryansolid",
+          "url": "https://www.youtube.com/@ryansolid"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "tech",
+        "open-source",
+        "creator",
+        "javascript"
       ],
       "connection_count": 0
     },
@@ -160,7 +213,7 @@
       "connection_count": 0
     },
     {
-      "id": 35,
+      "id": 37,
       "slug": "ryan-miller",
       "name": "Ryan Miller",
       "number": null,
@@ -196,7 +249,7 @@
       "connection_count": 0
     },
     {
-      "id": 47,
+      "id": 50,
       "slug": "trahan",
       "name": "Ryan Trahan",
       "number": null,
