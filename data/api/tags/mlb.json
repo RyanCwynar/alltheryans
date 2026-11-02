@@ -3,9 +3,49 @@
     "slug": "mlb",
     "label": "Mlb Ryans",
     "kind": "cluster",
-    "count": 1
+    "count": 2
   },
   "ryans": [
+    {
+      "id": 33,
+      "slug": "ryan-helsley",
+      "name": "Ryan Helsley",
+      "number": null,
+      "short": "Baltimore Orioles closer;",
+      "title": "American professional baseball pitcher for the Baltimore Orioles; former All-Star closer and citizen of the Cherokee Nation",
+      "photo": "/images/ryans/ryan-helsley.jpg",
+      "photo_credit": "X profile photo of @_RHelsley",
+      "photo_license": "public profile photo",
+      "photo_source": "https://x.com/_RHelsley",
+      "birth_year_min": 1994,
+      "birth_year_max": 1994,
+      "birth_place": null,
+      "website": "",
+      "lead_summary": "**Ryan Dalton Helsley** (born July 18, 1994) is an American professional baseball pitcher for the Baltimore Orioles of Major League Baseball [1]. A right-handed reliever, he was the St. Louis Cardinals' closer, an All-Star in 2022, and the 2024 National League Reliever of the Year after a club-record 49 saves [1]. On October 29, 2026, he exercised a $14 million player option to stay with Baltimore for 2027, after an elbow injury cut short his first season with the team [2].",
+      "occupations": [
+        "baseball-player"
+      ],
+      "known_for": [
+        "49 saves in 2024, a Cardinals single-season record",
+        "2024 NL Reliever of the Year",
+        "Immaculate inning vs. Cincinnati, Sep 16, 2022"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "_RHelsley",
+          "url": "https://x.com/_RHelsley"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "mlb",
+        "sports",
+        "baseball"
+      ],
+      "connection_count": 0
+    },
     {
       "id": 22,
       "slug": "nolan",
