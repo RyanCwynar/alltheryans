@@ -428,6 +428,19 @@
       "photo": "/images/ryans/ryan-leonard.jpg"
     },
     {
+      "id": "ryan-lightbourn",
+      "slug": "ryan-lightbourn",
+      "name": "Ryan Lightbourn",
+      "number": null,
+      "clusters": [
+        "tech",
+        "film",
+        "creator",
+        "ai"
+      ],
+      "photo": "/images/ryans/ryan-lightbourn.jpg"
+    },
+    {
       "id": "ryan-miller",
       "slug": "ryan-miller",
       "name": "Ryan Miller",

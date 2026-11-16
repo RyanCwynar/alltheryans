@@ -3,7 +3,7 @@
     "slug": "film",
     "label": "Film Ryans",
     "kind": "cluster",
-    "count": 5
+    "count": 6
   },
   "ryans": [
     {
@@ -119,6 +119,61 @@
         "film",
         "actor",
         "tv"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 37,
+      "slug": "ryan-lightbourn",
+      "name": "Ryan Lightbourn",
+      "number": null,
+      "short": "Filmmaker; director of th",
+      "title": "Filmmaker whose work runs from independent horror features to AI-generated shorts, including the 2026 Lumara Serenissima Award winner Black Thunder",
+      "photo": "/images/ryans/ryan-lightbourn.jpg",
+      "photo_credit": "X profile photo of @ryanlightbourn",
+      "photo_license": "public profile photo",
+      "photo_source": "https://x.com/ryanlightbourn",
+      "birth_year_min": 1983,
+      "birth_year_max": 1983,
+      "birth_place": "Miami, Florida, United States",
+      "website": "https://www.youtube.com/@ryanlightbourn",
+      "lead_summary": "**Ryan Lightbourn** is a filmmaker whose work includes independent horror features and, later, AI-generated shorts [1][2][8]. In 2026 his 12-minute short *Black Thunder* won the Serenissima Award, for best film made with Venice, at the inaugural Lumara Film Festival, presented by MoonPay and Venice; the film was also a Grand Prize finalist [9][10][11].",
+      "occupations": [
+        "filmmaker",
+        "director",
+        "cinematographer",
+        "creator"
+      ],
+      "known_for": [
+        "The AI short Black Thunder (Lumara Serenissima Award, 2026)",
+        "Satoshi Sunrise, a MoonPay-presented AI short (2026)",
+        "The independent horror feature All the Devils Are Here, formerly titled Sleepwalkers",
+        "The 2011 short Roid Rage"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "ryanlightbourn",
+          "url": "https://x.com/ryanlightbourn"
+        },
+        {
+          "platform": "instagram",
+          "handle": "ryanlightbourn",
+          "url": "https://www.instagram.com/ryanlightbourn/"
+        },
+        {
+          "platform": "youtube",
+          "handle": "@ryanlightbourn",
+          "url": "https://www.youtube.com/@ryanlightbourn"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "tech",
+        "film",
+        "creator",
+        "ai"
       ],
       "connection_count": 0
     },
