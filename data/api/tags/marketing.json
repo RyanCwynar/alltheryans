@@ -3,11 +3,11 @@
     "slug": "marketing",
     "label": "Marketing Ryans",
     "kind": "cluster",
-    "count": 1
+    "count": 2
   },
   "ryans": [
     {
-      "id": 39,
+      "id": 40,
       "slug": "ryan-moore",
       "name": "Ryan Moore",
       "number": 7,
@@ -44,6 +44,53 @@
         "founder",
         "tech",
         "marketing"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 38,
+      "slug": "ryan-mckenzie",
+      "name": "Ryan McKenzie",
+      "number": null,
+      "short": "Co-founder of Tru Earth, ",
+      "title": "Canadian entrepreneur and marketer; co-founder of Tru Earth, the direct-to-consumer laundry-strip brand",
+      "photo": "/images/ryans/ryan-mckenzie.jpg",
+      "photo_credit": "X profile photo of @RyeMcKenzie",
+      "photo_license": "public profile photo",
+      "photo_source": "https://x.com/RyeMcKenzie",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": null,
+      "website": "https://ryanmckenzie.com/",
+      "lead_summary": "**Ryan McKenzie** is a Canadian entrepreneur and marketer. In 2019 he co-founded Tru Earth, a Vancouver-area company that sells concentrated laundry detergent strips and other household cleaning products in compact packaging, with Brad Liski and Kevin Hinton [1][2][3][4]. He served as the company's chief marketing officer until 2024 and, according to his public LinkedIn profile, remains a director [11][12][14].",
+      "occupations": [
+        "entrepreneur",
+        "marketer",
+        "co-founder"
+      ],
+      "known_for": [
+        "Co-founding Tru Earth",
+        "Direct-to-consumer marketing for eco laundry detergent strips"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "RyeMcKenzie",
+          "url": "https://x.com/RyeMcKenzie"
+        },
+        {
+          "platform": "linkedin",
+          "handle": "ryemckenzie",
+          "url": "https://www.linkedin.com/in/ryemckenzie"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "business",
+        "ecommerce",
+        "marketing",
+        "canada"
       ],
       "connection_count": 0
     }

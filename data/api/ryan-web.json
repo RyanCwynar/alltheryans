@@ -441,6 +441,19 @@
       "photo": "/images/ryans/ryan-lightbourn.jpg"
     },
     {
+      "id": "ryan-mckenzie",
+      "slug": "ryan-mckenzie",
+      "name": "Ryan McKenzie",
+      "number": null,
+      "clusters": [
+        "business",
+        "ecommerce",
+        "marketing",
+        "canada"
+      ],
+      "photo": "/images/ryans/ryan-mckenzie.jpg"
+    },
+    {
       "id": "ryan-miller",
       "slug": "ryan-miller",
       "name": "Ryan Miller",

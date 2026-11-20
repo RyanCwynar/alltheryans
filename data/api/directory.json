@@ -1,8 +1,8 @@
 {
-  "count": 51,
+  "count": 52,
   "ryans": [
     {
-      "id": 44,
+      "id": 45,
       "slug": "ryangrowthh",
       "name": "Ryan (@ryangrowthh)",
       "number": 6,
@@ -1386,6 +1386,53 @@
     },
     {
       "id": 38,
+      "slug": "ryan-mckenzie",
+      "name": "Ryan McKenzie",
+      "number": null,
+      "short": "Co-founder of Tru Earth, ",
+      "title": "Canadian entrepreneur and marketer; co-founder of Tru Earth, the direct-to-consumer laundry-strip brand",
+      "photo": "/images/ryans/ryan-mckenzie.jpg",
+      "photo_credit": "X profile photo of @RyeMcKenzie",
+      "photo_license": "public profile photo",
+      "photo_source": "https://x.com/RyeMcKenzie",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": null,
+      "website": "https://ryanmckenzie.com/",
+      "lead_summary": "**Ryan McKenzie** is a Canadian entrepreneur and marketer. In 2019 he co-founded Tru Earth, a Vancouver-area company that sells concentrated laundry detergent strips and other household cleaning products in compact packaging, with Brad Liski and Kevin Hinton [1][2][3][4]. He served as the company's chief marketing officer until 2024 and, according to his public LinkedIn profile, remains a director [11][12][14].",
+      "occupations": [
+        "entrepreneur",
+        "marketer",
+        "co-founder"
+      ],
+      "known_for": [
+        "Co-founding Tru Earth",
+        "Direct-to-consumer marketing for eco laundry detergent strips"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "RyeMcKenzie",
+          "url": "https://x.com/RyeMcKenzie"
+        },
+        {
+          "platform": "linkedin",
+          "handle": "ryemckenzie",
+          "url": "https://www.linkedin.com/in/ryemckenzie"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "business",
+        "ecommerce",
+        "marketing",
+        "canada"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 39,
       "slug": "ryan-miller",
       "name": "Ryan Miller",
       "number": null,
@@ -1421,7 +1468,7 @@
       "connection_count": 0
     },
     {
-      "id": 39,
+      "id": 40,
       "slug": "ryan-moore",
       "name": "Ryan Moore",
       "number": 7,
@@ -1496,7 +1543,7 @@
       "connection_count": 0
     },
     {
-      "id": 40,
+      "id": 41,
       "slug": "ryan-perry",
       "name": "Ryan Perry",
       "number": null,
@@ -1537,7 +1584,7 @@
       "connection_count": 0
     },
     {
-      "id": 41,
+      "id": 42,
       "slug": "ryan-peterman",
       "name": "Ryan Peterman",
       "number": 8,
@@ -1667,7 +1714,7 @@
       "connection_count": 2
     },
     {
-      "id": 42,
+      "id": 43,
       "slug": "ryan-poles",
       "name": "Ryan Poles",
       "number": null,
@@ -1749,7 +1796,7 @@
       "connection_count": 2
     },
     {
-      "id": 43,
+      "id": 44,
       "slug": "ryan-richter",
       "name": "Ryan Richter",
       "number": null,
@@ -1784,7 +1831,7 @@
       "connection_count": 0
     },
     {
-      "id": 45,
+      "id": 46,
       "slug": "seacrest",
       "name": "Ryan Seacrest",
       "number": null,
@@ -1828,7 +1875,7 @@
       "connection_count": 2
     },
     {
-      "id": 46,
+      "id": 47,
       "slug": "selkis",
       "name": "Ryan Selkis",
       "number": null,
@@ -1870,7 +1917,7 @@
       "connection_count": 0
     },
     {
-      "id": 47,
+      "id": 48,
       "slug": "serhant",
       "name": "Ryan Serhant",
       "number": null,
@@ -1916,7 +1963,7 @@
       "connection_count": 3
     },
     {
-      "id": 48,
+      "id": 49,
       "slug": "shazier",
       "name": "Ryan Shazier",
       "number": null,
@@ -1960,7 +2007,7 @@
       "connection_count": 3
     },
     {
-      "id": 49,
+      "id": 50,
       "slug": "smith",
       "name": "Ryan Smith",
       "number": null,
@@ -1995,7 +2042,7 @@
       "connection_count": 0
     },
     {
-      "id": 50,
+      "id": 51,
       "slug": "tedder",
       "name": "Ryan Tedder",
       "number": null,
@@ -2031,7 +2078,7 @@
       "connection_count": 0
     },
     {
-      "id": 51,
+      "id": 52,
       "slug": "trahan",
       "name": "Ryan Trahan",
       "number": null,
@@ -2114,6 +2161,12 @@
       "count": 6
     },
     {
+      "slug": "business",
+      "label": "Business Ryans",
+      "kind": "cluster",
+      "count": 5
+    },
+    {
       "slug": "football",
       "label": "Football Ryans",
       "kind": "cluster",
@@ -2130,12 +2183,6 @@
       "label": "Open-source Ryans",
       "kind": "cluster",
       "count": 5
-    },
-    {
-      "slug": "business",
-      "label": "Business Ryans",
-      "kind": "cluster",
-      "count": 4
     },
     {
       "slug": "engineer",
@@ -2188,6 +2235,12 @@
     {
       "slug": "logistics",
       "label": "Logistics Ryans",
+      "kind": "cluster",
+      "count": 2
+    },
+    {
+      "slug": "marketing",
+      "label": "Marketing Ryans",
       "kind": "cluster",
       "count": 2
     },
@@ -2252,6 +2305,12 @@
       "count": 1
     },
     {
+      "slug": "canada",
+      "label": "Canada Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
       "slug": "coach",
       "label": "Coach Ryans",
       "kind": "cluster",
@@ -2260,6 +2319,12 @@
     {
       "slug": "crypto",
       "label": "Crypto Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "ecommerce",
+      "label": "Ecommerce Ryans",
       "kind": "cluster",
       "count": 1
     },
@@ -2284,12 +2349,6 @@
     {
       "slug": "legal-tech",
       "label": "Legal Tech Ryans",
-      "kind": "cluster",
-      "count": 1
-    },
-    {
-      "slug": "marketing",
-      "label": "Marketing Ryans",
       "kind": "cluster",
       "count": 1
     },
