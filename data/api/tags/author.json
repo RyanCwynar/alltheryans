@@ -3,7 +3,7 @@
     "slug": "author",
     "label": "Author Ryans",
     "kind": "cluster",
-    "count": 2
+    "count": 3
   },
   "ryans": [
     {
@@ -50,7 +50,7 @@
       "connection_count": 2
     },
     {
-      "id": 49,
+      "id": 50,
       "slug": "shazier",
       "name": "Ryan Shazier",
       "number": null,
@@ -92,6 +92,54 @@
         "author"
       ],
       "connection_count": 3
+    },
+    {
+      "id": 45,
+      "slug": "ryan-singer",
+      "name": "Ryan Singer",
+      "number": null,
+      "short": "Creator of Shape Up",
+      "title": "Product designer and strategist; author of Shape Up and former head of strategy at 37signals, the company behind Basecamp",
+      "photo": "/images/ryans/ryan-singer.jpg",
+      "photo_credit": "X profile photo of @rjs",
+      "photo_license": "public profile photo",
+      "photo_source": "https://x.com/rjs",
+      "birth_year_min": 1983,
+      "birth_year_max": 1983,
+      "birth_place": "Kenosha, Wisconsin, U.S.",
+      "website": "https://www.ryansinger.co/",
+      "lead_summary": "**Ryan Singer** is an American product designer, strategist, and author. He worked at 37signals, later known for the project-management product Basecamp, from 2003 until 2021, finishing as head of strategy [1][2][5][8]. In 2019 he wrote *Shape Up: Stop Running in Circles and Ship Work that Matters*, a book about that company's product-development process [3][4]. Since leaving the company he has worked independently with product and engineering teams, a practice he and others have associated with Felt Presence [1][15][18][19].",
+      "occupations": [
+        "designer",
+        "product-strategist",
+        "author",
+        "consultant"
+      ],
+      "known_for": [
+        "Writing Shape Up (2019)",
+        "Product strategy at 37signals / Basecamp"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "rjs",
+          "url": "https://x.com/rjs"
+        },
+        {
+          "platform": "linkedin",
+          "handle": "feltpresence",
+          "url": "https://www.linkedin.com/in/feltpresence"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "tech",
+        "author",
+        "product",
+        "design"
+      ],
+      "connection_count": 0
     }
   ]
 }

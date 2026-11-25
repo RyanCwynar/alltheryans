@@ -531,6 +531,19 @@
       "photo": "/images/ryans/ryan-richter.jpg"
     },
     {
+      "id": "ryan-singer",
+      "slug": "ryan-singer",
+      "name": "Ryan Singer",
+      "number": null,
+      "clusters": [
+        "tech",
+        "author",
+        "product",
+        "design"
+      ],
+      "photo": "/images/ryans/ryan-singer.jpg"
+    },
+    {
       "id": "ryangrowthh",
       "slug": "ryangrowthh",
       "name": "Ryan (@ryangrowthh)",
