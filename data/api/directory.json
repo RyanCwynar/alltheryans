@@ -1,8 +1,8 @@
 {
-  "count": 52,
+  "count": 55,
   "ryans": [
     {
-      "id": 45,
+      "id": 48,
       "slug": "ryangrowthh",
       "name": "Ryan (@ryangrowthh)",
       "number": 6,
@@ -1831,7 +1831,7 @@
       "connection_count": 0
     },
     {
-      "id": 46,
+      "id": 49,
       "slug": "seacrest",
       "name": "Ryan Seacrest",
       "number": null,
@@ -1875,7 +1875,7 @@
       "connection_count": 2
     },
     {
-      "id": 47,
+      "id": 50,
       "slug": "selkis",
       "name": "Ryan Selkis",
       "number": null,
@@ -1917,7 +1917,7 @@
       "connection_count": 0
     },
     {
-      "id": 48,
+      "id": 51,
       "slug": "serhant",
       "name": "Ryan Serhant",
       "number": null,
@@ -1963,7 +1963,7 @@
       "connection_count": 3
     },
     {
-      "id": 49,
+      "id": 52,
       "slug": "shazier",
       "name": "Ryan Shazier",
       "number": null,
@@ -2007,7 +2007,105 @@
       "connection_count": 3
     },
     {
-      "id": 50,
+      "id": 45,
+      "slug": "ryan-shrout",
+      "name": "Ryan Shrout",
+      "number": null,
+      "short": "President and GM of Signa",
+      "title": "Technology analyst and executive; president and general manager of Signal65; founder of the hardware-review site PC Perspective",
+      "photo": "/images/ryans/ryan-shrout.jpg",
+      "photo_credit": "X profile photo of @ryanshrout",
+      "photo_license": "public profile photo",
+      "photo_source": "https://x.com/ryanshrout",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": null,
+      "website": "https://signal65.com/",
+      "lead_summary": "**Ryan Shrout** is an American technology analyst and executive. He is the president and general manager of Signal65, a firm that provides performance testing and technical-marketing services, a role he took up when the company launched in December 2023 [1][3][17]. He founded the hardware-review site PC Perspective, which he owned and led until 2018, and later spent about five years at Intel, including as chief performance strategist and in client graphics and AI marketing and strategy roles [4][5][8][9].",
+      "occupations": [
+        "analyst",
+        "executive",
+        "journalist",
+        "entrepreneur"
+      ],
+      "known_for": [
+        "Founding PC Perspective",
+        "Co-hosting This Week in Computer Hardware on TWiT",
+        "Intel client graphics and AI marketing and strategy roles",
+        "President and GM of Signal65"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "ryanshrout",
+          "url": "https://x.com/ryanshrout"
+        },
+        {
+          "platform": "linkedin",
+          "handle": "ryanshrout",
+          "url": "https://www.linkedin.com/in/ryanshrout"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "tech",
+        "business",
+        "hardware",
+        "media"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 46,
+      "slug": "ryan-singer",
+      "name": "Ryan Singer",
+      "number": null,
+      "short": "Creator of Shape Up",
+      "title": "Product designer and strategist; author of Shape Up and former head of strategy at 37signals, the company behind Basecamp",
+      "photo": "/images/ryans/ryan-singer.jpg",
+      "photo_credit": "X profile photo of @rjs",
+      "photo_license": "public profile photo",
+      "photo_source": "https://x.com/rjs",
+      "birth_year_min": 1983,
+      "birth_year_max": 1983,
+      "birth_place": "Kenosha, Wisconsin, U.S.",
+      "website": "https://www.ryansinger.co/",
+      "lead_summary": "**Ryan Singer** is an American product designer, strategist, and author. He worked at 37signals, later known for the project-management product Basecamp, from 2003 until 2021, finishing as head of strategy [1][2][5][8]. In 2019 he wrote *Shape Up: Stop Running in Circles and Ship Work that Matters*, a book about that company's product-development process [3][4]. Since leaving the company he has worked independently with product and engineering teams, a practice he and others have associated with Felt Presence [1][15][18][19].",
+      "occupations": [
+        "designer",
+        "product-strategist",
+        "author",
+        "consultant"
+      ],
+      "known_for": [
+        "Writing Shape Up (2019)",
+        "Product strategy at 37signals / Basecamp"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "rjs",
+          "url": "https://x.com/rjs"
+        },
+        {
+          "platform": "linkedin",
+          "handle": "feltpresence",
+          "url": "https://www.linkedin.com/in/feltpresence"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "tech",
+        "author",
+        "product",
+        "design"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 53,
       "slug": "smith",
       "name": "Ryan Smith",
       "number": null,
@@ -2042,7 +2140,7 @@
       "connection_count": 0
     },
     {
-      "id": 51,
+      "id": 54,
       "slug": "tedder",
       "name": "Ryan Tedder",
       "number": null,
@@ -2078,7 +2176,7 @@
       "connection_count": 0
     },
     {
-      "id": 52,
+      "id": 55,
       "slug": "trahan",
       "name": "Ryan Trahan",
       "number": null,
@@ -2115,6 +2213,65 @@
         "youtube"
       ],
       "connection_count": 0
+    },
+    {
+      "id": 47,
+      "slug": "ryan-vogel",
+      "name": "Ryan Vogel",
+      "number": null,
+      "short": "Founding developer at Ope",
+      "title": "Software engineer and founder; founding developer at OpenCode, the open-source coding agent, and founder of Inbound",
+      "photo": "/images/ryans/ryan-vogel.jpg",
+      "photo_credit": "X profile photo of @ryanvogel",
+      "photo_license": "public profile photo",
+      "photo_source": "https://x.com/ryanvogel",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": null,
+      "website": "https://ryan.ceo/",
+      "lead_summary": "**Ryan Vogel** is an American software engineer and founder. He is a founding developer at OpenCode, an open-source coding agent from Anomaly, and the founder of Inbound, a programmable email infrastructure service [1][2][3][5]. In October 2025, while listed as a developer advocate at Databricks, he gave a talk at Next.js Conf [10][11].",
+      "occupations": [
+        "software-engineer",
+        "founder",
+        "developer-advocate"
+      ],
+      "known_for": [
+        "Founding-developer work on OpenCode",
+        "Founding Inbound, a programmable email API",
+        "A 2025 Next.js Conf talk on AI-assisted development",
+        "dashsplat, a hobby recreation of Tesla's Reality View from Model 3 dashcam footage"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "ryanvogel",
+          "url": "https://x.com/ryanvogel"
+        },
+        {
+          "platform": "github",
+          "handle": "R44VC0RP",
+          "url": "https://github.com/R44VC0RP"
+        },
+        {
+          "platform": "linkedin",
+          "handle": "theryanvogel",
+          "url": "https://www.linkedin.com/in/theryanvogel"
+        },
+        {
+          "platform": "youtube",
+          "handle": "@vogeldev",
+          "url": "https://www.youtube.com/@vogeldev"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "tech",
+        "open-source",
+        "developer-tools",
+        "florida"
+      ],
+      "connection_count": 0
     }
   ],
   "tags": [
@@ -2122,7 +2279,7 @@
       "slug": "tech",
       "label": "Tech Ryans",
       "kind": "cluster",
-      "count": 21
+      "count": 24
     },
     {
       "slug": "founder",
@@ -2155,16 +2312,22 @@
       "count": 7
     },
     {
+      "slug": "business",
+      "label": "Business Ryans",
+      "kind": "cluster",
+      "count": 6
+    },
+    {
       "slug": "film",
       "label": "Film Ryans",
       "kind": "cluster",
       "count": 6
     },
     {
-      "slug": "business",
-      "label": "Business Ryans",
+      "slug": "open-source",
+      "label": "Open-source Ryans",
       "kind": "cluster",
-      "count": 5
+      "count": 6
     },
     {
       "slug": "football",
@@ -2179,8 +2342,8 @@
       "count": 5
     },
     {
-      "slug": "open-source",
-      "label": "Open-source Ryans",
+      "slug": "media",
+      "label": "Media Ryans",
       "kind": "cluster",
       "count": 5
     },
@@ -2191,10 +2354,16 @@
       "count": 4
     },
     {
-      "slug": "media",
-      "label": "Media Ryans",
+      "slug": "author",
+      "label": "Author Ryans",
       "kind": "cluster",
-      "count": 4
+      "count": 3
+    },
+    {
+      "slug": "hardware",
+      "label": "Hardware Ryans",
+      "kind": "cluster",
+      "count": 3
     },
     {
       "slug": "music",
@@ -2209,20 +2378,8 @@
       "count": 3
     },
     {
-      "slug": "author",
-      "label": "Author Ryans",
-      "kind": "cluster",
-      "count": 2
-    },
-    {
       "slug": "education",
       "label": "Education Ryans",
-      "kind": "cluster",
-      "count": 2
-    },
-    {
-      "slug": "hardware",
-      "label": "Hardware Ryans",
       "kind": "cluster",
       "count": 2
     },
@@ -2323,6 +2480,18 @@
       "count": 1
     },
     {
+      "slug": "design",
+      "label": "Design Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "developer-tools",
+      "label": "Developer Tools Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
       "slug": "ecommerce",
       "label": "Ecommerce Ryans",
       "kind": "cluster",
@@ -2331,6 +2500,12 @@
     {
       "slug": "fintech",
       "label": "Fintech Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "florida",
+      "label": "Florida Ryans",
       "kind": "cluster",
       "count": 1
     },
@@ -2379,6 +2554,12 @@
     {
       "slug": "producer",
       "label": "Producer Ryans",
+      "kind": "cluster",
+      "count": 1
+    },
+    {
+      "slug": "product",
+      "label": "Product Ryans",
       "kind": "cluster",
       "count": 1
     },

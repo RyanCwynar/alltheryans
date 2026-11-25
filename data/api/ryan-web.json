@@ -531,6 +531,45 @@
       "photo": "/images/ryans/ryan-richter.jpg"
     },
     {
+      "id": "ryan-shrout",
+      "slug": "ryan-shrout",
+      "name": "Ryan Shrout",
+      "number": null,
+      "clusters": [
+        "tech",
+        "business",
+        "hardware",
+        "media"
+      ],
+      "photo": "/images/ryans/ryan-shrout.jpg"
+    },
+    {
+      "id": "ryan-singer",
+      "slug": "ryan-singer",
+      "name": "Ryan Singer",
+      "number": null,
+      "clusters": [
+        "tech",
+        "author",
+        "product",
+        "design"
+      ],
+      "photo": "/images/ryans/ryan-singer.jpg"
+    },
+    {
+      "id": "ryan-vogel",
+      "slug": "ryan-vogel",
+      "name": "Ryan Vogel",
+      "number": null,
+      "clusters": [
+        "tech",
+        "open-source",
+        "developer-tools",
+        "florida"
+      ],
+      "photo": "/images/ryans/ryan-vogel.jpg"
+    },
+    {
       "id": "ryangrowthh",
       "slug": "ryangrowthh",
       "name": "Ryan (@ryangrowthh)",

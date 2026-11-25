@@ -3,7 +3,7 @@
     "slug": "media",
     "label": "Media Ryans",
     "kind": "cluster",
-    "count": 4
+    "count": 5
   },
   "ryans": [
     {
@@ -50,7 +50,7 @@
       "connection_count": 2
     },
     {
-      "id": 45,
+      "id": 48,
       "slug": "ryangrowthh",
       "name": "Ryan (@ryangrowthh)",
       "number": 6,
@@ -134,7 +134,7 @@
       "connection_count": 0
     },
     {
-      "id": 46,
+      "id": 49,
       "slug": "seacrest",
       "name": "Ryan Seacrest",
       "number": null,
@@ -176,6 +176,56 @@
         "radio"
       ],
       "connection_count": 2
+    },
+    {
+      "id": 45,
+      "slug": "ryan-shrout",
+      "name": "Ryan Shrout",
+      "number": null,
+      "short": "President and GM of Signa",
+      "title": "Technology analyst and executive; president and general manager of Signal65; founder of the hardware-review site PC Perspective",
+      "photo": "/images/ryans/ryan-shrout.jpg",
+      "photo_credit": "X profile photo of @ryanshrout",
+      "photo_license": "public profile photo",
+      "photo_source": "https://x.com/ryanshrout",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": null,
+      "website": "https://signal65.com/",
+      "lead_summary": "**Ryan Shrout** is an American technology analyst and executive. He is the president and general manager of Signal65, a firm that provides performance testing and technical-marketing services, a role he took up when the company launched in December 2023 [1][3][17]. He founded the hardware-review site PC Perspective, which he owned and led until 2018, and later spent about five years at Intel, including as chief performance strategist and in client graphics and AI marketing and strategy roles [4][5][8][9].",
+      "occupations": [
+        "analyst",
+        "executive",
+        "journalist",
+        "entrepreneur"
+      ],
+      "known_for": [
+        "Founding PC Perspective",
+        "Co-hosting This Week in Computer Hardware on TWiT",
+        "Intel client graphics and AI marketing and strategy roles",
+        "President and GM of Signal65"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "ryanshrout",
+          "url": "https://x.com/ryanshrout"
+        },
+        {
+          "platform": "linkedin",
+          "handle": "ryanshrout",
+          "url": "https://www.linkedin.com/in/ryanshrout"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "tech",
+        "business",
+        "hardware",
+        "media"
+      ],
+      "connection_count": 0
     }
   ]
 }
