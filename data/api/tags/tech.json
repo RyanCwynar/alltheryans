@@ -3,7 +3,7 @@
     "slug": "tech",
     "label": "Tech Ryans",
     "kind": "cluster",
-    "count": 22
+    "count": 24
   },
   "ryans": [
     {
@@ -825,7 +825,7 @@
       "connection_count": 0
     },
     {
-      "id": 48,
+      "id": 50,
       "slug": "selkis",
       "name": "Ryan Selkis",
       "number": null,
@@ -868,6 +868,56 @@
     },
     {
       "id": 45,
+      "slug": "ryan-shrout",
+      "name": "Ryan Shrout",
+      "number": null,
+      "short": "President and GM of Signa",
+      "title": "Technology analyst and executive; president and general manager of Signal65; founder of the hardware-review site PC Perspective",
+      "photo": "/images/ryans/ryan-shrout.jpg",
+      "photo_credit": "X profile photo of @ryanshrout",
+      "photo_license": "public profile photo",
+      "photo_source": "https://x.com/ryanshrout",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": null,
+      "website": "https://signal65.com/",
+      "lead_summary": "**Ryan Shrout** is an American technology analyst and executive. He is the president and general manager of Signal65, a firm that provides performance testing and technical-marketing services, a role he took up when the company launched in December 2023 [1][3][17]. He founded the hardware-review site PC Perspective, which he owned and led until 2018, and later spent about five years at Intel, including as chief performance strategist and in client graphics and AI marketing and strategy roles [4][5][8][9].",
+      "occupations": [
+        "analyst",
+        "executive",
+        "journalist",
+        "entrepreneur"
+      ],
+      "known_for": [
+        "Founding PC Perspective",
+        "Co-hosting This Week in Computer Hardware on TWiT",
+        "Intel client graphics and AI marketing and strategy roles",
+        "President and GM of Signal65"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "ryanshrout",
+          "url": "https://x.com/ryanshrout"
+        },
+        {
+          "platform": "linkedin",
+          "handle": "ryanshrout",
+          "url": "https://www.linkedin.com/in/ryanshrout"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "tech",
+        "business",
+        "hardware",
+        "media"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 46,
       "slug": "ryan-singer",
       "name": "Ryan Singer",
       "number": null,
@@ -915,7 +965,7 @@
       "connection_count": 0
     },
     {
-      "id": 51,
+      "id": 53,
       "slug": "smith",
       "name": "Ryan Smith",
       "number": null,
@@ -946,6 +996,65 @@
         "founder",
         "tech",
         "sports"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 47,
+      "slug": "ryan-vogel",
+      "name": "Ryan Vogel",
+      "number": null,
+      "short": "Founding developer at Ope",
+      "title": "Software engineer and founder; founding developer at OpenCode, the open-source coding agent, and founder of Inbound",
+      "photo": "/images/ryans/ryan-vogel.jpg",
+      "photo_credit": "X profile photo of @ryanvogel",
+      "photo_license": "public profile photo",
+      "photo_source": "https://x.com/ryanvogel",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": null,
+      "website": "https://ryan.ceo/",
+      "lead_summary": "**Ryan Vogel** is an American software engineer and founder. He is a founding developer at OpenCode, an open-source coding agent from Anomaly, and the founder of Inbound, a programmable email infrastructure service [1][2][3][5]. In October 2025, while listed as a developer advocate at Databricks, he gave a talk at Next.js Conf [10][11].",
+      "occupations": [
+        "software-engineer",
+        "founder",
+        "developer-advocate"
+      ],
+      "known_for": [
+        "Founding-developer work on OpenCode",
+        "Founding Inbound, a programmable email API",
+        "A 2025 Next.js Conf talk on AI-assisted development",
+        "dashsplat, a hobby recreation of Tesla's Reality View from Model 3 dashcam footage"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "ryanvogel",
+          "url": "https://x.com/ryanvogel"
+        },
+        {
+          "platform": "github",
+          "handle": "R44VC0RP",
+          "url": "https://github.com/R44VC0RP"
+        },
+        {
+          "platform": "linkedin",
+          "handle": "theryanvogel",
+          "url": "https://www.linkedin.com/in/theryanvogel"
+        },
+        {
+          "platform": "youtube",
+          "handle": "@vogeldev",
+          "url": "https://www.youtube.com/@vogeldev"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "tech",
+        "open-source",
+        "developer-tools",
+        "florida"
       ],
       "connection_count": 0
     }

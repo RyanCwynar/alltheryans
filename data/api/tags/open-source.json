@@ -3,7 +3,7 @@
     "slug": "open-source",
     "label": "Open-source Ryans",
     "kind": "cluster",
-    "count": 5
+    "count": 6
   },
   "ryans": [
     {
@@ -225,6 +225,65 @@
         "tech",
         "open-source",
         "engineer"
+      ],
+      "connection_count": 0
+    },
+    {
+      "id": 47,
+      "slug": "ryan-vogel",
+      "name": "Ryan Vogel",
+      "number": null,
+      "short": "Founding developer at Ope",
+      "title": "Software engineer and founder; founding developer at OpenCode, the open-source coding agent, and founder of Inbound",
+      "photo": "/images/ryans/ryan-vogel.jpg",
+      "photo_credit": "X profile photo of @ryanvogel",
+      "photo_license": "public profile photo",
+      "photo_source": "https://x.com/ryanvogel",
+      "birth_year_min": null,
+      "birth_year_max": null,
+      "birth_place": null,
+      "website": "https://ryan.ceo/",
+      "lead_summary": "**Ryan Vogel** is an American software engineer and founder. He is a founding developer at OpenCode, an open-source coding agent from Anomaly, and the founder of Inbound, a programmable email infrastructure service [1][2][3][5]. In October 2025, while listed as a developer advocate at Databricks, he gave a talk at Next.js Conf [10][11].",
+      "occupations": [
+        "software-engineer",
+        "founder",
+        "developer-advocate"
+      ],
+      "known_for": [
+        "Founding-developer work on OpenCode",
+        "Founding Inbound, a programmable email API",
+        "A 2025 Next.js Conf talk on AI-assisted development",
+        "dashsplat, a hobby recreation of Tesla's Reality View from Model 3 dashcam footage"
+      ],
+      "social": [
+        {
+          "platform": "x",
+          "handle": "ryanvogel",
+          "url": "https://x.com/ryanvogel"
+        },
+        {
+          "platform": "github",
+          "handle": "R44VC0RP",
+          "url": "https://github.com/R44VC0RP"
+        },
+        {
+          "platform": "linkedin",
+          "handle": "theryanvogel",
+          "url": "https://www.linkedin.com/in/theryanvogel"
+        },
+        {
+          "platform": "youtube",
+          "handle": "@vogeldev",
+          "url": "https://www.youtube.com/@vogeldev"
+        }
+      ],
+      "featured_on": null,
+      "status": "published",
+      "clusters": [
+        "tech",
+        "open-source",
+        "developer-tools",
+        "florida"
       ],
       "connection_count": 0
     }
